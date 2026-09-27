@@ -1,6 +1,6 @@
 {
   "schema": "fly.github-publication-manifest.v1",
-  "created_utc": "2026-09-27T09:31:04.653369+00:00",
+  "created_utc": "2026-09-27T10:47:36.404641+00:00",
   "repository": "IT-EXPRESS-Bayern/Fliege",
   "contains_git_actions": false,
   "contains_simulation_actions": false,
@@ -10,8 +10,8 @@
     "app_file_bytes": 40000000
   },
   "summary": {
-    "included_files": 436,
-    "published_bytes": 141733055,
+    "included_files": 438,
+    "published_bytes": 141736451,
     "excluded_entries": 600,
     "excluded_reasons": {
       "excluded_directory_tree": 19,
@@ -35,6 +35,16 @@
       "included": false,
       "reason": "excluded_directory_tree",
       "kind": "directory"
+    },
+    {
+      "path": ".gitattributes",
+      "source_bytes": 166,
+      "included": true,
+      "reason": "project_code_documentation_or_metadata",
+      "source_sha256": "87b3d61d5b4b5837bae0e2ccc42b226d4b9ffe374b0d7ce46aa6728f39d20d02",
+      "published_bytes": 166,
+      "published_sha256": "87b3d61d5b4b5837bae0e2ccc42b226d4b9ffe374b0d7ce46aa6728f39d20d02",
+      "transformations": []
     },
     {
       "path": ".gitignore",
@@ -94,12 +104,12 @@
     },
     {
       "path": "README.md",
-      "source_bytes": 14144,
+      "source_bytes": 13963,
       "included": true,
       "reason": "project_code_documentation_or_metadata",
-      "source_sha256": "0b53e296246244035de808c3c599c74dabc6da6535ab6c1b579fdf08b9c72395",
-      "published_bytes": 14144,
-      "published_sha256": "0b53e296246244035de808c3c599c74dabc6da6535ab6c1b579fdf08b9c72395",
+      "source_sha256": "9225d68e4192fb5acccc663b3e0862a467751ca88150f20b2d5d83694c03e3c5",
+      "published_bytes": 13963,
+      "published_sha256": "9225d68e4192fb5acccc663b3e0862a467751ca88150f20b2d5d83694c03e3c5",
       "transformations": [],
       "review_notes": [
         {
@@ -913,12 +923,12 @@
     },
     {
       "path": "analysis/github_publication/README.md",
-      "source_bytes": 3018,
+      "source_bytes": 3024,
       "included": true,
       "reason": "publication_method_and_attribution",
-      "source_sha256": "d99d5639418ca01bd02fa5974a4b5bcd14a16dd0b1564a28f8dafb64f83f5d63",
-      "published_bytes": 3018,
-      "published_sha256": "d99d5639418ca01bd02fa5974a4b5bcd14a16dd0b1564a28f8dafb64f83f5d63",
+      "source_sha256": "35617ddbd302d4f181594fa269caccf268de2f447195ac9d670f17dacf5d603d",
+      "published_bytes": 3024,
+      "published_sha256": "35617ddbd302d4f181594fa269caccf268de2f447195ac9d670f17dacf5d603d",
       "transformations": []
     },
     {
@@ -943,12 +953,12 @@
     },
     {
       "path": "analysis/github_publication/publish.py",
-      "source_bytes": 13567,
+      "source_bytes": 13585,
       "included": true,
       "reason": "publication_method_and_attribution",
-      "source_sha256": "bc6fdac1899dd270cd0a99ba3f3934d937959d372c75a98d7c6b30b8a56cffe1",
-      "published_bytes": 13567,
-      "published_sha256": "bc6fdac1899dd270cd0a99ba3f3934d937959d372c75a98d7c6b30b8a56cffe1",
+      "source_sha256": "b05f6fbca2299ffe2717a61637ee777021fde87e19be5cbb2b190639d4cfeb04",
+      "published_bytes": 13585,
+      "published_sha256": "b05f6fbca2299ffe2717a61637ee777021fde87e19be5cbb2b190639d4cfeb04",
       "transformations": []
     },
     {
@@ -8107,6 +8117,16 @@
       "source_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
       "published_bytes": 18657,
       "published_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "transformations": []
+    },
+    {
+      "path": "docs/architecture.svg",
+      "source_bytes": 3387,
+      "included": true,
+      "reason": "project_code_documentation_or_metadata",
+      "source_sha256": "df5ca4685e199960c6df165db471614f058a712ae02721638446a4c624b773f0",
+      "published_bytes": 3387,
+      "published_sha256": "df5ca4685e199960c6df165db471614f058a712ae02721638446a4c624b773f0",
       "transformations": []
     },
     {

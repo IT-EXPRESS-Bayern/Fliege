@@ -25,4 +25,4 @@ In der öffentlichen Kopie werden persönliche Home-Verzeichnisse durch `<USER_H
 
 `manifest.json` enthält alle explizit ausgewählten Pfade und beide Prüfsummen. Ausgeschlossene wissenschaftliche Dateien sind einzeln, große Laufzeit-/Cache-Bäume als Verzeichniseinträge erfasst. `SHA256SUMS` prüft die veröffentlichten Nutzdateien; das Manifest besitzt keinen zirkulären Selbsthash.
 
-Lokale Serververweise sind als Review-Hinweise markiert: Berichtslinks auf Port 4180 benötigen vor Veröffentlichung eine öffentliche Alternative. Einige Ansichten laden externe vollständige Graphen; ohne diese bleiben die gespeicherten Replays benutzbar, die vollständige Gehirnsimulation benötigt zusätzliche Daten. Ein GitHub-Repository stellt allein keinen Rechenserver bereit.
+In der Veröffentlichungskopie ersetzt der Export lokale Berichtslinks auf Port 4180 und 8765 durch die öffentlichen Forschungs- und Quellenübersichten. Einige Ansichten laden externe vollständige Graphen; ohne diese bleiben die gespeicherten Replays benutzbar, die vollständige Gehirnsimulation benötigt zusätzliche Daten. Ein GitHub-Repository stellt allein keinen Rechenserver bereit.

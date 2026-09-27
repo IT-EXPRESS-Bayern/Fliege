@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 490" role="img" aria-labelledby="title desc">
+  <title id="title">FLIEGE: von Originaldaten zum Körpermodell</title>
+  <desc id="desc">Originaldaten und Literatur führen über Provenienz und anatomische Zuordnung zu neuronalen Teilmodellen. Die Kopplung an Körpermechanik und die sensorische Rückkopplung aus der 3D-Umgebung sind teilweise umgesetzt. Prüfungen begleiten die Auswertung.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#8ca7bb"/></marker>
+    <marker id="hypothesis" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#e3ae60"/></marker>
+    <style>
+      text{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;fill:#eef4f9}
+      .box{fill:#142437;stroke:#35516b;stroke-width:1.5}
+      .title{font-size:20px;font-weight:650;text-anchor:middle}
+      .detail{font-size:15px;fill:#b5c6d5;text-anchor:middle}
+      .line{fill:none;stroke:#8ca7bb;stroke-width:2;marker-end:url(#arrow)}
+      .partial{fill:none;stroke:#e3ae60;stroke-width:2;stroke-dasharray:7 5;marker-end:url(#hypothesis)}
+    </style>
+  </defs>
+  <rect width="1040" height="490" rx="16" fill="#0d1826"/>
+  <rect class="box" x="30" y="40" width="280" height="100" rx="12"/>
+  <text class="title" x="170" y="81">Originaldaten &amp; Literatur</text>
+  <text class="detail" x="170" y="111">FlyWire · BANC · MaleCNS</text>
+  <rect class="box" x="380" y="40" width="280" height="100" rx="12"/>
+  <text class="title" x="520" y="81">Provenienz</text>
+  <text class="detail" x="520" y="111">Versionen · IDs · Prüfsummen</text>
+  <rect class="box" x="730" y="40" width="280" height="100" rx="12"/>
+  <text class="title" x="870" y="81">Anatomische Zuordnung</text>
+  <text class="detail" x="870" y="111">Zellidentitäten · strukturelle Wege</text>
+  <path class="line" d="M310 90H371"/><path class="line" d="M660 90H721"/>
+  <path class="line" d="M870 140V231"/>
+  <rect class="box" x="730" y="240" width="280" height="100" rx="12"/>
+  <text class="title" x="870" y="280">Neuronale Teilmodelle</text>
+  <text class="detail" x="870" y="309">Annahmen · Dynamik · Kontrollen</text>
+  <rect class="box" x="380" y="240" width="280" height="100" rx="12"/>
+  <text class="title" x="520" y="280">Körpermechanik</text>
+  <text class="detail" x="520" y="309">Motoren · Gelenke · Flügel</text>
+  <rect class="box" x="30" y="240" width="280" height="100" rx="12"/>
+  <text class="title" x="170" y="280">3D-Umgebung</text>
+  <text class="detail" x="170" y="309">Körperzustand · Sinneseingänge</text>
+  <path class="partial" d="M730 290H669"/>
+  <text x="695" y="224" text-anchor="middle" font-size="14" style="fill:#e3ae60">teilweise</text>
+  <path class="line" d="M380 290H319"/>
+  <path class="partial" d="M170 340V390H870V349"/>
+  <rect x="286" y="369" width="468" height="34" rx="8" fill="#0d1826"/>
+  <text x="520" y="391" text-anchor="middle" font-size="16" style="fill:#e3ae60">Sensorische Rückkopplung: teilweise umgesetzt</text>
+  <rect x="30" y="428" width="980" height="40" rx="9" fill="#183229" stroke="#38614d"/>
+  <text x="520" y="454" text-anchor="middle" font-size="16" style="fill:#c3e6d4">Begleitende Audits: Datenherkunft · Identität · Gegenproben · Ergebnisgrenzen</text>
+</svg>

@@ -89,7 +89,7 @@ def choice(rel, size):
         return False, 'large_or_external_binary_not_in_source_publication'
     if size > LIMIT:
         return False, 'large_analysis_output_reproduce_or_download'
-    if ext in CODE_DOC or rel in {'.gitignore', 'LICENSE', 'LICENSE.md', 'LICENSE.txt', 'CITATION.cff'}:
+    if ext in CODE_DOC or rel in {'.gitignore', '.gitattributes', 'LICENSE', 'LICENSE.md', 'LICENSE.txt', 'CITATION.cff'}:
         return True, 'project_code_documentation_or_metadata'
     if rel.startswith('analysis/') and ext in {'.csv', '.tsv', '.npz'}:
         return True, 'bounded_derived_scientific_result'

@@ -86,18 +86,7 @@ Die Zahlen stammen aus gespeicherten Projekt-Audits. Sie sind keine unabhängige
 
 ## Architektur und Evidenz
 
-```mermaid
-flowchart LR
-    A[Originaldaten und Primärliteratur] --> B[Versionen · IDs · Prüfsummen]
-    B --> C[Anatomische Zuordnungen]
-    C --> D[Neuronale Teilmodelle]
-    D -. Kopplung teilweise umgesetzt .-> E[Motoren und Körpermechanik]
-    E --> F[3D-Umgebung]
-    F -. Sensorik teilweise umgesetzt .-> D
-    B --> G[Audits und Provenienz]
-    D --> G
-    E --> G
-```
+![Architektur: Originaldaten, Provenienz und anatomische Zuordnungen führen zu neuronalen Teilmodellen. Körperkopplung und sensorische Rückkopplung sind teilweise umgesetzt.](docs/architecture.svg)
 
 Wir unterscheiden **gemessene Anatomie, Literaturbefunde, Modellannahmen und Simulationsergebnisse**. Strukturelle Erreichbarkeit allein beweist keine Funktion.
 
