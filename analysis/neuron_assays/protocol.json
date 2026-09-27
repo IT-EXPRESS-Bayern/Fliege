@@ -1,0 +1,957 @@
+{
+  "schema": "fly.neuron-assay-protocol.v1",
+  "frozenAt": "2026-09-27T06:41:29.208Z",
+  "dynamics": {
+    "dtMs": 1,
+    "tauMs": 20,
+    "threshold": 1,
+    "resetVoltage": 0,
+    "synapseGain": 0.1,
+    "refractorySteps": 2,
+    "background": null
+  },
+  "durationMs": 600,
+  "stimulusWindowMs": [
+    100,
+    500
+  ],
+  "bounds": {
+    "maxCumulativeTraversedEdges": 500000000,
+    "maxWallSecondsPerTrial": 120
+  },
+  "graphChecksums": {
+    "nodes.u64": "84bc9ec32c4f797e3f6e6557b30b5fc7f447b5852aeb9553f7dd18ed6bd3321d",
+    "offsets.u32": "71947473c7d75ffcb66551a8ba85684944f4b28cd2e2bc8d26cfb415a72e7a4b",
+    "targets.u32": "3180cc427eb92389f22afde12d99b19d6676443aa3b9ffd25589c97013cd404b",
+    "synapses.u32": "6a4708a299a0a01e09f45778396d789487d80ef58047750b9d2077058d1eb50b",
+    "nt_probs.u8": "5f1dedaf31d6dc67a4e57500db86e4b30992c83e1ad855103c0826c1354bdc66",
+    "annotations.json": "4db1914a26cf53a660d8a50148d53179f7a841261f799d025d05194d2d5113c6"
+  },
+  "engineBaseSha256": "8646a5cb60d6e467463697e12ed5e3f92bf1fb6337129860bb7cba4bf017f8b7",
+  "assayEngineSha256": "d5c9eb63b3fec7a5991be4374a26698c4e0009efbb0f800586b01aca4019736b",
+  "sources": [
+    {
+      "id": "graph",
+      "path": "brain/graph-original-v783/manifest.json",
+      "doi": "https://doi.org/10.1038/s41586-024-07558-y",
+      "description": "Unveränderter originaler v783-Graph: alle 139.255 Knoten / 15.091.983 gerichtete Paare",
+      "localSha256": "406326591c651a37b7f32bb779212cf904bab2c5dab5c59ad07a980c3af8f608"
+    },
+    {
+      "id": "shiu",
+      "path": "data/research_sources/shiu/derived/shiu_supplement_index.json",
+      "doi": "https://doi.org/10.1038/s41586-024-07763-9",
+      "workbookSha256": "6922e16825aa0c92a28e2a634b073dcad7641e9c9283c4b9d8ee1e34e6d9b8d9",
+      "description": "v630-Workbook; nur exakt vorhandene v783-IDs; keine Vollreproduktion des Shiu-Modells",
+      "localSha256": "9e046f36e083ba72d4ea53d47dbdda85631bbcb6bb7baafa46b57080475ec8f9"
+    },
+    {
+      "id": "tastekin",
+      "path": "data/research_sources/other/tastekin/tastekin_2026_cell_table_s1.xlsx",
+      "doi": "https://doi.org/10.1016/j.cell.2026.08.016",
+      "description": "Sheet MNs, Zeilen 68/69: aktuelle v783-MN9 R/L, Target_Muscle 9",
+      "localSha256": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9"
+    },
+    {
+      "id": "stuerner",
+      "path": "data/research_sources/other/stuerner_neckconnective/Supplemental_file5_FAFB_DNs.tsv",
+      "doi": "https://doi.org/10.1038/s41586-025-08925-z",
+      "description": "Exakte FAFB-DN-IDs und quellenspezifische Seiten; Seitenkonflikt zur Originalannotation; Funktionsnachweis separat DOI10.1016/j.cell.2024.08.033",
+      "localSha256": "e5ab52e3e9bb8545942a35e841ae562295530d00c64fd49d3a110a5d6ed2b0e2"
+    }
+  ],
+  "stimulus": "Deterministische regelmäßige Eingangsspitzen; pro ID feste Phase aus uint64-Modulo 1009. Eingänge werden gesetzt, Ausgänge entstehen ausschließlich durch Graphpropagation. Zeitfenster [100,500)ms.",
+  "shamMethod": "Greedy nearest L1 distance on log1p(in-degree),log1p(out-degree), exact super_class / top_nt / side; excludes all literature input and readout IDs. Anatomical comparison, no biological specificity proof.",
+  "upstreamSham": [
+    {
+      "id": "720575940611623630",
+      "score": 0.023122113404755673,
+      "source": "720575940630907434",
+      "inDegree": 380,
+      "outDegree": 295,
+      "sourceInDegree": 385,
+      "sourceOutDegree": 298
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "jo_ce",
+      "input": {
+        "ids": [
+          "720575940602132509",
+          "720575940602506208",
+          "720575940602720940",
+          "720575940604753437",
+          "720575940608742409",
+          "720575940609522461",
+          "720575940609541917",
+          "720575940610018266",
+          "720575940611061526",
+          "720575940611783464",
+          "720575940613971485",
+          "720575940614035485",
+          "720575940614060829",
+          "720575940614188149",
+          "720575940614351477",
+          "720575940614427195",
+          "720575940615809349",
+          "720575940615848788",
+          "720575940615986459",
+          "720575940616589878",
+          "720575940616951124",
+          "720575940618467195",
+          "720575940618599872",
+          "720575940618684481",
+          "720575940619341105",
+          "720575940620382889",
+          "720575940621397417",
+          "720575940621442224",
+          "720575940621625597",
+          "720575940621729757",
+          "720575940622449388",
+          "720575940622937528",
+          "720575940623298559",
+          "720575940624799290",
+          "720575940624915230",
+          "720575940625559358",
+          "720575940625797617",
+          "720575940625962568",
+          "720575940626042149",
+          "720575940626565455",
+          "720575940627109991",
+          "720575940627585688",
+          "720575940627941431",
+          "720575940628101126",
+          "720575940628444667",
+          "720575940628978450",
+          "720575940629022149",
+          "720575940629055721",
+          "720575940629138959",
+          "720575940629650997",
+          "720575940630020111",
+          "720575940630059847",
+          "720575940630070343",
+          "720575940630080071",
+          "720575940630122015",
+          "720575940630319671",
+          "720575940630564179",
+          "720575940631866508",
+          "720575940632449619",
+          "720575940632767383",
+          "720575940633153375",
+          "720575940634634606",
+          "720575940637054835",
+          "720575940637410869",
+          "720575940637632419",
+          "720575940638664437",
+          "720575940638681845",
+          "720575940641921421",
+          "720575940650244342"
+        ],
+        "categories": [
+          "jon_c",
+          "jon_e"
+        ],
+        "role": "Antennen-Mechanosensorik / Antennenputz-Hypothese",
+        "source": "shiu",
+        "excluded": [
+          {
+            "category": "jon_e",
+            "paper_release": "v630",
+            "source_sheet": "Supplemental Table 7A Grooming ",
+            "source_excel_row": 139,
+            "source_id_cell": "A139",
+            "source_name_cell": "B139",
+            "source_name": "JO_EVM_3",
+            "source_root_id": "720575940626307902",
+            "v783_exact_root_present": false,
+            "shiu_v783_completeness_exact_root_present": false,
+            "v783_annotation": null,
+            "mapping_status": "absent_from_v783_exact_id"
+          }
+        ]
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": [
+        "720575940630907434"
+      ]
+    },
+    {
+      "id": "jo_f",
+      "input": {
+        "ids": [
+          "720575940604299454",
+          "720575940604973746",
+          "720575940606222428",
+          "720575940606239243",
+          "720575940606431189",
+          "720575940606611401",
+          "720575940606657493",
+          "720575940606800341",
+          "720575940608297774",
+          "720575940609530653",
+          "720575940609543197",
+          "720575940610008217",
+          "720575940613012959",
+          "720575940613105311",
+          "720575940614026269",
+          "720575940614929245",
+          "720575940615473186",
+          "720575940616613022",
+          "720575940617273560",
+          "720575940617524053",
+          "720575940618888368",
+          "720575940621097398",
+          "720575940621521917",
+          "720575940621532413",
+          "720575940622179497",
+          "720575940622217992",
+          "720575940622222856",
+          "720575940623077389",
+          "720575940623791152",
+          "720575940624224408",
+          "720575940624308355",
+          "720575940625087546",
+          "720575940625571240",
+          "720575940625703434",
+          "720575940625733960",
+          "720575940625763015",
+          "720575940625885512",
+          "720575940625915338",
+          "720575940626956777",
+          "720575940627523584",
+          "720575940627704375",
+          "720575940627868471",
+          "720575940628100614",
+          "720575940628359017",
+          "720575940628649465",
+          "720575940628935564",
+          "720575940629267498",
+          "720575940629386819",
+          "720575940629502009",
+          "720575940629719404",
+          "720575940631170346",
+          "720575940633364179",
+          "720575940634923621",
+          "720575940635968745",
+          "720575940637366335",
+          "720575940638529525",
+          "720575940639410035",
+          "720575940640591861",
+          "720575940642517284",
+          "720575940647493241"
+        ],
+        "categories": [
+          "jon_f"
+        ],
+        "role": "Antennen-Mechanosensorik / publizierter Vergleichskanal",
+        "source": "shiu",
+        "excluded": []
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": [
+        "720575940630907434"
+      ]
+    },
+    {
+      "id": "jo_all",
+      "input": {
+        "ids": [
+          "720575940602132509",
+          "720575940602506208",
+          "720575940602720940",
+          "720575940604299454",
+          "720575940604753437",
+          "720575940604973746",
+          "720575940606222428",
+          "720575940606239243",
+          "720575940606431189",
+          "720575940606611401",
+          "720575940606657493",
+          "720575940606800341",
+          "720575940608297774",
+          "720575940608742409",
+          "720575940609522461",
+          "720575940609530653",
+          "720575940609541917",
+          "720575940609543197",
+          "720575940610008217",
+          "720575940610018266",
+          "720575940611061526",
+          "720575940611783464",
+          "720575940613012959",
+          "720575940613105311",
+          "720575940613971485",
+          "720575940614026269",
+          "720575940614035485",
+          "720575940614060829",
+          "720575940614188149",
+          "720575940614351477",
+          "720575940614427195",
+          "720575940614929245",
+          "720575940615473186",
+          "720575940615809349",
+          "720575940615848788",
+          "720575940615986459",
+          "720575940616064546",
+          "720575940616589878",
+          "720575940616613022",
+          "720575940616951124",
+          "720575940617273560",
+          "720575940617524053",
+          "720575940618467195",
+          "720575940618599872",
+          "720575940618684481",
+          "720575940618888368",
+          "720575940619085397",
+          "720575940619341105",
+          "720575940620382889",
+          "720575940621097398",
+          "720575940621289537",
+          "720575940621397417",
+          "720575940621442224",
+          "720575940621521917",
+          "720575940621532413",
+          "720575940621625597",
+          "720575940621729757",
+          "720575940622179497",
+          "720575940622217992",
+          "720575940622222856",
+          "720575940622449388",
+          "720575940622892988",
+          "720575940622937528",
+          "720575940623077389",
+          "720575940623298559",
+          "720575940623791152",
+          "720575940624224408",
+          "720575940624308355",
+          "720575940624799290",
+          "720575940624915230",
+          "720575940625087546",
+          "720575940625559358",
+          "720575940625571240",
+          "720575940625703434",
+          "720575940625733960",
+          "720575940625763015",
+          "720575940625797617",
+          "720575940625885512",
+          "720575940625915338",
+          "720575940625962568",
+          "720575940626042149",
+          "720575940626557995",
+          "720575940626565455",
+          "720575940626956777",
+          "720575940627109991",
+          "720575940627493096",
+          "720575940627523584",
+          "720575940627585688",
+          "720575940627704375",
+          "720575940627868471",
+          "720575940627941431",
+          "720575940628100614",
+          "720575940628101126",
+          "720575940628359017",
+          "720575940628444667",
+          "720575940628649465",
+          "720575940628935564",
+          "720575940628978409",
+          "720575940628978450",
+          "720575940629022149",
+          "720575940629055721",
+          "720575940629138959",
+          "720575940629141775",
+          "720575940629267498",
+          "720575940629386819",
+          "720575940629502009",
+          "720575940629650997",
+          "720575940629719404",
+          "720575940630020111",
+          "720575940630059847",
+          "720575940630070343",
+          "720575940630080071",
+          "720575940630122015",
+          "720575940630319671",
+          "720575940630564179",
+          "720575940630834171",
+          "720575940631098338",
+          "720575940631170346",
+          "720575940631866508",
+          "720575940632449619",
+          "720575940632767383",
+          "720575940633153375",
+          "720575940633364179",
+          "720575940634634606",
+          "720575940634923621",
+          "720575940635067034",
+          "720575940635545310",
+          "720575940635968745",
+          "720575940637054835",
+          "720575940637366335",
+          "720575940637410869",
+          "720575940637632419",
+          "720575940638529525",
+          "720575940638664437",
+          "720575940638681845",
+          "720575940639410035",
+          "720575940639904475",
+          "720575940640591861",
+          "720575940641395163",
+          "720575940641921421",
+          "720575940642517284",
+          "720575940645728803",
+          "720575940647493241",
+          "720575940650244342",
+          "720575940652566177"
+        ],
+        "categories": [
+          "jon_c",
+          "jon_e",
+          "jon_f",
+          "jon_other"
+        ],
+        "role": "Antennen-Mechanosensorik",
+        "source": "shiu",
+        "excluded": [
+          {
+            "category": "jon_e",
+            "paper_release": "v630",
+            "source_sheet": "Supplemental Table 7A Grooming ",
+            "source_excel_row": 139,
+            "source_id_cell": "A139",
+            "source_name_cell": "B139",
+            "source_name": "JO_EVM_3",
+            "source_root_id": "720575940626307902",
+            "v783_exact_root_present": false,
+            "shiu_v783_completeness_exact_root_present": false,
+            "v783_annotation": null,
+            "mapping_status": "absent_from_v783_exact_id"
+          }
+        ]
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": [
+        "720575940630907434"
+      ]
+    },
+    {
+      "id": "sugar",
+      "input": {
+        "ids": [
+          "720575940611875570",
+          "720575940612670570",
+          "720575940616885538",
+          "720575940617000768",
+          "720575940617937543",
+          "720575940621502051",
+          "720575940621754367",
+          "720575940624963786",
+          "720575940628853239",
+          "720575940629176663",
+          "720575940630233916",
+          "720575940630797113",
+          "720575940632425919",
+          "720575940632889389",
+          "720575940633143833",
+          "720575940637568838",
+          "720575940638202345",
+          "720575940639198653",
+          "720575940639332736",
+          "720575940640649691"
+        ],
+        "categories": [
+          "sugar_grn"
+        ],
+        "role": "Geschmack / Fütterungsinitiierung",
+        "source": "shiu",
+        "excluded": [
+          {
+            "category": "sugar_grn",
+            "paper_release": "v630",
+            "source_sheet": "Supplemental Table 1A Sugar Fir",
+            "source_excel_row": 13,
+            "source_id_cell": "A13",
+            "source_name_cell": "B13",
+            "source_name": "sugar_l_13",
+            "source_root_id": "720575940620900446",
+            "v783_exact_root_present": false,
+            "shiu_v783_completeness_exact_root_present": false,
+            "v783_annotation": null,
+            "mapping_status": "absent_from_v783_exact_id"
+          }
+        ]
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": []
+    },
+    {
+      "id": "water",
+      "input": {
+        "ids": [
+          "720575940606002609",
+          "720575940612579053",
+          "720575940612950568",
+          "720575940613786774",
+          "720575940613996959",
+          "720575940616177458",
+          "720575940617857694",
+          "720575940622486922",
+          "720575940622902535",
+          "720575940625203504",
+          "720575940625861168",
+          "720575940629852866",
+          "720575940630553415",
+          "720575940631898285",
+          "720575940634796536",
+          "720575940635172191",
+          "720575940644965399",
+          "720575940660292225"
+        ],
+        "categories": [
+          "water_grn"
+        ],
+        "role": "Geschmack / Fütterungsinitiierung",
+        "source": "shiu",
+        "excluded": []
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": []
+    },
+    {
+      "id": "bitter",
+      "input": {
+        "ids": [
+          "720575940602353632",
+          "720575940604027168",
+          "720575940610259370",
+          "720575940610481370",
+          "720575940610483162",
+          "720575940613061118",
+          "720575940614281266",
+          "720575940617094208",
+          "720575940619028208",
+          "720575940619197093",
+          "720575940621008895",
+          "720575940621778381",
+          "720575940622298631",
+          "720575940626287336",
+          "720575940627578156",
+          "720575940627692048",
+          "720575940629146711",
+          "720575940630195909",
+          "720575940645743412",
+          "720575940646212996"
+        ],
+        "categories": [
+          "bitter_grn"
+        ],
+        "role": "Geschmack / aversiver Vergleichskanal",
+        "source": "shiu",
+        "excluded": [
+          {
+            "category": "bitter_grn",
+            "paper_release": "v630",
+            "source_sheet": "ST 4 Interaction betw Sugar, Wa",
+            "source_excel_row": 446,
+            "source_id_cell": "A446",
+            "source_name_cell": "B446",
+            "source_name": "bitter_l_15",
+            "source_root_id": "720575940618600651",
+            "v783_exact_root_present": false,
+            "shiu_v783_completeness_exact_root_present": false,
+            "v783_annotation": null,
+            "mapping_status": "absent_from_v783_exact_id"
+          }
+        ]
+      },
+      "readouts": [
+        {
+          "id": "720575940630907434",
+          "label": "aBN1",
+          "role": "Antennenputz-Interneuron, Workbook-Identität in v783 nicht unabhängig bestätigt",
+          "bodyChannel": null,
+          "sideStatus": "no lateral mapping"
+        },
+        {
+          "id": "720575940616185531",
+          "label": "aDN1 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940629806974",
+          "label": "aDN2 (Workbook _l)",
+          "role": "Absteigender Antennenputz-Kandidat",
+          "bodyChannel": "groom",
+          "sideStatus": "Workbook links / v783 rechts: ungeklärt"
+        },
+        {
+          "id": "720575940660219265",
+          "label": "MN9 rechts",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 rechts"
+        },
+        {
+          "id": "720575940618238523",
+          "label": "MN9 links",
+          "role": "Motorneuron für Muskel9 / Proboscis-Kandidat",
+          "bodyChannel": "proboscis",
+          "sideStatus": "Tastekin2026 links, unabhängig vom fehlenden Shiu-v630-Root"
+        },
+        {
+          "id": "720575940604737708",
+          "label": "DNa02 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940629327659",
+          "label": "DNa02 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940606112940",
+          "label": "DNg13 (Stürner L)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner L / Originalannotation rechts: Seitenkonvention ungeklärt"
+        },
+        {
+          "id": "720575940616471052",
+          "label": "DNg13 (Stürner R)",
+          "role": "Absteigender Typ mit publizierten Bein-/Steuerungseffekten",
+          "bodyChannel": null,
+          "sideStatus": "Stürner R / Originalannotation links: Seitenkonvention ungeklärt"
+        }
+      ],
+      "upstreamSilenced": []
+    }
+  ],
+  "metadataCorrections": [
+    "Stürner DOI aus lokalem Provenienznachweis korrigiert; widersprüchliche Seiten getrennt benannt. Keine Dynamik, Inputs, Readouts oder Zahlen geändert."
+  ]
+}

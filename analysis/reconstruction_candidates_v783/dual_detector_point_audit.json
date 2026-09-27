@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-09-26T22:04:34.768236+00:00",
+  "source_sha256": {
+    "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "analysis/reconstruction_candidates_v783/princeton_individual_points_for_616.csv": "a2a1a94213b9959f090b56e0c1c1e2571e17ce71a97a5d653d87d94082297516"
+  },
+  "counts": {
+    "Buhmann_points": 7385,
+    "Princeton_points": 26941,
+    "Buhmann_pair_region_keys": 4348,
+    "Princeton_pair_region_keys": 3804,
+    "pair_region_union": 8134,
+    "pair_region_intersection": 18,
+    "exact_six_coordinate_matches_on_shared_keys": 0,
+    "evidence_class_rows": {
+      "A_raw_P_dual_proofread_pair": 18,
+      "A_raw_Buhmann_only_proofread_pair": 3,
+      "P_Princeton_only_proofread_pair": 3786,
+      "B_Buhmann_only_segment": 4327
+    },
+    "dual_detector_segment_rows": 0,
+    "dual_detector_segment_old_points": 0,
+    "dual_detector_segment_new_points": 0
+  },
+  "output": {
+    "dual_detector_pair_region_review.csv": "5d14c2ac4dab891767ea354eb8f066338d7a49466e70447b00a0a6bf89f1b1bc",
+    "dual_detector_segment_candidates.csv": "849aae31a7192f25d02da3f8d9ba16c20c26202b124f67afa9c31ad600a26acd"
+  },
+  "interpretation": "Pair-region overlap from two automated detectors strengthens review priority but is not physiological validation; exact coordinate identity is narrower than anatomical equivalence. Counts cannot be added."
+}

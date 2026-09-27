@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07131b" />
+    <title>Fliege im Raum · Eigenaktivitätsmodell</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><text y=%2250%22 font-size=%2250%22>🪰</text></svg>" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand"><span class="brand-icon">✳</span><span>FLIEGE<span class="brand-muted"> / LAB</span></span></div>
+        <div class="top-links"><span class="header-index">EXPERIMENT 001 &nbsp;·&nbsp; 3D-ARENA</span><a href="./flight.html">FLÜGEL ↗</a><a href="./cpg.html">CPG ↗</a><a href="./sensorimotor.html">REGELKREIS ↗</a><a href="./motor.html">MOTORLABOR ↗</a><a href="./lab.html">NEURONENLABOR ↗</a><a href="./brain.html">NEURON-ANKERPUNKTE ↗</a><a href="./skeleton.html">R7-SKELETT ↗</a></div>
+      </header>
+
+      <section class="intro" aria-labelledby="title">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> EIN BEWEGLICHER DIGITALER KÖRPER</div>
+          <h1 id="title">Eine Fliege.<br /><em>Ein Raum zum Erkunden.</em></h1>
+          <p>Sechs gegliederte Beine, feste Standfüße und weiche Schritte. Die Fliege bewegt sich ohne vorgegebenes Ziel; ihre Gelenkstellungen und Bodenkontakte lassen sich live beobachten.</p>
+        </div>
+        <div class="status-card" id="coupling-card" role="status" aria-live="polite">
+          <span class="status-dot"></span>
+          <div><strong id="coupling-title">EIGENAKTIVITÄTSMODELL</strong><span id="coupling-detail">Abstrakte Modellpopulationen · kein FlyWire-Antrieb</span></div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Dreidimensionale Fliegenarena">
+        <div class="viewport-wrap">
+          <div id="scene" class="viewport" aria-label="3D-Ansicht einer autonom laufenden Fliege in einer runden Arena"></div>
+          <div class="scene-corner scene-corner-left"><span class="live-dot"></span> LIVE-SIMULATION <span class="corner-separator">/</span> FREIE BEWEGUNG</div>
+          <div class="scene-corner scene-corner-right">ZIEHEN: KAMERA DREHEN <span class="corner-separator">·</span> MAUSRAD: ZOOM</div>
+          <div class="view-controls"><button id="follow-fly" type="button" aria-pressed="true">Nahansicht · folgt der Fliege</button><label><input id="show-contacts" type="checkbox" /> Fußkontakte zeigen</label></div>
+          <div class="scene-bottom">
+            <span class="coordinates" id="coords">X +0.0&nbsp;&nbsp; Z +0.0</span>
+            <span class="scale-mark">ARENA Ø 12 EINHEITEN</span>
+          </div>
+        </div>
+        <aside class="sidebar" aria-label="Simulationsstatus">
+          <div class="panel-top"><span>BEOBACHTUNG</span><span class="panel-no">01 / 03</span></div>
+          <div class="state-visual" aria-hidden="true"><span class="state-orbit"></span><span class="state-core">✳</span></div>
+          <div class="state-label">Aktuelles Verhalten</div>
+          <div class="state-value" id="activity">Laufen</div>
+          <div class="divider"></div>
+          <div class="metric"><span>STEUERQUELLE</span><strong id="source">Abstraktes Aktivitätsmodell</strong></div>
+          <div class="metric"><span>VORWÄRTS</span><strong id="forward">0.66</strong></div>
+          <div class="metric"><span>DREHUNG</span><strong id="turn">+0.00</strong></div>
+          <details class="model-inspector body-inspector" open>
+            <summary>KÖRPERRÜCKMELDUNG <span>geometrisch</span></summary>
+            <div class="model-state"><span>Füße am Boden</span><strong id="body-contacts">6 / 6</strong></div>
+            <div class="model-state"><span>Schrittfrequenz</span><strong id="body-gait">Ruhe</strong></div>
+            <div class="contact-grid" aria-label="Kontaktzustand der sechs Beine"><span id="contact-LF">L vorn</span><span id="contact-RF">R vorn</span><span id="contact-LM">L Mitte</span><span id="contact-RM">R Mitte</span><span id="contact-LH">L hinten</span><span id="contact-RH">R hinten</span></div>
+            <p>Grün: Stand · Gold: Schwung oder Putzen.<br />Coxa → Femur → Tibia → Tarsus<br /><a href="./BODY_MODEL.md" target="_blank" rel="noopener noreferrer">Körpermodell und Annahmen ↗</a><br /><a href="./data/banc_leg_motor_reference.json" target="_blank" rel="noopener noreferrer">391 BANC-Beinmotorneuronen ↗</a><br />Anatomische Referenz; Kopplung ungeprüft.</p>
+          </details>
+          <details class="model-inspector" id="model-inspector" open>
+            <summary>MODELLINTERNE ZUSTÄNDE <span>hypothetisch</span></summary>
+            <div class="model-state"><span>Aktivierung</span><strong id="arousal">0.57</strong></div>
+            <div class="model-state"><span>Ermüdung</span><strong id="fatigue">0.12</strong></div>
+            <div class="model-state"><span>Putztrieb</span><strong id="groom-need">0.38</strong></div>
+            <div class="model-state"><span>Wandreiz vorn</span><strong id="wall-signal">0.00</strong></div>
+          </details>
+          <div class="divider"></div>
+          <div class="mode-selector" role="group" aria-label="Steuerquelle wählen">
+            <div class="mode-heading">STEUERUNG</div>
+            <div class="mode-buttons"><button id="mode-demo" type="button" aria-pressed="true">Eigenaktivität</button><button id="mode-inspect" type="button" aria-pressed="false" disabled>Graph-Inspektion</button><button id="mode-brain" type="button" aria-pressed="false" disabled>FlyWire-Steuerung</button></div>
+            <p id="mode-hint">Graph-Inspektion wird mit fertigem Graph freigeschaltet. Körpersteuerung braucht zusätzlich eine begründete Motorzuordnung.</p>
+          </div>
+          <div class="divider"></div>
+          <div class="actions"><button id="toggle" class="primary-button" type="button">⏸ &nbsp; Pausieren</button><button id="reset" class="secondary-button" type="button">↺ &nbsp; Neustart</button></div>
+          <p class="panel-note" id="panel-note">Ohne Zielvorgabe: interne Schwankungen und Zustände erzeugen Bewegung. Körperposition und Wandnähe wirken zurück. Alle Modellparameter sind hypothetisch.</p>
+        </aside>
+      </section>
+
+      <section class="data-panel" aria-label="Daten und Graph-Status">
+        <div class="data-panel-header"><span>DATENVERBINDUNG / FAFB V783</span><div class="data-links"><a href="/analysis/report.md" target="_blank" rel="noopener noreferrer">Vollständige Dateianalyse ↗</a><a href="https://github.com/IT-EXPRESS-Bayern/Fliege/blob/main/docs/publication/SOURCES.md" target="_blank" rel="noopener noreferrer">Datenbestand ansehen ↗</a></div></div>
+        <div class="data-grid">
+          <div class="data-cell"><span>FLYWIRE-DOWNLOAD</span><strong id="download-state">Status wird geladen …</strong><small id="download-detail">Lokaler Downloadstatus</small><div class="data-progress"><span id="download-progress"></span></div></div>
+          <div class="data-cell"><span>FAFB V783 · PROOFREAD-GRAPH</span><strong id="graph-state">Wird geprüft …</strong><small id="graph-detail">brain/graph-original-v783</small></div>
+          <div class="data-cell"><span>GEHIRN-ADAPTER</span><strong id="adapter-state">Nicht verbunden</strong><small id="adapter-detail">Steuerung: abstraktes Eigenaktivitätsmodell</small></div>
+        </div>
+        <div class="inspect-panel" id="inspect-panel" hidden>
+          <div class="inspect-heading"><span>GRAPH-INSPEKTION / VOLLSTÄNDIGER PROOFREAD-GRAPH</span><span id="inspect-dataset">Datensatz wird geladen …</span></div>
+          <div class="inspect-facts"><div><span>NEURONEN</span><strong id="inspect-nodes">–</strong></div><div><span>GERICHTETE KANTEN</span><strong id="inspect-edges">–</strong></div><div><span>BEWEGUNGSSTEUERUNG</span><strong id="inspect-motor">Keine Zuordnung</strong></div></div>
+          <div class="candidate-heading">ANNOTIERTE ABSTEIGENDE KANDIDATEN <span>· DNa02 / DNg13</span></div>
+          <div class="candidate-list" id="candidate-list">Annotationen werden gelesen …</div>
+          <p>Diese Zellnamen und Root-IDs stammen aus den FlyWire-Annotationen. Sie bestimmen hier weder Sensoren noch Fliegenbewegung.</p>
+        </div>
+        <p class="data-caveat">Dieser Graph enthält alle freigegebenen Verbindungen zwischen beidseitig proofread Neuronen (15,09 Mio. gerichtete Paare; 54,49 Mio. Synapsen), aggregiert nach Paaren. Neurotransmitter-Wahrscheinlichkeiten sind für den Browser auf 8 Bit gerundet. Weitere veröffentlichte Synapsenpunkte mit unproofread Partnern liegen außerhalb dieses Graphen. Ein Connectome ist noch keine funktionsfähige Gehirnsteuerung.</p>
+      </section>
+
+      <footer class="footer"><span>FLYWIRE <span class="footer-muted">/</span> KÖRPERFORSCHUNG</span><span>GEGLIEDERTES KINEMATIKMODELL · MUSKELKRÄFTE NOCH NICHT SIMULIERT.</span></footer>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

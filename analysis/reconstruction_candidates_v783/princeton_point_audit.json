@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-09-26T22:03:18.251875+00:00",
+  "source_file": "data/codex_fafb_v783/fafb_v783_princeton_synapse_table.csv.gz",
+  "source_bytes": 2695106039,
+  "source_sha256_verified_by_download": "780a0ebd9320847b9fce2b05056b3d57a56da097549dae7847b8e55c488f1e29",
+  "source_provenance": "data/codex_fafb_v783/princeton_provenance.json",
+  "source_columns": [
+    "pre_x",
+    "pre_y",
+    "pre_z",
+    "ctr_x",
+    "ctr_y",
+    "ctr_z",
+    "post_x",
+    "post_y",
+    "post_z",
+    "size",
+    "pre_root_id_720575940",
+    "post_root_id_720575940",
+    "neuropil"
+  ],
+  "source_root_id_encoding": "720575940 + nine-digit suffix; preserved as strings",
+  "counts": {
+    "source_rows": 80215790,
+    "point_rows_touching_616": 26941,
+    "roots_with_any_point": 550,
+    "pair_region_keys_touching_616_all_partners": 3804,
+    "pair_region_keys_with_two_proofread_partners": 3804,
+    "point_rows_by_partner_class": {
+      "both_officially_proofread": 26941
+    },
+    "point_rows_by_neuropil": {
+      "LA_R": 17750,
+      "LA_L": 6219,
+      "GNG": 1191,
+      "ME_L": 765,
+      "ME_R": 223,
+      "": 172,
+      "SAD": 162,
+      "SPS_L": 96,
+      "IPS_L": 73,
+      "SPS_R": 72,
+      "AMMC_L": 60,
+      "IPS_R": 36,
+      "SMP_R": 35,
+      "ICL_L": 20,
+      "AL_R": 16,
+      "AMMC_R": 15,
+      "MB_CA_R": 13,
+      "PB": 6,
+      "ICL_R": 4,
+      "AL_L": 4,
+      "FB": 3,
+      "ATL_R": 2,
+      "LAL_L": 2,
+      "IB_R": 1,
+      "IB_L": 1
+    },
+    "invalid_or_zero_size_rows": 0,
+    "point_connection_pair_region_union": 3891,
+    "point_connection_mismatched_pair_region_rows": 745,
+    "point_connection_net_difference": 6027
+  },
+  "outputs": {
+    "points": {
+      "file": "princeton_individual_points_for_616.csv",
+      "sha256": "a2a1a94213b9959f090b56e0c1c1e2571e17ce71a97a5d653d87d94082297516"
+    },
+    "reconciliation": {
+      "file": "princeton_point_to_connection_reconciliation.csv",
+      "sha256": "10a31d1bde448e2321649c2d84a733fc8af35d6f7c5c7071b5563f386dcde690"
+    }
+  },
+  "limitation": "The source has no synapse ID, cleft score or connection score. A source row number is reproducible only for this exact verified file. Site size is not an edge confidence or physiological weight. No link is added to original v783."
+}

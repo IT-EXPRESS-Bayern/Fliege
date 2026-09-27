@@ -1,0 +1,97 @@
+{
+  "schema": "fly.publication-evidence-snapshot.v1",
+  "as_of": "2026-09-27",
+  "new_simulations_run_for_publication": false,
+  "audits": [
+    {
+      "path": "analysis/neuron_catalog/audit.json",
+      "sha256": "0b01fc3f153e6f2c3e5c3b2c9a114b82bc45894ec9260e4b888387a28a593153"
+    },
+    {
+      "path": "analysis/model_original_edge_comparison.json",
+      "sha256": "b4692f5ca6ad24697a9b641f4fc2871f5a745e280f8eb944d10b05ba20b778ce"
+    },
+    {
+      "path": "analysis/neuron_assays/audit.json",
+      "sha256": "cf8216fadd17404c0f9c79c481420c4d64a72b67e7550a765f94ed2a859f6cfe"
+    },
+    {
+      "path": "analysis/neuron_assays/jo_diagnostic.json",
+      "sha256": "5486a2d2b26dc4b39f22605138435effb7353e5c494c383cdc126abb98352864"
+    },
+    {
+      "path": "analysis/motor_output_atlas/audit.json",
+      "sha256": "a706f3742262971c143a77db97edb8356f9a2462ca6a8a00e343b24fb987333e"
+    },
+    {
+      "path": "analysis/sensorimotor_mapping/audit.json",
+      "sha256": "86cbced00c0dc6d552f7ad191f0a3609162bb6854d4bb4d1aac4d31610dba000"
+    },
+    {
+      "path": "app/data/sensorimotor_audit.json",
+      "sha256": "7cb75d0fd6adaf21965e1b9c38286c266e2da22b658107df69b7eecc5d9be2a9"
+    },
+    {
+      "path": "analysis/cpg_reproduction/result_verification.json",
+      "sha256": "0a79549806c5202e66f8e8e4444b81f59f1f41eb4deec8ebfddf95341edbf211"
+    },
+    {
+      "path": "analysis/cpg_reproduction/run33241778_replicate0/summary.json",
+      "sha256": "8d9abab8274c016e9c58b4adac9cb85970b62dfe664be3a995d532f131d85c1a"
+    },
+    {
+      "path": "analysis/flight_control_mapping/audit.json",
+      "sha256": "c1a6fefacca439a9fae391a2bff032165c3f2acc3099aad6da0c594516b976db"
+    },
+    {
+      "path": "app/data/flight_audit.json",
+      "sha256": "6ba891542f7f32e379715f2b16555be891b18c38e221b1f0502c37115bdde7a1"
+    }
+  ],
+  "catalog": {
+    "root_count": 139255,
+    "duplicate_root_ids": 0,
+    "display_name_present": 138765,
+    "roots_with_source_role": 22312,
+    "unknown_function_roots": 116943
+  },
+  "metrics": {
+    "neural_main_trials": 42,
+    "neural_diagnostic_trials": 4,
+    "neural_reference_responsive_roots": 7048,
+    "jo_selectivity": "failed_literature_pattern",
+    "motor_output_atlas_ids": 805,
+    "sensorimotor_trials": 194,
+    "sensorimotor_transfer_probes": 24,
+    "sensorimotor_integration_steps": 388000,
+    "sensorimotor_findings": {
+      "defaultGainPeakReductionRange": [
+        -0.00598691826028297,
+        0.0033021521955983735
+      ],
+      "defaultGainRmsReductionRange": [
+        -0.01825833819095668,
+        0.011393357809211135
+      ],
+      "allFourPolarityHypothesesRetained": true,
+      "scientificInterpretation": "The technical loop closes and responds causally to the actual joint. Neither root tuning, signed physiological circuit, nor force scale is calibrated. Mechanical return alone occurs in sensory_open and is not evidence of neural stabilization."
+    },
+    "cpg_cpu_conditions": 8,
+    "cpg_result_checks_passed": 57,
+    "cpg_original_trajectory_comparison_complete": false,
+    "flight_roll_trials": 26,
+    "flight_roll_integration_steps": 432000,
+    "flight_neural_propagation_simulated": false,
+    "flight_sensor_to_motor_edges_simulated": false,
+    "autonomous_flight": false,
+    "flight_free_translation": false,
+    "full_brain_closed_autonomy": false,
+    "sensory_partial_neural_propagation": true,
+    "original_graph_modified": false
+  },
+  "graph_comparison": {
+    "directed_pairs": 15091983,
+    "synapse_count_mismatches": 0
+  },
+  "interpretation": "Counts are from frozen model/audit outputs. They do not demonstrate biological reconstruction or validate physiological parameters."
+}

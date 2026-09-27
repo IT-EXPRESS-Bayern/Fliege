@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_root_rows": 139255,
+  "checked_original_cells": 3759885,
+  "checked_browser_claim_references": 72036,
+  "source_claim_rows": 72040,
+  "unmatched_claims_excluded": 4,
+  "checks": [
+    "full_original_field_equality",
+    "full_root_universe_and_uniqueness",
+    "browser_decimal_string_ids",
+    "every_browser_claim_reference_resolves",
+    "claim_source_reference_integrity",
+    "assay_group_membership_and_uniqueness",
+    "independently_sourced_current_MN9_left",
+    "absent_v630_id_not_replaced",
+    "type_evidence_not_promoted",
+    "no_automatic_motor_assignment"
+  ]
+}

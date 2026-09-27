@@ -1,0 +1,53 @@
+{
+  "dataset": "Harvard Dataverse doi:10.7910/DVN/7WTH1N",
+  "release": "BANC v888",
+  "license": "CC BY 4.0",
+  "meta_rows": 188508,
+  "meta_unique_banc_ids": 188508,
+  "edgelists": {
+    "banc_888_edgelist_simple_v2.feather": {
+      "status": "verified",
+      "bytes": 305250378,
+      "md5": "394406f8a9bdf093c895f95aff4f6c49",
+      "columns": [
+        "pre",
+        "post",
+        "count",
+        "norm",
+        "post_count",
+        "pre_count"
+      ],
+      "directed_pair_rows": 11752828,
+      "synapse_count_sum": 35733096,
+      "unique_pre_ids": 169360,
+      "unique_post_ids": 171610,
+      "unique_incident_ids": 172433,
+      "incident_ids_missing_from_meta": 0,
+      "min_pair_count": 1,
+      "max_pair_count": 1103,
+      "autapse_rows": 156311
+    },
+    "banc_888_edgelist_simple_v3.feather": {
+      "status": "verified",
+      "bytes": 359161658,
+      "md5": "08542b0771db7418ed474be60dc9886c",
+      "columns": [
+        "pre",
+        "post",
+        "count",
+        "norm",
+        "post_count",
+        "pre_count"
+      ],
+      "directed_pair_rows": 13620865,
+      "synapse_count_sum": 42309621,
+      "unique_pre_ids": 164619,
+      "unique_post_ids": 167018,
+      "unique_incident_ids": 169078,
+      "incident_ids_missing_from_meta": 0,
+      "min_pair_count": 1,
+      "max_pair_count": 1051,
+      "autapse_rows": 0
+    }
+  }
+}

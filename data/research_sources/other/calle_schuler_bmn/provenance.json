@@ -1,0 +1,99 @@
+{
+  "source": {
+    "authors": "Calle-Schuler, Santana-Cruz et al.",
+    "paper": "A comprehensive mechanosensory connectome reveals a somatotopically organized neural circuit architecture controlling stimulus-aimed grooming of the Drosophila head",
+    "article_url": "https://elifesciences.org/articles/108044",
+    "article_doi_version": "https://doi.org/10.7554/eLife.108044.3",
+    "file_index_url": "https://api.elifesciences.org/articles/108044",
+    "publisher_file_version": "v1",
+    "published_date": "2026-06-08",
+    "retrieved_utc_date": "2026-09-26",
+    "article_license": "CC-BY-4.0"
+  },
+  "files": [
+    {
+      "file": "elife-108044-supp1-v1.zip",
+      "url": "https://cdn.elifesciences.org/articles/108044/elife-108044-supp1-v1.zip",
+      "format": "ZIP",
+      "bytes": 13193,
+      "sha256": "30f66b57dbd7d29a99e163d2344682f4ebe25e25a793690b5b2fa58cbb5ef38d",
+      "extracted_member": {
+        "file": "Supplementary_file_1_BMNs.csv",
+        "format": "CSV",
+        "bytes": 58950,
+        "data_rows": 705,
+        "id_columns": ["flywire_id_v783"],
+        "sha256": "4147fcf44534c6051c789a85c72ae258db193485942ddce47999ed1f7bc8a0d0"
+      }
+    },
+    {
+      "file": "elife-108044-supp2-v1.zip",
+      "url": "https://cdn.elifesciences.org/articles/108044/elife-108044-supp2-v1.zip",
+      "format": "ZIP",
+      "bytes": 33475,
+      "sha256": "3d71b781cc62c5582b237075b407d0c1272facca41d07b8bd3fd9401ab914e77",
+      "extracted_member": {
+        "file": "Supplementary_file_2_BMN_outputs.csv",
+        "format": "CSV",
+        "bytes": 404954,
+        "data_rows": 5332,
+        "id_columns": ["pre_root_id_bmn", "post_root_id_partner"],
+        "sha256": "26ec2a3e68748c8900e2765fbed4a580373eb722ca8b456f475c6e6d133f9817"
+      }
+    },
+    {
+      "file": "elife-108044-supp3-v1.zip",
+      "url": "https://cdn.elifesciences.org/articles/108044/elife-108044-supp3-v1.zip",
+      "format": "ZIP",
+      "bytes": 9586,
+      "sha256": "2349f81f4c6fd2ab8f6e25f7480ac4295dbaabab36914fc14e00a55c972a4dbb",
+      "extracted_member": {
+        "file": "Supplementary_file_3_BMN_inputs.csv",
+        "format": "CSV",
+        "bytes": 92983,
+        "data_rows": 1193,
+        "id_columns": ["pre_root_id_partner", "post_root_id_bmn"],
+        "sha256": "ec6899a4450d4f7d3f70e602e15dbba3d2c612a66f9fbced20f7088877432591"
+      }
+    },
+    {
+      "file": "elife-108044-supp6-v1.zip",
+      "url": "https://cdn.elifesciences.org/articles/108044/elife-108044-supp6-v1.zip",
+      "format": "ZIP",
+      "bytes": 7068,
+      "sha256": "290c1351b419db328540ec3442972c13b6b70d5fd34d0e0d3edbd8525abf72e5",
+      "extracted_member": {
+        "file": "Supplementary_file_6_partner_summary.csv",
+        "format": "CSV",
+        "bytes": 34410,
+        "data_rows": 484,
+        "id_columns": ["partner_flywire_id_v783"],
+        "sha256": "1c78a8de009ea3bf0d2796d2e6700f5c57c8b479ce93a204878645cce2545dec"
+      }
+    },
+    {
+      "file": "elife-108044-supp7-v1.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/108044/elife-108044-supp7-v1.xlsx",
+      "format": "XLSX",
+      "bytes": 51918,
+      "sha256": "1934da8adea0eb831b59b99a2be90050f1802cc401907050b420b1bf6d44fc4b",
+      "sheet": "Sheet1",
+      "id_columns": ["unique_pre_post"],
+      "note": "BMN type to motor-neuron synapse table. Row 1 states that its Codex values use v783; 16 unique 18-digit values in the unique_pre_post ID column matched the local v783 graph."
+    }
+  ],
+  "local_v783_graph_check": {
+    "graph_file": "brain/graph-v783/nodes.u64",
+    "interpretation": "All unique 18-digit root IDs in the named columns matched the 139255 local graph node IDs. IDs were kept as decimal strings to avoid JavaScript integer precision loss.",
+    "unique_and_matched": {
+      "Supplementary_file_1_BMNs.csv:flywire_id_v783": [705, 705],
+      "Supplementary_file_2_BMN_outputs.csv:pre_root_id_bmn": [555, 555],
+      "Supplementary_file_2_BMN_outputs.csv:post_root_id_partner": [432, 432],
+      "Supplementary_file_3_BMN_inputs.csv:pre_root_id_partner": [125, 125],
+      "Supplementary_file_3_BMN_inputs.csv:post_root_id_bmn": [404, 404],
+      "Supplementary_file_6_partner_summary.csv:partner_flywire_id_v783": [484, 484],
+      "elife-108044-supp7-v1.xlsx:unique_pre_post": [16, 16]
+    }
+  },
+  "use_note": "These are anatomical identities, synapse counts and partner annotations. They do not by themselves specify a calibrated stimulus-to-BMN mapping or a complete grooming motor policy."
+}

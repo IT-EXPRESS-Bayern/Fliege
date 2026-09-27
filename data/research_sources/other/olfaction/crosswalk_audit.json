@@ -1,0 +1,24 @@
+{
+  "fafb_materialization": 783,
+  "fafb_annotation_version": "2.1.0",
+  "fafb_olfactory_neurons": 2281,
+  "in_shiu_v783_model": 2279,
+  "benton_2025_excel_data_rows": 65,
+  "benton_2025_unique_glomeruli": 58,
+  "door_unique_glomeruli_with_response_unit": 52,
+  "mapping_status_counts": {
+    "2025_map_without_door_response": 54,
+    "historical_door_unit_review_2025_label": 568,
+    "exact_2025_and_door_agreement": 1324,
+    "multiple_door_units": 274,
+    "no_exact_literature_glomerulus_match": 56,
+    "no_v783_glomerulus_label": 5
+  },
+  "join_basis": "FAFB v783 hemibrain_type ORN_<glomerulus> label; exact glomerulus string to Benton 2025 and DoOR 2.0.1 tables",
+  "scope": "Only olfactory neurons in FAFB v783, including model-disconnected IDs; no receptor response was measured in this specimen.",
+  "file": "fafb_olfactory_root_id_crosswalk.csv",
+  "references": [
+    "https://doi.org/10.1038/s44319-025-00476-8",
+    "https://github.com/ropensci/DoOR.data"
+  ]
+}

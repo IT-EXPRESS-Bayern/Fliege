@@ -1,0 +1,91 @@
+{
+  "sourceURL": "https://zenodo.org/records/22260924/files/DNg100_Stim_BANC_vncOnly.zip?download=1",
+  "runPrefix": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/",
+  "archiveTotalBytes": 807140332,
+  "members": [
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/",
+      "uncompressedBytes": 0,
+      "compressedBytes": 0,
+      "compressionMethod": 0,
+      "crc32Expected": "00000000"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/",
+      "uncompressedBytes": 0,
+      "compressedBytes": 0,
+      "compressionMethod": 0,
+      "crc32Expected": "00000000"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/overrides.yaml",
+      "uncompressedBytes": 192,
+      "compressedBytes": 192,
+      "compressionMethod": 0,
+      "crc32Expected": "caa6ca43"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/hydra.yaml",
+      "uncompressedBytes": 3970,
+      "compressedBytes": 3970,
+      "compressionMethod": 0,
+      "crc32Expected": "04553473"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/config.yaml",
+      "uncompressedBytes": 1569,
+      "compressedBytes": 1569,
+      "compressionMethod": 0,
+      "crc32Expected": "1ddf413b"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/logs/",
+      "uncompressedBytes": 0,
+      "compressedBytes": 0,
+      "compressionMethod": 0,
+      "crc32Expected": "00000000"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/logs/run_config.yaml",
+      "uncompressedBytes": 1851,
+      "compressedBytes": 1851,
+      "compressionMethod": 0,
+      "crc32Expected": "a4902126"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/ckpt/",
+      "uncompressedBytes": 0,
+      "compressedBytes": 0,
+      "compressionMethod": 0,
+      "crc32Expected": "00000000"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/ckpt/neuron_params.h5",
+      "uncompressedBytes": 104442210,
+      "compressedBytes": 104442210,
+      "compressionMethod": 0,
+      "crc32Expected": "f76df6e1"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/ckpt/DNg100_Stim_BANC_vncOnly_Rs.npz",
+      "uncompressedBytes": 702218398,
+      "compressedBytes": 702218398,
+      "compressionMethod": 0,
+      "crc32Expected": "a0da600f"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/run_hydra.log",
+      "uncompressedBytes": 468436,
+      "compressedBytes": 468436,
+      "compressionMethod": 0,
+      "crc32Expected": "0795a96c"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/figures/",
+      "uncompressedBytes": 0,
+      "compressedBytes": 0,
+      "compressionMethod": 0,
+      "crc32Expected": "00000000"
+    }
+  ]
+}

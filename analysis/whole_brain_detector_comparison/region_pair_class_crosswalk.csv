@@ -1,0 +1,11 @@
+pair_comparison_class,pair_region_comparison_class,directed_pair_region_keys,original_synapses,princeton_synapses
+both_different_count,both_different_count,7538751,38720310,53935121
+both_different_count,both_same_count,1036031,2232125,2232125
+both_different_count,original_only,124527,138585,0
+both_different_count,princeton_only,662442,0,911351
+both_same_count,both_different_count,144949,544405,531646
+both_same_count,both_same_count,6269144,11014812,11014812
+both_same_count,original_only,80338,82156,0
+both_same_count,princeton_only,92657,0,94915
+original_only,original_only,1654257,1760529,0
+princeton_only,princeton_only,6541349,0,8224529

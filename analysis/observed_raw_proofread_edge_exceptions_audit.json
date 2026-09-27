@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-09-26T21:12:57.016831+00:00",
+  "source_record": "https://zenodo.org/records/10676866",
+  "source_file": {
+    "file": "data/flywire_fafb_v783/flywire_synapses_783.feather",
+    "zenodo_md5": "md5:f8f1b97c9d4b0ea9b4c8b287f6b99091",
+    "zenodo_bytes": 9492998242
+  },
+  "inputs": {
+    "points_csv": "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv",
+    "points_csv_sha256": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "point_audit_json": "analysis/synapse_point_audit.json",
+    "point_audit_sha256": "d2c791701ba4ffcd104cff55cbe1e61f7d0ccfa10580aa0db37627f7a55b4444",
+    "coverage_csv": "data/research_sources/derived/proofread_synapse_coverage_by_neuron.csv",
+    "coverage_csv_sha256": "fd10cad3cfa1087ad53fcea5518ad6c4d2157b5e60e31f95767e890e321f08b6",
+    "proofread_root_ids_npy": "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+    "proofread_root_ids_sha256": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be",
+    "published_pair_table": "data/flywire_fafb_v783/proofread_connections_783.feather",
+    "published_pair_table_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+  },
+  "output_csv": "data/research_sources/derived/observed_raw_proofread_edge_exceptions_for_616.csv",
+  "output_csv_sha256": "3acaebfc7d968237f511758c5ebeae30efa87e5d2c03a70d662c308246894185",
+  "method": "Group released points with both partners in the official proofread root array by exact directed pre ID, post ID, and neuropil; verify every key is absent from the published proofread_connections_783.feather table.",
+  "counts": {
+    "input_points_touching_616_ids": 7385,
+    "raw_proofread_exception_points": 48,
+    "raw_proofread_exception_pair_region_keys": 21,
+    "raw_proofread_exception_directed_pairs": 21,
+    "proofread_root_ids_among_616_with_raw_exceptions": 1,
+    "point_counts_by_selected_id_role": {
+      "selected_id_is_post": 17,
+      "selected_id_is_pre": 31
+    },
+    "point_counts_by_neuropil": {
+      "ME_R": 48
+    },
+    "upstream_global_raw_minus_published_synapse_count": 48,
+    "segment_contact_points_separated": 7337
+  },
+  "checks": {
+    "published_pair_region_rows_scanned": 16847997,
+    "raw_pair_region_keys_checked": 21,
+    "raw_pair_region_keys_found": 0,
+    "all_raw_exception_pair_region_keys_absent_from_published_table": true,
+    "raw_exception_points_equal_upstream_global_count_difference": true,
+    "exact_synapse_ids_preserved": true,
+    "source_and_per_id_counts_verified_in_segment_audit": "analysis/observed_segment_links_audit.json"
+  },
+  "interpretation": "These are released v783 synapse points between two official proofread roots whose exact directed pair-plus-neuropil keys are absent from the official aggregated connection table. They are observed raw exceptions, not a biological inference. Their 48-point total accounts numerically for the global raw-versus-aggregated count gap, but does not establish full pairwise equality for every other connection. Keep the published CSR unchanged."
+}

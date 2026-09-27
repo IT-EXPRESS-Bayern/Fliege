@@ -1,0 +1,219 @@
+{
+  "paper": "https://doi.org/10.1038/s41586-025-09029-4",
+  "repository": "https://github.com/TuragaLab/flybody",
+  "commit": "d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+  "code_license": "Apache-2.0",
+  "code_files": [
+    {
+      "path": "github/LICENSE",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "github/README.md",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/README.md",
+      "bytes": 6615,
+      "git_blob_sha1": "4b14a6cec005665fc5c6b992ba2c3fbf28be2df7",
+      "sha256": "de77eb75185842f298e6dad6f26dd372ff1555465dd16f759d8b20e8a0a516f0"
+    },
+    {
+      "path": "github/flybody/fly_envs.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/fly_envs.py",
+      "bytes": 13859,
+      "git_blob_sha1": "08a5aec0ae5d3145dabfaf45b0c4a0a12066808f",
+      "sha256": "0c520d4ae2daa051b838dafa7ef595fc260a035c1b7516fd4c0afdb4c231e781"
+    },
+    {
+      "path": "github/flybody/fruitfly/assets/fruitfly.xml",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/fruitfly/assets/fruitfly.xml",
+      "bytes": 65787,
+      "git_blob_sha1": "58fb7c74376005afa9aeb2908c28f8b5e977762b",
+      "sha256": "d14946fd0311025ecca70c8eeb5de80e1fe18700d3072be37ecbb18d33d80fd8"
+    },
+    {
+      "path": "github/flybody/fruitfly/assets/floor.xml",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/fruitfly/assets/floor.xml",
+      "bytes": 572,
+      "git_blob_sha1": "b2bf705c8e822897548d7eaa6bb64bb07a63f738",
+      "sha256": "1490751ff170d089b8882aa4972778b64bcf56f6d39b0e87029156dcf0452019"
+    },
+    {
+      "path": "github/flybody/fruitfly/fruitfly.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/fruitfly/fruitfly.py",
+      "bytes": 29784,
+      "git_blob_sha1": "aacf41c173219e3423ba86428e4a980e5989a978",
+      "sha256": "a9301c0a5b40ab120af0f83ebfcbf90ca416813ef0cdf6cbb96ac8a0f65fb810"
+    },
+    {
+      "path": "github/flybody/tasks/walk_imitation.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/tasks/walk_imitation.py",
+      "bytes": 8899,
+      "git_blob_sha1": "dcf9e04a8a33a9ebd9493f70eaec6a94e5811f2f",
+      "sha256": "6e155c1007de189845827f3c4db2d2572f7c377cef720776e1efd9c7b1a9d253"
+    },
+    {
+      "path": "github/flybody/tasks/flight_imitation.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/tasks/flight_imitation.py",
+      "bytes": 10412,
+      "git_blob_sha1": "39a36a2a14366e40b3630a01303ec1ae2c4cf64e",
+      "sha256": "57d74f16eeaf78a980ee184f69327bc57b839c4d5e9ed4ac7087effcbec3486a"
+    },
+    {
+      "path": "github/flybody/tasks/pattern_generators.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/tasks/pattern_generators.py",
+      "bytes": 9196,
+      "git_blob_sha1": "37324f78c0dda64888aaeeb8694fc192ed748eb7",
+      "sha256": "ea40725fc14708dfca05ec735f60a96ec8408ad227c1c687d3528690233b565a"
+    },
+    {
+      "path": "github/flybody/tasks/trajectory_loaders.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/tasks/trajectory_loaders.py",
+      "bytes": 11671,
+      "git_blob_sha1": "ca069339d0ff6a99e3f8f514e17bcfc0c9897cff",
+      "sha256": "6b6731fab9b57a9c0ad90a46d6f987f05668fe3586107da96d109a9be8338a46"
+    },
+    {
+      "path": "github/flybody/tasks/rewards.py",
+      "url": "https://raw.githubusercontent.com/TuragaLab/flybody/d015e9bfe441bd90ae431bac24c55cb74bdbce26/flybody/tasks/rewards.py",
+      "bytes": 4037,
+      "git_blob_sha1": "7d6b78f994813514c99ada457f1c7591db5eccb7",
+      "sha256": "8b12d060071196c290d775a305bd01bd8962b9ae81f277ed40a0f64b56b619d3"
+    }
+  ],
+  "dataset": "10.25378/janelia.25309105.v4",
+  "dataset_url": "https://api.figshare.com/v2/articles/25309105",
+  "dataset_version": 4,
+  "dataset_license": {
+    "value": 6,
+    "name": "GPL 3.0+",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "dataset_total_files": 7,
+  "downloaded_data_files": [
+    {
+      "path": "figshare/trained-fly-policies.zip",
+      "url": "https://ndownloader.figshare.com/files/44815195",
+      "figshare_file_id": 44815195,
+      "bytes": 6537720,
+      "published_md5": "12934d5a1c60631a710bc2b6d297d3ce",
+      "sha256": "2d9937c9af2baafad1690c1b318791bde417b4d26dd96d4385ab6723d5d58582",
+      "archive_members": [
+        {
+          "name": "flight/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "flight/assets/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "flight/saved_model.pb",
+          "bytes_uncompressed": 92740
+        },
+        {
+          "name": "flight/variables/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "flight/variables/variables.data-00000-of-00001",
+          "bytes_uncompressed": 662096
+        },
+        {
+          "name": "flight/variables/variables.index",
+          "bytes_uncompressed": 800
+        },
+        {
+          "name": "vision-bumps/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-bumps/assets/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-bumps/saved_model.pb",
+          "bytes_uncompressed": 111365
+        },
+        {
+          "name": "vision-bumps/variables/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-bumps/variables/variables.data-00000-of-00001",
+          "bytes_uncompressed": 655114
+        },
+        {
+          "name": "vision-bumps/variables/variables.index",
+          "bytes_uncompressed": 1366
+        },
+        {
+          "name": "vision-trench/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-trench/assets/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-trench/saved_model.pb",
+          "bytes_uncompressed": 111369
+        },
+        {
+          "name": "vision-trench/variables/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "vision-trench/variables/variables.data-00000-of-00001",
+          "bytes_uncompressed": 655114
+        },
+        {
+          "name": "vision-trench/variables/variables.index",
+          "bytes_uncompressed": 1366
+        },
+        {
+          "name": "walking/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "walking/assets/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "walking/saved_model.pb",
+          "bytes_uncompressed": 110102
+        },
+        {
+          "name": "walking/variables/",
+          "bytes_uncompressed": 0
+        },
+        {
+          "name": "walking/variables/variables.data-00000-of-00001",
+          "bytes_uncompressed": 4919480
+        },
+        {
+          "name": "walking/variables/variables.index",
+          "bytes_uncompressed": 924
+        }
+      ]
+    },
+    {
+      "path": "figshare/dataset_fly-grooming-poses.zip",
+      "url": "https://ndownloader.figshare.com/files/52159823",
+      "figshare_file_id": 52159823,
+      "bytes": 314449,
+      "published_md5": "e29d7a0ee10a753eb986fca159172cd0",
+      "sha256": "bfd2fb6f7c7f4c0c0e230985e0434f304d5608a6a6cff01b54e6ceaacf676587",
+      "archive_members": [
+        {
+          "name": "fly-grooming-poses.pkl",
+          "bytes_uncompressed": 344919
+        }
+      ]
+    }
+  ],
+  "model_scope": "Body: 67 rigid components, 102 degrees of freedom. Policies are separately trained; no validated FAFB v783 root-ID to muscle/joint mapping is supplied.",
+  "excluded": "Large confocal stack, walking imitation dataset, flight imitation dataset, visualization archive and flight-controller checkpoint archive were not downloaded.",
+  "asset_note": "The checked-in fruitfly.xml refers to meshes/other assets not included in this compact source packet and is not standalone runnable."
+}

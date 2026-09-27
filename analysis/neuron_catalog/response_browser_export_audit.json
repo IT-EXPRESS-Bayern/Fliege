@@ -1,0 +1,83 @@
+{
+  "schema": "fly.response-browser-export-audit.v1",
+  "status": "passed",
+  "output": "app/data/neuron_response_profiles.json",
+  "output_sha256": "2dc7d89d36b110df323c7f3f2eabc3f6ac378f67c28280cbf1549631b57996e0",
+  "output_bytes": 512184,
+  "profiles_sha256": "40b072940f40111b0c88b07073432f13eb32f29ecfb017df5ad2c6729032b1c9",
+  "source": {
+    "file": "analysis/neuron_catalog/named_model_responses.csv",
+    "sha256": "dee6998d7bb3f939bf2405e864b33f8c61d0d3f6b5a834c553a53e067e0ab60a"
+  },
+  "provenance_inputs": [
+    {
+      "file": "analysis/neuron_assays/model_response_profiles.csv",
+      "sha256": "e5fc3663d55de4c82e73f8579736e10e67475d6b968d14d52d23cdf4fc2c729e"
+    },
+    {
+      "file": "analysis/neuron_assays/neuron_spike_counts.csv.gz",
+      "sha256": "a924943fe68332db25cbf82c5f6ece4d9280d712c946cbd5f64e27b6c236b74a"
+    },
+    {
+      "file": "analysis/neuron_assays/summary.json",
+      "sha256": "295090b261d835b4d06201a670d115492e28fd31e0a9a3f6f4c71666a0342355"
+    },
+    {
+      "file": "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+      "sha256": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be"
+    },
+    {
+      "file": "analysis/neuron_catalog/catalog_139255.parquet",
+      "sha256": "50bff0faa0fe991ec0f0197ba67f29ff210cc20f07791ec9101c699b94ae28e1"
+    }
+  ],
+  "exported_roots": 7048,
+  "catalog_roots": 139255,
+  "implicit_zero_profile_roots": 132207,
+  "checked_numeric_cells": 126864,
+  "reference_totals": {
+    "jo_ce": {
+      "total_spikes": 61801,
+      "forced_input_spikes": 4140,
+      "non_forced_spikes": 57661,
+      "roots_with_spikes": 5153
+    },
+    "jo_f": {
+      "total_spikes": 8286,
+      "forced_input_spikes": 3600,
+      "non_forced_spikes": 4686,
+      "roots_with_spikes": 556
+    },
+    "jo_all": {
+      "total_spikes": 56942,
+      "forced_input_spikes": 8700,
+      "non_forced_spikes": 48242,
+      "roots_with_spikes": 3360
+    },
+    "sugar": {
+      "total_spikes": 15690,
+      "forced_input_spikes": 1200,
+      "non_forced_spikes": 14490,
+      "roots_with_spikes": 1142
+    },
+    "water": {
+      "total_spikes": 5816,
+      "forced_input_spikes": 1080,
+      "non_forced_spikes": 4736,
+      "roots_with_spikes": 481
+    },
+    "bitter": {
+      "total_spikes": 2187,
+      "forced_input_spikes": 1200,
+      "non_forced_spikes": 987,
+      "roots_with_spikes": 91
+    }
+  },
+  "checks": {
+    "all_7048_profiles_exactly_match_sources": true,
+    "all_ids_exact_catalog_members": true,
+    "all_six_trials_complete_600_steps": true,
+    "all_raw_reference_active_roots_included": true,
+    "all_six_network_spike_totals_reconciled": true
+  }
+}

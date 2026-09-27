@@ -1,0 +1,42 @@
+{
+  "record": "https://zenodo.org/records/17030629",
+  "paper": "https://doi.org/10.1038/s41586-024-07953-5",
+  "related_parts_list": "https://doi.org/10.1038/s41586-024-07981-1",
+  "code": "https://github.com/hsseung/OpticLobe.jl",
+  "version": "1.0",
+  "scope_note": "Compact derived tables only; the 212 MB connection file is omitted because the original v783 graph is already local. Do not assume older Zenodo or newer OpticLobe.jl default synapse versions have identical counts.",
+  "files": [
+    {
+      "file": "cell_stats.csv.gz",
+      "url": "https://zenodo.org/api/records/17030629/files/cell_stats.csv.gz/content",
+      "bytes": 2526548,
+      "md5": "a79d4875e2b80e51d1269dcb86dd8743",
+      "sha256": "bd5879e1b5df964bea2f3ca5316348d4276ce2ccaac283f0e36583c04fbd3d8e",
+      "verified_against_zenodo": true
+    },
+    {
+      "file": "visual_neuron_types.csv.gz",
+      "url": "https://zenodo.org/api/records/17030629/files/visual_neuron_types.csv.gz/content",
+      "bytes": 248706,
+      "md5": "f1870fc7c2bbfe7b99b869fdb83cf7ff",
+      "sha256": "4d6aee4af9f0aed3098a4eb91163508a61ded6363a3c441a7d50a5f6fcf5c366",
+      "verified_against_zenodo": true
+    },
+    {
+      "file": "classification.csv.gz",
+      "url": "https://zenodo.org/api/records/17030629/files/classification.csv.gz/content",
+      "bytes": 1438155,
+      "md5": "6200e3f2016e113a829c92ecdeb4ac9c",
+      "sha256": "cfd265c5b650df0caaf8b6d02386c9ec53f3c0029102430cf2763d5b40ee6f7d",
+      "verified_against_zenodo": true
+    },
+    {
+      "file": "neurons.csv.gz",
+      "url": "https://zenodo.org/api/records/17030629/files/neurons.csv.gz/content",
+      "bytes": 1679884,
+      "md5": "f60333e9e4124160b9b203b1712a6f91",
+      "sha256": "6a6b3759e635f0f35a677d169052362131ec61d95f55919298b55c43fce4e719",
+      "verified_against_zenodo": true
+    }
+  ]
+}

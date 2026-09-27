@@ -1,0 +1,16 @@
+{
+  "banc_reviewed_matched_fafb_ids": 34,
+  "ids_with_princeton_filtered_same_fafb_candidate_pair": 9,
+  "ids_with_princeton_unfiltered_same_fafb_candidate_pair": 33,
+  "ids_with_buhmann_released_raw_call_any_partner": 12,
+  "ids_with_buhmann_raw_a_two_proofread_partner_exception": 0,
+  "ids_with_buhmann_raw_call_to_unproofread_partner": 12,
+  "ids_with_valid_internal_fafb_type_hypothesis": 7,
+  "ids_with_both_princeton_filtered_and_internal_type_hypothesis": 2,
+  "banc_priority_1_type_patterns": 79,
+  "priority_1_patterns_with_same_fafb_princeton_exact_partner_type_label": 1,
+  "priority_1_patterns_with_internal_fafb_homolog_type_label_agreement": 5,
+  "per_id_summary_csv": "banc_34_fafb_cross_source_summary.csv",
+  "priority_1_pattern_csv": "banc_priority1_cross_source_79_type_patterns.csv",
+  "interpretation": "Princeton is an alternative automated detector on the FAFB specimen; BANC is a separate specimen. The Princeton coverage column Buhmann_raw_A_points counts only the 21 raw two-proofread exception keys, whereas points_for_616_ids_without_proofread_edges.csv includes published raw calls to unproofread segments. These and internal FAFB homolog patterns and BANC v2/v3 patterns are not additive measurements. Type-label overlap is only a search/prioritization clue. No new exact FAFB edge is asserted."
+}

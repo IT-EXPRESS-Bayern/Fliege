@@ -1,0 +1,17 @@
+{
+  "source_rows": 255,
+  "source_rows_matched_with_evidence": 167,
+  "candidate_rows": 17150,
+  "unique_fafb_root_ids": 11567,
+  "unique_curated_types": 125,
+  "match_basis_counts": {
+    "FAFB hemibrain_type exact": 7597,
+    "FAFB cell_type exact": 9553
+  },
+  "evidence_value_counts": {
+    "1": 17150
+  },
+  "meaning": "Type-level candidate projected to exact v783 annotation names; each original paper used other flies and methods. Positive/negative evidence may conflict. No receptor expression or modulation strength is inferred.",
+  "source": "https://github.com/flyconnectome/drosophila_neuropeptides",
+  "file": "fafb_neuropeptide_type_candidates.csv"
+}

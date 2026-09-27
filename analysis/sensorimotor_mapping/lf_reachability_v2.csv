@@ -1,0 +1,13 @@
+detector,subtype,motor_action,min_edge_count,paths,sensors,motor_roots,direct_paths,two_edge_paths
+v2,claw,flex,1,3724,27,17,17,3707
+v2,claw,flex,5,395,24,16,0,395
+v2,claw,extend,1,585,27,2,12,573
+v2,claw,extend,5,58,22,2,3,55
+v2,hook,flex,1,2179,27,17,15,2164
+v2,hook,flex,5,148,20,16,1,147
+v2,hook,extend,1,250,27,2,3,247
+v2,hook,extend,5,12,6,2,0,12
+v2,club,flex,1,511,46,17,1,510
+v2,club,flex,5,6,2,3,0,6
+v2,club,extend,1,43,14,2,0,43
+v2,club,extend,5,0,0,0,0,0

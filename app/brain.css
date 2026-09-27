@@ -1,0 +1,45 @@
+.top-return { color: #b6dcb6; font: 10px 'Cascadia Code', Consolas, ui-monospace, monospace; letter-spacing: .1em; text-decoration: none; }
+.top-return:hover { text-decoration: underline; }
+.brain-intro { display: flex; align-items: end; justify-content: space-between; gap: 28px; padding: 49px 0 32px; }
+.brain-intro p { color: #a2b5b5; font-size: 14px; line-height: 1.6; max-width: 630px; margin: 0; }
+.brain-intro h1 { margin-bottom: 17px; }
+.anchor-badge { border: 1px solid #6b856e; background: #19332c; padding: 16px 20px; min-width: 220px; margin-bottom: 5px; }
+.anchor-badge strong { display: block; color: #e3efdb; font-size: 23px; font-weight: 500; }
+.anchor-badge span { color: #a9c0b0; font-size: 11px; }
+.brain-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 278px; gap: 14px; min-height: 610px; }
+.brain-viewport-wrap { min-height: 610px; border: 1px solid #2d4d56; background: #091d27; overflow: hidden; position: relative; }
+.brain-viewport { position: absolute; inset: 0; touch-action: none; }
+.brain-viewport canvas { display: block; width: 100%; height: 100%; }
+.brain-topline, .brain-bottomline { position: absolute; left: 23px; right: 23px; color: #a2c2bc; pointer-events: none; font: 10px 'Cascadia Code', Consolas, ui-monospace, monospace; letter-spacing: .07em; }
+.brain-topline { top: 19px; }
+.brain-topline span { color: #557b7b; }
+.brain-bottomline { bottom: 16px; display: flex; justify-content: space-between; gap: 12px; }
+.brain-error { position: absolute; inset: 0; display: grid; place-items: center; color: #e4c6a7; background: #0b1d27dd; }
+.brain-error[hidden] { display: none; }
+.brain-sidebar { background: #0c2029; border: 1px solid #2d4d56; padding: 23px 22px; }
+.brain-stat { margin: 28px 0 21px; }
+.brain-stat > span, .brain-selected > span { display: block; color: #84a1a2; font: 10px 'Cascadia Code', Consolas, ui-monospace, monospace; letter-spacing: .08em; }
+.brain-stat strong { display: block; font-size: 22px; font-weight: 500; margin: 5px 0 3px; color: #dceade; }
+.brain-stat small, .brain-selected small { color: #85a2a3; font-size: 11px; line-height: 1.45; }
+.brain-load-button { width: 100%; padding: 11px 8px; border: 1px solid #80a57e; background: #244435; color: #def0d8; font-size: 11px; text-align: center; }
+.brain-load-button:hover:not(:disabled) { background: #31553f; }
+.brain-load-button:disabled { cursor: wait; opacity: .57; }
+.brain-load-note { color: #819f9f; font-size: 10px; line-height: 1.45; margin: 8px 0 19px; }
+.brain-legend-head { display: flex; justify-content: space-between; gap: 5px; color: #bad8c1; font: 10px 'Cascadia Code', Consolas, ui-monospace, monospace; letter-spacing: .08em; }
+.brain-legend-head span { color: #648e91; }
+.brain-legend { display: grid; gap: 10px; margin: 17px 0 22px; }
+.brain-legend label { display: flex; align-items: center; gap: 9px; cursor: pointer; color: #c2d3ce; font-size: 11px; }
+.brain-legend input { accent-color: #add39f; margin: 0; }
+.legend-swatch { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.legend-count { color: #739697; margin-left: auto; font-family: 'Cascadia Code', Consolas, ui-monospace, monospace; }
+.brain-selected { margin-top: 19px; }
+.brain-selected strong { display: block; color: #dceade; font: 13px 'Cascadia Code', Consolas, ui-monospace, monospace; overflow-wrap: anywhere; margin: 8px 0 5px; }
+.brain-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+.brain-notes > div { border: 1px solid #2d4d56; background: #0c2029; padding: 20px 23px; }
+.brain-notes .note-emphasis { border-color: #597760; background: #193129; }
+.brain-notes span { font: 10px 'Cascadia Code', Consolas, ui-monospace, monospace; letter-spacing: .1em; color: #bdd5b8; }
+.brain-notes p { color: #a1b9b4; font-size: 12px; line-height: 1.65; margin: 10px 0 0; }
+.brain-notes strong { color: #e1eede; font-weight: 600; }
+.brain-notes a { color: #bcdda8; }
+@media (max-width: 1000px) { .brain-workspace { grid-template-columns: 1fr; } .brain-sidebar { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 22px; } .brain-sidebar .panel-top { grid-column: 1 / -1; } .brain-legend, .brain-legend-head { grid-column: 1; } .brain-selected { grid-column: 2; } }
+@media (max-width: 700px) { .brain-intro { display: block; padding: 36px 0 23px; } .anchor-badge { margin-top: 21px; } .brain-viewport-wrap { min-height: 500px; } .brain-bottomline { font-size: 9px; } .brain-bottomline span:last-child { display: none; } .brain-sidebar { display: block; } .brain-notes { grid-template-columns: 1fr; } }

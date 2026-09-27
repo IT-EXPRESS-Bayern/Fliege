@@ -1,0 +1,57 @@
+{
+  "schema": "fly.publication-license-review.v1",
+  "reviewed_date": "2026-09-27",
+  "status": "source notices recorded; not a blanket relicensing of external content",
+  "sources": [
+    {
+      "component": "Three.js",
+      "license": "MIT",
+      "evidence": "app/vendor/THREE-LICENSE.txt",
+      "publication": "include library and existing notice"
+    },
+    {
+      "component": "Shiu original code",
+      "license": "MIT",
+      "evidence": "references/shiu-source/LICENSE",
+      "publication": "retain notice; full copied source excluded"
+    },
+    {
+      "component": "FlyWire 10676866",
+      "license": "CC-BY-4.0",
+      "evidence_url": "https://zenodo.org/api/records/10676866",
+      "evidence_field": "metadata.license.id=cc-by-4.0",
+      "publication": "derived results and source metadata; large originals downloaded separately"
+    },
+    {
+      "component": "BANC v888",
+      "license": "CC-BY-4.0",
+      "evidence": "data/research_sources/other/banc_2026/provenance.json",
+      "evidence_url": "https://doi.org/10.7910/DVN/7WTH1N",
+      "publication": "derived results with source attribution"
+    },
+    {
+      "component": "Pugliese pinned repository",
+      "license_statement": "README declares MIT; no separate LICENSE in pinned root tree",
+      "commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+      "evidence_url": "https://github.com/smpuglie/Pugliese_2026",
+      "tree_evidence_url": "https://api.github.com/repos/smpuglie/Pugliese_2026/contents?ref=10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+      "publication": "small matrix/tables/configurations with citation; original Python sources referenced by URL and SHA only"
+    },
+    {
+      "component": "Pugliese original run archive 22260924",
+      "license": "CC-BY-4.0",
+      "evidence_url": "https://zenodo.org/api/records/22260924",
+      "evidence_field": "metadata.license.id=cc-by-4.0",
+      "publication": "selected original configuration and replicate-0 parameter extract with selection provenance"
+    }
+  ],
+  "own_project_license": "Original code MIT; original documentation CC-BY-4.0. LICENSES.md defines scope; third-party material keeps its own terms.",
+  "excluded_without_relicensing": [
+    "protected Data runtime and built distribution",
+    "third-party article PDFs",
+    "third-party downloaded source trees",
+    "large original datasets and full binary brain graphs",
+    "personal cloud handoff and session status"
+  ],
+  "current_full_review": "docs/publication/REUSE_AND_LICENSES.md"
+}

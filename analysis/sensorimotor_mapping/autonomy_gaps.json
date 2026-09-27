@@ -1,0 +1,74 @@
+{
+  "schema": "fly.autonomy-gaps.v1",
+  "as_of": "2026-09-27",
+  "scope": "Biological closure from sensors through neural dynamics to muscles/body/internal states. This is not a claim of exhaustive knowledge.",
+  "literature_ledger": "analysis/motor_control_sources.json",
+  "anatomy_audit": "analysis/sensorimotor_mapping/audit.json",
+  "status": "partial_anatomical_reconstruction_with_unvalidated_physiological_and_sensor_tuning_parameters",
+  "gaps": [
+    {
+      "id": "autonomy-gap-1",
+      "domain": "Sensor→Motor-Anatomie",
+      "known": "Exakte BANC-v888-LF-Pfade, zwei getrennte Detektoren",
+      "unknown": "Fehlende/fehlerhafte Rekonstruktionen; höhere und elektrische Wege nicht vollständig erfasst",
+      "validation_needed": "Gleiche Pfadentscheidung bei Versionswechsel und gezielter Pfadabschaltung"
+    },
+    {
+      "id": "autonomy-gap-2",
+      "domain": "Propriozeptive Eingänge",
+      "known": "Winkel-, Bewegungs- und Vibrationsgruppen aus Literatur",
+      "unknown": "Per-Root-Polarität, Kennlinien, Latenz, Adaptation und sensorischer Gain",
+      "validation_needed": "Richtungskennlinie mit Original-Tuningdaten eindeutig verknüpfen; bis dahin beide Annahmen prüfen"
+    },
+    {
+      "id": "autonomy-gap-3",
+      "domain": "Neuronendynamik",
+      "known": "Struktur und teilweise kuratierter Transmitter",
+      "unknown": "Rezeptoren, Zeitkonstanten, Membranwerte, nichtspikende Zellen, Neuromodulation",
+      "validation_needed": "Unabhängige Aktivitäts-/Perturbationsdaten vorhersagen"
+    },
+    {
+      "id": "autonomy-gap-4",
+      "domain": "Motor→Muskel",
+      "known": "Bein, Muskelaktion und einige Fast/Slow-Typnamen",
+      "unknown": "NMJ-Dynamik, Kraft, Ermüdung, Momentarme und Rekrutierung der meisten Einheiten",
+      "validation_needed": "Kraft-/Winkelantwort je Motorpool gegen gemessene Kinematik testen"
+    },
+    {
+      "id": "autonomy-gap-5",
+      "domain": "Körper/Umwelt",
+      "known": "Bewegliche Geometrie und gesondertes Gelenkmodell",
+      "unknown": "Biologisch kalibrierte Kontakt-/Lastsensorik, Haftung, Sehnen und Mehrgelenkkopplung",
+      "validation_needed": "Belastungsantwort und stabiler Gang ohne direkt vorgeschriebene Rumpfbewegung"
+    },
+    {
+      "id": "autonomy-gap-6",
+      "domain": "Sechsbeiniger Gang",
+      "known": "Kandidaten für CPG/DN-Kontrolle und Beinrückmeldung",
+      "unknown": "Interbeinphase, Gangwechsel, mechanische Kopplung",
+      "validation_needed": "Stabile Fortbewegung, Wendung und Hindernisreaktion über mehrere Anfangszustände"
+    },
+    {
+      "id": "autonomy-gap-7",
+      "domain": "Eigenantrieb/Zustand",
+      "known": "Literatur zu zustandsabhängigen DN- und Sensorwirkungen",
+      "unknown": "Innere Zustandsdynamik, Hunger/Sättigung, Ruhe, Lernregeln und deren Parametersätze",
+      "validation_needed": "Verhalten aus wechselnden internen Zuständen und Sinneseingängen statt direkt gesetzter Bewegungskommandos"
+    },
+    {
+      "id": "autonomy-gap-8",
+      "domain": "Fressen",
+      "known": "Identifizierte Geschmacks-/Fresspfade und neue Motorsequenzliteratur",
+      "unknown": "Periphere Schluck-/Pumpmechanik, tatsächliche Nahrungsaufnahme und Rückmeldung zum Energiezustand",
+      "validation_needed": "Geschlossene Aufnahme→Sättigung→Verhaltensänderung mit getrennt geprüften Modellannahmen"
+    },
+    {
+      "id": "autonomy-gap-9",
+      "domain": "Andere Sinne/Verhalten",
+      "known": "Annotierte Zellgruppen für mehrere Modalitäten",
+      "unknown": "Vollständige Welt→Rezeptor-Umrechnung, Abgleich von Sehen/Riechen/Tasten; viele Verhaltensprogramme",
+      "validation_needed": "Je Modalität vorab festgelegte Perturbationen und unabhängige Prüfbedingungen"
+    }
+  ],
+  "tuning_polarity_rule": "Unknown individual-root tuning is never assigned by row order, random splitting, or presumed SNpp50/SNpp51 polarity. Model hypotheses must be explicit and tested in both directions."
+}

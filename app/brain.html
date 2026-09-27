@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07131b" />
+    <title>Neuron-Ankerpunkte · Fliege / Lab</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./brain.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand"><span class="brand-icon">✳</span><span>FLIEGE<span class="brand-muted"> / LAB</span></span></div>
+        <a class="top-return" href="./index.html">← ZUR ARENA</a>
+      </header>
+
+      <section class="brain-intro">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> FLYWIRE / ANNOTATIONEN V2.1.0</div>
+          <h1>Neuron-Ankerpunkte.<br /><em>Gemessene Orte im Raum.</em></h1>
+          <p>Jeder Punkt stammt aus einer <code>pos_x/y/z</code>-Zeile der gepinnten FlyWire-Annotation. Die Koordinaten sind von 4 × 4 × 40 nm pro Voxel in Mikrometer umgerechnet.</p>
+        </div>
+        <div class="anchor-badge"><strong id="point-count">WIRD GELADEN</strong><span>aus 139.255 verfügbaren Ankern</span></div>
+      </section>
+
+      <section class="brain-workspace" aria-label="Drehbare 3D-Punktansicht">
+        <div class="brain-viewport-wrap">
+          <div id="brain-scene" class="brain-viewport" aria-label="Drehbare 3D-Ansicht gemessener Neuron-Ankerpunkte"></div>
+          <div class="brain-topline">EIN PUNKT = EIN GEMESSENER ANKER <span>/</span> KEINE GEZEICHNETEN VERBINDUNGEN</div>
+          <div class="brain-bottomline"><span>ZIEHEN: DREHEN &nbsp;·&nbsp; MAUSRAD: ZOOM &nbsp;·&nbsp; KLICK: PUNKT WÄHLEN</span><span>X / Y / Z IN µm</span></div>
+          <div id="brain-error" class="brain-error" hidden>Die Ankerpunkte konnten nicht geladen werden.</div>
+        </div>
+        <aside class="brain-sidebar">
+          <div class="panel-top"><span>DATENAUSZUG</span><span class="panel-no">02 / 03</span></div>
+          <div class="brain-stat"><span>ANKERPUNKTE IM BILD</span><strong id="shown-count">–</strong><small id="sample-detail">Reproduzierbare Auswahl</small></div>
+          <button id="toggle-all" class="brain-load-button" type="button" aria-pressed="false" disabled>Alle 139.255 Anker laden · 6,6 MB</button>
+          <p class="brain-load-note" id="load-note">Die schnelle Stichprobe lädt zuerst. Die Vollansicht kann auf schwächeren Geräten langsamer sein.</p>
+          <div class="brain-stat"><span>QUELLKOORDINATEN</span><strong>pos_x / pos_y / pos_z</strong><small>4 × 4 × 40 nm pro Voxel</small></div>
+          <div class="divider"></div>
+          <div class="brain-legend-head">SUPER_CLASS <span>FARBFILTER</span></div>
+          <div id="brain-legend" class="brain-legend">Klassifikation wird geladen …</div>
+          <div class="divider"></div>
+          <div class="brain-selected"><span>AUSGEWÄHLTER ANKER</span><strong id="selected-id">Keiner</strong><small id="selected-detail">Klicke einen Punkt in der 3D-Ansicht.</small></div>
+        </aside>
+      </section>
+
+      <section class="brain-notes">
+        <div class="note-emphasis"><span>WAS DIE PUNKTE ZEIGEN</span><p><code>pos_x/y/z</code> markieren jeweils einen räumlichen Anker für ein annotiertes Neuron. Die Ansicht zeigt wahlweise eine Stichprobe oder alle 139.255 Ankerpunkte. Sie ist <strong>keine vollständige Hirnform</strong>, enthält keine Neuriten, Zellkörperumrisse oder synaptischen Verbindungen und beschreibt keine Gehirnfunktion.</p></div>
+        <div><span>WAS NOCH FEHLT</span><p>Neuron-Skelette und Morphologie stammen aus einem separaten <a href="https://zenodo.org/records/10877326" target="_blank" rel="noopener noreferrer">Zenodo-Datensatz 10877326 ↗</a>. Die Ankerpunkte kommen aus den <a href="https://github.com/flyconnectome/flywire_annotations/releases/tag/v2.1.0" target="_blank" rel="noopener noreferrer">gepinnten Annotationen v2.1.0 ↗</a>.</p></div>
+      </section>
+      <footer class="footer"><span>ANATOMISCHE ANKER <span class="footer-muted">/</span> µm</span><span>ROOT-IDs BLEIBEN EXAKTE ZEICHENFOLGEN.</span></footer>
+    </main>
+    <script type="module" src="./brain.js"></script>
+  </body>
+</html>

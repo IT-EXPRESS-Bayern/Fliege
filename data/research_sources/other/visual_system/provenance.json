@@ -1,0 +1,155 @@
+{
+  "title": "Neuronal parts list and wiring diagram for a visual system",
+  "paper": "https://doi.org/10.1038/s41586-024-07981-1",
+  "repository": "https://github.com/murthylab/visual-system-parts-list",
+  "commit": "0d8574d46627ce7fadd968a3c5d602e837325373",
+  "source_version": "FlyWire FAFB materialization 783",
+  "license": "Apache-2.0 (repository LICENSE)",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/README.md",
+      "bytes": 758,
+      "git_blob_sha1": "589c610fb54522760596d1e7cd5b59fb5b6e7575",
+      "sha256": "88353b8220619c4da673f64a40ce95dde610c11ebbc3735276d5c4e5a1fbf219"
+    },
+    {
+      "path": "data/README.md",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/README.md",
+      "bytes": 5036,
+      "git_blob_sha1": "89c7346f3bf3361b7fd5321c5abd891d8b396d37",
+      "sha256": "28dcaf0cd180b17696b6a73fb07c012118a0902bdb83a07c84a0fa888db652f3"
+    },
+    {
+      "path": "data/neuron_table.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/neuron_table.csv",
+      "bytes": 8180741,
+      "git_blob_sha1": "ab514d5fd0d976178d7810e35ca2137bad1b8f52",
+      "sha256": "8d1de464db0ce17906d5c224d6c1c0db7d4d43259be58a82a8393842d10e4e28"
+    },
+    {
+      "path": "data/ol_intrinsic_types.py",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/ol_intrinsic_types.py",
+      "bytes": 4191,
+      "git_blob_sha1": "2c6053e0bccf48628a984b0423f6ea33abfadb9e",
+      "sha256": "38a79f310bb5c4420d6ae03e945f0816331d45e003b991246a455af8c6f84f70"
+    },
+    {
+      "path": "data/synapse_table_compact_ids_map.csv.gz",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/synapse_table_compact_ids_map.csv.gz",
+      "bytes": 1019011,
+      "git_blob_sha1": "383b397525dba491758512500dc3672d5d11e98a",
+      "sha256": "bb2a01dbaff47d8eb84b2fd2ae5769cb62aafaa6936fb01cb0a54b5b39461efa"
+    },
+    {
+      "path": "data/type_to_type_connection_and_synapse_counts.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/type_to_type_connection_and_synapse_counts.csv",
+      "bytes": 2159275,
+      "git_blob_sha1": "5183755ecbb41d5c8cee1a4a2d99b8eecba75c52",
+      "sha256": "215cf7a65895f9f84768db34052964542f7ebbe986ce9864b7e9ed2976c55e38"
+    },
+    {
+      "path": "data/left_vs_right_super_classes_boundary.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/left_vs_right_super_classes_boundary.csv",
+      "bytes": 188,
+      "git_blob_sha1": "a0b185311daffd742b299fa75540b81301104a8f",
+      "sha256": "b73a7c2966e11e2be2bbff3ab9e24b45144237746b988f4f415e038c451ceb66"
+    },
+    {
+      "path": "data/left_vs_right_super_classes_intrinsic.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/left_vs_right_super_classes_intrinsic.csv",
+      "bytes": 92,
+      "git_blob_sha1": "fbb82ee37cbd7314eb47c8970fce26fd7b79df3c",
+      "sha256": "a1c53fc251daa4cba5dc9ad8f9355e4c6248c99fab9e1aa8ca8626a1aa521179"
+    },
+    {
+      "path": "data/left_vs_right_types_boundary.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/left_vs_right_types_boundary.csv",
+      "bytes": 7275,
+      "git_blob_sha1": "ea8cc526abafc1c5556e84f51126fd678f5948e2",
+      "sha256": "679ec1f01d6bc085547058c11f20cb7e63ea36c5ef8757871108fb4f2b7b6dd4"
+    },
+    {
+      "path": "data/left_vs_right_types_intrinsic.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/data/left_vs_right_types_intrinsic.csv",
+      "bytes": 3638,
+      "git_blob_sha1": "042e9955f71a8a9a336f2a970c8bbaea6e7b6358",
+      "sha256": "18dd825d547d71f2367e165f9f1656c5dcf7474a43dd9870cbf2eb05706c3348"
+    },
+    {
+      "path": "figures/sup_data_1.csv",
+      "url": "https://raw.githubusercontent.com/murthylab/visual-system-parts-list/0d8574d46627ce7fadd968a3c5d602e837325373/figures/sup_data_1.csv",
+      "bytes": 51318,
+      "git_blob_sha1": "9d2e812c41ee9f1a475b8f5b095e8cf0658178b3",
+      "sha256": "8364556ddd57f8bdda82d8c6387bb600347c0af4e9af34ec414190e05cf52155"
+    }
+  ],
+  "audit": {
+    "neuron_table_rows": 139255,
+    "neuron_table_columns": [
+      "cell ID",
+      "category",
+      "resolved type",
+      "side (cell body)",
+      "side (most synapses)",
+      "% syns left lobe",
+      "% syns right lobe"
+    ],
+    "compact_id_map_rows": 138639,
+    "compact_id_map_columns": [
+      "compact cell ID",
+      "full cell ID (root ID)"
+    ],
+    "type_pair_rows": 72954,
+    "type_pair_columns": [
+      "from type",
+      "to type",
+      "connections total",
+      "connections RHS",
+      "connections LHS",
+      "connections bilateral",
+      "synapses total",
+      "synapses RHS",
+      "synapses LHS",
+      "synapses bilateral"
+    ],
+    "root_id_reference_count": 139255,
+    "neuron_table_id_membership": {
+      "cell ID": {
+        "nonempty": 139255,
+        "long_numeric": 139255,
+        "unique_long_numeric": 139255,
+        "in_v783_root_ids": 139255,
+        "missing_examples": []
+      }
+    },
+    "compact_id_map_id_membership": {
+      "full cell ID (root ID)": {
+        "nonempty": 138639,
+        "long_numeric": 138639,
+        "unique_long_numeric": 138639,
+        "in_v783_root_ids": 138639,
+        "missing_examples": []
+      }
+    },
+    "neuron_ids_exactly_match_official_v783_roots": true,
+    "compact_map_ids_exactly_match_shiu_model_nodes": true,
+    "neuron_category_counts": {
+      "right intrinsic": 43170,
+      "left intrinsic": 43543,
+      "excluded": 44144,
+      "left boundary": 4044,
+      "right boundary": 4096,
+      "bilateral": 258
+    },
+    "unique_resolved_types": 8581
+  },
+  "caveat": "Photoreceptor synapses were underdetected in v783; paper treats their connectivity qualitatively."
+}

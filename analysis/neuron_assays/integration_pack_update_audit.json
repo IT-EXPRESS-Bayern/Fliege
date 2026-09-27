@@ -1,0 +1,10 @@
+{
+  "inputs": 87,
+  "joins": 30,
+  "previous_inputs_preserved": 73,
+  "previous_joins_preserved": 22,
+  "missing_paths": [],
+  "unique_ids": true,
+  "second_run_byte_identical": true,
+  "body_replay_source_hash_matches": true
+}

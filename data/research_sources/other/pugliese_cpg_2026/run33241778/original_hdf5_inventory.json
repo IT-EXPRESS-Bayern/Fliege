@@ -1,0 +1,179 @@
+{
+  "schema": "fly.cpg-original-hdf5-inventory.v1",
+  "sourceURL": "https://zenodo.org/records/22260924/files/DNg100_Stim_BANC_vncOnly.zip?download=1",
+  "zipMember": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/ckpt/neuron_params.h5",
+  "memberArchiveOffset": 8935,
+  "memberBytes": 104442210,
+  "zipCompressionMethod": 0,
+  "memberCrc32Expected": "f76df6e1",
+  "memberCrc32Verified": false,
+  "datasets": {
+    "W": {
+      "metadataSkipped": true,
+      "reason": "Large matrix/mask dataset is not required for first-replicate parameter extraction."
+    },
+    "W_mask": {
+      "metadataSkipped": true,
+      "reason": "Large matrix/mask dataset is not required for first-replicate parameter extraction."
+    },
+    "a": {
+      "shape": [
+        1024,
+        4963
+      ],
+      "dtype": "float32",
+      "chunks": [
+        32,
+        311
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 20328448,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "exc_dn_idxs": {
+      "shape": [
+        0
+      ],
+      "dtype": "float32",
+      "chunks": null,
+      "compression": null,
+      "compressionOptions": null,
+      "logicalBytes": 0,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "exc_in_idxs": {
+      "shape": [
+        0
+      ],
+      "dtype": "float32",
+      "chunks": null,
+      "compression": null,
+      "compressionOptions": null,
+      "logicalBytes": 0,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "fr_cap": {
+      "shape": [
+        1024,
+        4963
+      ],
+      "dtype": "float32",
+      "chunks": [
+        32,
+        311
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 20328448,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "inh_dn_idxs": {
+      "shape": [
+        0
+      ],
+      "dtype": "float32",
+      "chunks": null,
+      "compression": null,
+      "compressionOptions": null,
+      "logicalBytes": 0,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "inh_in_idxs": {
+      "shape": [
+        0
+      ],
+      "dtype": "float32",
+      "chunks": null,
+      "compression": null,
+      "compressionOptions": null,
+      "logicalBytes": 0,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "input_currents": {
+      "shape": [
+        1,
+        1024,
+        4963
+      ],
+      "dtype": "float32",
+      "chunks": [
+        1,
+        32,
+        311
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 20328448,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "mn_idxs": {
+      "shape": [
+        0
+      ],
+      "dtype": "float32",
+      "chunks": null,
+      "compression": null,
+      "compressionOptions": null,
+      "logicalBytes": 0,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "seeds": {
+      "shape": [
+        1024,
+        2
+      ],
+      "dtype": "uint32",
+      "chunks": [
+        1024,
+        2
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 8192,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "tau": {
+      "shape": [
+        1024,
+        4963
+      ],
+      "dtype": "float32",
+      "chunks": [
+        32,
+        311
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 20328448,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    },
+    "threshold": {
+      "shape": [
+        1024,
+        4963
+      ],
+      "dtype": "float32",
+      "chunks": [
+        32,
+        311
+      ],
+      "compression": "gzip",
+      "compressionOptions": 9,
+      "logicalBytes": 20328448,
+      "storedBytes": null,
+      "storageSizeOmittedReason": "Avoid enumerating every compressed chunk for a metadata-only range inspection."
+    }
+  },
+  "metadataRangeBytes": 458752
+}

@@ -1,0 +1,1459 @@
+{
+  "schema": "fly.neuron-body-replay-audit.v1",
+  "generatedAt": "2026-09-27T06:51:14.408Z",
+  "source": "<USER_HOME>\\Documents\\ChatGPT\\Fliege\\app\\data\\neuron_assays.json",
+  "sourceSha256": "8934457e01bedc75c4347a6ad3b868123fe67df5ba07ee2abc02cb37818fe42b",
+  "neuralAssayGeneratedAt": "2026-09-27T06:41:49.529Z",
+  "adapter": {
+    "schema": "fly.assay-body-adapter.v1",
+    "rateWindowMs": 100,
+    "groomingFullScaleHz": 50,
+    "bodyTimeEqualsNeuralTime": true,
+    "biologicalCalibration": false
+  },
+  "trialCount": 42,
+  "checksPass": true,
+  "movingTrials": 8,
+  "zeroMappedSpikeTrials": 34,
+  "positiveTechnicalControl": {
+    "neuralSpikes": null,
+    "durationMs": 2400,
+    "cumulativeJointMotionRadians": 19.230757816416318,
+    "meaning": "Actuator demonstration, excluded from neural trial counts"
+  },
+  "limitations": [
+    "A movement confirms only the specified body adapter, not new biological function.",
+    "No neural feedback from body; no calibrated muscle forces; no left/right interpretation.",
+    "Joint motion metric sums angular changes; it is not measured animal kinematics."
+  ],
+  "results": [
+    {
+      "scenario": "jo_ce",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 15,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 13,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 2,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 2.777777777777778,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 68,
+      "mappedSpikes": 11,
+      "perIdSpikes": {
+        "720575940630907434": 45,
+        "720575940616185531": 10,
+        "720575940629806974": 1,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 12,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 12.592592592592593,
+      "cumulativeJointMotionRadians": 6.2860996594656955,
+      "peakGroomChannel": 0.5,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.2719202621569003e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 40,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 40,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 7.407407407407408,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 6,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 4,
+        "720575940629327659": 2,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 1.1111111111111112,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "upstream_ablated",
+      "condition": "upstream_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 10,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 1,
+        "720575940629327659": 9,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 1.851851851851852,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_ce",
+      "trial": "upstream_sham",
+      "condition": "degree_matched_ablation_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 67,
+      "mappedSpikes": 11,
+      "perIdSpikes": {
+        "720575940630907434": 45,
+        "720575940616185531": 10,
+        "720575940629806974": 1,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 11,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 12.407407407407408,
+      "cumulativeJointMotionRadians": 6.239436089006123,
+      "peakGroomChannel": 0.5,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.2719202621569003e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 3,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 3,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0.5555555555555556,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 54,
+      "mappedSpikes": 16,
+      "perIdSpikes": {
+        "720575940630907434": 36,
+        "720575940616185531": 12,
+        "720575940629806974": 4,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 2,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 10,
+      "cumulativeJointMotionRadians": 6.272062945337026,
+      "peakGroomChannel": 0.6,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.415262216750919e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 36,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 36,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 6.666666666666667,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "upstream_ablated",
+      "condition": "upstream_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 2,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 2,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0.37037037037037035,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_f",
+      "trial": "upstream_sham",
+      "condition": "degree_matched_ablation_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 54,
+      "mappedSpikes": 16,
+      "perIdSpikes": {
+        "720575940630907434": 36,
+        "720575940616185531": 12,
+        "720575940629806974": 4,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 2,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 10,
+      "cumulativeJointMotionRadians": 6.272062945337026,
+      "peakGroomChannel": 0.6,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.415262216750919e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 46,
+      "mappedSpikes": 7,
+      "perIdSpikes": {
+        "720575940630907434": 33,
+        "720575940616185531": 7,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 5,
+        "720575940629327659": 0,
+        "720575940606112940": 1,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 8.518518518518519,
+      "cumulativeJointMotionRadians": 6.29112097318777,
+      "peakGroomChannel": 0.3,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.5700924586837752e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 116,
+      "mappedSpikes": 41,
+      "perIdSpikes": {
+        "720575940630907434": 70,
+        "720575940616185531": 28,
+        "720575940629806974": 13,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 5,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 21.481481481481485,
+      "cumulativeJointMotionRadians": 6.251133286536871,
+      "peakGroomChannel": 1,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.415262216750919e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 68,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 68,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 12.592592592592593,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "upstream_ablated",
+      "condition": "upstream_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 11,
+      "mappedSpikes": 4,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 4,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 7,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 2.037037037037037,
+      "cumulativeJointMotionRadians": 4.437412124843039,
+      "peakGroomChannel": 0.2,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.2412670766236366e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "jo_all",
+      "trial": "upstream_sham",
+      "condition": "degree_matched_ablation_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 114,
+      "mappedSpikes": 39,
+      "perIdSpikes": {
+        "720575940630907434": 69,
+        "720575940616185531": 27,
+        "720575940629806974": 12,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 6,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 21.11111111111111,
+      "cumulativeJointMotionRadians": 6.251521143121552,
+      "peakGroomChannel": 1,
+      "minimumGroundContacts": 4,
+      "maxReachError": 1.5700924586837752e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 37,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 20,
+        "720575940618238523": 17,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 6.851851851851851,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 106,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 51,
+        "720575940618238523": 50,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 5
+      },
+      "meanReadoutHzAllTrial": 19.629629629629633,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "sugar",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 2,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 2,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0.37037037037037035,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 26,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 14,
+        "720575940618238523": 12,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 4.814814814814815,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "water",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "baseline",
+      "condition": "baseline",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "low",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "reference",
+      "condition": "stimulation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "input_ablated",
+      "condition": "input_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "readout_ablated",
+      "condition": "readout_ablation",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    },
+    {
+      "scenario": "bitter",
+      "trial": "input_sham",
+      "condition": "degree_matched_input_sham",
+      "durationMs": 600,
+      "mappedIds": [
+        "720575940616185531",
+        "720575940629806974"
+      ],
+      "allReadoutSpikes": 0,
+      "mappedSpikes": 0,
+      "perIdSpikes": {
+        "720575940630907434": 0,
+        "720575940616185531": 0,
+        "720575940629806974": 0,
+        "720575940660219265": 0,
+        "720575940618238523": 0,
+        "720575940604737708": 0,
+        "720575940629327659": 0,
+        "720575940606112940": 0,
+        "720575940616471052": 0
+      },
+      "meanReadoutHzAllTrial": 0,
+      "cumulativeJointMotionRadians": 0,
+      "peakGroomChannel": 0,
+      "minimumGroundContacts": 6,
+      "maxReachError": 1.1102230246251565e-16,
+      "checks": {
+        "countsAgreeWithNeuralAssay": true,
+        "nullSignalQuiet": true,
+        "finiteGeometry": true,
+        "controlBounded": true
+      }
+    }
+  ]
+}

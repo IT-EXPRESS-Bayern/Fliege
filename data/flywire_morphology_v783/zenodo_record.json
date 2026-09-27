@@ -1,0 +1,182 @@
+{
+  "created": "2024-03-27T11:59:57.480322+00:00",
+  "modified": "2025-08-13T09:59:26.542386+00:00",
+  "id": 10877326,
+  "conceptrecid": "8077334",
+  "doi": "10.5281/zenodo.10877326",
+  "conceptdoi": "10.5281/zenodo.8077334",
+  "doi_url": "https://doi.org/10.5281/zenodo.10877326",
+  "metadata": {
+    "title": "Supplemental Files for Schlegel et al., Nature (2024)",
+    "doi": "10.5281/zenodo.10877326",
+    "publication_date": "2024-03-27",
+    "description": "<p>This repository contains supplemental files for the paper \"<strong>Whole-brain annotation and multi-connectome cell typing of Drosophila</strong>\" - Schlegel <em>et al.</em>, Nature (2024).</p>\n<ul>\n<li><em>nblast_flywire_all_right_aba_comp.feather</em>&nbsp;contains all-by-all NBLAST score for all FlyWire neurons where neurons from the left hemisphere have been mirrored to the right</li>\n<li><em>nblast_flywire_hemibrain_min_comp.feather</em>&nbsp;<em>&nbsp;</em>contains NBLAST scores for FlyWire versus \"hemibrain\"&nbsp;neurons</li>\n<li><em>nblast_flywirre_mirrored_hemibrain_comp.feather</em>&nbsp;contains NBLAST scores for FlyWire versus \"hemibrain\" neurons where all FlyWire neurons have been mirrored</li>\n<li><em>sk_lod_783_healed_ds2.parquet</em> contains skeletons in SWC format for all FlyWire neurons (generated from lod 1 meshes and 2X downsampled, coordinates are in nanometres); the raw data can be read with e.g. the Python <a href=\"https://pypi.org/project/pyarrow/\"><em>pyarrow</em></a> package (see <a href=\"https://arrow.apache.org/docs/python/parquet.html\">documentation</a> for examples). Alternatively, you can use the <a href=\"https://github.com/navis-org/navis\"><em>navis</em></a> Python package to read the contents into neuron objects (see <a href=\"https://navis-org.github.io/navis/reference/navis/#navis.read_parquet\">navis.read_parquet).</a></li>\n</ul>\n<p>Additional notes:</p>\n<ul>\n<li>all root IDs refer to the 783 release of FlyWire</li>\n<li>for NBLAST files:\n<ul>\n<li>columns/indices for FlyWire neurons are given as \"{root_id},{supervoxel_id}\", where the supervoxel ID represents an anchor that can be used to map this neuron to different materialization versions</li>\n<li>scores were compressed by rounding to the 4th decimal and clipping values below 0</li>\n</ul>\n</li>\n</ul>\n<p>For neuron annotations and further details please see <a href=\"https://github.com/flyconnectome/flywire_annotations\">https://github.com/flyconnectome/flywire_annotations</a>.&nbsp;</p>\n<p>The proofreading and FlyWire resource are described in our companion paper (Dorkenwald <em>et al.</em>, Nature, 2024).</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Schlegel, Philipp",
+        "affiliation": "Department of Zoology, University of Cambridge",
+        "orcid": "0000-0002-5633-1314"
+      },
+      {
+        "name": "Jefferis, Gregory S.X.E.",
+        "affiliation": "Neurobiology Division, MRC Laboratory of Molecular Biology, Cambridge, UK",
+        "orcid": "0000-0002-0587-9355"
+      }
+    ],
+    "keywords": [
+      "connectomics flywire hemibrain nblast skeletons"
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "1RF1MH120679-01",
+        "internal_id": "10.13039/100000002::1RF1MH120679-01",
+        "funder": {
+          "name": "National Institutes of Health",
+          "doi": "10.13039/100000002",
+          "acronym": "NIH"
+        },
+        "title": "Automating whole brain connectomics: development, validation, and application of an open toolkit",
+        "program": "NATIONAL_INSTITUTE_OF_MENTAL_HEALTH"
+      },
+      {
+        "code": "203261",
+        "internal_id": "10.13039/100004440::203261",
+        "funder": {
+          "name": "Wellcome Trust",
+          "doi": "10.13039/100004440",
+          "acronym": "WT"
+        },
+        "title": "The connectome of olfactory memory circuits in the adult fly",
+        "program": "Cellular and Molecular Neuroscience"
+      },
+      {
+        "code": "220343",
+        "internal_id": "10.13039/100004440::220343",
+        "funder": {
+          "name": "Wellcome Trust",
+          "doi": "10.13039/100004440",
+          "acronym": "WT"
+        },
+        "title": "A high-quality connectome of the complete adult Drosophila central nervous system",
+        "program": "Cellular and Molecular Neuroscience"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "8077334"
+          }
+        }
+      ]
+    },
+    "notes": "Funding for this project came from NIH NIMH BRAIN Initiative grant 1RF1MH120679-01, Wellcome Trust Collaborative Award 203261/Z/16/Z, Wellcome Trust Collaborative Award 220343/Z/20/Z, Neuronex2 award (MRC MC_EX_MR/T046279/1) and core support from the MRC (MC-U105188491)."
+  },
+  "title": "Supplemental Files for Schlegel et al., Nature (2024)",
+  "links": {
+    "self": "https://zenodo.org/api/records/10877326",
+    "self_html": "https://zenodo.org/records/10877326",
+    "preview_html": "https://zenodo.org/records/10877326?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.10877326",
+    "self_doi": "https://doi.org/10.5281/zenodo.10877326",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10877326",
+    "reserve_doi": "https://zenodo.org/api/records/10877326/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/8077334",
+    "parent_html": "https://zenodo.org/records/8077334",
+    "parent_doi": "https://doi.org/10.5281/zenodo.8077334",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.8077334",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:10877326/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:10877326/sequence/default",
+    "files": "https://zenodo.org/api/records/10877326/files",
+    "media_files": "https://zenodo.org/api/records/10877326/media-files",
+    "archive": "https://zenodo.org/api/records/10877326/files-archive",
+    "archive_media": "https://zenodo.org/api/records/10877326/media-files-archive",
+    "latest": "https://zenodo.org/api/records/10877326/versions/latest",
+    "latest_html": "https://zenodo.org/records/10877326/latest",
+    "versions": "https://zenodo.org/api/records/10877326/versions",
+    "draft": "https://zenodo.org/api/records/10877326/draft",
+    "access_links": "https://zenodo.org/api/records/10877326/access/links",
+    "access_grants": "https://zenodo.org/api/records/10877326/access/grants",
+    "access_users": "https://zenodo.org/api/records/10877326/access/users",
+    "access_request": "https://zenodo.org/api/records/10877326/access/request",
+    "access": "https://zenodo.org/api/records/10877326/access",
+    "communities": "https://zenodo.org/api/records/10877326/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/10877326/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/10877326/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/10877326/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/10877326/quota-increase",
+    "requests": "https://zenodo.org/api/records/10877326/requests"
+  },
+  "updated": "2025-08-13T09:59:26.542386+00:00",
+  "recid": "10877326",
+  "revision": 8,
+  "files": [
+    {
+      "id": "316f6de3-fac4-446f-a95c-e44884dcfbbe",
+      "key": "nblast_flywire_all_right_aba_comp.feather",
+      "size": 809046036,
+      "checksum": "md5:a8b3d2589b382bdb1ca19a060249a2dc",
+      "links": {
+        "self": "https://zenodo.org/api/records/10877326/files/nblast_flywire_all_right_aba_comp.feather/content"
+      }
+    },
+    {
+      "id": "fedf4b37-fb13-47bd-89e1-525fb199601a",
+      "key": "sk_lod1_783_healed_ds2.parquet",
+      "size": 5355543468,
+      "checksum": "md5:a4c104776f33ec539ef859064c4de3df",
+      "links": {
+        "self": "https://zenodo.org/api/records/10877326/files/sk_lod1_783_healed_ds2.parquet/content"
+      }
+    },
+    {
+      "id": "ac16303b-fb95-4ec2-9c15-094f1ee5d4e6",
+      "key": "nblast_flywire_hemibrain_min_comp.feather",
+      "size": 212095362,
+      "checksum": "md5:3ca6d79615e1cd30b37f32a8ae845f32",
+      "links": {
+        "self": "https://zenodo.org/api/records/10877326/files/nblast_flywire_hemibrain_min_comp.feather/content"
+      }
+    },
+    {
+      "id": "5d3bc46f-00e8-4422-a0f0-59b369c1e14e",
+      "key": "nblast_flywire_mirrored_hemibrain_min_comp.feather",
+      "size": 223176394,
+      "checksum": "md5:a0e2089764911fc5fd2d2d14c6aaa6a0",
+      "links": {
+        "self": "https://zenodo.org/api/records/10877326/files/nblast_flywire_mirrored_hemibrain_min_comp.feather/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "211981"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 4140,
+    "unique_downloads": 1726,
+    "views": 2344,
+    "unique_views": 2126,
+    "version_downloads": 3861,
+    "version_unique_downloads": 1466,
+    "version_unique_views": 1705,
+    "version_views": 1882
+  },
+  "state": "done",
+  "submitted": true
+}

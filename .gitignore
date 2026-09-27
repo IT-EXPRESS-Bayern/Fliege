@@ -1,0 +1,15 @@
+/data/
+node_modules/
+dist/
+__pycache__/
+.venv/
+logs/
+references/shiu-brain-model/
+/analysis/cloud_transfer/releases/
+/analysis/cloud_transfer/migration.json
+/CLOUD_HANDOFF.md
+/analysis/research_report_app/
+.env
+.env.*
+*.pem
+*.key

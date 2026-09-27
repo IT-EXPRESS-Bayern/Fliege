@@ -1,0 +1,33 @@
+{
+  "schema": "fly.cpg-viewer-audit.v1",
+  "status": "data_and_static_dom_checks_passed",
+  "sourceReplayPath": "analysis/cpg_reproduction/run33241778_replicate0/replay.json",
+  "sourceReplaySha256": "490652e246ca987ed5a8dd5931e6bae648a3dbee21e2c46798867bb4d72217f8",
+  "browserReplayPath": "app/data/cpg_replay.json",
+  "browserReplaySha256": "3ffa5165b1c929e2bd134f8de56cdee025fb64a650a13ac12c9e9df62401badb",
+  "browserReplayBytes": 4868415,
+  "originalNumbersPreserved": true,
+  "totalRateValuesCompared": 1081080,
+  "syntheticRatesAdded": false,
+  "jointActuationAdded": false,
+  "validation": {
+    "conditions": 8,
+    "motorCells": 129,
+    "samplesPerSeries": 1001,
+    "requiredSeriesPerCondition": 135
+  },
+  "staticDom": {
+    "uniqueIds": 21,
+    "jsLiteralReferences": 25,
+    "allReferencedIdsExist": true,
+    "allFourCoreReadoutBindingsExist": true
+  },
+  "negativeMalformedReplayRejected": true,
+  "fileHashes": {
+    "app/cpg.html": "c4de15d2a24918440293ccd719b42a75a5964cb1ae9fa1b9dd5ca65df25d1146",
+    "app/cpg.js": "c6a091ca8d723d95448e6902189dbcedc8c2cdd81460094ae637f20df80fd045",
+    "app/cpg.css": "7cec3d596cce29fcad6cb40a0470000dfe206f57b08985b360803d30296f008d"
+  },
+  "browserVisualAndInteractionQA": "pending_parent_browser_inspection",
+  "localHttpResources200": true
+}

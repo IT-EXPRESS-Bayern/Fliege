@@ -1,0 +1,465 @@
+{
+  "flybody_extension": {
+    "provenance_file": "flybody/provenance.json",
+    "paper": "https://doi.org/10.1038/s41586-025-09029-4",
+    "code_commit": "d015e9bfe441bd90ae431bac24c55cb74bdbce26",
+    "code_license": "Apache-2.0",
+    "figshare_dataset": "https://doi.org/10.25378/janelia.25309105",
+    "figshare_version": 4,
+    "figshare_license": "GPL 3.0+",
+    "identity_join": "No validated FAFB-v783-root-ID-to-FlyBody-muscle-or-joint mapping."
+  },
+  "webgpu_fly_precedent": {
+    "provenance_file": "webgpu_fly/provenance.json",
+    "audit_file": "webgpu_fly/README.md",
+    "repository": "https://github.com/abgnydn/webgpu-fly",
+    "commit": "bb00419e874eee9e878542dcc5fce289ede2e1b9",
+    "project_license": "MIT",
+    "scope": "Independent third-party browser prototype, reviewed as code precedent; runtime and scientific claims not independently validated."
+  },
+  "repositories": [
+    {
+      "name": "gattuso_2025",
+      "repo": "nagellab/Gattusoetal2025",
+      "commit": "c72b9e31ecd5df22749b7ca76ba89cafed7239ad",
+      "license": "BSD-2-Clause",
+      "paper": "https://doi.org/10.1073/pnas.2407626122",
+      "files": [
+        {
+          "path": "gattuso_2025/github/LICENSE",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/LICENSE",
+          "bytes": 1297,
+          "git_blob_sha1": "0661e517b7d504e5ba476adb9071186fc87014f9",
+          "sha256": "adb0625e21e286e00d5f4c4ba9ee525cf0661e8fdb2c5783f62aa9ba8fd3af25"
+        },
+        {
+          "path": "gattuso_2025/github/README.md",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/README.md",
+          "bytes": 66,
+          "git_blob_sha1": "3fbce52fafaffed1256f38b59b1a9aa31f66816a",
+          "sha256": "d8ec1b1e026050d217cc4f8979ebe1a9c48a7d0ed2ba7769f5ecf0ee98d173a6"
+        },
+        {
+          "path": "gattuso_2025/github/Gattuso et al 2025_code_readme.txt",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/Gattuso%20et%20al%202025_code_readme.txt",
+          "bytes": 8646,
+          "git_blob_sha1": "22f5b930b96e7b49511860d1fd76a9244dd94795",
+          "sha256": "686a15a4e8264b469879d97d4913b420fbaf05b326f3d950349eee9c2c239614"
+        },
+        {
+          "path": "gattuso_2025/github/gattuso_locomotion_model.m",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/gattuso_locomotion_model.m",
+          "bytes": 3488,
+          "git_blob_sha1": "485a350f6356748623a065751e52796b1fa53a0c",
+          "sha256": "4e065584deca57bf07a798b66132c8e2a4f1e7d16d9843c2c7de5427a4858509"
+        },
+        {
+          "path": "gattuso_2025/github/gattuso_locomotion_model_demo.m",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/gattuso_locomotion_model_demo.m",
+          "bytes": 3218,
+          "git_blob_sha1": "2e8f85a2eb4760a1e13827c8ae0c345113c83e11",
+          "sha256": "9eeb9cd221e15004873e7eccc9c1f0da9cf4e1971f7aa302a1ac07302f6c9229"
+        },
+        {
+          "path": "gattuso_2025/github/gattuso_locomotion_model_JV.m",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/gattuso_locomotion_model_JV.m",
+          "bytes": 9543,
+          "git_blob_sha1": "842e5ac88886e06e71632b7d49b22f7bf2e8c165",
+          "sha256": "df4cb906e3485c4bea733233b43e2ba34e40a2a3b8fd54f46953d1e01437a129"
+        },
+        {
+          "path": "gattuso_2025/github/RNNassess.m",
+          "url": "https://raw.githubusercontent.com/nagellab/Gattusoetal2025/c72b9e31ecd5df22749b7ca76ba89cafed7239ad/RNNassess.m",
+          "bytes": 2578,
+          "git_blob_sha1": "1c047e7dee04b3552fd769128ff2eb91440aab04",
+          "sha256": "a701afd29d607cf45b447fd9e089277fd630a0eb3b6ba68c595a013c155b1c6a"
+        }
+      ]
+    },
+    {
+      "name": "rayshubskiy_2025",
+      "repo": "SashaRayshubskiy/eLife_102230_analysis_code",
+      "commit": "55e30c19b1a18f601df1803295f0c401aec3c167",
+      "license": "MIT",
+      "paper": "https://doi.org/10.7554/eLife.102230",
+      "files": [
+        {
+          "path": "rayshubskiy_2025/github/LICENSE",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/LICENSE",
+          "bytes": 1074,
+          "git_blob_sha1": "6b6a71a752bde9f13e970cad6cb036d93ca3ad2c",
+          "sha256": "e00a21aa8e24ebc42416e6690b0b94a67a017fab637cf982f5e3090d0692bcaa"
+        },
+        {
+          "path": "rayshubskiy_2025/github/README.md",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/README.md",
+          "bytes": 358,
+          "git_blob_sha1": "fe51d2adb37921203673e85dece7c6b8302522ba",
+          "sha256": "5227ee0791a0f391994db7575574ed6cc26308bdc25a554ace053e5354127d81"
+        },
+        {
+          "path": "rayshubskiy_2025/github/A1_A2_dual_patch_analysis_for_paper.m",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/A1_A2_dual_patch_analysis_for_paper.m",
+          "bytes": 43548,
+          "git_blob_sha1": "b3ac7cf420cf30642addd40063c1c75dc7d11e31",
+          "sha256": "5db39c993e0865c1e1229e7185829583b26534addf39a0a5942b458535aba972"
+        },
+        {
+          "path": "rayshubskiy_2025/github/A1_A2_multivar_regression.m",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/A1_A2_multivar_regression.m",
+          "bytes": 2446,
+          "git_blob_sha1": "aa5107339b96b953500d909f2031a348e370a71e",
+          "sha256": "7326abdddf22fb79201c4b7e99771d0f9d99536711d9fd955b23cfa341ff875d"
+        },
+        {
+          "path": "rayshubskiy_2025/github/A1_A2_yaw_fwd_analysis.m",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/A1_A2_yaw_fwd_analysis.m",
+          "bytes": 31017,
+          "git_blob_sha1": "12e93abf3f56c8ae6fc06aaf36ba28e200796b09",
+          "sha256": "d36a7c5617307c94b4034bc397a0637f0b7612205ca44a606aee738e5dfbc536"
+        },
+        {
+          "path": "rayshubskiy_2025/github/get_analysis_constants.m",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/get_analysis_constants.m",
+          "bytes": 951,
+          "git_blob_sha1": "b2a72ab3724f0a730bbd3a551e0242881d3fba75",
+          "sha256": "fe8d6b424a158defac9c27882044b3ec00cadfa24b4a3972fbe53a7f0fff637e"
+        },
+        {
+          "path": "rayshubskiy_2025/github/generate_Vm_vs_yaw_trajectory_LAL_DNs_v3.m",
+          "url": "https://raw.githubusercontent.com/SashaRayshubskiy/eLife_102230_analysis_code/55e30c19b1a18f601df1803295f0c401aec3c167/generate_Vm_vs_yaw_trajectory_LAL_DNs_v3.m",
+          "bytes": 12177,
+          "git_blob_sha1": "f5deae1f9cd8ae638087795ab446c129541598fe",
+          "sha256": "f1367ac9e5e8d817e9c66cb5e722daf69c140f76f019a4efdb11db5ab8019a58"
+        }
+      ]
+    },
+    {
+      "name": "flygym",
+      "repo": "NeLy-EPFL/flygym",
+      "commit": "38c8ec61034cd59bc5ba0de20688d4a3c0000d60",
+      "license": "Apache-2.0",
+      "paper": "https://doi.org/10.1038/s41592-024-02497-y",
+      "files": [
+        {
+          "path": "flygym/github/LICENSE",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/LICENSE",
+          "bytes": 11362,
+          "git_blob_sha1": "08f9a061494f0c2a130d27b51b1ee4050d8292ea",
+          "sha256": "02afa15750a169f0815ff1525dacf28d010f1dfd4cb119fc9e96bfca4f426eb4"
+        },
+        {
+          "path": "flygym/github/README.md",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/README.md",
+          "bytes": 4127,
+          "git_blob_sha1": "efdda558b26b41f6b7e988395f3a6392e0d40274",
+          "sha256": "aa219c32e59beee5e498db70267425cc6b4fb709127f4137d804a32cea571cc3"
+        },
+        {
+          "path": "flygym/github/pyproject.toml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/pyproject.toml",
+          "bytes": 5623,
+          "git_blob_sha1": "67ebac77ec81d420c26b07de42c39e8cfa69d087",
+          "sha256": "adba22334274b58b48483322ae6bd8aa1568784ae959a71350f9665007abd341"
+        },
+        {
+          "path": "flygym/github/wasm/README.md",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/wasm/README.md",
+          "bytes": 3066,
+          "git_blob_sha1": "066bdbb37d3b3e0890ba7076c4df479f4b5c158b",
+          "sha256": "f0fcc874dd4b25ba02081b97b2bcdc81663559cc9e803dee0222db6c5abac779"
+        },
+        {
+          "path": "flygym/github/wasm/viewer/README.md",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/wasm/viewer/README.md",
+          "bytes": 2528,
+          "git_blob_sha1": "fa749cefbc512c33995ddd2e7d102c55e5f61da7",
+          "sha256": "b80d582d88c9fc99aa1b5e9c4a8acd6959bb5d1be0beb7354572b86e218da5bc"
+        },
+        {
+          "path": "flygym/github/wasm/game/README.md",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/wasm/game/README.md",
+          "bytes": 4884,
+          "git_blob_sha1": "b0fff383bde9e7328ccaef6a7b5193820533f10c",
+          "sha256": "a87881a7944888f8e0fd62265fe4bb8b64690fcc9cdb2e3a1070169a9970e63a"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml",
+          "bytes": 842,
+          "git_blob_sha1": "3beba5db4e88d3ce1202f83f928935f437ae1323",
+          "sha256": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/rigging.yaml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/rigging.yaml",
+          "bytes": 6425,
+          "git_blob_sha1": "95da6ad5a7df97715728903581860ae1a23642f9",
+          "sha256": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/vision.yaml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/vision.yaml",
+          "bytes": 874,
+          "git_blob_sha1": "249c2628594634a1efdcf5d95a9664d74ceb775e",
+          "sha256": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/visuals.yaml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/visuals.yaml",
+          "bytes": 4566,
+          "git_blob_sha1": "5f31b24c5f1cceccc69b9bbed6e8df222da6c0e9",
+          "sha256": "1b959ada4d8016d4c7f6bde4b118733b48e72d749acc74b8753b547c86b6546a"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/pose/_manual_specs/neutral.yaml",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/pose/_manual_specs/neutral.yaml",
+          "bytes": 1394,
+          "git_blob_sha1": "152b38e404d8b4233441ed4b81934fca9e53bd32",
+          "sha256": "1824449abfd55d6447ce24bc8ec190496a8f334a232b4c894495082c166f6924"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/compound_eye.npz",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/compound_eye.npz",
+          "bytes": 27591,
+          "git_blob_sha1": "ddf5cff34b838c393ccc4af95f1a373d3307c1c5",
+          "sha256": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/vision/ommatidia_id_map.npy",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/vision/ommatidia_id_map.npy",
+          "bytes": 460928,
+          "git_blob_sha1": "cc2bc08d227396b120970fd22c2c09fed478f596",
+          "sha256": "270baa562cd56b74c91fd3d0a218548aaf41c00df3401ebf521a0461adadf21d"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/vision/pale_mask.npy",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/vision/pale_mask.npy",
+          "bytes": 849,
+          "git_blob_sha1": "4187658404b35ac6a5f10fa9f9a3786b712c721b",
+          "sha256": "1489f64d82dbf35d488448d0a86afa7314be1f29a58ffc7ce4c454a5d492bb3f"
+        },
+        {
+          "path": "flygym/github/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/simplification_metadata.csv",
+          "url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/38c8ec61034cd59bc5ba0de20688d4a3c0000d60/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/simplification_metadata.csv",
+          "bytes": 4098,
+          "git_blob_sha1": "12a1329134f41a018396281c40e427333c8d8e79",
+          "sha256": "c3b77709577fe547b13ee4e39d1e71040edcd94743e78660b5f605d758a8745f"
+        }
+      ]
+    }
+  ],
+  "dataverse_datasets": [
+    {
+      "name": "rayshubskiy_2025",
+      "doi": "doi:10.7910/DVN/0NCLP1",
+      "dataset_url": "https://doi.org/10.7910/DVN/0NCLP1",
+      "dataset_id": 11618096,
+      "version": "1.2",
+      "all_published_file_count": 380,
+      "files": [
+        {
+          "path": "rayshubskiy_2025/dataverse/README.md",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/11634832?format=original",
+          "bytes": 1962,
+          "dataverse_file_id": 11634832,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "cfb0cb853be3a454b965d74eb5c772c0"
+          },
+          "sha256": "91409a03266dbddb44035df3177440ba0acc2a67aa75118a3d97c267038c9681"
+        }
+      ]
+    },
+    {
+      "name": "flygym",
+      "doi": "doi:10.7910/DVN/3MCEYR",
+      "dataset_url": "https://doi.org/10.7910/DVN/3MCEYR",
+      "dataset_id": 7405701,
+      "version": "3.1",
+      "all_published_file_count": 10,
+      "files": [
+        {
+          "path": "flygym/dataverse/annotated_3d_walking_kinematics.csv",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10407643?format=original",
+          "bytes": 72358,
+          "dataverse_file_id": 10407643,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "ddf066d0a20ab9aac275bf3304baade0"
+          },
+          "sha256": "cf73a19c2833cc96ef21d73fa05d5fc0737fac10277d0c4701dc94eee151b982"
+        },
+        {
+          "path": "flygym/dataverse/ommatidia_graph.pkl",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10163623?format=original",
+          "bytes": 56453,
+          "dataverse_file_id": 10163623,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "b600f4102a7785372efba2f0819a4b77"
+          },
+          "sha256": "462148e6b15f9e161493ffb9b3f808c7b3a548898c36cf7dca12cf97be317f2d"
+        },
+        {
+          "path": "flygym/dataverse/path_integration_model.zip",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10163627?format=original",
+          "bytes": 2443,
+          "dataverse_file_id": 10163627,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "dd6ceef98368639b86528ed42d9e03be"
+          },
+          "sha256": "cd0e4f26407d3a4eececf03964b83a989065b6ff70f0de65dfa996f60fb3e480"
+        },
+        {
+          "path": "flygym/dataverse/rl_model.zip",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10163621?format=original",
+          "bytes": 114448,
+          "dataverse_file_id": 10163621,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "1f895b55bd5d3574b8726dd30c279259"
+          },
+          "sha256": "81462b49426534efdad5aa23ad34bf317b55dd2238374360edf409bcf7fc3df6"
+        },
+        {
+          "path": "flygym/dataverse/visual_preprocessor.pt",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10163626?format=original",
+          "bytes": 572763,
+          "dataverse_file_id": 10163626,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "a331fec6df9f667287418fc37ed28af4"
+          },
+          "sha256": "73105510de8a1e6b071b2281c1a9d37f3d1e38abf390f97ad0f52e55b5f5f21e"
+        },
+        {
+          "path": "flygym/dataverse/head_stabilization_models.zip",
+          "url": "https://dataverse.harvard.edu/api/access/datafile/10163624?format=original",
+          "bytes": 631537,
+          "dataverse_file_id": 10163624,
+          "published_checksum": {
+            "type": "MD5",
+            "value": "5b985433c649c5eeaa28818db3e28290"
+          },
+          "sha256": "6cb1cf65b04a2dfac5ab0288f67f0a130a6cef52cde1d38c8317b837528819c8"
+        }
+      ]
+    }
+  ],
+  "caveat": "These are independent models/behavior records from other flies and do not share FAFB v783 root IDs or a validated full brain-to-body mapping.",
+  "flygym_walking_kinematics_schema": {
+    "rows": 37,
+    "columns": [
+      "",
+      "He_x",
+      "He_y",
+      "He_z",
+      "Th_x",
+      "Th_y",
+      "Th_z",
+      "Abd_x",
+      "Abd_y",
+      "Abd_z",
+      "LF-ThC_x",
+      "LF-ThC_y",
+      "LF-ThC_z",
+      "LF-CTr_x",
+      "LF-CTr_y",
+      "LF-CTr_z",
+      "LF-FTi_x",
+      "LF-FTi_y",
+      "LF-FTi_z",
+      "LF-TiTa_x",
+      "LF-TiTa_y",
+      "LF-TiTa_z",
+      "LF-Claw_x",
+      "LF-Claw_y",
+      "LF-Claw_z",
+      "LM-ThC_x",
+      "LM-ThC_y",
+      "LM-ThC_z",
+      "LM-CTr_x",
+      "LM-CTr_y",
+      "LM-CTr_z",
+      "LM-FTi_x",
+      "LM-FTi_y",
+      "LM-FTi_z",
+      "LM-TiTa_x",
+      "LM-TiTa_y",
+      "LM-TiTa_z",
+      "LM-Claw_x",
+      "LM-Claw_y",
+      "LM-Claw_z",
+      "LH-ThC_x",
+      "LH-ThC_y",
+      "LH-ThC_z",
+      "LH-CTr_x",
+      "LH-CTr_y",
+      "LH-CTr_z",
+      "LH-FTi_x",
+      "LH-FTi_y",
+      "LH-FTi_z",
+      "LH-TiTa_x",
+      "LH-TiTa_y",
+      "LH-TiTa_z",
+      "LH-Claw_x",
+      "LH-Claw_y",
+      "LH-Claw_z",
+      "RH-ThC_x",
+      "RH-ThC_y",
+      "RH-ThC_z",
+      "RH-CTr_x",
+      "RH-CTr_y",
+      "RH-CTr_z",
+      "RH-FTi_x",
+      "RH-FTi_y",
+      "RH-FTi_z",
+      "RH-TiTa_x",
+      "RH-TiTa_y",
+      "RH-TiTa_z",
+      "RH-Claw_x",
+      "RH-Claw_y",
+      "RH-Claw_z",
+      "RM-ThC_x",
+      "RM-ThC_y",
+      "RM-ThC_z",
+      "RM-CTr_x",
+      "RM-CTr_y",
+      "RM-CTr_z",
+      "RM-FTi_x",
+      "RM-FTi_y",
+      "RM-FTi_z",
+      "RM-TiTa_x",
+      "RM-TiTa_y",
+      "RM-TiTa_z",
+      "RM-Claw_x",
+      "RM-Claw_y",
+      "RM-Claw_z",
+      "RF-ThC_x",
+      "RF-ThC_y",
+      "RF-ThC_z",
+      "RF-CTr_x",
+      "RF-CTr_y",
+      "RF-CTr_z",
+      "RF-FTi_x",
+      "RF-FTi_y",
+      "RF-FTi_z",
+      "RF-TiTa_x",
+      "RF-TiTa_y",
+      "RF-TiTa_z",
+      "RF-Claw_x",
+      "RF-Claw_y",
+      "RF-Claw_z",
+      "LA_x",
+      "LA_y",
+      "LA_z",
+      "RA_x",
+      "RA_y",
+      "RA_z",
+      "frame_idx",
+      "video_id"
+    ]
+  }
+}

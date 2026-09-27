@@ -1,0 +1,208 @@
+{
+  "generated_at_utc": "2026-09-26T20:22:31.526536+00:00",
+  "scope": "Public pinned research/model sources; separate from original FAFB observations",
+  "repos": {
+    "shiu": {
+      "repo": "philshiu/Drosophila_brain_model",
+      "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960"
+    },
+    "eon": {
+      "repo": "eonsystemspbc/fly-brain",
+      "commit": "a3db62f9436074e485c0278290c2164ed6150808"
+    }
+  },
+  "files": [
+    {
+      "local_path": "data/research_sources/shiu/Completeness_783.csv",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Completeness_783.csv",
+      "bytes": 3327347,
+      "sha256": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311",
+      "git_blob_sha1": "b5a26b82b69a3c2e7fd99cd6810c36fc8f0e492b",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/example.ipynb",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/example.ipynb",
+      "bytes": 10282,
+      "sha256": "1737c3043af700504c4791c4bfc02d1856bbeb0d36c469832e4b9399dfddda3a",
+      "git_blob_sha1": "bc479485c42c18ef50762d9ab50817bc96d65c8d",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/figures.ipynb",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/figures.ipynb",
+      "bytes": 33229,
+      "sha256": "33cd73c0b4b4a291c51b7bab639c4fa28978e49e111ff0d6adbca5687addb84c",
+      "git_blob_sha1": "25db39b200f3175f575154408e722218b3761262",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/sez_neurons.pickle",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/sez_neurons.pickle",
+      "bytes": 5114,
+      "sha256": "2bc5a2a8289924f2de39a8e68bdc07025cb6d6c6c6ddc83a973c0cace7cec2ce",
+      "git_blob_sha1": "7fdfc5d9fe43789468d349d86d3f23df068962ed",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/results/example/sugarR.parquet",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/results/example/sugarR.parquet",
+      "bytes": 948526,
+      "sha256": "83921d50089d966785e402d6c0e3be5ab3eba5beb680410a09c557b0f22dcc28",
+      "git_blob_sha1": "1204cb3ed453ad03b0141028fa511d924f99d599",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/results/example/sugarR_100Hz.parquet",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/results/example/sugarR_100Hz.parquet",
+      "bytes": 557849,
+      "sha256": "93722ec03c3faa5a85790d77ed16bdd7f1e38a7c847ed0bc3af3dc2e4d0c3d34",
+      "git_blob_sha1": "bd76730d5e991d64b756f354a749f94ffb874c64",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/Connectivity_783.parquet",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Connectivity_783.parquet",
+      "bytes": 100804642,
+      "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+      "git_blob_sha1": "d386555d1a5f40ebfa1380bcb05b1fab044855fd",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/README.md",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/README.md",
+      "bytes": 17409,
+      "sha256": "ff087abb20b98a4ad11716277f7b55cef3ebccadccb07c7c9c883cad3a0f07b3",
+      "git_blob_sha1": "47c12a0be59baab8a5c13dd21720b94c24dc5b2f",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "git_blob_sha1": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/2025_Completeness_783.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/2025_Completeness_783.csv",
+      "bytes": 3465987,
+      "sha256": "52b0ac6094cd32c546f8d4c341e094376f48f4e791f8db9b166de5dff8199ea4",
+      "git_blob_sha1": "7bdf251b81e857b19f2cf664eeb2e31ba614151f",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/benchmark-results.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/benchmark-results.csv",
+      "bytes": 163580,
+      "sha256": "5ff2ba8d6949bb650966c5a2a262720d49216b8d44c88090ba962547da27b528",
+      "git_blob_sha1": "d184223b3cc1fe2e79b95dca5da21c5cf4e161d1",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/results/nature_2026_07/manifest.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/results/nature_2026_07/manifest.csv",
+      "bytes": 134421,
+      "sha256": "64ce28c58023ad3b0b6b73f2feb3cfd273f9ba71e6d2d1e80ae360cbd5cc2ad0",
+      "git_blob_sha1": "b4107e94c8fca46fe5241e04162f300274ce283b",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/results/nature_2026_07/checksums.sha256",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/results/nature_2026_07/checksums.sha256",
+      "bytes": 61190,
+      "sha256": "79bcba2b21fb440e2268f9673bc9f10adbec6f930818fbdfdafdf3d455d6b7f0",
+      "git_blob_sha1": "43d2793b2b3a643e7c5a632a0b9931d44cd7dac6",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/results/nature_2026_07/no_io/framework_summary.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/results/nature_2026_07/no_io/framework_summary.csv",
+      "bytes": 812,
+      "sha256": "a9d2b7298b4153daecf8781488011f12f26200f5312f00cdc43ce40bb59884ce",
+      "git_blob_sha1": "1d6a732440958f4419e59697843607da91131ee5",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/results/nature_2026_07/no_io/timing_summary.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/results/nature_2026_07/no_io/timing_summary.csv",
+      "bytes": 16864,
+      "sha256": "da353b2fe58e51be7d7ea97f32816b558ee7940fcf6ce781d62a43acca024728",
+      "git_blob_sha1": "ace11073cfcf8044f924363331923080a8f12e02",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/data/results/nature_2026_07/no_io/timings.csv",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/data/results/nature_2026_07/no_io/timings.csv",
+      "bytes": 17395,
+      "sha256": "44a9881e4880cd32679fcb63cd53086db94bc254c7349ff7214db188bf30d36d",
+      "git_blob_sha1": "60c5b89cac3d5e3fee37ab61b54f4d99ee563f5e",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/code/benchmark.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/code/benchmark.py",
+      "bytes": 19369,
+      "sha256": "e18dae9072baf9ee0f0581282641c58864fdc138c6e75b718a542eb27d272874",
+      "git_blob_sha1": "0c9cb3b39f4cb7f7529f795ae1c6c127d1aae197",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/code/run_brian2_cuda.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/code/run_brian2_cuda.py",
+      "bytes": 21114,
+      "sha256": "0184fb8bbd28e36643a0bcffbe64675d58cb1bcce27cbe1fc08deb8cb1777722",
+      "git_blob_sha1": "36be62b857939aba5e5d6820b1e099e8bef97a9f",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/code/run_pytorch.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/code/run_pytorch.py",
+      "bytes": 22859,
+      "sha256": "699655db7a56045271ba467268be153d0a3318d4cc4cecc0a13f33e69ce79667",
+      "git_blob_sha1": "4a929ca500af56e94bfaf64e5d526da65568f332",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/code/compare_ground_truth.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/code/compare_ground_truth.py",
+      "bytes": 9425,
+      "sha256": "2c19c46fca52fc102c4936fa3fc79e3752c96c43544c68062d10c85c16ba580f",
+      "git_blob_sha1": "9474951f8278e84ee085345a6acbfe954b04f23c",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/code/compare_spike_outputs.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/code/compare_spike_outputs.py",
+      "bytes": 10712,
+      "sha256": "4882aacb565bab1847cd1aeda68fdbe91909a1334240cef7d460248a524e58b5",
+      "git_blob_sha1": "28e548630222da38ca4f6eab4dfe114330fe6c4b",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/main.py",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/main.py",
+      "bytes": 7924,
+      "sha256": "6e774953ebb68e924a5198a53c6777ea7c79898869c683e060dad515f3af83bc",
+      "git_blob_sha1": "9014995c649b7fe6113785cac91f62bd7e9bd666",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/eon/environment.yml",
+      "source_url": "https://raw.githubusercontent.com/eonsystemspbc/fly-brain/a3db62f9436074e485c0278290c2164ed6150808/environment.yml",
+      "bytes": 382,
+      "sha256": "69c617b76c40f047c79e1d778cfe4a04d0f5874b40cbd90b72ad0211c165f918",
+      "git_blob_sha1": "9edd4b85884b120600b6e83e312b7501235d0c4a",
+      "verified": true
+    },
+    {
+      "local_path": "data/research_sources/shiu/supplementary_tables_1-12.xlsx",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-07763-9/MediaObjects/41586_2024_7763_MOESM2_ESM.xlsx",
+      "bytes": 2539037,
+      "sha256": "6922e16825aa0c92a28e2a634b073dcad7641e9c9283c4b9d8ee1e34e6d9b8d9",
+      "git_blob_sha1": null,
+      "verified": true
+    }
+  ]
+}

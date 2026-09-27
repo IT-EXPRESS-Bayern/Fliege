@@ -1,0 +1,5113 @@
+{
+  "schema": "fly.neuron-assay-audit.v1",
+  "checks": [
+    {
+      "name": "original_graph_sha256_annotations.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_graph_sha256_nodes.u64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_graph_sha256_nt_probs.u8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_graph_sha256_offsets.u32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_graph_sha256_synapses.u32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_graph_sha256_targets.u32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_sha256_graph",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_sha256_shiu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_sha256_tastekin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_sha256_stuerner",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940602132509",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940602506208",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940602720940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940604753437",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940608742409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940609522461",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940609541917",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940610018266",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940611061526",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940611783464",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940613971485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940614035485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940614060829",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940614188149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940614351477",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940614427195",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940615809349",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940615848788",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940615986459",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940616589878",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940616951124",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940618467195",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940618599872",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940618684481",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940619341105",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940620382889",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940621397417",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940621442224",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940621625597",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940621729757",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940622449388",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940622937528",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940623298559",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940624799290",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940624915230",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940625559358",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940625797617",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940625962568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940626042149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940626565455",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940627109991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940627585688",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940627941431",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940628101126",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940628444667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940628978450",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940629022149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940629055721",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940629138959",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940629650997",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630020111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630059847",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630070343",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630080071",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630122015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630319671",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940630564179",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940631866508",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940632449619",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940632767383",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940633153375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940634634606",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940637054835",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940637410869",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940637632419",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940638664437",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940638681845",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940641921421",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_sham_720575940650244342",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_ce_upstream_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940604299454",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940604973746",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606222428",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606239243",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606431189",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606611401",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606657493",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940606800341",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940608297774",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940609530653",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940609543197",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940610008217",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940613012959",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940613105311",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940614026269",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940614929245",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940615473186",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940616613022",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940617273560",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940617524053",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940618888368",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940621097398",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940621521917",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940621532413",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940622179497",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940622217992",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940622222856",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940623077389",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940623791152",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940624224408",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940624308355",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625087546",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625571240",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625703434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625733960",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625763015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625885512",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940625915338",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940626956777",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940627523584",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940627704375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940627868471",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940628100614",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940628359017",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940628649465",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940628935564",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940629267498",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940629386819",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940629502009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940629719404",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940631170346",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940633364179",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940634923621",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940635968745",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940637366335",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940638529525",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940639410035",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940640591861",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940642517284",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_sham_720575940647493241",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_f_upstream_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940602132509",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940602506208",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940602720940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940604299454",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940604753437",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940604973746",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606222428",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606239243",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606431189",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606611401",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606657493",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940606800341",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940608297774",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940608742409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940609522461",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940609530653",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940609541917",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940609543197",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940610008217",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940610018266",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940611061526",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940611783464",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940613012959",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940613105311",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940613971485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614026269",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614035485",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614060829",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614188149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614351477",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614427195",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940614929245",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940615473186",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940615809349",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940615848788",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940615986459",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940616064546",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940616589878",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940616613022",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940616951124",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940617273560",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940617524053",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940618467195",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940618599872",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940618684481",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940618888368",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940619085397",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940619341105",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940620382889",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621097398",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621289537",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621397417",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621442224",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621521917",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621532413",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621625597",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940621729757",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622179497",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622217992",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622222856",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622449388",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622892988",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940622937528",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940623077389",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940623298559",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940623791152",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940624224408",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940624308355",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940624799290",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940624915230",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625087546",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625559358",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625571240",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625703434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625733960",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625763015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625797617",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625885512",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625915338",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940625962568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940626042149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940626557995",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940626565455",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940626956777",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627109991",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627493096",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627523584",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627585688",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627704375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627868471",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940627941431",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628100614",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628101126",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628359017",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628444667",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628649465",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628935564",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628978409",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940628978450",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629022149",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629055721",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629138959",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629141775",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629267498",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629386819",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629502009",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629650997",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940629719404",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630020111",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630059847",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630070343",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630080071",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630122015",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630319671",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630564179",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940630834171",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940631098338",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940631170346",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940631866508",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940632449619",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940632767383",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940633153375",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940633364179",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940634634606",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940634923621",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940635067034",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940635545310",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940635968745",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940637054835",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940637366335",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940637410869",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940637632419",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940638529525",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940638664437",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940638681845",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940639410035",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940639904475",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940640591861",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940641395163",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940641921421",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940642517284",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940645728803",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940647493241",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940650244342",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_sham_720575940652566177",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "jo_all_upstream_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940611875570",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940612670570",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940616885538",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940617000768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940617937543",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940621502051",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940621754367",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940624963786",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940628853239",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940629176663",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940630233916",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940630797113",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940632425919",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940632889389",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940633143833",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940637568838",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940638202345",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940639198653",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940639332736",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_sham_720575940640649691",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sugar_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940606002609",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940612579053",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940612950568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940613786774",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940613996959",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940616177458",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940617857694",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940622486922",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940622902535",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940625203504",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940625861168",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940629852866",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940630553415",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940631898285",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940634796536",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940635172191",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940644965399",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_sham_720575940660292225",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "water_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_readout_disjoint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940602353632",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940604027168",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940610259370",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940610481370",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940610483162",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940613061118",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940614281266",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940617094208",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940619028208",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940619197093",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940621008895",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940621778381",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940622298631",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940626287336",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940627578156",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940627692048",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940629146711",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940630195909",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940645743412",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_sham_720575940646212996",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_baseline_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_low_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_reference_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_silent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_silenced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_readout_ablated_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_time_axis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_no_prestim_activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_network_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_forced_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_raw_archive_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940630907434",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940616185531",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940629806974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940660219265",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940618238523",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940604737708",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940629327659",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940606112940",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bitter_input_sham_arithmetic_720575940616471052",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "check_count": 1002,
+  "all_passed": true,
+  "trials": 42,
+  "samples": 25200,
+  "individual_readout_observations": 226800,
+  "reference_responsive_unique_neurons": 7048,
+  "findings": [
+    {
+      "id": "taste_order",
+      "status": "qualitative_model_pattern_present",
+      "claim": "Zucker aktiviert beide MN9 stärker als Wasser; Bitter allein erzeugt hier keine MN9-Spikes.",
+      "evidence": {
+        "sugar": {
+          "MN9_R_hz": 127.5,
+          "MN9_L_hz": 122.5
+        },
+        "water": {
+          "MN9_R_hz": 32.5,
+          "MN9_L_hz": 30
+        },
+        "bitter": {
+          "MN9_R_hz": 0,
+          "MN9_L_hz": 0
+        }
+      },
+      "limitation": "Literaturkompatibles qualitatives Muster unter diesen Parametern; kein quantitativ validierter Ersatz der veröffentlichten Experimente."
+    },
+    {
+      "id": "jo_selectivity",
+      "status": "failed_literature_pattern",
+      "claim": "JO-CE-versus-JO-F-Spezifität der absteigenden Putz-Auslese wird nicht reproduziert.",
+      "evidence": {
+        "jo_ce": {
+          "aBN1_hz": 112.5,
+          "aDN1_hz": 25,
+          "aDN2_hz": 2.5
+        },
+        "jo_f": {
+          "aBN1_hz": 90,
+          "aDN1_hz": 30,
+          "aDN2_hz": 10
+        }
+      },
+      "reference": "Shiu Supplement-Tabelle 8 publiziert bei 150 Hz: CE→aDN1 13,40 Hz / aDN2 19,03 Hz; F → beide 0,00 Hz (v630). Hier F stärker als CE an beiden Auslesen.",
+      "limitation": "Version, Zellidentität, Dynamik und Reizprotokoll unterscheiden sich. Ursache mit diesem Test nicht isoliert."
+    },
+    {
+      "id": "abn1_dependency",
+      "status": "model_dependency_present",
+      "claim": "Stilllegung von aBN1 unterdrückt die aDN-Antworten fürCE/F; beim gesamtenJO-Satz bleibt Restaktivität.",
+      "evidence": {
+        "jo_ce": {
+          "reference": {
+            "aDN1_hz": 25,
+            "aDN2_hz": 2.5
+          },
+          "upstream_ablated": {
+            "aDN1_hz": 0,
+            "aDN2_hz": 0
+          },
+          "upstream_sham": {
+            "aDN1_hz": 25,
+            "aDN2_hz": 2.5
+          }
+        },
+        "jo_f": {
+          "reference": {
+            "aDN1_hz": 30,
+            "aDN2_hz": 10
+          },
+          "upstream_ablated": {
+            "aDN1_hz": 0,
+            "aDN2_hz": 0
+          },
+          "upstream_sham": {
+            "aDN1_hz": 30,
+            "aDN2_hz": 10
+          }
+        },
+        "jo_all": {
+          "reference": {
+            "aDN1_hz": 70,
+            "aDN2_hz": 32.5
+          },
+          "upstream_ablated": {
+            "aDN1_hz": 10,
+            "aDN2_hz": 0
+          },
+          "upstream_sham": {
+            "aDN1_hz": 67.5,
+            "aDN2_hz": 30
+          }
+        }
+      },
+      "limitation": "Kausaler Eingriff in dieses Modell. Keine biologische Notwendigkeit/Suffizienz bewiesen; nur ein deterministisch gewählter gradangepasster Sham."
+    }
+  ],
+  "results_sha256": "8934457e01bedc75c4347a6ad3b868123fe67df5ba07ee2abc02cb37818fe42b"
+}

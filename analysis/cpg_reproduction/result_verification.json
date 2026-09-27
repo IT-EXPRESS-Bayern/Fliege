@@ -1,0 +1,241 @@
+{
+  "schema": "fly.cpg-result-verification.v1",
+  "checks_passed": 57,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "source_unchanged:W_20260217.npz",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:wTable_20260217_fullData_consistentColumns.csv",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:configs/neuron_params/default.yaml",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:configs/sim/default.yaml",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:src/utils/sim_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:src/simulation/vnc_sim.py",
+      "passed": true
+    },
+    {
+      "name": "source_unchanged:wTable_20260217_fullData.csv",
+      "passed": true
+    },
+    {
+      "name": "output_hash:dnb08_pair_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:dng100_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:dng100_repeat_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:dng100_tighter_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:e1_removed_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:e2_removed_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:i2_removed_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:input_audit.json",
+      "passed": true
+    },
+    {
+      "name": "output_hash:motor_readout_statistics.csv",
+      "passed": true
+    },
+    {
+      "name": "output_hash:original_module_annotation_conflicts.csv",
+      "passed": true
+    },
+    {
+      "name": "output_hash:protocol.json",
+      "passed": true
+    },
+    {
+      "name": "output_hash:replay.json",
+      "passed": true
+    },
+    {
+      "name": "output_hash:sampled_parameters.npz",
+      "passed": true
+    },
+    {
+      "name": "output_hash:summary.json",
+      "passed": true
+    },
+    {
+      "name": "output_hash:zero_rates.npz",
+      "passed": true
+    },
+    {
+      "name": "executed_runner_matches_current_source",
+      "passed": true
+    },
+    {
+      "name": "unit_controls_match_current_runner",
+      "passed": true
+    },
+    {
+      "name": "original_parameters_unchanged:tau",
+      "passed": true
+    },
+    {
+      "name": "original_parameters_unchanged:a",
+      "passed": true
+    },
+    {
+      "name": "original_parameters_unchanged:threshold",
+      "passed": true
+    },
+    {
+      "name": "original_parameters_unchanged:fr_cap",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:zero",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:zero",
+      "passed": true
+    },
+    {
+      "name": "finite:zero",
+      "passed": true
+    },
+    {
+      "name": "entire_zero_control_silent",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:dng100",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:dng100",
+      "passed": true
+    },
+    {
+      "name": "finite:dng100",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:e1_removed",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:e1_removed",
+      "passed": true
+    },
+    {
+      "name": "finite:e1_removed",
+      "passed": true
+    },
+    {
+      "name": "removed_cell_silent:e1_removed",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:e2_removed",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:e2_removed",
+      "passed": true
+    },
+    {
+      "name": "finite:e2_removed",
+      "passed": true
+    },
+    {
+      "name": "removed_cell_silent:e2_removed",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:i2_removed",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:i2_removed",
+      "passed": true
+    },
+    {
+      "name": "finite:i2_removed",
+      "passed": true
+    },
+    {
+      "name": "removed_cell_silent:i2_removed",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:dnb08_pair",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:dnb08_pair",
+      "passed": true
+    },
+    {
+      "name": "finite:dnb08_pair",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:dng100_repeat",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:dng100_repeat",
+      "passed": true
+    },
+    {
+      "name": "finite:dng100_repeat",
+      "passed": true
+    },
+    {
+      "name": "repeat_all_9930963_float32_values_equal",
+      "passed": true
+    },
+    {
+      "name": "trajectory_shape:dng100_tighter",
+      "passed": true
+    },
+    {
+      "name": "all_exact_root_ids:dng100_tighter",
+      "passed": true
+    },
+    {
+      "name": "finite:dng100_tighter",
+      "passed": true
+    }
+  ],
+  "numerical_motor_maximum_difference_hz": 0.02760934829711914,
+  "numerical_interpretation": "Tenfold tighter tolerance retains six rhythmic motor cells and ~15.15Hz; small nonzero trajectory difference is preserved.",
+  "archived_parameter_sha256": "4658a080dd5e9313056f4a60c82f5937e836b59f4523875829689e86231560a9",
+  "summary_sha256": "8d9abab8274c016e9c58b4adac9cb85970b62dfe664be3a995d532f131d85c1a",
+  "replay_sha256": "490652e246ca987ed5a8dd5931e6bae648a3dbee21e2c46798867bb4d72217f8",
+  "scope": "Model and file integrity checks, no biological or embodied walking validation"
+}

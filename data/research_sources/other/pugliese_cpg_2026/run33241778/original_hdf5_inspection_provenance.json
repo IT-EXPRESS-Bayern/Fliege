@@ -1,0 +1,66 @@
+{
+  "schema": "fly.cpg-original-parameter-extract.v1",
+  "sourceURL": "https://zenodo.org/records/22260924/files/DNg100_Stim_BANC_vncOnly.zip?download=1",
+  "runId": "33241778",
+  "replicateIndex": 0,
+  "zipMember": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/ckpt/neuron_params.h5",
+  "memberArchiveOffset": 8935,
+  "memberBytes": 104442210,
+  "memberCrc32Expected": "f76df6e1",
+  "memberCrc32Verified": false,
+  "fullArchiveMd5Verified": false,
+  "httpRangeBytesThisOperation": 460830,
+  "hdf5BytesFetched": 458752,
+  "rangeBudgetBytes": 8388608,
+  "rangeManifest": [
+    {
+      "memberOffset": 0,
+      "archiveOffset": 8935,
+      "bytes": 65536,
+      "sha256": "89f2c00e7b91534aa67e86174d6c905275190d1114b070ca55115a6c8f02c237"
+    },
+    {
+      "memberOffset": 72024064,
+      "archiveOffset": 72032999,
+      "bytes": 65536,
+      "sha256": "9147f3fc120ae4ac060d91efceb326226fd3d5a964f3b79adb0f2ee94f39da32"
+    },
+    {
+      "memberOffset": 18612224,
+      "archiveOffset": 18621159,
+      "bytes": 65536,
+      "sha256": "5d5dda6c99f9ae74e68f40083badfce3ad4fce9951b38cfb22f5107b37f43938"
+    },
+    {
+      "memberOffset": 55246848,
+      "archiveOffset": 55255783,
+      "bytes": 65536,
+      "sha256": "db628b7ac58b1fd8d7a44d124588b28c388994890e8a975c4632cae72922ab4a"
+    },
+    {
+      "memberOffset": 71958528,
+      "archiveOffset": 71967463,
+      "bytes": 65536,
+      "sha256": "501c601a9e5161caea49b51041c65fbac43472fe6f258a12e023f50bef168483"
+    },
+    {
+      "memberOffset": 1572864,
+      "archiveOffset": 1581799,
+      "bytes": 65536,
+      "sha256": "b4d1184ea211216e9bd7e12998f7e2845ac6f99bbe21a7deabbb2c919a46ff30"
+    },
+    {
+      "memberOffset": 36896768,
+      "archiveOffset": 36905703,
+      "bytes": 65536,
+      "sha256": "7361d19a12469d2bc56283d981d4e2d88ff0e99ba069bab60cb170b8e64495fe"
+    }
+  ],
+  "datasetSelections": {},
+  "output": null,
+  "parametersResampled": false,
+  "valuesTransformed": false,
+  "sourceCodeExpectedState": "Original prepare_neuron_params applies surface-size scaling before HDF5 storage; do not reapply it.",
+  "verifiedExtent": "HTTPS Content-Range boundaries checked; hashes describe retrieved ranges and derived arrays. Whole-member CRC32 and whole-archive MD5 were not verifiable from this partial retrieval.",
+  "retrievedAt": "2026-09-27T08:27:00.296232+00:00"
+}

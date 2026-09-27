@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "ids_strings": true,
+    "sensor_ids_unique": true,
+    "tuning_unknown_preserved": true,
+    "proofread_is_boolean": true
+  },
+  "detectors": {
+    "v2": {
+      "edges_rechecked": 2720,
+      "paths_rechecked": 7292,
+      "full_graph_input_sums_rechecked": 477,
+      "all_counts_exact": true,
+      "within_same_detector": true
+    },
+    "v3": {
+      "edges_rechecked": 3232,
+      "paths_rechecked": 8968,
+      "full_graph_input_sums_rechecked": 477,
+      "all_counts_exact": true,
+      "within_same_detector": true
+    }
+  },
+  "browser_sha256": "dbf0449d7fa2951f887b62fa0a3d79b1349222d279c924499d0e6ec28aaf4ff3",
+  "physiological_validation_performed": false,
+  "interpretation": "Validates source identity and structural joins; tuning, receptor signs and force dynamics remain unvalidated."
+}

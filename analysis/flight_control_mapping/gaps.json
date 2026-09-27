@@ -1,0 +1,15 @@
+{
+  "schema":"fly.flight-reconstruction-gaps.v1",
+  "asOf":"2026-09-27",
+  "fullBrainAutonomy":false,
+  "flightBiologicallyValidated":false,
+  "gaps":[
+    {"domain":"power","known":"24 exact BANC wing-power motor IDs and DLM/DVM target names; asynchronous muscle mechanism supported experimentally","unknown":"Root-specific calcium dynamics, stretch-activation force law, recruitment, mechanical resonance and gap junctions","validation":"Separate tonic drive from emergent oscillation; test zero drive, missing DLM/DVM group and energy balance, retain failure to fly."},
+    {"domain":"steering","known":"24 motor IDs with tonic/phasic steering annotation and named target muscle","unknown":"Spike phase, per-muscle moment arms, stiffness effects, sign of yaw/roll/pitch in the current 3D geometry","validation":"Test both declared transfer signs and unilateral/bilateral drive; never label a successful engineering sign as biological discovery."},
+    {"domain":"proprioception","known":"245 source proprioception labels in wing/haltere inventory, 244 proofread; exact same-detector chemical paths","unknown":"Individual strain axis, threshold, phase response and direction selectivity; field-to-BANC-root mapping is incomplete","validation":"Mechanical strain/phase perturbation, afferent ablation, delayed feedback and matched replay controls; preserve unknown tuning."},
+    {"domain":"vision","known":"38 HS/VS-family LPTC annotations and selected observed two-edge routes to prioritized DNs","unknown":"Pixel/optic-flow to exact-root activation, direction-tuned gains, sensory delays, bilateral visual control policy","validation":"Document visual stimulus transform and compare closed loop against frozen/replayed vision without inventing root tuning."},
+    {"domain":"aerodynamics","known":"Original FlyBody 3-axis wing geometry and phenomenological flight model exist as reference","unknown":"Browser lift/drag/moment calibration, flexible wing deformation, hinge coupling, body mass/inertia, air-relative velocity and near-ground effects","validation":"Dimensional consistency, no lift from stopped wings, symmetry tests, energy/power bounds, timestep convergence and perturbation response."},
+    {"domain":"behavior_state","known":"Landing DNs and flight-state gating are supported at cell-type level","unknown":"Spontaneous takeoff/landing selection, fuel, fatigue, hunger, feeding, sleep and internal state dynamics","validation":"Explicit state/energy dynamics and closed sensory feedback are required before claiming normal autonomous living."},
+    {"domain":"specimen_and_graph","known":"Exact BANC v888 IDs with v2/v3 graph alternatives; FANC literature provides other-animal context","unknown":"Unobserved electrical/chemical edges and physiological parameters","validation":"Do not transfer FANC/FAFB edges as BANC measurements, sum detector counts or infer absence from truncated browser examples."}
+  ]
+}

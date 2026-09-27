@@ -1,0 +1,74 @@
+{
+  "generated_at_utc": "2026-09-26T21:23:50.949694+00:00",
+  "source_record": "https://zenodo.org/records/10676866",
+  "inputs": {
+    "raw_synapse_file": "data/flywire_fafb_v783/flywire_synapses_783.feather",
+    "raw_synapse_file_bytes": 9492998242,
+    "published_edge_file": "data/flywire_fafb_v783/proofread_connections_783.feather",
+    "published_edge_file_bytes": 852022274,
+    "official_root_ids": "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+    "official_root_ids_sha256": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be",
+    "point_audit": "analysis/synapse_point_audit.json",
+    "point_audit_sha256": "d2c791701ba4ffcd104cff55cbe1e61f7d0ccfa10580aa0db37627f7a55b4444",
+    "prior_616_exception_csv": "data/research_sources/derived/observed_raw_proofread_edge_exceptions_for_616.csv",
+    "prior_616_exception_csv_sha256": "3acaebfc7d968237f511758c5ebeae30efa87e5d2c03a70d662c308246894185"
+  },
+  "method": "Stream all raw synapse rows, retain only rows whose two IDs are in official proofread_root_ids_783.npy, hash partition by pre root ID, aggregate exact directed pre/post/neuropil counts per partition, and full-outer join with all published proofread connection rows partitioned by the same key. Arrow partition files are temporary.",
+  "raw_counts": {
+    "rows_scanned": 130054535,
+    "both_proofread_points": 54492970,
+    "pre_root_id_null_rows": 0,
+    "post_root_id_null_rows": 0
+  },
+  "published_counts": {
+    "rows_scanned": 16847997,
+    "syn_count_sum": 54492922
+  },
+  "partition_stats": {
+    "partitions": 128,
+    "flush_rows": 50000,
+    "temporary_partition_bytes": 1066478736,
+    "max_raw_rows_in_one_partition": 537359,
+    "max_published_rows_in_one_partition": 167856
+  },
+  "reconciliation": {
+    "raw_distinct_pair_region_keys": 16848018,
+    "published_distinct_pair_region_keys": 16847997,
+    "published_duplicate_pair_region_rows": 0,
+    "exception_pair_region_keys": 6407,
+    "exception_types": {
+      "raw_only": 3214,
+      "published_only": 3193,
+      "different_count": 0
+    },
+    "raw_points_in_exception_rows": 4233,
+    "published_synapses_in_exception_rows": 4185,
+    "prior_616_exception_keys": 21,
+    "prior_616_exception_keys_with_exact_count": 21,
+    "all_prior_616_exception_keys_exact": true,
+    "all_exceptions_are_the_prior_616_keys": false
+  },
+  "region_alignment": {
+    "observed_raw_region_label": "None",
+    "observed_published_region_label": "UNASGD",
+    "alignment_scope": "derived comparison of v783 raw versus published pair-region counts only",
+    "raw_only_None_keys": 3193,
+    "published_only_UNASGD_keys": 3193,
+    "one_to_one_matching_directed_pairs": 3193,
+    "matching_synapse_points": 4185,
+    "matching_published_synapses": 4185,
+    "directed_pairs_with_nonzero_total_difference": 21,
+    "pair_level_raw_minus_published_synapses": 48,
+    "exception_pair_region_keys_after_alignment": 21,
+    "raw_points_in_remaining_exceptions": 48,
+    "published_synapses_in_remaining_exceptions": 0,
+    "all_remaining_exceptions_exactly_prior_616_R7_keys": true,
+    "aligned_exception_csv": "data/research_sources/derived/raw_published_edge_exceptions_after_region_alignment.csv",
+    "aligned_exception_csv_sha256": "bccbb1ca7170b782248ce47fe3bfe0d80c6690ac16069f91ecfd6228371bc221",
+    "interpretation": "The raw literal region label None and published UNASGD have identical directed pairs and counts for the discrepant 3,193 pairs. This is an empirical release-specific comparison rule, not an edit to source data or a general anatomical equivalence claim."
+  },
+  "global_raw_minus_published_synapses": 48,
+  "exception_csv": "data/research_sources/derived/raw_published_edge_count_exceptions.csv",
+  "exception_csv_sha256": "95e8ddc21cd38c6b5d07e9d9495b9645a2447e242209abc86d0f2a9bcba3e3fd",
+  "interpretation": "Every released raw both-proofread point has been compared by exact directed pair and neuropil with the published aggregate. An exception means a dataset discrepancy, not an inferred or newly detected biological synapse. The official graph and files remain unchanged."
+}

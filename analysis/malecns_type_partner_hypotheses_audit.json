@@ -1,0 +1,93 @@
+{
+  "generated_utc": "2026-09-26T21:55:37.059146+00:00",
+  "source_release": "MaleCNS v1.0, separate male animal",
+  "fafb_release": "FlyWire FAFB v783, separate female animal",
+  "source_male_files": {
+    "body-annotations-male-cns-v1.0-minconf-0.5.feather": {
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+    },
+    "connectome-weights-male-cns-v1.0-minconf-0.5-traced-only.feather": {
+      "bytes": 508025642,
+      "sha256": "9b3beab17bad5f618be3f2c02d3139a8d07b822565919c013f1e5506d93e604b"
+    },
+    "mcns_fw_edge_comp_mappings.json": {
+      "bytes": 6723460,
+      "sha256": "94aaadbefedcc314c69fb8ad62a07361c1f78ee39424bad38ac1a6d7ca4d0a12"
+    }
+  },
+  "source_fafb_files_sha256": {
+    "data/research_sources/derived/model_missing_fafb_ids.csv": "952e29ca32df5b8e42f8d9d59255a95d8ef6d62c31ef647db898577a2c8ca3e9",
+    "data/research_sources/derived/missing_neuron_type_link_hypotheses.csv": "0ce62797912d4f37edd22df67b799305c86ab567092e184e1167e9740eee40a1",
+    "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "data/research_sources/derived/observed_raw_proofread_edge_exceptions_for_616.csv": "3acaebfc7d968237f511758c5ebeae30efa87e5d2c03a70d662c308246894185",
+    "brain/graph-original-v783/annotations.json": "4db1914a26cf53a660d8a50148d53179f7a841261f799d025d05194d2d5113c6"
+  },
+  "method": {
+    "source_cell_mapping": "Author MaleCNS↔FlyWire cross-type JSON, exact FAFB root ID to label; male body IDs sharing label and anatomical side.",
+    "side": "Male sensory axons use rootSide where valid; other neurons use somaSide where valid; opposite/unknown sides excluded.",
+    "male_edges": "Observed directed MaleCNS v1.0 traced-only body-pair weights, both endpoints annotated as neurons.",
+    "partner_label": "Prefer MaleCNS flywireType annotation, else author cross-type label, else MaleCNS type; retain ambiguous comma lists.",
+    "ranking": "Within source type+side+direction, descending prevalence of male source neurons with that partner type+side, then descending total synapse contacts; top ten per direction expanded to each FAFB ID.",
+    "comparison": "Exact target-type string comparison with existing v783 homolog hypotheses (outgoing only); released v783 raw points and proofread raw exceptions remain separate evidence columns."
+  },
+  "counts": {
+    "fafb_ids_total": 616,
+    "fafb_ids_in_author_cross_mapping": 562,
+    "fafb_ids_with_same_side_male_sources": 562,
+    "fafb_ids_unmapped": 54,
+    "fafb_ids_mapped_but_no_same_side_source": 0,
+    "male_source_neurons_in_requested_cohorts": 7282,
+    "male_source_type_side_cohorts": 21,
+    "all_observed_male_partner_type_side_rows": 5078,
+    "prioritized_rows_expanded_to_fafb_ids": 11189,
+    "fafb_ids_with_prior_v783_homolog_hypotheses": 552,
+    "prioritized_outgoing_rows_matching_prior_homolog_type": 2698,
+    "fafb_ids_with_any_prioritized_outgoing_type_agreement": 547,
+    "fafb_ids_with_released_raw_points": 336,
+    "fafb_ids_with_raw_proofread_exceptions": 1,
+    "fafb_raw_point_calls_touched": 7385,
+    "fafb_raw_proofread_exception_calls": 48,
+    "ids_with_multiple_malecns_source_type_names": 16,
+    "r7_raw_type_crosscheck_rows": 18
+  },
+  "strata": {
+    "R1-6": {
+      "fafb_ids": 520,
+      "author_cross_mapped_same_side": 520,
+      "unmapped": 0,
+      "with_prior_v783_homolog_type_hypothesis": 520,
+      "with_prioritized_type_string_agreement": 520,
+      "with_any_released_v783_raw_point": 293,
+      "released_v783_raw_point_calls": 6855
+    },
+    "other_96": {
+      "fafb_ids": 96,
+      "author_cross_mapped_same_side": 42,
+      "unmapped": 54,
+      "with_prior_v783_homolog_type_hypothesis": 32,
+      "with_prioritized_type_string_agreement": 27,
+      "with_any_released_v783_raw_point": 43,
+      "released_v783_raw_point_calls": 530
+    }
+  },
+  "outputs": {
+    "data/research_sources/derived/malecns_observed_partner_type_groups.csv": {
+      "bytes": 819664,
+      "sha256": "97f514ef2dd106c6c836dee6ff925319a5d6e78680f9a6c0577e01cdca9372ac"
+    },
+    "data/research_sources/derived/malecns_type_partner_hypotheses_for_616.csv": {
+      "bytes": 2922344,
+      "sha256": "adcefd5e5c71ef7ab83b9563cb88bf43488025e81a9520bd23d09db78f6b36ac"
+    },
+    "data/research_sources/derived/malecns_type_mapping_coverage_for_616.csv": {
+      "bytes": 56055,
+      "sha256": "8893ff552fbf6a0b0ac6a5f34a80745edf0b0182382212e27dc800e66dc46564"
+    },
+    "data/research_sources/derived/malecns_r7_raw_type_crosscheck.csv": {
+      "bytes": 3357,
+      "sha256": "b98b3f51efa1125e8b843a0d4bb6b4174484726dfabb68ef4a28da29b820ae2e"
+    }
+  },
+  "hard_boundary": "No exact FAFB synapses or root-to-root partner IDs are inferred or added; this is cross-animal type evidence only."
+}

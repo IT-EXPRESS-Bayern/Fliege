@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-09-27T06:46:15.052010+00:00",
+  "source_sha256": {
+    "data/flywire_annotations_v2.1.0/Supplemental_file1_neuron_annotations.tsv": "30be6c73975a70c56d930e27911f36455d3886e15abf383b78edd2a5d679e0b6",
+    "data/research_sources/other/banc_2026/supplemental_data_3.txt": "263952b5e178e6093d2c15a7d1a51d8400ae25caa2bce0c565bda733c3138378",
+    "data/research_sources/other/stuerner_neckconnective/Supplemental_file5_FAFB_DNs.tsv": "e5ab52e3e9bb8545942a35e841ae562295530d00c64fd49d3a110a5d6ed2b0e2"
+  },
+  "common_fafb_ids": 139249,
+  "side_comparison": {
+    "agree": 139208,
+    "disagree": 11,
+    "both_unknown": 30
+  },
+  "stuerner_dn_rows": 1316,
+  "stuerner_comparison": {
+    "source_opposite_both_current": 1301,
+    "all_agree": 14,
+    "requires_individual_review": 1
+  },
+  "selected_test_cells": [
+    {
+      "root_id": "720575940604737708",
+      "stuerner_type": "DNa02",
+      "stuerner_side_raw": "L",
+      "v2_1_side_raw": "right",
+      "banc_harmonized_fafb_side_raw": "right",
+      "comparison": "source_opposite_both_current"
+    },
+    {
+      "root_id": "720575940606112940",
+      "stuerner_type": "DNg13",
+      "stuerner_side_raw": "L",
+      "v2_1_side_raw": "right",
+      "banc_harmonized_fafb_side_raw": "right",
+      "comparison": "source_opposite_both_current"
+    },
+    {
+      "root_id": "720575940616471052",
+      "stuerner_type": "DNg13",
+      "stuerner_side_raw": "R",
+      "v2_1_side_raw": "left",
+      "banc_harmonized_fafb_side_raw": "left",
+      "comparison": "source_opposite_both_current"
+    },
+    {
+      "root_id": "720575940629327659",
+      "stuerner_type": "DNa02",
+      "stuerner_side_raw": "R",
+      "v2_1_side_raw": "left",
+      "banc_harmonized_fafb_side_raw": "left",
+      "comparison": "source_opposite_both_current"
+    },
+    {
+      "root_id": "720575940616185531",
+      "shiu_source_name": "aDN1_l",
+      "v2_1_side_raw": "right",
+      "banc_harmonized_fafb_side_raw": "right",
+      "banc_harmonized_type": "DNg62",
+      "comparison": "old_name_side_opposes_current_annotations"
+    },
+    {
+      "root_id": "720575940629806974",
+      "shiu_source_name": "aDN2_l",
+      "v2_1_side_raw": "right",
+      "banc_harmonized_fafb_side_raw": "right",
+      "banc_harmonized_type": "DNge078",
+      "comparison": "old_name_side_opposes_current_annotations"
+    }
+  ],
+  "official_coordinate_convention_source": "https://codex.flywire.ai/faq",
+  "official_explanation": "Codex documents historical left/right inversion during FAFB image acquisition, later corrected annotation labels, and unchanged mirrored imagery/segmentation.",
+  "interpretation": "The systematic source reversal is consistent with that documented convention change; the exact correction history of every source row is not independently established. Preserve original side fields. An annotation-side comparison alone does not calibrate a biological turning command.",
+  "normalization": "L/R/M -> left/right/center; empty and NA/na -> unknown; root IDs matched exactly."
+}

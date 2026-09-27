@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-09-26T22:08:38.937144+00:00",
+  "source": "data/flywire_morphology_v783/sk_lod1_783_healed_ds2.parquet",
+  "source_url": "https://zenodo.org/records/10877326",
+  "skeleton_rows_scanned": 268281651,
+  "skeleton_nodes_by_selected_id": {
+    "720575940626013112": 3577,
+    "720575940622062913": 0,
+    "720575940638820442": 380,
+    "720575940631647173": 280
+  },
+  "findings": [
+    {
+      "case": "P_same_specimen_photoreceptor_to_proofread_partner",
+      "detector": "Princeton_2025",
+      "pre_root_id": "720575940631647173",
+      "post_root_or_segment_id": "720575940626013112",
+      "neuropil": "LA_R",
+      "point_calls": 55,
+      "pre_skeleton_nodes": 280,
+      "post_skeleton_nodes": 3577,
+      "pre_site_to_nearest_pre_skeleton_node": {
+        "sites_with_skeleton": 55,
+        "sites_without_skeleton": 0,
+        "minimum_nm": 116.643,
+        "median_nm": 388.728,
+        "p90_nm": 651.793,
+        "maximum_nm": 884.753
+      },
+      "post_site_to_nearest_post_skeleton_node": {
+        "sites_with_skeleton": 55,
+        "sites_without_skeleton": 0,
+        "minimum_nm": 32.388,
+        "median_nm": 335.12,
+        "p90_nm": 556.409,
+        "maximum_nm": 1219.153
+      },
+      "interpretation": "Proximity to released skeleton centreline supports coordinate/anatomy consistency only; no functional or segmentation identity claim"
+    },
+    {
+      "case": "B_old_photoreceptor_to_unproofread_segment",
+      "detector": "Buhmann_2024",
+      "pre_root_id": "720575940638820442",
+      "post_root_or_segment_id": "720575940622062913",
+      "neuropil": "LA_L",
+      "point_calls": 22,
+      "pre_skeleton_nodes": 380,
+      "post_skeleton_nodes": 0,
+      "pre_site_to_nearest_pre_skeleton_node": {
+        "sites_with_skeleton": 22,
+        "sites_without_skeleton": 0,
+        "minimum_nm": 365.291,
+        "median_nm": 653.181,
+        "p90_nm": 1186.347,
+        "maximum_nm": 1695.868
+      },
+      "post_site_to_nearest_post_skeleton_node": {
+        "sites_with_skeleton": 0,
+        "sites_without_skeleton": 22
+      },
+      "interpretation": "Proximity to released skeleton centreline supports coordinate/anatomy consistency only; no functional or segmentation identity claim"
+    }
+  ],
+  "limitations": "Nearest centreline distance ignores local neurite radius and skeleton downsampling. A missing skeleton for an unproofread segment is expected and does not prove absence of the segment. Positive proximity is not evidence that an automated synapse call is correct."
+}

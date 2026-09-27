@@ -1,0 +1,32 @@
+{
+  "dataset": "FAFB v783, 2025 Princeton synapse detector",
+  "source": "https://codex.flywire.ai/api/download?dataset=fafb",
+  "paper": "https://doi.org/10.1101/2025.07.11.664377",
+  "version_note": "Same v783 segmentation/root IDs as the older Buhmann detector; keep releases separate",
+  "scope": "Connectivity and synapse point exports only; no EM images",
+  "retrieved_utc": "2026-09-26T21:58:43.729664+00:00",
+  "files": [
+    {
+      "path": "data/codex_fafb_v783/connections_princeton_no_threshold.csv.gz",
+      "source_url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton_no_threshold.csv.gz",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/flywire-data/o/codex%2Fdata%2Ffafb%2F783%2Fconnections_princeton_no_threshold.csv.gz",
+      "bytes": 275679780,
+      "gcs_generation": "1751983882423412",
+      "gcs_updated": "2025-07-08T14:11:22.534Z",
+      "official_md5_base64": "aU9+W9AYuDxx7rC6VbUOfg==",
+      "md5_base64": "aU9+W9AYuDxx7rC6VbUOfg==",
+      "sha256": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e"
+    },
+    {
+      "path": "data/codex_fafb_v783/fafb_v783_princeton_synapse_table.csv.gz",
+      "source_url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/fafb_v783_princeton_synapse_table.csv.gz",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/flywire-data/o/codex%2Fdata%2Ffafb%2F783%2Ffafb_v783_princeton_synapse_table.csv.gz",
+      "bytes": 2695106039,
+      "gcs_generation": "1753375286243016",
+      "gcs_updated": "2025-07-24T16:41:26.464Z",
+      "official_md5_base64": "9SZxEO6lMHXghKhYEUKkdg==",
+      "md5_base64": "9SZxEO6lMHXghKhYEUKkdg==",
+      "sha256": "780a0ebd9320847b9fce2b05056b3d57a56da097549dae7847b8e55c488f1e29"
+    }
+  ]
+}

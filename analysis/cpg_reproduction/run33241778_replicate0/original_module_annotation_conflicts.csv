@@ -1,0 +1,28 @@
+matrix_index,pt_root_id,body_part_effector,body_part_sensory,cell_class,cell_function,cell_function_detailed,cell_sub_class,cell_type,fafb_783_cell_type,fafb_783_match_id,fanc_1116_cell_type,fanc_1116_match_id,flow,hemibrain_121_cell_type,hemibrain_121_match_id,hemilineage,manc_121_cell_type,manc_121_match_id,nerve,neuropeptide_verified,neurotransmitter_predicted,neurotransmitter_verified,other_names,peripheral_target_type,region,sexually_dimorphic,side,super_class,pt_position,surf_area_um2,motor module,step contribution,predictedNt,class
+370,720575941434874912,,,descending_neuron,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,neck_connective,,left,descending,[147440  58400   1866],5754.388944,tarsus control,other,acetylcholine,descending neuron
+488,720575941439622111,,,descending_neuron,,,,,,,,,intrinsic,,,,,,,,gaba,,,,neck_connective,,right,descending,[115424  62384   1238],4663.003392,tarsus control,other,gaba,descending neuron
+512,720575941440649307,,,,,,,,,,,,,,,,,,,,histamine,,,,ventral_nerve_cord,,left,,[107632 233664   5247],7622.854176,tarsus control,other,histamine,
+615,720575941448680285,,,,,,,,,,,,,,,,,,,,histamine,,,,ventral_nerve_cord,,,,,,tarsus control,other,histamine,
+838,720575941463544077,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,,,,159.32112,tarsus control,other,acetylcholine,
+1086,720575941477010737,,,,,,,,,,,,,,,,,,,,glutamate,,,,ventral_nerve_cord,,right,,[131104 146528   2214],5168.151728,tarsus control,other,glutamate,
+1108,720575941477522794,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,,[ 90480 233760   5578],5285.89592,tarsus control,other,acetylcholine,
+1239,720575941482407677,,,descending_neuron,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,MX12_R_36,,neck_connective,,right,descending,[111744  51168    585],4420.081456,tarsus control,other,acetylcholine,descending neuron
+1297,720575941485464130,,,,,,,,,,,,,,,,,,,,dopamine,,,,ventral_nerve_cord,,right,,,,tarsus control,other,dopamine,
+1693,720575941504354754,,,ascending_neuron,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,neck_connective,,right,ascending,[106272 151168   3996],13430.717072,tarsus control,other,acetylcholine,ascending neuron
+1726,720575941505204293,,,,,,,,,,,,intrinsic,,,,,,,,gaba,,,,ventral_nerve_cord,,left,ventral_nerve_cord_intrinsic,[151872 151072   4834],5071.876064,tarsus control,other,gaba,intrinsic neuron
+1738,720575941505687234,,,,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,ventral_nerve_cord_intrinsic,[100144 223536   5859],3556.3316,tarsus control,other,acetylcholine,intrinsic neuron
+2037,720575941517351161,,,ascending_neuron,,,,,,,,,intrinsic,,,00A,,,,,gaba,gaba,,,neck_connective,,left,ascending,[136464 164736   2673],10031.01256,tarsus control,other,gaba,ascending neuron
+2054,720575941518405998,,,,,,,,,,,,,,,,,,,,gaba,,,,ventral_nerve_cord,,left,,[143984 145376   2207],3236.287904,tarsus control,other,gaba,
+2055,720575941518431927,,,ascending_neuron,,,,,,,,,intrinsic,,,,,,,,glutamate,,,,neck_connective,,right,ascending,[123920 140416   2459],5638.800976,tarsus control,other,glutamate,ascending neuron
+2147,720575941522782967,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,,[107152 160672   2885],2354.588208,tarsus control,other,acetylcholine,
+2272,720575941527210680,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,,[125088 136640   2595],691.267728,tarsus control,other,acetylcholine,
+2367,720575941532418904,,,,,,,,,,,,intrinsic,,,,,,,,gaba,,,,ventral_nerve_cord,,right,ventral_nerve_cord_intrinsic,[123616 140432   2700],1165.863424,tarsus control,other,gaba,intrinsic neuron
+2435,720575941534383235,,,descending_neuron,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,"DNfl003_CvC_L,MX12_L_31",,neck_connective,,left,descending,[136112  49040    505],5569.675184,tarsus control,other,acetylcholine,descending neuron
+2595,720575941539539325,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,,,,tarsus control,other,acetylcholine,
+3181,720575941563237778,,,,,,,,,,,,,,,,,,,,,,,,ventral_nerve_cord,,right,glia,[104032 155552   2319],2071.36456,tarsus control,other,,
+3765,720575941591831180,,,,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,,ventral_nerve_cord_intrinsic,,1468.356512,tarsus control,other,acetylcholine,intrinsic neuron
+3945,720575941603190006,,,,,,,,,,,,intrinsic,,,,,,,,dopamine,,,,ventral_nerve_cord,,left,ventral_nerve_cord_intrinsic,[144480 172960   3064],10677.904352,tarsus control,other,dopamine,intrinsic neuron
+3983,720575941606629485,,,descending_neuron,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,neck_connective,,left,descending,[123856  34304   5138],4684.025648,tarsus control,other,acetylcholine,descending neuron
+3988,720575941607605101,,,,,,,,,,,,intrinsic,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,ventral_nerve_cord_intrinsic,[121760 138944   2894],11143.8128,tarsus control,other,acetylcholine,intrinsic neuron
+4355,720575941630873531,,,,,,,,,,,,,,,,,,,,acetylcholine,,,,ventral_nerve_cord,,right,,[106992 160656   3207],952.62824,tarsus control,other,acetylcholine,
+4846,720575941689154828,,,,,,,,,,,,,,,,,,,,dopamine,,,,ventral_nerve_cord,,left,,[109136 242176   4749],24451.56656,tarsus control,other,dopamine,

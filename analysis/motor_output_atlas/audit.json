@@ -1,0 +1,168 @@
+{
+  "schema": "fly.motor-output-atlas.v1",
+  "created_utc": "2026-09-27T07:27:32.265711+00:00",
+  "source_file": "data/research_sources/other/banc_2026/banc_888_meta.feather",
+  "source_sha256": "819bbcff476e52702d6f8d8604ce1f12d1d7b11942281df2f49df2a73a6f15a5",
+  "source_url": "https://doi.org/10.7910/DVN/7WTH1N",
+  "license": "CC BY 4.0",
+  "namespace": "BANC_v888",
+  "motor_roots": 805,
+  "all_unique_exact_ids": true,
+  "all_proofread": true,
+  "leg_motor_roots": 391,
+  "body_part_groups": [
+    {
+      "body_part_effector": "abdomen",
+      "motor_roots": 168,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "front_leg",
+      "motor_roots": 139,
+      "detailed_action_present": 139,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "middle_leg",
+      "motor_roots": 126,
+      "detailed_action_present": 126,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "hind_leg",
+      "motor_roots": 126,
+      "detailed_action_present": 126,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "wing",
+      "motor_roots": 64,
+      "detailed_action_present": 24,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "neck",
+      "motor_roots": 49,
+      "detailed_action_present": 36,
+      "verified_transmitter_present": 15,
+      "predicted_verified_disagreements": 14
+    },
+    {
+      "body_part_effector": "proboscis",
+      "motor_roots": 35,
+      "detailed_action_present": 33,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "haltere",
+      "motor_roots": 27,
+      "detailed_action_present": 10,
+      "verified_transmitter_present": 15,
+      "predicted_verified_disagreements": 14
+    },
+    {
+      "body_part_effector": "pharynx",
+      "motor_roots": 22,
+      "detailed_action_present": 11,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "thoracic_abdominal",
+      "motor_roots": 18,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "antenna, scape",
+      "motor_roots": 8,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "crop",
+      "motor_roots": 7,
+      "detailed_action_present": 7,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "uterus",
+      "motor_roots": 6,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "eye",
+      "motor_roots": 4,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "salivary_gland",
+      "motor_roots": 2,
+      "detailed_action_present": 2,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "unknown",
+      "motor_roots": 2,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    },
+    {
+      "body_part_effector": "antenna",
+      "motor_roots": 2,
+      "detailed_action_present": 0,
+      "verified_transmitter_present": 0,
+      "predicted_verified_disagreements": 0
+    }
+  ],
+  "predicted_transmitter_counts": {
+    "octopamine": 71,
+    "gaba": 444,
+    "acetylcholine": 179,
+    "missing": 59,
+    "glutamate": 35,
+    "serotonin": 11,
+    "histamine": 3,
+    "dopamine": 3
+  },
+  "source_verified_transmitter_roots": 30,
+  "verified_body_parts": {
+    "neck": 15,
+    "haltere": 15
+  },
+  "predicted_verified_disagreements": 28,
+  "leg_verified_transmitter_roots": 0,
+  "leg_predicted_transmitter_counts": {
+    "octopamine": 12,
+    "gaba": 260,
+    "acetylcholine": 81,
+    "missing": 26,
+    "glutamate": 11,
+    "dopamine": 1
+  },
+  "interpretation": [
+    "The verified field is the source annotation, not an independent experiment performed here.",
+    "28/30 disagreement applies only to the annotated subset (neck and haltere); it is not a graph-wide classifier error estimate.",
+    "Proofread identity does not validate predicted neurotransmitter, receptor response, muscle strength or motor dynamics.",
+    "A transmitter label alone cannot set the sign of a neuron-to-muscle actuator.",
+    "BANC is a different individual from FAFB; fafb_match remains a cross-animal homology field.",
+    "Body-part groups use complete literal source labels, including antenna, scape; no multiple counting.",
+    "Detailed-action presence is literal non-missingness, not evidence that an action is sufficiently specified for control."
+  ]
+}

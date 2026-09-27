@@ -1,0 +1,36 @@
+{
+  "dataset": "BANC v888, Harvard Dataverse doi:10.7910/DVN/7WTH1N",
+  "release_comparison": {
+    "v2": "paper synapse detector size >=5",
+    "v3": "updated synapse detector size >=10"
+  },
+  "fafb_unconnected_ids_total": 616,
+  "fafb_ids_with_valid_reviewed_cross_animal_match": 34,
+  "reviewed_valid_source_rows_for_those_ids": 111,
+  "reviewed_source_rows_resolved_to_v888": 97,
+  "reviewed_source_rows_unresolved_at_v888": 14,
+  "unique_resolved_fafb_banc_homolog_pairs": 97,
+  "reviewed_valid_rows_skipped_for_non_numeric_ids": 3,
+  "unique_banc_homolog_ids": 97,
+  "selected_banc_edgelist_rows_incident_to_homologs": {
+    "v2_paper_size_ge_5": 10917,
+    "v3_updated_size_ge_10": 12539
+  },
+  "autapse_rows_excluded_for_these_homologs": {
+    "v2_paper_size_ge_5": 76,
+    "v3_updated_size_ge_10": 0
+  },
+  "detail_rows_with_fafb_match_duplication": 23719,
+  "partner_type_hypothesis_rows": 7293,
+  "hypotheses_with_shared_banc_pair_count_ge_5_in_both_versions": 789,
+  "priority_1_rows": 79,
+  "priority_2_rows": 127,
+  "priority_3_rows": 7087,
+  "detail_csv": "banc_observed_partner_edges_for_34_fafb_ids.csv",
+  "hypotheses_csv": "banc_partner_type_hypotheses_for_34_fafb_ids.csv",
+  "per_fafb_id_summary_csv": "banc_34_fafb_id_summary.csv",
+  "v888_resolution_csv": "banc_reviewed_matches_resolved_to_v888_for_34_fafb_ids.csv",
+  "type_status_definition": "Literal equality of FAFB official cell_type (or reviewed-match label if official is blank) and BANC fafb_cell_type when present, otherwise BANC cell_type. A 'different' label is not proof of biological mismatch because nomenclature changes across datasets.",
+  "side_status_definition": "Literal left/right/center agreement between the official FAFB annotation and BANC meta; cross-animal mirror matches can be biologically valid.",
+  "interpretation": "Every edge in the detail CSV is observed in the BANC specimen only. FAFB IDs are reviewed cross-animal homolog matches. Version agreement is algorithmic robustness in one specimen, not independent biological replication. Candidate priority is heuristic, never a probability or an FAFB connection claim."
+}

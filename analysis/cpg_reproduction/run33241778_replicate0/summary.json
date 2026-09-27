@@ -1,0 +1,851 @@
+{
+  "schema": "fly.cpg-summary.v1",
+  "protocol": {
+    "schema": "fly.cpg-reproduction-protocol.v1",
+    "paper_run_replicated": false,
+    "original_repository_commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+    "run_config_status": {
+      "path": "data\\research_sources\\other\\pugliese_cpg_2026\\run33241778\\logs\\run_config.yaml",
+      "sha256": "75ec303f152b10d0c02e393883b999e44f9229799ad763ea6df0f7f1b7efda31",
+      "status": "Actual run configuration plus archived parameters; sparse CPU equation recomputation, not equality to the original saved trajectory",
+      "experiment": {
+        "name": "DNg100_Stim_BANC_vncOnly",
+        "wPath": "${paths.data_dir}/banc t1 premotor/W_20260217.npz",
+        "dfPath": "${paths.data_dir}/banc t1 premotor/wTable_20260217_fullData.csv",
+        "n_replicates": 1024,
+        "batch_size": null,
+        "dn_screen": false,
+        "stimNeurons": [
+          [
+            1605
+          ]
+        ],
+        "removeNeurons": [],
+        "keepOnly": [],
+        "stimI": [
+          [
+            400
+          ]
+        ],
+        "seed": 129,
+        "saveFigs": true,
+        "useTsp": false,
+        "save_checkpoints": false,
+        "max_pruning_iterations": 200,
+        "oscillation_threshold": 0.5
+      }
+    },
+    "input_amplitude_each_cell_arbitrary_units": 400.0,
+    "input_amplitude_source": "Explicit CLI current 400; actual source run_config experiment.stimI=[[400]]. Compare before claiming matching drive.",
+    "seed": 129,
+    "replicates": 1,
+    "parameter_sampling": "Original archived replicate slice, already size-scaled; no random resampling or second size correction. Same arrays in every condition.",
+    "neuron_params": {
+      "name": "TestingNeuronParams",
+      "tauMean": 0.02,
+      "tauStdv": 0.002,
+      "aMean": 1,
+      "aStdv": 0.1,
+      "thresholdMean": 7.5,
+      "thresholdStdv": 0.6,
+      "frcapMean": 200,
+      "frcapStdv": 10,
+      "excitatoryMultiplier": 0.03,
+      "inhibitoryMultiplier": 0.03
+    },
+    "sim_params": {
+      "T": 2.0,
+      "dt": 0.001,
+      "pulseStart": 0.02,
+      "pulseEnd": 1.999,
+      "shuffle": false,
+      "noise": false,
+      "noiseStdvProp": 0.0,
+      "noiseMean": 0.0,
+      "noiseStdv": 0.0,
+      "prune_network": false,
+      "adjustStimI": false,
+      "max_adjustment_iters": 10,
+      "n_active_upper": 500,
+      "n_active_lower": 5,
+      "n_high_fr_upper": 100,
+      "high_fr_threshold": 100.0,
+      "rtol": 2e-06,
+      "atol": 5e-09,
+      "enable_checkpointing": true,
+      "checkpoint_interval": 100,
+      "async_mode": "streaming"
+    },
+    "solver": "SciPy RK45 Dormand-Prince with sparse transposed signed matrix, float64 states, original float32 sampled parameters",
+    "differences_from_original_runner": [
+      "SciPy RK45 adaptive step controller instead of Diffrax Dopri5",
+      "float64 state arithmetic instead of original float32",
+      "Exact integration segment boundaries at pulse onset and offset",
+      "NPZ arr_0 loaded explicitly; original load_W supports only NPY and CSV",
+      "No NaN replacement or clipping: solver failure is explicit",
+      "One replicate only; exact archived trace comparison not performed"
+    ],
+    "readout_masks": {
+      "original_notebook": "motor module is non-null; 156 rows including 27 nonmotor or unclassified rows",
+      "conservative": "motor module non-null AND source super_class=motor; 129 rows"
+    },
+    "conditions": {
+      "zero": {
+        "stim": [],
+        "removed": []
+      },
+      "dng100": {
+        "stim": [
+          1605
+        ],
+        "removed": []
+      },
+      "e1_removed": {
+        "stim": [
+          1605
+        ],
+        "removed": [
+          1689
+        ]
+      },
+      "e2_removed": {
+        "stim": [
+          1605
+        ],
+        "removed": [
+          910
+        ]
+      },
+      "i2_removed": {
+        "stim": [
+          1605
+        ],
+        "removed": [
+          3334
+        ]
+      },
+      "dnb08_pair": {
+        "stim": [
+          208,
+          2722
+        ],
+        "removed": []
+      },
+      "dng100_repeat": {
+        "stim": [
+          1605
+        ],
+        "removed": []
+      },
+      "dng100_tighter": {
+        "stim": [
+          1605
+        ],
+        "removed": [],
+        "rtol_scale": 0.1
+      }
+    },
+    "claim_limit": "Conditioned VNC rate-model dynamics; not spontaneous motivation, autonomous navigation, spikes, a whole brain or biological validation."
+  },
+  "conditions": {
+    "zero": {
+      "active_neurons_any_time": 0,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 0,
+        "mean_rhythmicity": 0.0
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 0,
+        "mean_rhythmicity": 0.0,
+        "rhythmic_cells_score_above_0_5": 0,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": null
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        }
+      },
+      "numerical": {
+        "function_evaluations": 57,
+        "wall_seconds": 0.281411100004334,
+        "minimum_rate": 0.0,
+        "maximum_rate": 0.0,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [],
+      "removed_neurons": [],
+      "trajectory_file": "zero_rates.npz",
+      "trajectory_sha256": "be0ec788031b69626d5d4a223da1039410d959f070b094b64b3bf506ed451029",
+      "rates_raw_float64_sha256": "6970dfc2d8fcecd56d617c0fb480a63eb397eb7e426c12c2968cd84c6b291701"
+    },
+    "dng100": {
+      "active_neurons_any_time": 98,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996147751808167
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996147751808167,
+        "rhythmic_cells_score_above_0_5": 6,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": 15.15151560306549
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 24.02524523816094,
+          "meanRate": 23.965948342173853,
+          "amplitude": 1.3477300202874858,
+          "peaks": 26,
+          "meanInterpeakHz": 15.206812652068127
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 7.655647577312561,
+          "meanRate": 4.257637046102987,
+          "amplitude": 6.089902344135647,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 8.422483817271873,
+          "meanRate": 4.534082729620631,
+          "amplitude": 6.958506726261648,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 8.683423044142682,
+          "meanRate": 5.272222970533382,
+          "amplitude": 6.467505102878324,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 1.0845355537180434,
+          "meanRate": 0.4837656565633696,
+          "amplitude": 0.973493439209834,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        }
+      },
+      "numerical": {
+        "function_evaluations": 15015,
+        "wall_seconds": 6.8844489000039175,
+        "minimum_rate": -1.0471624688127683e-05,
+        "maximum_rate": 101.00151401612646,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [],
+      "trajectory_file": "dng100_rates.npz",
+      "trajectory_sha256": "41ffae53cf6d8641a47151b1a5b2eaddd166be46ae49795d25a1bc2d73057c6f",
+      "rates_raw_float64_sha256": "0a43848bd8a94b199fff4805c8dd6921ccf1f07b36341af4f740c55593ff11c7"
+    },
+    "e1_removed": {
+      "active_neurons_any_time": 56,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 3,
+        "mean_rhythmicity": 0.0
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 3,
+        "mean_rhythmicity": 0.0,
+        "rhythmic_cells_score_above_0_5": 0,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": null
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 24.212306374669414,
+          "meanRate": 24.211496716039925,
+          "amplitude": 1.2542343520056498,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 2.0510410137911257,
+          "meanRate": 2.0507356462817485,
+          "amplitude": 0.002485343206655166,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        }
+      },
+      "numerical": {
+        "function_evaluations": 2151,
+        "wall_seconds": 1.182940399972722,
+        "minimum_rate": -8.831561550527279e-06,
+        "maximum_rate": 78.3108765810434,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [
+        "720575941504247575"
+      ],
+      "trajectory_file": "e1_removed_rates.npz",
+      "trajectory_sha256": "583d319ed2ce76a7b0054745d6820d5f6cefe30d45c64d68de769997f60e1028",
+      "rates_raw_float64_sha256": "91262f9bacff8367bd12e630d1d7d07b5c945be8f85531406dafc1a21cd0849f"
+    },
+    "e2_removed": {
+      "active_neurons_any_time": 122,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 12,
+        "mean_rhythmicity": 0.0
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 12,
+        "mean_rhythmicity": 0.0,
+        "rhythmic_cells_score_above_0_5": 0,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": null
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 23.886930912486243,
+          "meanRate": 23.8832190924476,
+          "amplitude": 1.2372960800320492,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 12.21455561258124,
+          "meanRate": 12.141388668394132,
+          "amplitude": 0.9034046232881394,
+          "peaks": 1,
+          "meanInterpeakHz": null
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 0.9046564428318765,
+          "meanRate": 0.07878623696339797,
+          "amplitude": 0.9046564428318765,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        }
+      },
+      "numerical": {
+        "function_evaluations": 3837,
+        "wall_seconds": 1.9169770000153221,
+        "minimum_rate": -0.00010786999623765473,
+        "maximum_rate": 100.06558137951927,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [
+        "720575941469024064"
+      ],
+      "trajectory_file": "e2_removed_rates.npz",
+      "trajectory_sha256": "b0eee3d8bbebed9a347197ca4def6175d4461387a1c09a40aa1a6e520652b618",
+      "rates_raw_float64_sha256": "5bf2ddef18ee3a0e86e122e50128fb8661cb9a57541e38e14a8876efad06b921"
+    },
+    "i2_removed": {
+      "active_neurons_any_time": 125,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 10,
+        "mean_rhythmicity": 0.999499499797821
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 10,
+        "mean_rhythmicity": 0.999499499797821,
+        "rhythmic_cells_score_above_0_5": 10,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": 13.333333656191826
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 23.600328763023956,
+          "meanRate": 23.489546928724476,
+          "amplitude": 1.3098718564941585,
+          "peaks": 24,
+          "meanInterpeakHz": 13.442431326709526
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 10.608613770375321,
+          "meanRate": 5.7619922182765295,
+          "amplitude": 8.926783046626019,
+          "peaks": 23,
+          "meanInterpeakHz": 13.309134906231094
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 18.787862745817492,
+          "meanRate": 10.687022726042546,
+          "amplitude": 14.897140765694843,
+          "peaks": 23,
+          "meanInterpeakHz": 13.301088270858525
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 10.017975053984868,
+          "meanRate": 5.645890658616859,
+          "amplitude": 8.126268258346608,
+          "peaks": 23,
+          "meanInterpeakHz": 13.309134906231098
+        }
+      },
+      "numerical": {
+        "function_evaluations": 16347,
+        "wall_seconds": 7.445327800000086,
+        "minimum_rate": -1.4085429367077062e-05,
+        "maximum_rate": 134.1750090153239,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [
+        "720575941569601650"
+      ],
+      "trajectory_file": "i2_removed_rates.npz",
+      "trajectory_sha256": "56000f1b60776ae88774af036c16149781636786d4cc5c919699c27d509c1743",
+      "rates_raw_float64_sha256": "e33e6778de81d9ad8bb2615aa00601f339b625b01fe31a541cff0f5e85034da8"
+    },
+    "dnb08_pair": {
+      "active_neurons_any_time": 231,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 17,
+        "mean_rhythmicity": 0.0
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 16,
+        "mean_rhythmicity": 0.0,
+        "rhythmic_cells_score_above_0_5": 0,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": null
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        }
+      },
+      "numerical": {
+        "function_evaluations": 5775,
+        "wall_seconds": 2.7376851000008173,
+        "minimum_rate": -0.0003661478907803392,
+        "maximum_rate": 116.66758907918067,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941415598737",
+        "720575941545432425"
+      ],
+      "removed_neurons": [],
+      "trajectory_file": "dnb08_pair_rates.npz",
+      "trajectory_sha256": "82f4d7b925db8690d1fa462f96815366e063186bd986b6a2f04169421d72c882",
+      "rates_raw_float64_sha256": "35a170c2eca7f54e76ea328096e1ac6414c66c9652f4fe7d87fcfb2326165969"
+    },
+    "dng100_repeat": {
+      "active_neurons_any_time": 98,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996147751808167
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996147751808167,
+        "rhythmic_cells_score_above_0_5": 6,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": 15.15151560306549
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 24.02524523816094,
+          "meanRate": 23.965948342173853,
+          "amplitude": 1.3477300202874858,
+          "peaks": 26,
+          "meanInterpeakHz": 15.206812652068127
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 7.655647577312561,
+          "meanRate": 4.257637046102987,
+          "amplitude": 6.089902344135647,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 8.422483817271873,
+          "meanRate": 4.534082729620631,
+          "amplitude": 6.958506726261648,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 8.683423044142682,
+          "meanRate": 5.272222970533382,
+          "amplitude": 6.467505102878324,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 1.0845355537180434,
+          "meanRate": 0.4837656565633696,
+          "amplitude": 0.973493439209834,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        }
+      },
+      "numerical": {
+        "function_evaluations": 15015,
+        "wall_seconds": 6.922494300000835,
+        "minimum_rate": -1.0471624688127683e-05,
+        "maximum_rate": 101.00151401612646,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [],
+      "trajectory_file": "dng100_repeat_rates.npz",
+      "trajectory_sha256": "41ffae53cf6d8641a47151b1a5b2eaddd166be46ae49795d25a1bc2d73057c6f",
+      "rates_raw_float64_sha256": "0a43848bd8a94b199fff4805c8dd6921ccf1f07b36341af4f740c55593ff11c7",
+      "exact_repeat_equal": true
+    },
+    "dng100_tighter": {
+      "active_neurons_any_time": 98,
+      "original_module_mask": {
+        "total": 156,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996115565299988
+      },
+      "conservative_motor_mask": {
+        "total": 129,
+        "active_post_transient": 6,
+        "mean_rhythmicity": 0.9996115565299988,
+        "rhythmic_cells_score_above_0_5": 6,
+        "median_autocorrelation_frequency_hz_for_rhythmic_cells": 15.15151560306549
+      },
+      "readouts": {
+        "DNg100_target_left": {
+          "rootId": "720575941500851362",
+          "cellType": "DNg100",
+          "maxRate": 24.025121288818145,
+          "meanRate": 23.965927792996897,
+          "amplitude": 1.3473384466251552,
+          "peaks": 26,
+          "meanInterpeakHz": 15.206812652068127
+        },
+        "DNg100_target_right": {
+          "rootId": "720575941626500746",
+          "cellType": "DNg100",
+          "maxRate": 0.0,
+          "meanRate": 0.0,
+          "amplitude": 0.0,
+          "peaks": 0,
+          "meanInterpeakHz": null
+        },
+        "E1": {
+          "rootId": "720575941504247575",
+          "cellType": "IN17A001",
+          "maxRate": 7.654404057294212,
+          "meanRate": 4.257471345194907,
+          "amplitude": 6.094379515357,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "E2": {
+          "rootId": "720575941469024064",
+          "cellType": "INXXX466",
+          "maxRate": 8.42176368578532,
+          "meanRate": 4.5341083017041806,
+          "amplitude": 6.9528266737576,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I2": {
+          "rootId": "720575941569601650",
+          "cellType": "IN19A007",
+          "maxRate": 8.681807356905272,
+          "meanRate": 5.272169099604006,
+          "amplitude": 6.464626297413256,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        },
+        "I1": {
+          "rootId": "720575941544954556",
+          "cellType": "IN16B036",
+          "maxRate": 1.0836458731755962,
+          "meanRate": 0.4837950673611967,
+          "amplitude": 0.972100030286324,
+          "peaks": 27,
+          "meanInterpeakHz": 15.204678362573098
+        }
+      },
+      "numerical": {
+        "function_evaluations": 31257,
+        "wall_seconds": 15.951292999961879,
+        "minimum_rate": -1.465825163803479e-06,
+        "maximum_rate": 100.99853961937087,
+        "finite": true,
+        "clip_or_nonfinite_replacement_applied": false
+      },
+      "source_neurons": [
+        "720575941500851362"
+      ],
+      "removed_neurons": [],
+      "trajectory_file": "dng100_tighter_rates.npz",
+      "trajectory_sha256": "9817d842dd7656448cc98c85e32a7fe1e7b12ae8f68e65deae6dfc53314d042f",
+      "rates_raw_float64_sha256": "57f0cdaa640fce7d9feecb6b982b20e1bf157d2745bc4e04c8a59290c57ffcec",
+      "tolerance_comparison": {
+        "max_absolute_rate_difference": 0.10423908664370174,
+        "rms_rate_difference": 0.0013261687242773978,
+        "interpretation": "Numerical sensitivity, not biological variability"
+      }
+    }
+  }
+}

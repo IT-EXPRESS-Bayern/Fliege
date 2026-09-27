@@ -1,0 +1,42 @@
+{
+  "schema": "fly.cpg-original-run-download.v1",
+  "sourceURL": "https://zenodo.org/records/22260924/files/DNg100_Stim_BANC_vncOnly.zip?download=1",
+  "record": "22260924",
+  "runId": "33241778",
+  "mode": "http_range",
+  "archiveExpectedMd5": "61802de138fdbd34c1d4f78eb9dbd2a8",
+  "fullArchiveMd5Verified": false,
+  "archiveTotalBytes": 807140332,
+  "bytesDownloaded": 5904,
+  "members": [
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/logs/run_config.yaml",
+      "path": "data/research_sources/other/pugliese_cpg_2026/run33241778/logs/run_config.yaml",
+      "bytes": 1851,
+      "compressedBytes": 1851,
+      "crc32": "a4902126",
+      "crc32Verified": true,
+      "sha256": "75ec303f152b10d0c02e393883b999e44f9229799ad763ea6df0f7f1b7efda31"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/config.yaml",
+      "path": "data/research_sources/other/pugliese_cpg_2026/run33241778/.hydra/config.yaml",
+      "bytes": 1569,
+      "compressedBytes": 1569,
+      "crc32": "1ddf413b",
+      "crc32Verified": true,
+      "sha256": "79becea6fcd1f4ef6e03771252325e582896a5ac9334e5c5cc79208a50ca6266"
+    },
+    {
+      "member": "simulations/DNg100_Stim_BANC_vncOnly/hyak/run_id=33241778/.hydra/overrides.yaml",
+      "path": "data/research_sources/other/pugliese_cpg_2026/run33241778/.hydra/overrides.yaml",
+      "bytes": 192,
+      "compressedBytes": 192,
+      "crc32": "caa6ca43",
+      "crc32Verified": true,
+      "sha256": "0faf9b40b28d653ddc1d98ddf54e0e39048ac9348e68ac7926e1a953ca550bf8"
+    }
+  ],
+  "retrievedAt": "2026-09-27T08:15:52.094498+00:00",
+  "interpretation": "Member CRC32 and SHA256 validated; full archive MD5 only checked if the entire archive was downloaded."
+}

@@ -1,0 +1,80 @@
+{
+  "source": {
+    "authors": "Stürner, Brooks et al.",
+    "paper": "Comparative connectomics of Drosophila descending and ascending neurons",
+    "paper_url": "https://doi.org/10.1038/s41586-025-08925-z",
+    "repository": "https://github.com/flyconnectome/2023neckconnective",
+    "repository_commit": "94637d7d82920234ef0bfdbf383c000e74a8b45a",
+    "retrieved_utc_date": "2026-09-26",
+    "license_note": "The GitHub repository metadata does not declare a license; cite the source paper and repository."
+  },
+  "files": [
+    {
+      "file": "Supplemental_file1_FAFB_seed_plane.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file1_FAFB_seed_plane.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 430887,
+      "data_rows": 3695,
+      "id_columns": ["root_id", "supervoxel_id"],
+      "sha256": "6a19c886c57a26780b75d4881d8d8e56ea0e300d1426d759d4bd88f53e0ac99e"
+    },
+    {
+      "file": "Supplemental_file3_FAFB_SA_identification.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file3_FAFB_SA_identification.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 2331,
+      "data_rows": 16,
+      "id_columns": [],
+      "sha256": "9ac8dc50d39d189086ad1b133a73662905b30d108e32fbc9f2d31ee49612db76"
+    },
+    {
+      "file": "Supplemental_file4_DN_identification.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file4_DN_identification.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 31748,
+      "data_rows": 223,
+      "id_columns": ["VFB_IDs"],
+      "sha256": "edec3344b07f00fcd315fcb258d3b0707921ed53db77dd916d96fce6d3535684"
+    },
+    {
+      "file": "Supplemental_file5_FAFB_DNs.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file5_FAFB_DNs.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 162201,
+      "data_rows": 1316,
+      "id_columns": ["root_id", "supervoxel_id", "group"],
+      "sha256": "e5ab52e3e9bb8545942a35e841ae562295530d00c64fd49d3a110a5d6ed2b0e2"
+    },
+    {
+      "file": "Supplemental_file8_FAFB_ANs_SAs.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file8_FAFB_ANs_SAs.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 319062,
+      "data_rows": 2345,
+      "id_columns": ["root_id", "supervoxel_id", "group"],
+      "sha256": "f248c727e154a8bc20c0078e0cd4da922d7cfa7988c80559af8fc9ed42e00ea7"
+    },
+    {
+      "file": "Supplemental_file14_dimorphic_DNs.tsv",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/94637d7d82920234ef0bfdbf383c000e74a8b45a/Supplemental_files/Supplemental_file14_dimorphic_DNs.tsv",
+      "format": "UTF-8 tab-separated values",
+      "bytes": 8171,
+      "data_rows": 62,
+      "id_columns": ["FAFB_root_id", "FANC_root_id", "FANC_svid", "MANC_bodyid"],
+      "sha256": "441efe5e071b87172a20ae82e620fc4bf0828df7d897ec3165cd9f4dad6720f4"
+    }
+  ],
+  "local_v783_graph_check": {
+    "graph_file": "brain/graph-v783/nodes.u64",
+    "interpretation": "Root IDs were compared as decimal strings against the 139255 IDs in the local graph. Graph membership is a local availability check, not a proof of functional annotation.",
+    "root_id_unique_and_matched": {
+      "Supplemental_file1_FAFB_seed_plane.tsv": [3680, 3679],
+      "Supplemental_file5_FAFB_DNs.tsv": [1316, 1316],
+      "Supplemental_file8_FAFB_ANs_SAs.tsv": [2345, 2345],
+      "Supplemental_file14_dimorphic_DNs.tsv": [37, 37]
+    },
+    "seed_plane_id_not_in_graph": "720575940621116295",
+    "dimorphic_DN_rows_without_FAFB_root_id": 22
+  },
+  "use_note": "The FAFB root_id values support joins to the v783 graph. Supervoxel and group IDs have different meanings and must not be used as graph node IDs. Supplemental files 3 and 4 provide identification evidence rather than FAFB root-ID lists."
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-27",
+  "method": "Visible Codex in-app browser, screenshots and rendered DOM checks; no hidden runtime-state inspection",
+  "url": "http://127.0.0.1:4173/lab.html",
+  "checks": [
+    {"name": "Articulated body renders", "result": "passed", "observation": "Six-legged fly with body, eyes, wings and articulated forelegs visible at 350 ms; captured screenshot"},
+    {"name": "Replay advances and ends", "result": "passed", "observation": "Play via keyboard Space reaches 600/600 ms; JO-CE150 reference joint motion 6.286 rad"},
+    {"name": "aBN1 ablation has no mapped body output", "result": "passed", "observation": "600/600 ms, grooming command 0.00, joint motion 0.000 rad"},
+    {"name": "Time scrubber", "result": "passed", "observation": "350 ms selected; visible time and articulated pose update"},
+    {"name": "Exact MN9-left identity", "result": "passed", "observation": "720575940618238523 resolves to CB0701 with MN9 alias, left side, Tastekin MNs!69 and harmonized curated proboscis annotation"},
+    {"name": "Non-forced neuron response", "result": "passed", "observation": "720575940616551029 LHPV6q1 shows CE91/0/91 and allJO83/0/83 total/forced/non-forced; other four reference responses zero"},
+    {"name": "Known ID with zero reference response", "result": "passed", "observation": "720575940596125868 T5c shows no spikes in six reference trials, with explicit distinction from biological functionlessness or absence of subthreshold activity"},
+    {"name": "Forced sensory input distinguished", "result": "passed", "observation": "720575940602132509 JO-EVM shows CE60/60/0 and allJO60/60/0; no false propagated response"},
+    {"name": "Browser errors", "result": "passed", "observation": "No error-level entries after final reload and profile searches"},
+    {"name": "Report new results", "result": "passed", "observation": "Three reviewed tables rendered; five stimulus rows have expected rates; ablation table page2 contains allJO sham67.5/30; source Evidence flow opens and shows protocol, diagnosis and body audit"},
+    {"name": "Final report status and hash", "result": "passed", "observation": "Data app build successful, complete status, 87 inputs/30 joins; final body audit SHA256 matches unchanged neural assay data"}
+  ],
+  "limits": [
+    "UI playback is a replay of previously executed neural trials, not a new browser-wide neural computation.",
+    "No closed-loop body-to-neuron sensory feedback or experimentally calibrated muscle forces.",
+    "JO downstream selectivity remains a scientific failure despite successful technical/UI checks."
+  ]
+}

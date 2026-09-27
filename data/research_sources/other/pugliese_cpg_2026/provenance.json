@@ -1,0 +1,56 @@
+{
+  "schema": "fly.cpg-source-download.v1",
+  "retrieved_utc": "2026-09-27T07:57:25.497930+00:00",
+  "method": "Visible internal browser for matrix/table/defaults/sim_utils; approved direct HTTPS fallback for vnc_sim.py and separately logged archive configuration",
+  "commit": "10e7661bf414ba7b4c2edf795cd36d0f878c17c0",
+  "files": [
+    {
+      "file": "W_20260217.npz",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/data/banc%20t1%20premotor/W_20260217.npz",
+      "bytes": 1758364,
+      "sha256": "83197529fa336b5f9ce400cf689f299fa3e8f6f5379947ae7df5ec004869141f",
+      "git_blob_sha1": "5b7f6392cd8029786f92b663cfee3a19fba16097",
+      "expected_git_blob_sha1": "5b7f6392cd8029786f92b663cfee3a19fba16097"
+    },
+    {
+      "file": "wTable_20260217_fullData_consistentColumns.csv",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/data/banc%20t1%20premotor/wTable_20260217_fullData_consistentColumns.csv",
+      "bytes": 1312712,
+      "sha256": "6f87bf62227e160754523418bfbac35fc8971a90e4ed54574bf769b08332e285",
+      "git_blob_sha1": "82d20a30014cfe6ee046822cba6229d1387b4804",
+      "expected_git_blob_sha1": null
+    },
+    {
+      "file": "src/utils/sim_utils.py",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/src/utils/sim_utils.py",
+      "bytes": 13194,
+      "sha256": "c8f58e2d77c50325d785c6d707ddba6608e774cbfd10203ed3488ea3320b6653"
+    },
+    {
+      "file": "configs/neuron_params/default.yaml",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/configs/neuron_params/default.yaml",
+      "bytes": 261,
+      "sha256": "b63a37b84e056035d638bb8a36baf53e199d37feb4ddca9d044af3c521247298"
+    },
+    {
+      "file": "configs/sim/default.yaml",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/configs/sim/default.yaml",
+      "bytes": 1329,
+      "sha256": "29ed6f0d860276a1ff5136cf798b31997f8ec388dabf5a268ef566ae25c1b02a"
+    },
+    {
+      "file": "src/simulation/vnc_sim.py",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/src/simulation/vnc_sim.py",
+      "bytes": 99104,
+      "sha256": "58518185d43cd1a723f4ad1278753bc6e54fc5c086575206e82e493e9d960a5c",
+      "method": "Direct HTTPS after user approved fallback; browser transfer had not produced a complete file"
+    },
+    {
+      "file": "wTable_20260217_fullData.csv",
+      "url": "https://raw.githubusercontent.com/smpuglie/Pugliese_2026/10e7661bf414ba7b4c2edf795cd36d0f878c17c0/data/banc%20t1%20premotor/wTable_20260217_fullData.csv",
+      "bytes": 1174924,
+      "sha256": "b4b9affd59916abed5723a84baf4ea2f765e0684d6387fe87f52fb3520c8ec33",
+      "method": "Approved direct transfer for matching original run input"
+    }
+  ]
+}

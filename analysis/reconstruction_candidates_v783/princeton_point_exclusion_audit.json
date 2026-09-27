@@ -1,0 +1,306 @@
+{
+  "generated_at_utc": "2026-09-26T22:07:18.287594+00:00",
+  "counts": {
+    "point_rows_touching_616": 26941,
+    "point_roots": 550,
+    "connection_roots": 477,
+    "point_only_roots": 73,
+    "point_only_root_classes": {
+      "autapse_only": 72,
+      "R7_nonself_exception": 1
+    },
+    "autapse_rows": 5814,
+    "R7_rows_total": 215,
+    "R7_rows_nonself": 213,
+    "R7_rows_self": 2,
+    "raw_blank_neuropil_rows": 172,
+    "blank_neuropil_rows_after_exclusions": 105,
+    "retained_rows": 20914,
+    "retained_pair_region_keys": 3233,
+    "R7_nonself_pair_region_keys": 45,
+    "R7_nonself_points": 213
+  },
+  "checks": {
+    "point_rows_equal_autapses_plus_R7_nonself_plus_connection_rows": true,
+    "retained_point_groups_equal_unfiltered_connection_groups_exactly": true,
+    "root_coverage_point_only_explained": true
+  },
+  "method": "Exclude same-ID autapses, then all remaining rows involving the specific R7 root 720575940623940963; map empty point-region label to UNASGD only for comparison. The remaining directed pair+region counts match the official no-threshold Princeton connection export exactly. This is an empirical reconciliation, not a documented biological or canonical filter.",
+  "source_subrelease_dates": {
+    "point_export_GCS_updated": "2025-07-24T16:41:26.464Z",
+    "connection_export_GCS_updated": "2025-07-08T14:11:22.534Z"
+  },
+  "R7_nonself_pairs": [
+    {
+      "pre_root_id": "720575940642650331",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 39
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940642650331",
+      "neuropil": "ME_R",
+      "point_rows": 32
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940629825027",
+      "neuropil": "ME_R",
+      "point_rows": 21
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940628753128",
+      "neuropil": "ME_R",
+      "point_rows": 12
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940620875373",
+      "neuropil": "ME_R",
+      "point_rows": 8
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940615692230",
+      "neuropil": "ME_R",
+      "point_rows": 7
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940625217294",
+      "neuropil": "ME_R",
+      "point_rows": 7
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940633131731",
+      "neuropil": "ME_R",
+      "point_rows": 6
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940637663710",
+      "neuropil": "ME_R",
+      "point_rows": 5
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940643144589",
+      "neuropil": "ME_R",
+      "point_rows": 5
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940638036336",
+      "neuropil": "ME_R",
+      "point_rows": 5
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940640120142",
+      "neuropil": "ME_R",
+      "point_rows": 5
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940632782756",
+      "neuropil": "ME_R",
+      "point_rows": 4
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940635270044",
+      "neuropil": "ME_R",
+      "point_rows": 4
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940647580468",
+      "neuropil": "ME_R",
+      "point_rows": 4
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940632035385",
+      "neuropil": "ME_R",
+      "point_rows": 4
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940620627476",
+      "neuropil": "ME_R",
+      "point_rows": 3
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940636747639",
+      "neuropil": "ME_R",
+      "point_rows": 3
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940623949336",
+      "neuropil": "ME_R",
+      "point_rows": 3
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940635029273",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940606097068",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940606097068",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940647731252",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940628794884",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940616530210",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940630761467",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940615374954",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940625217294",
+      "neuropil": "LA_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940638950463",
+      "neuropil": "ME_R",
+      "point_rows": 2
+    },
+    {
+      "pre_root_id": "720575940629465094",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940604650464",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940629465094",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940629371978",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940647580468",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940632358186",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940635029273",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940626813758",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940604650464",
+      "post_root_id": "720575940623940963",
+      "neuropil": "",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940620118881",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940629825027",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940616991371",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940630615543",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940621729775",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623942408",
+      "post_root_id": "720575940623940963",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    },
+    {
+      "pre_root_id": "720575940623940963",
+      "post_root_id": "720575940619836269",
+      "neuropil": "ME_R",
+      "point_rows": 1
+    }
+  ],
+  "interpretation": "No point rows are discarded from source or changed. The retained layer is cross-checked against official pair data; the autapses and R7 rows stay as separate exceptions requiring scientific review."
+}

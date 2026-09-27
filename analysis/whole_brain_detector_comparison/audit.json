@@ -1,0 +1,176 @@
+{
+  "generated_at_utc": "2026-09-26T22:36:30.356841+00:00",
+  "source_releases": {
+    "original": "FlyWire FAFB v783, Buhmann detector, Zenodo 10676866",
+    "princeton": "Official Codex FAFB v783, Princeton 2025 detector; fafbseg calls the 2025 Princeton synapse release 783.2"
+  },
+  "source_urls": [
+    "https://zenodo.org/records/10676866",
+    "https://natverse.org/fafbseg/reference/flywire_connectome_data.html",
+    "https://codex.flywire.ai/faq"
+  ],
+  "source_sha256": {
+    "original": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+    "princeton": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e",
+    "roots": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be"
+  },
+  "software": {
+    "duckdb": "1.5.5",
+    "pyarrow": "24.0.0",
+    "memory_limit": "2GB",
+    "threads": 4
+  },
+  "source_counts": {
+    "original_pair_region_rows": 16847997,
+    "original_synapses": 54492922,
+    "princeton_pair_region_rows": 22285323,
+    "princeton_synapses": 76944499,
+    "original_grouped_pair_region_keys": 16847997,
+    "princeton_grouped_pair_region_keys": 22285323,
+    "original_directed_pairs": 15091983,
+    "princeton_directed_pairs": 19773733,
+    "old_connected_root_ids": 138639,
+    "literal_neuropil_label_count": 79,
+    "autaptic_directed_pairs_in_either_aggregate": 0
+  },
+  "literal_region_labels_aligned_for_comparison": {
+    "original": [
+      {
+        "literal": "UNASGD",
+        "rows": 3193,
+        "synapses": 4185
+      }
+    ],
+    "princeton": [
+      {
+        "literal": "UNASGD",
+        "rows": 24790,
+        "synapses": 30628
+      }
+    ]
+  },
+  "region_comparison": {
+    "both_different_count": {
+      "rows": 7683700,
+      "original_synapses": 39264715,
+      "princeton_synapses": 54466767
+    },
+    "both_same_count": {
+      "rows": 7305175,
+      "original_synapses": 13246937,
+      "princeton_synapses": 13246937
+    },
+    "original_only": {
+      "rows": 1859122,
+      "original_synapses": 1981270,
+      "princeton_synapses": 0
+    },
+    "princeton_only": {
+      "rows": 7296448,
+      "original_synapses": 0,
+      "princeton_synapses": 9230795
+    }
+  },
+  "pair_comparison": {
+    "both_different_count": {
+      "pairs": 7261730,
+      "original_synapses": 41091020,
+      "princeton_synapses": 57078597
+    },
+    "both_same_count": {
+      "pairs": 6185805,
+      "original_synapses": 11641373,
+      "princeton_synapses": 11641373
+    },
+    "original_only": {
+      "pairs": 1644448,
+      "original_synapses": 1760529,
+      "princeton_synapses": 0
+    },
+    "princeton_only": {
+      "pairs": 6326198,
+      "original_synapses": 0,
+      "princeton_synapses": 8224529
+    }
+  },
+  "priority": {
+    "princeton_only_pairs_between_two_roots_already_connected_in_original_graph": 6323027,
+    "princeton_only_pairs_touching_an_originally_isolated_root": 3171,
+    "princeton_only_pairs_touching_the_prior_616_roots": 3171,
+    "top_review_rows_exported": 50000
+  },
+  "membership": {
+    "original_pre_outside_official": 0,
+    "original_post_outside_official": 0,
+    "princeton_pre_outside_official": 0,
+    "princeton_post_outside_official": 0,
+    "annotation_ids_outside_official": 0,
+    "official_ids_without_annotation": 0
+  },
+  "checks": {
+    "original_pinned_rows": true,
+    "original_pinned_synapses": true,
+    "princeton_pinned_rows": true,
+    "princeton_pinned_synapses": true,
+    "all_root_ids_in_official_v783_array": true,
+    "same_79_literal_neuropil_labels": true,
+    "source_pair_region_keys_unique": true,
+    "neither_aggregate_contains_autapses": true,
+    "original_pair_count_matches_CSR": true,
+    "region_delta_rows_equal_class_sum": true,
+    "pair_delta_rows_equal_class_sum": true,
+    "princeton_only_pairs_partitioned_by_old_connected_nodes": true,
+    "prior_616_account_for_all_princeton_only_pairs_touching_old_isolates": true
+  },
+  "outputs": {
+    "analysis/whole_brain_detector_comparison/original_pair_region_source.parquet": {
+      "bytes": 168015224,
+      "sha256": "f2ef6f6c5138d121eba47d11c8dce7d80ced68b9db70842971dab1afb9c2084a"
+    },
+    "analysis/whole_brain_detector_comparison/princeton_pair_region_source.parquet": {
+      "bytes": 186074037,
+      "sha256": "3c72759dbbc3061ed42aa0fb4b7a9eef467797cbc2913718fa1f216c426dfa12"
+    },
+    "analysis/whole_brain_detector_comparison/old_grouped.parquet": {
+      "bytes": 142714379,
+      "sha256": "90d795329ebe7a783912c422f7fcc8bc0d4d9774fbc4b66250efe35740bec55d"
+    },
+    "analysis/whole_brain_detector_comparison/new_grouped.parquet": {
+      "bytes": 189195558,
+      "sha256": "8672cf3bb7656573e4e018a8978adac008c5cb4d0985ad6c2a15b48304c13f74"
+    },
+    "analysis/whole_brain_detector_comparison/original_pair_aggregated.parquet": {
+      "bytes": 118750160,
+      "sha256": "275980eea518384091fe0b5226f3b6afb1ff43e015474ed33573888333f4ccf2"
+    },
+    "analysis/whole_brain_detector_comparison/princeton_pair_aggregated.parquet": {
+      "bytes": 156578551,
+      "sha256": "2499792b255938f89d22e005206e0b1ec9293cee8ee74d74bcf189615ccf03ae"
+    },
+    "analysis/whole_brain_detector_comparison/full_pair_region_delta.parquet": {
+      "bytes": 222669004,
+      "sha256": "824adf6612f32e9cf16f8cf84267abd02641fada9c132b7dce4584ee6227c759"
+    },
+    "analysis/whole_brain_detector_comparison/full_directed_pair_delta.parquet": {
+      "bytes": 186937751,
+      "sha256": "b20e6821c827cef1de860219e0acbb577bc55d3cdab9e47656145b4ff3dee8a5"
+    },
+    "analysis/whole_brain_detector_comparison/annotation_lookup.parquet": {
+      "bytes": 1050750,
+      "sha256": "1364c3fe74d3f774226f814ee04bb56a0f01fa8e7cb4b4a88beca2845d118913"
+    },
+    "analysis/whole_brain_detector_comparison/official_proofread_roots.parquet": {
+      "bytes": 774936,
+      "sha256": "422cdac9422c9d4881b17042df8ef870b728eb6d0a172c32adf1df7fd7b8d873"
+    },
+    "analysis/whole_brain_detector_comparison/top_50000_new_princeton_pairs_between_old_connected_roots.csv": {
+      "bytes": 4121103,
+      "sha256": "1e3cf3533baa7a80a122078d972f7ebfa11e5acb82fd9fc71438266ef83756d3"
+    },
+    "analysis/whole_brain_detector_comparison/source_region_labels.csv": {
+      "bytes": 4758,
+      "sha256": "b31fa10ccd6c95e98bd70cbb1cb058c10d2a963e251b06212dbb016abf811a96"
+    }
+  },
+  "interpretation": "These are differences between two automatic synapse detectors on the same FAFB v783 segmentation, not newly proven biological edges or added synaptic weights. Literal None/empty region labels are aligned to UNASGD only in the comparison. The published original graph is untouched."
+}

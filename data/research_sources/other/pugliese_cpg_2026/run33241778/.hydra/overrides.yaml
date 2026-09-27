@@ -1,0 +1,9 @@
+- paths=hyak-smpuglie-private
+- note=hyak_ckpt
+- version=hyak
+- experiment=DNg100_Stim_BANC_vncOnly
+- sim=default
+- neuron_params=default
+- load_jobid=
+- run_id=33241778
+- experiment.seed=129

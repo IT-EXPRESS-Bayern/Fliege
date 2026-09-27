@@ -1,0 +1,27 @@
+comparison_class,count_bucket,directed_pairs,original_synapses,princeton_synapses
+both_different_count,01: 1,509475,1084029,509475
+both_different_count,02: 2-4,3476907,6391885,9692392
+both_different_count,03: 5-9,1818500,8106199,11814585
+both_different_count,04: 10-19,897982,8613449,11932533
+both_different_count,05: 20-49,447055,9473404,13045395
+both_different_count,06: 50-99,83278,3977164,5502642
+both_different_count,07: 100+,28533,3444890,4581575
+both_same_count,01: 1,4026904,4026904,4026904
+both_same_count,02: 2-4,1766314,4429243,4429243
+both_same_count,03: 5-9,310733,1926169,1926169
+both_same_count,04: 10-19,68090,862553,862553
+both_same_count,05: 20-49,13046,346495,346495
+both_same_count,06: 50-99,642,40361,40361
+both_same_count,07: 100+,76,9648,9648
+original_only,01: 1,1541290,1541290,0
+original_only,02: 2-4,102721,216792,0
+original_only,03: 5-9,431,2373,0
+original_only,04: 10-19,5,53,0
+original_only,05: 20-49,1,21,0
+princeton_only,01: 1,5209299,0,5209299
+princeton_only,02: 2-4,1052374,0,2410538
+princeton_only,03: 5-9,49162,0,296401
+princeton_only,04: 10-19,10171,0,131831
+princeton_only,05: 20-49,4535,0,138455
+princeton_only,06: 50-99,648,0,36965
+princeton_only,07: 100+,9,0,1040

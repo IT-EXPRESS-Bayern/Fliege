@@ -1,0 +1,99 @@
+{
+  "schema": "fly.flight-control-mapping-audit.v1",
+  "namespace": "BANC_v888",
+  "sources": [
+    {
+      "id": "banc_meta",
+      "path": "data/research_sources/other/banc_2026/banc_888_meta.feather",
+      "sha256": "819bbcff476e52702d6f8d8604ce1f12d1d7b11942281df2f49df2a73a6f15a5",
+      "bytes": 57550610
+    },
+    {
+      "id": "banc_literature_roles",
+      "path": "data/research_sources/other/banc_2026/supplemental_data_9.txt",
+      "sha256": "6d517164e9e371cb5da3e2bcf1a1af3e1881f3dd7c7854752a1f29d3497b3d95",
+      "bytes": 17284
+    },
+    {
+      "id": "banc_888_edgelist_simple_v2.feather",
+      "path": "data/research_sources/other/banc_2026/banc_888_edgelist_simple_v2.feather",
+      "sha256": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb",
+      "bytes": 305250378
+    },
+    {
+      "id": "banc_888_edgelist_simple_v3.feather",
+      "path": "data/research_sources/other/banc_2026/banc_888_edgelist_simple_v3.feather",
+      "sha256": "8c296e946f3c69a8c7222f30ad75fa8a98eeb189124fec6df829c9125f4be64b",
+      "bytes": 359161658
+    }
+  ],
+  "motorRows": 91,
+  "wingRows": 64,
+  "haltereRows": 27,
+  "eligibleMotorPoolRows": 85,
+  "annotationConflictRows": 6,
+  "wingPowerRows": 24,
+  "wingSteeringRows": 24,
+  "sourceVsEffectorSideDisagreements": 4,
+  "sensorInventoryRows": 1032,
+  "proprioceptorCandidates": 245,
+  "proofreadProprioceptorInputs": 244,
+  "dnCandidates": 92,
+  "priorityDnInputs": 59,
+  "dng02FamilyRoots": 38,
+  "visualLptcCandidates": 38,
+  "browserNodes": 1296,
+  "detectors": {
+    "v2": {
+      "allDirectPaths": 1145,
+      "allTwoEdgePaths": 152402,
+      "pathsAt5": 10625,
+      "edgesAt5": 5529,
+      "browserPathExamples": 160,
+      "visualToDnEdges": 0,
+      "dnPathCountAt5": 3930,
+      "sensoryPathCountAt5": 6695,
+      "sameDetectorOnly": true,
+      "fullPathsFile": "analysis/flight_control_mapping/paths_v2.parquet",
+      "allPathsFileSha256": "63780711bedde47a76ccb31cd109b5fef657520aa0916f75aeedce3c14e4d779",
+      "visualTwoEdgePaths": 1016,
+      "visualTwoEdgePathsAt5": 18,
+      "visualTwoEdgeEdgesAt5": 20
+    },
+    "v3": {
+      "allDirectPaths": 1281,
+      "allTwoEdgePaths": 188914,
+      "pathsAt5": 15347,
+      "edgesAt5": 7304,
+      "browserPathExamples": 160,
+      "visualToDnEdges": 0,
+      "dnPathCountAt5": 4740,
+      "sensoryPathCountAt5": 10607,
+      "sameDetectorOnly": true,
+      "fullPathsFile": "analysis/flight_control_mapping/paths_v3.parquet",
+      "allPathsFileSha256": "81df87b2a6382527810add58baa7bc5a897db77a74f6aed4c8d4f3ee2a293090",
+      "visualTwoEdgePaths": 1445,
+      "visualTwoEdgePathsAt5": 32,
+      "visualTwoEdgeEdgesAt5": 41
+    }
+  },
+  "checks": {
+    "v2": {
+      "browserEdgesRechecked": 5549,
+      "exactCounts": true,
+      "mixedDetectorPaths": false
+    },
+    "v3": {
+      "browserEdgesRechecked": 7345,
+      "exactCounts": true,
+      "mixedDetectorPaths": false
+    }
+  },
+  "idsStoredAsDecimalStrings": true,
+  "sourceSignSeparated": true,
+  "rootTuningUnassigned": true,
+  "flightBiologicallyValidated": false,
+  "browserFile": "app/data/flight_control_mapping.json",
+  "browserSha256": "847727439ddb7afe9723c9c099f4fcc681888d0f695f96c864c43e5d289812fd",
+  "browserBytes": 3880543
+}

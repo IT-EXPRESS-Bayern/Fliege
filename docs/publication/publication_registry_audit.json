@@ -1,0 +1,37 @@
+{
+  "schema": "fly.publication-registry-audit.v1",
+  "as_of": "2026-09-27",
+  "input_count": 160,
+  "unique_input_ids": 160,
+  "join_count": 46,
+  "all_registered_paths_present_in_research_workspace": true,
+  "original_inputs_preserved": true,
+  "license_review_status_counts": {
+    "record_license_verified_general_platform_conflict": 2,
+    "exact_release_license_unresolved": 1,
+    "repository_code_license_verified_dataset_rights_separate": 2,
+    "repository_declaration_verified": 1,
+    "retained_source_note_not_newly_cleared": 16,
+    "exact_source_redistribution_unresolved": 5,
+    "pinned_repository_license_verified": 6,
+    "pinned_source_declaration_verified": 5,
+    "repository_license_verified": 6,
+    "figshare_API_verified": 1,
+    "official_dataset_license_verified": 4,
+    "general_official_policy_conservative": 6,
+    "dataset_license_verified_derived_claims_remain_separate": 54,
+    "mixed_derived_sources_require_claim_level_review": 20,
+    "upstream_README_MIT_declaration_verified_full_notice_not_in_local_subset": 7,
+    "verified_original_data_license": 4,
+    "derived_original_model_output": 20
+  },
+  "original_graph_modified": false,
+  "simulations_executed": 0,
+  "output_hashes": {
+    "source_registry.json": "04491629ed746cd5d0920b71376b90bb062a1eb17660e6e7d4c9a396d9a9fb25",
+    "SOURCE_INDEX.md": "e82f4636bac58cd7ef7bdfcc816e591b291473a72fd2ef9b5937e665ab4751b7",
+    "evidence_snapshot.json": "097ca55d5992b4ed41f00a18ab8477975a66b0188fbd7ad5ccc6ed0cc63b3389",
+    "literature_registry.json": "5609c9afabea54738ec64963262250bc9f9057f92207aa9a48471cc3c06141f5"
+  },
+  "caveat": "Path presence refers to the private research workspace at publication preparation; it does not assert that original datasets are included in the public repository."
+}

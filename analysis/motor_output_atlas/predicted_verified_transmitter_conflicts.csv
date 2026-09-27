@@ -1,0 +1,29 @@
+banc_888_id,super_class,cell_class,cell_type,side,nerve,body_part_effector,peripheral_target_type,cell_function,cell_function_detailed,neurotransmitter_predicted,neurotransmitter_score,neurotransmitter_verified,proofread,fafb_match,fafb_cell_type,neuromere
+720575941390352388,motor,neck_motor_neuron,DProN9,left,left_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,octopamine,0.2867,glutamate,TRUE,,,T1
+720575941434381710,motor,haltere_motor_neuron,hiii2 MN,left,left_first_abdominal_nerve,haltere,hiii2_muscle,haltere_steering,,gaba,0.3709,glutamate,TRUE,,,T3
+720575941435429676,motor,neck_motor_neuron,DProN7,right,right_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,gaba,0.4984,glutamate,TRUE,,,T1
+720575941439741119,motor,neck_motor_neuron,DProN1,right,right_dorsal_prothoracic_nerve,neck,dorsoventral_muscle_linking_cervical_sclerite_and_condyle_1,neck_motor,neck_roll,gaba,0.4961,glutamate,TRUE,,,T1
+720575941463979533,motor,haltere_motor_neuron,hi2 MN,left,left_first_abdominal_nerve,haltere,hi2_muscle,haltere_steering,,gaba,0.47,glutamate,TRUE,,,T3
+720575941474504478,motor,haltere_motor_neuron,hi2 MN,right,right_first_abdominal_nerve,haltere,hi2_muscle,haltere_steering,,gaba,0.4163,glutamate,TRUE,,,T3
+720575941478578511,motor,neck_motor_neuron,DProN6,left,left_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,gaba,0.5125,glutamate,TRUE,,,T1
+720575941488989129,motor,haltere_motor_neuron,hi1 MN,left,left_first_abdominal_nerve,haltere,hi1_muscle,haltere_steering,,acetylcholine,0.3625,glutamate,TRUE,,,T3
+720575941489125351,motor,neck_motor_neuron,DProN2,left,left_dorsal_prothoracic_nerve,neck,dorsoventral_muscle_linking_cervical_sclerite_and_condyle_2,neck_motor,neck_roll,gaba,0.435,glutamate,TRUE,,,T1
+720575941489332169,motor,neck_motor_neuron,DProN4,right,right_dorsal_prothoracic_nerve,neck,levator_muscle,neck_motor,neck_roll,gaba,0.3675,glutamate,TRUE,,,T1
+720575941492452222,motor,neck_motor_neuron,DProN4,left,left_dorsal_prothoracic_nerve,neck,levator_muscle,neck_motor,neck_roll,acetylcholine,0.4213,glutamate,TRUE,,,T1
+720575941493508551,motor,neck_motor_neuron,DProN8,left,left_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,gaba,0.4833,glutamate,TRUE,,,T1
+720575941498915401,motor,haltere_motor_neuron,MNhm43,left,left_first_abdominal_nerve,haltere,haltere_basalare_muscle,haltere_steering,unknown_haltere,gaba,0.5214,glutamate,TRUE,,,T3
+720575941502691819,motor,neck_motor_neuron,DProN1,left,left_dorsal_prothoracic_nerve,neck,dorsoventral_muscle_linking_cervical_sclerite_and_condyle_1,neck_motor,neck_roll,gaba,0.408,glutamate,TRUE,,,T1
+720575941504200613,motor,neck_motor_neuron,DProN5,left,left_dorsal_prothoracic_nerve,neck,adductor_muscle,neck_motor,neck_roll_pitch,gaba,0.3925,glutamate,TRUE,,,T1
+720575941512880643,motor,neck_motor_neuron,DProN2,right,right_dorsal_prothoracic_nerve,neck,dorsoventral_muscle_linking_cervical_sclerite_and_condyle_2,neck_motor,neck_roll,gaba,0.422,glutamate,TRUE,,,T1
+720575941530511747,motor,neck_motor_neuron,DProN5,right,right_dorsal_prothoracic_nerve,neck,adductor_muscle,neck_motor,neck_roll_pitch,octopamine,0.4042,glutamate,TRUE,,,T1
+720575941535409178,motor,haltere_motor_neuron,MNhm42,left,left_first_abdominal_nerve,haltere,haltere_basalare_muscle,haltere_steering,unknown_haltere,gaba,0.561,glutamate,TRUE,,,T3
+720575941546998972,motor,haltere_motor_neuron,hDVM MN,left,left_first_abdominal_nerve,haltere,haltere_dorsoventral_muscle,haltere_power,,gaba,0.7571,glutamate,TRUE,,,T3
+720575941555256833,motor,haltere_motor_neuron,hiii2 MN,right,right_first_abdominal_nerve,haltere,hiii2_muscle,haltere_steering,,acetylcholine,0.335,glutamate,TRUE,,,T3
+720575941561531181,motor,haltere_motor_neuron,hi1 MN,right,right_first_abdominal_nerve,haltere,hi1_muscle,haltere_steering,,gaba,0.4081,glutamate,TRUE,,,T3
+720575941564037430,motor,haltere_motor_neuron,hi2 MN,left,left_third_abdominal_nerve,haltere,hi2_muscle,haltere_steering,,gaba,0.8414,glutamate,TRUE,,,T3
+720575941565422999,motor,haltere_motor_neuron,MNhm42,right,right_first_abdominal_nerve,haltere,haltere_basalare_muscle,haltere_steering,unknown_haltere,gaba,0.5093,glutamate,TRUE,,,T3
+720575941572052381,motor,haltere_motor_neuron,hDVM MN,right,right_first_abdominal_nerve,haltere,haltere_dorsoventral_muscle,haltere_power,,gaba,0.5247,glutamate,TRUE,,,T3
+720575941574538504,motor,neck_motor_neuron,DProN9,right,right_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,gaba,0.3998,glutamate,TRUE,,,T1
+720575941575048040,motor,haltere_motor_neuron,MNhm03,right,right_first_abdominal_nerve,haltere,haltere_basalare_muscle,haltere_steering,unknown_haltere,gaba,0.3896,glutamate,TRUE,,,T3
+720575941577663825,motor,neck_motor_neuron,DProN8,right,right_dorsal_prothoracic_nerve,neck,neck_muscle,neck_motor,,octopamine,0.5902,glutamate,TRUE,,,T1
+720575941730020395,motor,haltere_motor_neuron,MNhm43,right,right_first_abdominal_nerve,haltere,haltere_basalare_muscle,haltere_steering,unknown_haltere,gaba,0.6309,glutamate,TRUE,,,T3

@@ -1,0 +1,20 @@
+id,leg,joint,action,cellType,sourceAction,ntVerified,ntPredicted,forceGain,mechanicalSignInBodyCoordinates,mechanicalSignEvidence,proofread
+720575941406488494,LF,femurTibia,flex,accessory_tibia_flexor_A,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941450546857,LF,femurTibia,flex,accessory_tibia_flexor_A,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941464194902,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941478577231,LF,femurTibia,extend,tibia_extensor_SETi,extend_femur_tibia_joint,,gaba,,-1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941479472258,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941481179066,LF,femurTibia,flex,tibia_flexor_Fast,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941488205769,LF,femurTibia,flex,tibia_flexor,flex_femur_tibia_joint,,acetylcholine,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941497568199,LF,femurTibia,flex,tibia_flexor,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941515355795,LF,femurTibia,flex,accessory_tibia_flexor_A_out_of_bundle,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941542454876,LF,femurTibia,flex,tibia_flexor,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941570833736,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941583323358,LF,femurTibia,flex,accessory_tibia_flexor_C,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941590872171,LF,femurTibia,flex,accessory_tibia_flexor_A,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941595856540,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941610029642,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,dopamine,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941627155238,LF,femurTibia,flex,accessory_tibia_flexor_B,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941639281525,LF,femurTibia,extend,tibia_extensor_FETi,extend_femur_tibia_joint,,gaba,,-1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941643180901,LF,femurTibia,flex,accessory_tibia_flexor_A,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True
+720575941667370739,LF,femurTibia,flex,tibia_flexor,flex_femur_tibia_joint,,gaba,,1,geometric convention of body flexion angle; not a synaptic sign,True

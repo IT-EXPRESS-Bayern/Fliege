@@ -1,0 +1,266 @@
+{
+  "schema": "fly.neuron-catalog-audit.v1",
+  "built_utc": "2026-09-27T06:46:52.563608+00:00",
+  "root_count": 139255,
+  "catalog_rows": 139255,
+  "annotation_rows": 139255,
+  "exact_root_join_complete": true,
+  "duplicate_root_ids": 0,
+  "official_cell_type_present": 111090,
+  "official_cell_or_hemibrain_type_present": 131811,
+  "display_name_present": 138765,
+  "unbenannt_roots": 490,
+  "roots_with_supplemental_evidence": 61421,
+  "roots_with_anatomical_role": 29921,
+  "roots_with_source_role": 22312,
+  "roots_with_type_experimental_role": 4,
+  "unknown_function_roots": 116943,
+  "source_claim_count": 72040,
+  "claims_by_evidence_kind": {
+    "published_curated_function_annotation": 22312,
+    "published_anatomical_identity": 30064,
+    "published_experiment_type_transfer": 4,
+    "published_model_cross_release_candidate": 229,
+    "type_level_transfer_hypothesis": 19431
+  },
+  "side_conflict_rows": 1325,
+  "side_conflict_roots": 1317,
+  "harmonized_fafb_rows": 140177,
+  "harmonized_exact_matched_roots": 139249,
+  "harmonized_missing_original_roots": [
+    "720575940613437206",
+    "720575940623450077",
+    "720575940623913933",
+    "720575940625523749",
+    "720575940639387763",
+    "720575940656103841"
+  ],
+  "harmonized_rows_outside_original_root_universe": 928,
+  "harmonized_function_annotated_roots": 22312,
+  "joins": [
+    {
+      "source": "banc2026_fafb_annotation",
+      "claim_rows": 47533,
+      "unique_source_ids": 47533,
+      "matched_unique_roots": 47533,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "stuerner_dn",
+      "claim_rows": 1316,
+      "unique_source_ids": 1316,
+      "matched_unique_roots": 1316,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "stuerner_an_sa",
+      "claim_rows": 2345,
+      "unique_source_ids": 2345,
+      "matched_unique_roots": 2345,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "tastekin_2026",
+      "claim_rows": 477,
+      "unique_source_ids": 477,
+      "matched_unique_roots": 477,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "bristle_2026",
+      "claim_rows": 705,
+      "unique_source_ids": 705,
+      "matched_unique_roots": 705,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "shiu_2024",
+      "claim_rows": 229,
+      "unique_source_ids": 229,
+      "matched_unique_roots": 225,
+      "unmatched_root_ids": [
+        "720575940618600651",
+        "720575940620900446",
+        "720575940626307902",
+        "720575940645521262"
+      ]
+    },
+    {
+      "source": "olfactory_type_projection",
+      "claim_rows": 2281,
+      "unique_source_ids": 2281,
+      "matched_unique_roots": 2281,
+      "unmatched_root_ids": []
+    },
+    {
+      "source": "neuropeptide_type_projection",
+      "claim_rows": 17150,
+      "unique_source_ids": 11567,
+      "matched_unique_roots": 11567,
+      "unmatched_root_ids": []
+    }
+  ],
+  "group_counts": {
+    "sugar_grn": 20,
+    "feeding_output": 1,
+    "bitter_grn": 20,
+    "ir94e_grn": 18,
+    "water_grn": 18,
+    "jon_f": 60,
+    "jon_e": 60,
+    "jon_other": 16,
+    "jon_c": 9,
+    "grooming_circuit": 3,
+    "jon_ce": 69,
+    "jon_all": 145,
+    "mn9_v783_tastekin": 2,
+    "DNa02": 2,
+    "DNg13": 2,
+    "bristle_Ant": 20,
+    "bristle_dOcci": 3,
+    "bristle_dPoOr": 4,
+    "bristle_Fr": 6,
+    "bristle_FrOr": 6,
+    "bristle_Hau": 5,
+    "bristle_InOc": 3,
+    "bristle_InOm": 555,
+    "bristle_MaPa": 15,
+    "bristle_Oc": 1,
+    "bristle_Or": 3,
+    "bristle_Taste": 35,
+    "bristle_Vib": 18,
+    "bristle_vOcci_vPoOr": 26,
+    "bristle_Vt_PoOc": 5
+  },
+  "checks": {
+    "root_ids_all_strings": true,
+    "all_assay_ids_in_v783": true,
+    "all_claim_ids_unique": true,
+    "original_annotation_fields_unchanged": true,
+    "unmatched_claims_not_attached": true
+  },
+  "sources": [
+    {
+      "id": "v783_roots",
+      "file": "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+      "url": "https://doi.org/10.5281/zenodo.10676866",
+      "sha256": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be",
+      "bytes": 1114168,
+      "grain": "one proofread root per entry",
+      "caveat": ""
+    },
+    {
+      "id": "annotation_v2_1_0",
+      "file": "data/flywire_annotations_v2.1.0/Supplemental_file1_neuron_annotations.tsv",
+      "url": "https://github.com/flyconnectome/flywire_annotations/releases/tag/v2.1.0",
+      "sha256": "30be6c73975a70c56d930e27911f36455d3886e15abf383b78edd2a5d679e0b6",
+      "bytes": 27015208,
+      "grain": "one root annotation per row",
+      "caveat": "Predicted top_nt is distinct from known_nt; blank type is unknown."
+    },
+    {
+      "id": "banc2026_fafb_annotation",
+      "file": "data/research_sources/other/banc_2026/supplemental_data_3.txt",
+      "url": "https://doi.org/10.1038/s41586-026-10735-w",
+      "sha256": "263952b5e178e6093d2c15a7d1a51d8400ae25caa2bce0c565bda733c3138378",
+      "bytes": 22549129,
+      "grain": "one harmonized FAFB root_783 annotation per row",
+      "caveat": "Published curated function annotation; no physiological experiment on this individual root. FAFB metadata, not BANC root IDs."
+    },
+    {
+      "id": "stuerner_dn",
+      "file": "data/research_sources/other/stuerner_neckconnective/Supplemental_file5_FAFB_DNs.tsv",
+      "url": "https://doi.org/10.1038/s41586-025-08925-z",
+      "sha256": "e5ab52e3e9bb8545942a35e841ae562295530d00c64fd49d3a110a5d6ed2b0e2",
+      "bytes": 162201,
+      "grain": "exact FAFB root identity",
+      "caveat": "Source side is retained independently; direction does not identify behavior."
+    },
+    {
+      "id": "stuerner_an_sa",
+      "file": "data/research_sources/other/stuerner_neckconnective/Supplemental_file8_FAFB_ANs_SAs.tsv",
+      "url": "https://doi.org/10.1038/s41586-025-08925-z",
+      "sha256": "f248c727e154a8bc20c0078e0cd4da922d7cfa7988c80559af8fc9ed42e00ea7",
+      "bytes": 319062,
+      "grain": "exact FAFB root identity",
+      "caveat": "Source side is retained independently; direction does not identify behavior."
+    },
+    {
+      "id": "steering_experiment_2024",
+      "file": "",
+      "url": "https://doi.org/10.1016/j.cell.2024.08.033",
+      "sha256": null,
+      "bytes": null,
+      "grain": "experimentally studied cell type in other animals",
+      "caveat": "FAFB identity from Stürner; physiological role transferred by type, no recording in FAFB specimen."
+    },
+    {
+      "id": "tastekin_2026",
+      "file": "data/research_sources/other/tastekin/tastekin_2026_cell_table_s1.xlsx",
+      "url": "https://doi.org/10.1016/j.cell.2026.08.016",
+      "sha256": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9",
+      "bytes": 186967,
+      "grain": "exact FAFB v783 root after Connectome filter",
+      "caveat": "Motor target is anatomical; receptor preference or muscle force is not inferred from type name."
+    },
+    {
+      "id": "bristle_2026",
+      "file": "data/research_sources/other/calle_schuler_bmn/Supplementary_file_1_BMNs.csv",
+      "url": "https://doi.org/10.7554/eLife.108044.3",
+      "sha256": "4147fcf44534c6051c789a85c72ae258db193485942ddce47999ed1f7bc8a0d0",
+      "bytes": 58950,
+      "grain": "exact v783 bristle mechanosensory root",
+      "caveat": "Head-region identity is not a calibrated touch-to-current mapping or grooming policy."
+    },
+    {
+      "id": "shiu_2024",
+      "file": "data/research_sources/shiu/derived/shiu_supplement_index.json",
+      "url": "https://doi.org/10.1038/s41586-024-07763-9",
+      "sha256": "9e046f36e083ba72d4ea53d47dbdda85631bbcb6bb7baafa46b57080475ec8f9",
+      "bytes": 213766,
+      "grain": "v630 workbook candidate with exact v783 root availability check",
+      "caveat": "Published model table v630; exact ID availability does not reproduce published rates in v783."
+    },
+    {
+      "id": "shiu_workbook",
+      "file": "data/research_sources/shiu/supplementary_tables_1-12.xlsx",
+      "url": "https://doi.org/10.1038/s41586-024-07763-9",
+      "sha256": "6922e16825aa0c92a28e2a634b073dcad7641e9c9283c4b9d8ee1e34e6d9b8d9",
+      "bytes": 2539037,
+      "grain": "original supplementary workbook",
+      "caveat": ""
+    },
+    {
+      "id": "olfactory_type_projection",
+      "file": "data/research_sources/other/olfaction/fafb_olfactory_root_id_crosswalk.csv",
+      "url": "https://doi.org/10.1038/s44319-025-00476-8",
+      "sha256": "b3b979e886afbca20af60f6030f0964eb85bc217e6853e5617efd3851e6f6ea2",
+      "bytes": 221150,
+      "grain": "FAFB root to glomerulus/type to pooled receptor literature",
+      "caveat": "DoOR lacks FAFB IDs; receptor and odor response are type-level transfer hypotheses. Mapping status retained."
+    },
+    {
+      "id": "neuropeptide_type_projection",
+      "file": "data/research_sources/other/neuropeptides/fafb_neuropeptide_type_candidates.csv",
+      "url": "https://github.com/flyconnectome/drosophila_neuropeptides/tree/8df0b4506d28646ce6e77947515ba03246f5275d",
+      "sha256": "016387609d1ca9865b26daa73c3c7508ef4cd3bb11806e4cfdb499f55adeda1f",
+      "bytes": 1894113,
+      "grain": "type-matched peptide evidence from multiple specimens",
+      "caveat": "No measured peptide expression in the FAFB root; source-specific method and evidence confidence retained."
+    }
+  ],
+  "outputs": {
+    "catalog_139255.parquet": {
+      "bytes": 9666712,
+      "sha256": "50bff0faa0fe991ec0f0197ba67f29ff210cc20f07791ec9101c699b94ae28e1"
+    },
+    "source_claims.parquet": {
+      "bytes": 1583122,
+      "sha256": "ac2e01ccb7746b0bd44e46578b162ccb645257675f848b9950a131c43880880a"
+    },
+    "neuron_catalog.json": {
+      "bytes": 19241767,
+      "sha256": "813adf4584ccdd8ba9832e324f9562655b9e6838d750315d65e0dfadba5f4736"
+    }
+  }
+}

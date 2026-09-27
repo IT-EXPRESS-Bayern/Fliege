@@ -1,0 +1,151 @@
+{
+  "version": "MaleCNS v1.0",
+  "source_provenance": "data/malecns_v1_reference/provenance.json",
+  "annotations": {
+    "all_annotated_body_rows_including_non_neurons": 211577,
+    "neuron_rows_with_superclass": 166700,
+    "distinct_nonempty_type_labels_unfiltered": 11751,
+    "superclass_counts": {
+      "ol_intrinsic": 89403,
+      "cb_intrinsic": 32164,
+      "vnc_intrinsic": 13161,
+      "visual_projection": 9201,
+      "vnc_sensory": 6370,
+      "ol_sensory": 6098,
+      "cb_sensory": 4868,
+      "ascending_neuron": 1846,
+      "descending_neuron": 1314,
+      "vnc_motor": 708,
+      "visual_centrifugal": 563,
+      "sensory_ascending": 537,
+      "cb_motor": 107,
+      "vnc_efferent": 94,
+      "cb_endocrine": 72,
+      "ENS": 50,
+      "vnc_tbc": 38,
+      "vnc_sensory_tbc": 36,
+      "vnc_endocrine": 22,
+      "cb_sensory_tbc": 14,
+      "sensory_descending": 12,
+      "efferent_ascending": 8,
+      "efferent_descending": 4,
+      "cb_efferent": 4,
+      "visual_projection_tbc": 2,
+      "sensory_ascending_tbc": 2,
+      "descending_neuron_tbc": 2
+    },
+    "neuron_rows_with_consensus_nt": 166522,
+    "consensus_nt_counts": {
+      "acetylcholine": 103720,
+      "glutamate": 29302,
+      "gaba": 22069,
+      "histamine": 7891,
+      "unclear": 2999,
+      "dopamine": 392,
+      "missing": 178,
+      "octopamine": 101,
+      "serotonin": 48
+    }
+  },
+  "traced_only_weight_table": {
+    "definition": "Official minconf-0.5 traced-only body-pair table; includes some bodies without neuron superclass.",
+    "all_rows": {
+      "directed_pair_rows": 25563197,
+      "unique_bodies": 164587,
+      "summed_synaptic_contacts": 124025046
+    },
+    "both_ends_annotated_neurons": {
+      "directed_pair_rows": 25558671,
+      "unique_bodies": 164403,
+      "summed_synaptic_contacts": 124009893
+    },
+    "all_rows_weight_at_least_5": {
+      "directed_pair_rows": 6235682,
+      "unique_bodies": 163903,
+      "summed_synaptic_contacts": 89731551
+    },
+    "both_neurons_weight_at_least_5": {
+      "directed_pair_rows": 6234901,
+      "unique_bodies": 163803,
+      "summed_synaptic_contacts": 89722750
+    },
+    "traced_table_bodies_without_neuron_superclass": 184
+  },
+  "supplemental": {
+    "dnan_rows": 3201,
+    "dnan_distinct_bodies": 3160,
+    "dnan_rows_with_function": 320,
+    "dnan_rows_with_reference": 306,
+    "dnan_duplicate_body_rows": 41,
+    "missing_fafb_ids": 616,
+    "missing_fafb_ids_in_author_cross_match": 562,
+    "missing_fafb_cross_match_type_labels": 14,
+    "capture_major_compartments": [
+      {
+        "compartment": "CNS Major Compartments",
+        "roi": "CV",
+        "roi_base": "CV",
+        "roi_side": "C",
+        "PreSyn": 28414,
+        "PostSyn": 122569,
+        "presyn_traced_frac": 0.3943478566903639,
+        "postsyn_traced_frac": 0.2968274059858724,
+        "conn_traced_frac": 0.0557184271773304,
+        "synweight_traced_frac": 0.3191294761340901
+      },
+      {
+        "compartment": "CNS Major Compartments",
+        "roi": "CentralBrain",
+        "roi_base": "CentralBrain",
+        "roi_side": "C",
+        "PreSyn": 20311220,
+        "PostSyn": 146214930,
+        "presyn_traced_frac": 0.9451066229265028,
+        "postsyn_traced_frac": 0.3684828438071236,
+        "conn_traced_frac": 0.3510271943406688,
+        "synweight_traced_frac": 0.6613760206937297
+      },
+      {
+        "compartment": "CNS Major Compartments",
+        "roi": "Optic(L)",
+        "roi_base": "Optic",
+        "roi_side": "L",
+        "PreSyn": 7571353,
+        "PostSyn": 51395970,
+        "presyn_traced_frac": 0.9288246436959416,
+        "postsyn_traced_frac": 0.4511466119882947,
+        "conn_traced_frac": 0.4297258661077105,
+        "synweight_traced_frac": 0.6994233799577853
+      },
+      {
+        "compartment": "CNS Major Compartments",
+        "roi": "Optic(R)",
+        "roi_base": "Optic",
+        "roi_side": "R",
+        "PreSyn": 7341747,
+        "PostSyn": 49395720,
+        "presyn_traced_frac": 0.9493628437290408,
+        "postsyn_traced_frac": 0.5530267388521949,
+        "conn_traced_frac": 0.5379404733588397,
+        "synweight_traced_frac": 0.7595108723984048
+      },
+      {
+        "compartment": "CNS Major Compartments",
+        "roi": "VNC",
+        "roi_base": "VNC",
+        "roi_side": "C",
+        "PreSyn": 10371748,
+        "PostSyn": 64552116,
+        "presyn_traced_frac": 0.910940647827967,
+        "postsyn_traced_frac": 0.4026225015376023,
+        "conn_traced_frac": 0.3723366235384103,
+        "synweight_traced_frac": 0.656741170447883
+      }
+    ]
+  },
+  "derived": {
+    "roles_csv": "data/malecns_v1_reference/model_neuron_roles_v1.csv",
+    "roles_rows": 166700,
+    "roles_sha256": "7495b3e17a7d7e24c7f6ee5608136b47e43d972d37c50301aaafa71b557b5f43"
+  }
+}

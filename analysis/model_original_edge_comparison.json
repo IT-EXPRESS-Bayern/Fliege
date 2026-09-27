@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-09-26T20:41:30.328039+00:00",
+  "shiu_model_rows_checked": 15091983,
+  "original_graph_edges": 15091983,
+  "model_pair_keys_unique": true,
+  "same_exact_directed_pair_set": true,
+  "model_edges_missing_from_original": 0,
+  "synapse_count_mismatches": 0,
+  "source_model": "data/research_sources/shiu/Connectivity_783.parquet",
+  "source_original_export": "brain/graph-original-v783/manifest.json"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "fly.cpg-solver-unit-controls.v1",
+  "checks": [
+    {
+      "name": "isolated_cell_matches_analytic_pulse_response",
+      "passed": true,
+      "maximum_absolute_rate_error": 1.9856990547850728e-05,
+      "limit": 0.0001
+    },
+    {
+      "name": "presynaptic_row_orientation",
+      "passed": true,
+      "derivative_fixture": [
+        -250.0,
+        74.9985937816399
+      ]
+    },
+    {
+      "name": "row_column_removal_blocks_target_response",
+      "passed": true
+    }
+  ],
+  "scope": "Numerical implementation controls using synthetic small systems; no biological validation",
+  "runner_sha256": "fec64f9ed97dfb96e561b16eaee8edd24a2f2d34edb29e63e1091813fd98aac4"
+}

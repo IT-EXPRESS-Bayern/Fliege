@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-09-26T20:52:18.243990+00:00",
+  "source_missing_ids": "data/research_sources/derived/model_missing_fafb_ids.csv",
+  "source_local_graph": "brain/graph-original-v783/manifest.json",
+  "source_visual_type_matrix": "data/research_sources/other/visual_system/data/type_to_type_connection_and_synapse_counts.csv",
+  "method": "Same cell_type and side among graph-connected homologs; outgoing target-type incidence, requiring >=10 peers and >=3 peers with target and >=5% prevalence; visual target types also require support in the published visual type matrix; top 5 per missing ID.",
+  "missing_ids": 616,
+  "candidate_rows": 2821,
+  "ids_with_type_hypotheses": 552,
+  "ids_without_sufficient_homologs": 64,
+  "ids_with_observed_released_points": 336,
+  "output_csv": "data/research_sources/derived/missing_neuron_type_link_hypotheses.csv",
+  "caution": "A target cell type is not an exact synaptic partner. Support fraction is homolog prevalence, not calibrated confidence or a biological probability. No edge is added to the measured graph."
+}

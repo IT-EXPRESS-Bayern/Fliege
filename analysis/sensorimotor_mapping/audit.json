@@ -1,0 +1,80 @@
+{
+  "namespace": "BANC_v888",
+  "sources": [
+    {
+      "id": "banc_meta",
+      "path": "data/research_sources/other/banc_2026/banc_888_meta.feather",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/14033740",
+      "sha256": "819bbcff476e52702d6f8d8604ce1f12d1d7b11942281df2f49df2a73a6f15a5",
+      "bytes": 57550610
+    },
+    {
+      "id": "banc_888_edgelist_simple_v2.feather",
+      "path": "data/research_sources/other/banc_2026/banc_888_edgelist_simple_v2.feather",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/13992792",
+      "sha256": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb",
+      "bytes": 305250378
+    },
+    {
+      "id": "banc_888_edgelist_simple_v3.feather",
+      "path": "data/research_sources/other/banc_2026/banc_888_edgelist_simple_v3.feather",
+      "url": "https://dataverse.harvard.edu/api/access/datafile/13918810",
+      "sha256": "8c296e946f3c69a8c7222f30ad75fa8a98eeb189124fec6df829c9125f4be64b",
+      "bytes": 359161658
+    }
+  ],
+  "sensor_inventory_roots": 625,
+  "by_leg_subtype": {
+    "LF:claw": 27,
+    "LF:club": 56,
+    "LF:hook": 27,
+    "LH:claw": 38,
+    "LH:club": 54,
+    "LH:hook": 22,
+    "LM:claw": 34,
+    "LM:club": 48,
+    "LM:hook": 20,
+    "RF:claw": 25,
+    "RF:club": 43,
+    "RF:hook": 26,
+    "RH:claw": 25,
+    "RH:club": 68,
+    "RH:hook": 24,
+    "RM:claw": 13,
+    "RM:club": 52,
+    "RM:hook": 23
+  },
+  "lf_sensor_roots": 110,
+  "lf_motor_roots": 19,
+  "detectors": {
+    "v2": {
+      "sensor_outgoing_pairs": 4601,
+      "used_edges": 2720,
+      "all_paths": 7292,
+      "direct_paths": 48,
+      "two_edge_paths": 7244,
+      "premotor_ids": 288,
+      "examples": 38
+    },
+    "v3": {
+      "sensor_outgoing_pairs": 6309,
+      "used_edges": 3232,
+      "all_paths": 8968,
+      "direct_paths": 68,
+      "two_edge_paths": 8900,
+      "premotor_ids": 325,
+      "examples": 43
+    }
+  },
+  "unknown_root_tuning": 625,
+  "verified_predicted_nt_disagreements": 80,
+  "browser_file": "app/data/sensorimotor_mapping.json",
+  "browser_sha256": "dbf0449d7fa2951f887b62fa0a3d79b1349222d279c924499d0e6ec28aaf4ff3",
+  "checks": {
+    "sensor_ids_unique": true,
+    "all_ids_strings": true,
+    "motors_unique": true,
+    "separate_detector_joins": true,
+    "unknown_polarity_preserved": true
+  }
+}

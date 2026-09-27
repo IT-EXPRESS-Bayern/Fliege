@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-09-26T22:21:07.397894+00:00",
+  "skeleton_file": "data/flywire_morphology_v783/sk_lod1_783_healed_ds2.parquet",
+  "skeleton_total_rows": 268281651,
+  "selected_neurons": {
+    "720575940623940963": {
+      "nodes": 311,
+      "segments": 310,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    },
+    "720575940642650331": {
+      "nodes": 2508,
+      "segments": 2507,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    },
+    "720575940629825027": {
+      "nodes": 815,
+      "segments": 814,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    },
+    "720575940628753128": {
+      "nodes": 2772,
+      "segments": 2771,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    },
+    "720575940625217294": {
+      "nodes": 829,
+      "segments": 828,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    },
+    "720575940620875373": {
+      "nodes": 970,
+      "segments": 969,
+      "root_nodes": 1,
+      "unresolved_parent_refs": 0
+    }
+  },
+  "old_points": 48,
+  "new_non_autapse_points": 213,
+  "old_region_counts": {
+    "ME_R": 48
+  },
+  "new_region_counts": {
+    "ME_R": 210,
+    "": 1,
+    "LA_R": 2
+  },
+  "output": "app/data/r7_skeleton.json",
+  "output_bytes": 328869,
+  "caveat": "Both point sets are automated calls; a nearby skeleton branch does not validate synapse identity or physiology. Other Princeton self-contacts are excluded from this view."
+}

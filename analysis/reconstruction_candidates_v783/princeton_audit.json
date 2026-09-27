@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-09-26T22:13:42.054250+00:00",
+  "source_release": "FlyWire FAFB root IDs v783, Princeton 2025 alternate synapse detector",
+  "source_docs": [
+    "https://codex.flywire.ai/faq",
+    "https://natverse.org/fafbseg/reference/flywire_connectome_data.html",
+    "https://zenodo.org/records/17918331"
+  ],
+  "original_v783_source": "https://zenodo.org/records/10676866",
+  "source_files": {
+    "filtered_ge5_pair": {
+      "path": "data/codex_fafb_v783/connections_princeton.csv.gz",
+      "gcs_url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton.csv.gz",
+      "file_bytes": 68456801,
+      "md5": "5e5101c6ffc17d7e300541d8f71842c1",
+      "sha256": "445f996bf6c4b1803b9ba186189138a3061ff8623aa94c0abcf38af30a5bd48b",
+      "all_source_rows": 5342446,
+      "all_source_synapse_count": 50666648,
+      "source_rows_touching_616": 705,
+      "source_synapses_touching_616": 17263,
+      "pair_region_keys_touching_616": 705,
+      "directed_pairs_touching_616": 671,
+      "partner_rows_outside_official_proofread_ids": 0,
+      "source_rows_with_both_partners_among_616": 6
+    },
+    "unfiltered": {
+      "path": "data/codex_fafb_v783/connections_princeton_no_threshold.csv.gz",
+      "gcs_url": "https://storage.googleapis.com/flywire-data/codex/data/fafb/783/connections_princeton_no_threshold.csv.gz",
+      "file_bytes": 275679780,
+      "md5": "694f7e5bd018b83c71eeb0ba55b50e7e",
+      "sha256": "62c2e562a7470bfd32cbb98e36af3daa607ba0822b37223b34f2aa45250a920e",
+      "all_source_rows": 22285323,
+      "all_source_synapse_count": 76944499,
+      "source_rows_touching_616": 3233,
+      "source_synapses_touching_616": 20914,
+      "pair_region_keys_touching_616": 3233,
+      "directed_pairs_touching_616": 3171,
+      "partner_rows_outside_official_proofread_ids": 0,
+      "source_rows_with_both_partners_among_616": 160
+    }
+  },
+  "input_sha256": {
+    "data/research_sources/derived/model_missing_fafb_ids.csv": "952e29ca32df5b8e42f8d9d59255a95d8ef6d62c31ef647db898577a2c8ca3e9",
+    "data/research_sources/derived/observed_raw_proofread_edge_exceptions_for_616.csv": "3acaebfc7d968237f511758c5ebeae30efa87e5d2c03a70d662c308246894185",
+    "data/flywire_fafb_v783/proofread_root_ids_783.npy": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be"
+  },
+  "counts": {
+    "missing_original_roots": 616,
+    "Buhmann_A_raw_pair_region_rows": 21,
+    "Buhmann_A_raw_points": 48,
+    "filtered_ge5_pair_roots_with_any_connection": 203,
+    "unfiltered_roots_with_any_connection": 477,
+    "filtered_ge5_pair_same_pair_region_as_Buhmann_A_raw": 0,
+    "unfiltered_same_pair_region_as_Buhmann_A_raw": 0
+  },
+  "checks": {
+    "all_616_original_ids_officially_proofread": true,
+    "filtered_gcs_md5_matches_pinned_value": true,
+    "filtered_subset_of_unfiltered_where_available": true,
+    "filtered_pairs_equal_unfiltered_pairs_with_total_ge5": true,
+    "unfiltered_gcs_md5_matches_pinned_value": true,
+    "original_graph_left_unchanged": true
+  },
+  "outputs": {
+    "filtered_ge5_pair": {
+      "file": "princeton_filtered_ge5_pair_for_616.csv",
+      "rows": 711,
+      "sha256": "9e82c3391d021cea495ea7ec23752550880fbc2adb1821229693ea1322a68690"
+    },
+    "unfiltered": {
+      "file": "princeton_unfiltered_for_616.csv",
+      "rows": 3393,
+      "sha256": "71054002431a76f2c066c2c4e55025e1c619e1dd4259576671d6c9aff486ba7a"
+    },
+    "root_coverage": {
+      "file": "princeton_root_coverage_616.csv",
+      "rows": 616,
+      "sha256": "5472d1c84f8eb0572b7a80b068256fc8d4d107968c5edef109725f6db47fde5f"
+    },
+    "R7_raw_overlap": {
+      "file": "princeton_overlap_with_21_Buhmann_raw_pairs.csv",
+      "rows": 21,
+      "sha256": "4ff53daf7185695980de9149e7b90f1adbf07b4c1d539d05ff5ead7074a1353a"
+    }
+  },
+  "limitation": "These are alternative automated synapse detections on the same FAFB segmentation, not newly proofread point-level connections or physiological measurements. The >=5 filtered export omits weaker ordered pairs. Counts from detector releases must not be summed."
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at_utc": "2026-09-26T21:12:57.016831+00:00",
+  "source_record": "https://zenodo.org/records/10676866",
+  "source_file": {
+    "file": "data/flywire_fafb_v783/flywire_synapses_783.feather",
+    "zenodo_md5": "md5:f8f1b97c9d4b0ea9b4c8b287f6b99091",
+    "zenodo_bytes": 9492998242
+  },
+  "inputs": {
+    "points_csv": "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv",
+    "points_csv_sha256": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "point_audit_json": "analysis/synapse_point_audit.json",
+    "point_audit_sha256": "d2c791701ba4ffcd104cff55cbe1e61f7d0ccfa10580aa0db37627f7a55b4444",
+    "coverage_csv": "data/research_sources/derived/proofread_synapse_coverage_by_neuron.csv",
+    "coverage_csv_sha256": "fd10cad3cfa1087ad53fcea5518ad6c4d2157b5e60e31f95767e890e321f08b6",
+    "proofread_root_ids_npy": "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+    "proofread_root_ids_sha256": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be",
+    "published_pair_table": "data/flywire_fafb_v783/proofread_connections_783.feather",
+    "published_pair_table_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+  },
+  "output_csv": "data/research_sources/derived/observed_segment_links_for_616.csv",
+  "output_csv_sha256": "8266116b3a6983f02905a70f5689a1fecb47cc5a9fa3bdeef3ed362d62db195b",
+  "method": "From exact released points touching the 616 IDs, group only contacts to opposing unproofread segments by proofread ID, segment ID, direction, and neuropil. Keep raw proofread exceptions in a separate file.",
+  "counts": {
+    "disconnected_proofread_root_ids": 616,
+    "input_points_touching_616_ids": 7385,
+    "observed_segment_contact_points": 7337,
+    "proofread_raw_exception_points_separated": 48,
+    "observed_link_rows_by_pair_direction_neuropil": 4327,
+    "opposing_unproofread_segment_ids": 3475,
+    "proofread_root_ids_with_segment_contacts": 336,
+    "point_counts_by_direction": {
+      "proofread_to_segment": 6786,
+      "segment_to_proofread": 551
+    },
+    "point_counts_by_neuropil": {
+      "AL_R": 1,
+      "AMMC_L": 1,
+      "AMMC_R": 1,
+      "GNG": 99,
+      "LA_L": 7055,
+      "LA_R": 91,
+      "ME_L": 66,
+      "ME_R": 21,
+      "None": 2
+    }
+  },
+  "checks": {
+    "every_point_has_exactly_one_of_616_proofread_ids": true,
+    "segment_output_opposing_partners_absent_from_official_proofread_ids": true,
+    "proofread_flags_match_official_root_array": true,
+    "per_root_pre_post_counts_match_official_all_partner_tables": true,
+    "point_count_matches_upstream_audit": true,
+    "synapse_ids_unique": true,
+    "cleft_scores_at_least_release_threshold_50": true,
+    "coordinates_are_parseable_integers_nm": true,
+    "input_coordinate_min_nm": {
+      "pre_x_nm": 87396,
+      "pre_y_nm": 150688,
+      "pre_z_nm": 40480,
+      "post_x_nm": 87308,
+      "post_y_nm": 150788,
+      "post_z_nm": 40440
+    },
+    "input_coordinate_max_nm": {
+      "pre_x_nm": 889392,
+      "pre_y_nm": 441328,
+      "pre_z_nm": 256720,
+      "post_x_nm": 889464,
+      "post_y_nm": 441500,
+      "post_z_nm": 256680
+    },
+    "input_coordinate_zero_counts": {
+      "pre_x_nm": 0,
+      "pre_y_nm": 0,
+      "pre_z_nm": 0,
+      "post_x_nm": 0,
+      "post_y_nm": 0,
+      "post_z_nm": 0
+    },
+    "input_coordinate_negative_counts": {
+      "pre_x_nm": 0,
+      "pre_y_nm": 0,
+      "pre_z_nm": 0,
+      "post_x_nm": 0,
+      "post_y_nm": 0,
+      "post_z_nm": 0
+    },
+    "input_pre_post_separation_nm_min": 20.396078054371138,
+    "input_pre_post_separation_nm_mean": 138.80640373251532,
+    "input_pre_post_separation_nm_max": 1246.3065433511933,
+    "input_pre_post_separation_over_10000_nm_count": 0,
+    "input_score_min": {
+      "cleft_score": 51.0,
+      "connection_score": 5.70963573455811
+    },
+    "input_score_max": {
+      "cleft_score": 179.0,
+      "connection_score": 1881.14196777344
+    },
+    "input_connection_score_negative_count": 0
+  },
+  "interpretation": "Each row is an observed directed v783 contact to an unproofread segment, not a neuron-neuron edge, inferred segment identity, biological gap repair, or a calibrated synaptic weight. Keep this CSV separate from the proofread CSR graph."
+}

@@ -1,0 +1,18 @@
+body_part_effector,motor_roots,detailed_action_present,verified_transmitter_present,predicted_verified_disagreements
+abdomen,168,0,0,0
+front_leg,139,139,0,0
+middle_leg,126,126,0,0
+hind_leg,126,126,0,0
+wing,64,24,0,0
+neck,49,36,15,14
+proboscis,35,33,0,0
+haltere,27,10,15,14
+pharynx,22,11,0,0
+thoracic_abdominal,18,0,0,0
+"antenna, scape",8,0,0,0
+crop,7,7,0,0
+uterus,6,0,0,0
+eye,4,0,0,0
+salivary_gland,2,2,0,0
+unknown,2,0,0,0
+antenna,2,0,0,0

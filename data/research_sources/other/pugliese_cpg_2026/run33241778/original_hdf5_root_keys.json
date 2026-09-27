@@ -1,0 +1,18 @@
+{
+  "rootKeys": [
+    "W",
+    "W_mask",
+    "a",
+    "exc_dn_idxs",
+    "exc_in_idxs",
+    "fr_cap",
+    "inh_dn_idxs",
+    "inh_in_idxs",
+    "input_currents",
+    "mn_idxs",
+    "seeds",
+    "tau",
+    "threshold"
+  ],
+  "hdf5BytesFetched": 131072
+}

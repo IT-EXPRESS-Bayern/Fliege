@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-27",
+  "method": "Visible Codex in-app browser; rendered DOM and screenshot inspection, no hidden runtime-state access",
+  "url": "http://127.0.0.1:4173/motor.html",
+  "checks": [
+    {
+      "name": "Data loaded",
+      "result": "passed",
+      "observation": "391 motors, 113 Femur-Tibia IDs, 1739 path examples shown"
+    },
+    {
+      "name": "Articulated body rendered",
+      "result": "passed",
+      "observation": "Visible fixed six-leg body, selected left foreleg and time-dependent joint pose; screenshot inspected"
+    },
+    {
+      "name": "Flexor and time scrubber",
+      "result": "passed",
+      "observation": "LF pool amplitude0.65 at1000ms: angle132.4deg versus91.7deg initial, activation0.65/0, active moment11.70"
+    },
+    {
+      "name": "Ablation",
+      "result": "passed",
+      "observation": "17 LF flexor IDs ablated: angle91.7deg at1000ms, activation0/0, moment0, stiffness7"
+    },
+    {
+      "name": "Antagonist coactivation",
+      "result": "passed",
+      "observation": "At1000ms: activation0.65/0.65, moment0, angle91.7deg, stiffness36.24"
+    },
+    {
+      "name": "Exact structural path",
+      "result": "passed",
+      "observation": "banc-path-0438: DNg100720575941500851362 -> IN09A002720575941592869928 -> motor720575941451737978; v2 105/93 and v3 116/91; LH femur-tibia flexion"
+    },
+    {
+      "name": "Path-to-single-motor selection",
+      "result": "passed",
+      "observation": "Direct-test button selects exact720575941451737978, LH, flexor; peak5.5deg at amplitude0.65; UI explicitly says no simulated DN/premotor signal"
+    },
+    {
+      "name": "Amplitude control",
+      "result": "passed",
+      "observation": "LF pool amplitude0.25 at1400ms: angle118.5deg, activation0.25/0, moment4.50; screenshot inspected"
+    },
+    {
+      "name": "Playback starts and completes",
+      "result": "passed",
+      "observation": "Space starts playback; time advances from1400 to1450ms and reaches3000/3000ms; button returns to play. Final view scrubbed to1400ms."
+    },
+    {
+      "name": "Motor browser errors",
+      "result": "passed",
+      "observation": "No error-level browser log entries"
+    },
+    {
+      "name": "Report tables",
+      "result": "passed",
+      "observation": "805-motor atlas,6 exact DN-ID rows and6 rows of joint controls rendered; UTF-8 labels corrected and verified"
+    },
+    {
+      "name": "Report source inspection",
+      "result": "passed",
+      "observation": "Motor-path source opens; Evidence flow shows full-path filtering, common>=5,594checks,version limits and metric definition"
+    },
+    {
+      "name": "Report completion",
+      "result": "passed",
+      "observation": "28reviewed queries,99inputs/36joins; complete status after installed Data CLI build; no error-level browser log entries"
+    }
+  ],
+  "limits": [
+    "Motor activity is imposed directly; the structural DN path does not generate activity in this experiment.",
+    "48 automated body trials are separate from the smaller set of live browser checks listed here.",
+    "Muscle gains, stiffness, damping, inertia and angle limits are uncalibrated model assumptions.",
+    "Browser downloads of additional Pugliese CPG data timed out; those files remain remote_available_not_downloaded."
+  ]
+}

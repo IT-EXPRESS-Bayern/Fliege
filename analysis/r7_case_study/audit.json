@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-09-26T22:20:45.139408+00:00",
+  "r7_root_id": "720575940623940963",
+  "source_sha256": {
+    "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "analysis/reconstruction_candidates_v783/princeton_individual_points_for_616.csv": "a2a1a94213b9959f090b56e0c1c1e2571e17ce71a97a5d653d87d94082297516"
+  },
+  "counts": {
+    "old_buhmann_two_proofread_points": 48,
+    "old_directed_pair_region_keys": 21,
+    "new_princeton_points_total": 215,
+    "new_princeton_autapses": 2,
+    "new_princeton_non_autaptic_points": 213,
+    "new_directed_pair_region_keys_non_autaptic": 45,
+    "shared_directed_pair_region_keys": 18,
+    "old_points_with_same_pair_region_in_new": 45,
+    "old_points_without_same_pair_region_in_new": 3,
+    "exact_six_coordinate_matches": 0,
+    "distinct_nearest_new_calls": 43,
+    "old_points_with_nearest_joint_distance_at_most_nm": {
+      "100": 13,
+      "250": 36,
+      "500": 41,
+      "1000": 43,
+      "5000": 45
+    },
+    "old_point_nearest_joint_distance_nm_min": 60.531,
+    "old_point_nearest_joint_distance_nm_median": 121.951,
+    "old_point_nearest_joint_distance_nm_max": 2643.775,
+    "new_point_region_counts": {
+      "ME_R": 210,
+      "": 1,
+      "LA_R": 2
+    }
+  },
+  "method": "Within identical directed pre/post root IDs and neuropil, find each old point's nearest new point by root-mean-square of presynaptic and postsynaptic 3D coordinate distances. Old CSV names coordinates in nm; new FAFB coordinate grid is treated as nm and is compatible with the separately audited skeleton coordinates. No one-to-one matching is imposed, so multiple old points may choose the same new point.",
+  "limitations": "Two automated detectors and different export dates; location proximity is not synapse identity, physiological function, or a proofread graph edge. Princeton point release has R7 calls absent from its earlier pair export; why that pair export excluded R7 is not established.",
+  "output_sha256": {
+    "r7_pair_point_comparison.csv": "12ef505e90ca8e8dab60f994340fa91928b918ecc0f0f6d259c3d557b7c3a823",
+    "r7_old_to_new_nearest_points.csv": "80c4cab2407a6d91da5bd7c1ca330be7729577be5e7ee9cb1fd8fd178acd7f23"
+  }
+}

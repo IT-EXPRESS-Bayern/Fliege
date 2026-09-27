@@ -1,0 +1,88 @@
+{
+  "created_utc": "2026-09-26T22:32:19.464726+00:00",
+  "namespace": "BANC_v888",
+  "dataset_doi": "https://doi.org/10.7910/DVN/7WTH1N",
+  "paper": "https://doi.org/10.1038/s41586-026-10735-w",
+  "license": "CC BY 4.0",
+  "inputs": {
+    "banc_888_meta.feather": {
+      "sha256": "819bbcff476e52702d6f8d8604ce1f12d1d7b11942281df2f49df2a73a6f15a5",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/14033740",
+      "bytes": 57550610
+    },
+    "banc_888_edgelist_simple_v2.feather": {
+      "sha256": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/13992792",
+      "bytes": 305250378
+    },
+    "banc_888_edgelist_simple_v3.feather": {
+      "sha256": "8c296e946f3c69a8c7222f30ad75fa8a98eeb189124fec6df829c9125f4be64b",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/13918810",
+      "bytes": 359161658
+    }
+  },
+  "source_metadata_rows": 188508,
+  "leg_motor_roots": 391,
+  "leg_counts": {
+    "RM": 63,
+    "RF": 70,
+    "LF": 69,
+    "LH": 63,
+    "LM": 63,
+    "RH": 63
+  },
+  "source_action_counts": {
+    "flex_coxa_trochanter_joint": 62,
+    "move_coxa_posterior": 24,
+    "flex_femur_tibia_joint": 101,
+    "extend_coxa_trochanter_joint": 48,
+    "extend_tibia_tarsus_joint": 24,
+    "pull_long_tendon": 48,
+    "unknown_leg_movement": 34,
+    "move_coxa_anterior": 20,
+    "extend_femur_tibia_joint": 12,
+    "flex_tibia_tarsus_joint": 6,
+    "move_coxa_posterior_lateral": 7,
+    "move_coxa_medial": 5
+  },
+  "mapping_status_counts": {
+    "reduced_joint_candidate": 110,
+    "axis_calibration_required": 56,
+    "geometric_joint_candidate": 143,
+    "tendon_model_missing": 48,
+    "function_unresolved": 34
+  },
+  "proofread_counts": {
+    "TRUE": 391
+  },
+  "nerve_side_mismatches": 0,
+  "incoming_graphs": {
+    "v2": {
+      "nonself_directed_pairs": 112809,
+      "sum_count": 980814,
+      "upstream_roots": 10687,
+      "motor_roots_with_input": 391
+    },
+    "v3": {
+      "nonself_directed_pairs": 117988,
+      "sum_count": 1080876,
+      "upstream_roots": 10990,
+      "motor_roots_with_input": 391
+    }
+  },
+  "incoming_union_pairs": 129160,
+  "incoming_pairs_both_versions": 101637,
+  "incoming_pairs_at_least_5_both": 35725,
+  "upstream_roots_union": 11308,
+  "upstream_metadata_rows": 11308,
+  "body_observation_schema": "fly.body-observation.v1",
+  "calibrated_actuator_channels": 0,
+  "limits": [
+    "BANC is a different individual from FAFB; no direct FAFB motor IDs are inferred.",
+    "Model leg assignment uses effector body part and side, not soma neuromere.",
+    "Joint channels are proposals for comparing geometric observations, not executable muscle mappings.",
+    "Angle signs, force gains, muscle dynamics and receptor encodings are uncalibrated.",
+    "Detector agreement is robustness evidence, not independent biological validation.",
+    "Missing v2/v3 edge counts are null; graphs must not be summed."
+  ]
+}

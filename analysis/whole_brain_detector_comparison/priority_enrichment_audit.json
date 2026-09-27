@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-09-26T22:31:58.640725+00:00",
+  "review_rows": 50000,
+  "recurrence_status_in_top_50000": {
+    "known_type_pair": 35582,
+    "type_pair_not_in_original": 862,
+    "cell_type_missing": 13556
+  },
+  "old_graph_type_pair_rows": 717505,
+  "interpretation": "Type-pair recurrence in the older graph supports prioritization only. Each new detector pair remains an unconfirmed automated observation; this is not independent single-synapse evidence."
+}

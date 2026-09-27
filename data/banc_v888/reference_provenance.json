@@ -1,0 +1,32 @@
+{
+  "dataset": "BANC v888",
+  "citable_static_deposit": "https://doi.org/10.7910/DVN/7WTH1N",
+  "license": "CC BY 4.0 per https://github.com/htem/BANC-project#license",
+  "source": "Public BANC GCS bucket; mutable objects at the recorded generations",
+  "retrieved_at_utc": "2026-09-26T19:05:30.549977+00:00",
+  "usage": "Cross-specimen FAFB-v783-to-BANC-v888 reference only; not the missing nerve cord of the FAFB fly",
+  "files": [
+    {
+      "object_name": "nblast/banc_fafb_reviewed_matches.csv",
+      "local_file": "banc_fafb_reviewed_matches.csv",
+      "download_url": "https://storage.googleapis.com/lee-lab_brain-and-nerve-cord-fly-connectome/nblast/banc_fafb_reviewed_matches.csv",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/lee-lab_brain-and-nerve-cord-fly-connectome/o/nblast%2Fbanc_fafb_reviewed_matches.csv",
+      "bytes": 6581434,
+      "gcs_md5_base64_verified": "r513qdcrXyNjTaCwFQNqJg==",
+      "sha256": "ecdbb43cd5d4586e92f0d92a6f1d2beeecd2f429dd5b3e5309c0edc2daa515c4",
+      "gcs_generation": "1780823860405565",
+      "gcs_updated": "2026-06-07T09:17:40.530Z"
+    },
+    {
+      "object_name": "neuron_annotations/v888/codex_annotations_flat_table_260520.csv",
+      "local_file": "codex_annotations_flat_table_260520.csv",
+      "download_url": "https://storage.googleapis.com/lee-lab_brain-and-nerve-cord-fly-connectome/neuron_annotations/v888/codex_annotations_flat_table_260520.csv",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/lee-lab_brain-and-nerve-cord-fly-connectome/o/neuron_annotations%2Fv888%2Fcodex_annotations_flat_table_260520.csv",
+      "bytes": 39303076,
+      "gcs_md5_base64_verified": "qD9XI95vEo8gBli68dfIbA==",
+      "sha256": "31deed7c2ab9ff1ddd2d1921cb1a152e22db2bd7b45f93a0d8750ab97f1c5907",
+      "gcs_generation": "1779336521695602",
+      "gcs_updated": "2026-05-21T04:08:41.789Z"
+    }
+  ]
+}

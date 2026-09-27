@@ -1,0 +1,80 @@
+{
+  "source": "local original FlyBody XML and task code",
+  "files": [
+    {
+      "path": "data/research_sources/other/autonomous_behavior/flybody/github/flybody/fruitfly/assets/fruitfly.xml",
+      "sha256": "d14946fd0311025ecca70c8eeb5de80e1fe18700d3072be37ecbb18d33d80fd8",
+      "bytes": 65787
+    },
+    {
+      "path": "data/research_sources/other/autonomous_behavior/flybody/github/flybody/fruitfly/fruitfly.py",
+      "sha256": "a9301c0a5b40ab120af0f83ebfcbf90ca416813ef0cdf6cbb96ac8a0f65fb810",
+      "bytes": 29784
+    },
+    {
+      "path": "data/research_sources/other/autonomous_behavior/flybody/github/flybody/tasks/flight_imitation.py",
+      "sha256": "57d74f16eeaf78a980ee184f69327bc57b839c4d5e9ed4ac7087effcbec3486a",
+      "bytes": 10412
+    },
+    {
+      "path": "data/research_sources/other/autonomous_behavior/flybody/github/flybody/tasks/pattern_generators.py",
+      "sha256": "ea40725fc14708dfca05ec735f60a96ec8408ad227c1c687d3528690233b565a",
+      "bytes": 9196
+    },
+    {
+      "path": "data/research_sources/other/autonomous_behavior/flybody/github/flybody/fly_envs.py",
+      "sha256": "0c520d4ae2daa051b838dafa7ef595fc260a035c1b7516fd4c0afdb4c231e781",
+      "bytes": 13859
+    }
+  ],
+  "rawMujocoOption": {
+    "timestep": "0.0001",
+    "gravity": "0 0 -981",
+    "density": "0.00128",
+    "viscosity": "0.000185",
+    "cone": "elliptic",
+    "noslip_iterations": "3"
+  },
+  "wingDegreesOfFreedomPerSide": [
+    "yaw",
+    "roll",
+    "pitch"
+  ],
+  "jointDefaults": {
+    "yaw": {
+      "axis": "0 0 1",
+      "range": "-1.5 1.5",
+      "springref": "1.5"
+    },
+    "roll": {
+      "axis": "1 0 0",
+      "range": "-1 1.5",
+      "springref": "0.7"
+    },
+    "pitch": {
+      "axis": "0 1 0",
+      "range": "-1.27 2.92",
+      "springref": "-1"
+    }
+  },
+  "wingFluidGeoms": [
+    {
+      "name": "wing_left_fluid",
+      "class": "wing-fluid",
+      "size": "0.0005 0.0551 0.114",
+      "pos": "0.0263 -0.148 -0.0289",
+      "quat": "-0.685 -0.634 0.265 -0.243"
+    },
+    {
+      "name": "wing_right_fluid",
+      "class": "wing-fluid",
+      "size": "0.0005 0.0551 0.114",
+      "pos": "-0.0263 0.148 0.0289",
+      "quat": "0.243 0.265 0.634 -0.685"
+    }
+  ],
+  "unitRule": "Raw source units retained; convert the complete length/mass/time system consistently before browser use. XML density/viscosity numbers are not SI values.",
+  "controller": "flight_imitation combines a requested-frequency baseline wing pattern and learnt action; this is an engineered/RL controller, not a BANC reconstruction",
+  "noBiologicalSpikeToWingFrequencyMapping": true,
+  "meshesFullyVerified": false
+}

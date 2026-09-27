@@ -1,0 +1,58 @@
+{
+  "generated_at_utc": "2026-09-26T20:32:02.672152+00:00",
+  "source_files": [
+    "data/flywire_fafb_v783/proofread_root_ids_783.npy",
+    "data/flywire_fafb_v783/proofread_connections_783.feather",
+    "data/flywire_annotations_v2.1.0/Supplemental_file1_neuron_annotations.tsv",
+    "data/research_sources/shiu/Completeness_783.csv",
+    "data/research_sources/shiu/Connectivity_783.parquet",
+    "data/research_sources/eon/data/2025_Completeness_783.csv"
+  ],
+  "official_root_ids": 139255,
+  "shiu_model_ids": 138639,
+  "eon_model_ids": 138639,
+  "eon_and_shiu_same_order": true,
+  "eon_and_shiu_same_completed_values": true,
+  "model_only_ids": 0,
+  "official_ids_missing_from_model": 616,
+  "official_ids_in_proofread_connection_table": 138639,
+  "model_ids_equal_connected_original_ids": true,
+  "missing_model_ids_have_no_proofread_connection_rows": true,
+  "missing_by_flow": {
+    "afferent": 597,
+    "intrinsic": 11,
+    "efferent": 8
+  },
+  "missing_by_super_class": {
+    "sensory": 552,
+    "ascending": 45,
+    "optic": 7,
+    "descending": 4,
+    "central": 4,
+    "endocrine": 4
+  },
+  "missing_by_cell_class_top_12": {
+    "visual": 536,
+    "AN": 45,
+    "mechanosensory": 12,
+    "": 12,
+    "LA>ME": 4,
+    "olfactory": 2,
+    "unknown_sensory": 2,
+    "ME>LA": 2,
+    "optic_lobes": 1
+  },
+  "connectivity": {
+    "rows": 15091983,
+    "synapse_count_sum": 54492922,
+    "pre_index_root_id_mismatches": 0,
+    "post_index_root_id_mismatches": 0,
+    "signed_weight_mismatches": 0,
+    "sign_rows": {
+      "-1": 6032681,
+      "1": 9059302
+    }
+  },
+  "missing_ids_output": "data/research_sources/derived/model_missing_fafb_ids.csv",
+  "note": "The 616 omitted official IDs do not occur in either partner column of the original proofread connection table. This explains the model node set; the biological reason for each absence is not inferred."
+}

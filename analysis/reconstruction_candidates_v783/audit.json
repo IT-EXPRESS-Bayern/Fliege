@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-09-26T22:14:07.421852+00:00",
+  "method_version": 1,
+  "source_release": "FlyWire FAFB v783",
+  "sources": {
+    "data/research_sources/derived/model_missing_fafb_ids.csv": "952e29ca32df5b8e42f8d9d59255a95d8ef6d62c31ef647db898577a2c8ca3e9",
+    "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv": "5e4d0699fd2edb38ba752163c846656fff6ba134e98609ac6998394a656ae484",
+    "data/research_sources/derived/observed_raw_proofread_edge_exceptions_for_616.csv": "3acaebfc7d968237f511758c5ebeae30efa87e5d2c03a70d662c308246894185",
+    "data/research_sources/derived/observed_segment_links_for_616.csv": "8266116b3a6983f02905a70f5689a1fecb47cc5a9fa3bdeef3ed362d62db195b",
+    "data/research_sources/derived/missing_neuron_type_link_hypotheses.csv": "0ce62797912d4f37edd22df67b799305c86ab567092e184e1167e9740eee40a1",
+    "analysis/observed_raw_proofread_edge_exceptions_audit.json": "f44c215a81a039da96ac84515871073c99325b959d2006e532e62446b9cc9610",
+    "analysis/observed_segment_links_audit.json": "674e7fa8cc78f2d1234d8de01eddd50f1f359240ba8b3df9a6a0cd45b8d01694",
+    "analysis/raw_published_edge_reconciliation_audit.json": "fc656fd4355c2a1880df550d9a8dc8f6c0424be47339ab1e4dff7f5e77ec4d91"
+  },
+  "counts": {
+    "proofread_roots_without_aggregate_edges": 616,
+    "released_point_ids": 7385,
+    "A_raw_pair_region_rows": 21,
+    "A_raw_points": 48,
+    "B_segment_pair_region_rows": 4327,
+    "B_segment_points": 7337,
+    "B_distinct_unproofread_segments": 3475,
+    "B_repeated_rows": 1065,
+    "B_rows_with_shared_unproofread_segment": 1204,
+    "C_supported_type_hypothesis_rows": 2757,
+    "C_roots_with_hypotheses": 552,
+    "root_review_tiers": {
+      "A_raw_exception": 1,
+      "B_segment_contact": 335,
+      "C_type_only": 245,
+      "no_released_support": 35
+    },
+    "roots_without_released_points": 280,
+    "photoreceptor_roots": 536
+  },
+  "checks": {
+    "all_grouped_synapse_ids_unique_and_exhaustive": true,
+    "A_raw_global_reconciliation_verified": true,
+    "B_opposing_partners_unproofread_verified_upstream": true,
+    "616_root_counts_reconcile_with_released_points": true,
+    "official_graph_unchanged": true
+  },
+  "ranking": {
+    "purpose": "manual inspection priority, not confidence or calibrated probability",
+    "evidence_order": [
+      "A_raw_exception",
+      "B_segment_contact",
+      "C_type_only",
+      "no_released_support"
+    ],
+    "A_order": "more repeated exact raw points; then cleft minimum/mean and connection mean as tie breakers",
+    "B_order": "repeated point groups, number of points, photoreceptor-output gap flag, then detector-score tie breakers",
+    "C_order": "same-type same-side peer incidence, then visual-matrix support; never exact target root",
+    "site_context": "side_relation and dominant neuropil are review flags, not rejection criteria; contralateral contacts may be real",
+    "score_caveat": "detector scores are neither physiological weights nor calibrated probabilities",
+    "morphology": "No spatial score enters this raw-point ranking; verified skeleton checks are reported separately in morphology_priority_site_check.json"
+  },
+  "outputs": {
+    "raw_proofread_exceptions_ranked.csv": {
+      "rows": 21,
+      "sha256": "95ed55fe5cc4e4fbb0a3f4891d1073b1fafd2fccffd994233e8cd8fe79a5896d"
+    },
+    "segment_contacts_ranked.csv": {
+      "rows": 4327,
+      "sha256": "145874745590762a906fc9910ada56fff14e2a894215155f058c8b71cc50bc0e"
+    },
+    "type_hypotheses_ranked.csv": {
+      "rows": 2757,
+      "sha256": "e59540e5051e68dd746249b4b1a2bcd9baec67f3ae819bcf670a9840c0781af9"
+    },
+    "root_review_queue.csv": {
+      "rows": 616,
+      "sha256": "bb3fd62a0f46908a20e7ea9a34b995a951d454f9e44ca5e248e248b162a250c5"
+    }
+  },
+  "source_urls": [
+    "https://zenodo.org/records/10676866",
+    "https://www.nature.com/articles/s41586-024-07558-y",
+    "https://www.nature.com/articles/s41586-024-07981-1"
+  ]
+}

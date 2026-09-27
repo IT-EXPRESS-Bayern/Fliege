@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081520">
+  <title>R7 · FlyWire-3D-Skelett und Synapsenpunkte</title>
+  <link rel="stylesheet" href="./skeleton.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html">✳ &nbsp; FLIEGE / LAB</a>
+      <nav><a href="./index.html">3D-Arena</a><a href="./brain.html">Gehirnansicht</a><a href="https://github.com/IT-EXPRESS-Bayern/Fliege/blob/main/docs/publication/SOURCES.md">Datenstand</a></nav>
+    </header>
+    <section class="headline">
+      <div><span class="eyebrow">FLYWIRE FAFB V783 · ORIGINALES 3D-SKELETT</span>
+        <h1>Ein R7-Neuron<br><em>unter der Lupe.</em></h1>
+        <p>Die Äste stammen aus dem verifizierten FlyWire-Skelett. Gold zeigt ältere Buhmann-Rohpunkte, Pink die neueren Princeton-Punktaufrufe. Die zwei Detektoren erkennen nahe Orte, doch der veröffentlichte Verbindungsgraph enthält für dieses R7 weiterhin keine Kante.</p>
+      </div>
+      <div class="headline-metrics"><div><strong>311</strong><span>R7-Skelettknoten</span></div><div><strong>48</strong><span>ältere Rohpunkte</span></div><div><strong>213</strong><span>Princeton-Punkte</span></div></div>
+    </section>
+    <section class="workspace">
+      <div class="viewer-wrap"><div id="viewer" role="img" aria-label="Interaktive dreidimensionale Ansicht von R7, fünf Partnerneuronen und zwei Synapsenpunktsätzen"></div>
+        <div class="viewer-label">ORIGINALKOORDINATEN · µm RELATIV ZUR R7-MITTE</div>
+        <div class="viewer-help">ZIEHEN: DREHEN &nbsp;·&nbsp; MAUSRAD: ZOOM &nbsp;·&nbsp; PUNKT ANKLICKEN: DETAILS</div>
+        <div id="viewer-error" class="viewer-error" hidden></div>
+      </div>
+      <aside class="controls">
+        <div class="panel-heading">EBENEN <span id="load-state">Lädt …</span></div>
+        <p class="panel-intro">Zelllinien und Punktaufrufe getrennt ein- oder ausblenden. Die Farben gehören nur zu dieser Ansicht.</p>
+        <div id="layer-list" class="layer-list"></div>
+        <button id="reset-view" class="reset" type="button">Ansicht zurücksetzen</button>
+        <div class="divider"></div>
+        <div class="detail-heading">AUSGEWÄHLTER PUNKT</div>
+        <div id="point-detail" class="point-detail">Klicke einen goldenen oder pinken Punkt im Raum an.</div>
+      </aside>
+    </section>
+    <section class="research-note"><div><span class="eyebrow">WAS DIESE ANSICHT ZEIGT</span><h2>Räumliche Hinweise, kein fertiger Schaltplan</h2></div>
+      <p>18 der 21 älteren gerichteten R7-Paare mit derselben Hirnregion erscheinen auch im Princeton-Punktexport. Die einzelnen Punktkoordinaten sind dabei nie exakt gleich; 36 der 45 alten Punkte mit passendem Paar haben einen neueren Aufruf innerhalb von 250 nm nach dem hier verwendeten Abstand zweier Prä/Post-Orte. Das ist ein Suchhinweis für eine spätere manuelle Prüfung. Selbstkontakte sind ausgeblendet. Es werden keine Kanten in den offiziellen Graphen geschrieben.</p>
+      <p>Quellen: <a href="https://zenodo.org/records/10676866" target="_blank" rel="noopener noreferrer">FlyWire v783-Rohpunkte</a>, <a href="https://zenodo.org/records/10877326" target="_blank" rel="noopener noreferrer">FlyWire-Skelette</a>, <a href="https://doi.org/10.1101/2025.07.11.664377" target="_blank" rel="noopener noreferrer">Princeton-Synapsendetektor</a>. Reproduzierbare lokale Prüfung: <code>analysis/r7_case_study/</code>.</p>
+    </section>
+    <footer>FAFB-v783-Root-IDs bleiben als Text erhalten · R7 720575940623940963</footer>
+  </main>
+  <script type="module" src="./skeleton.js"></script>
+</body>
+</html>

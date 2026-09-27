@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Cite this repository at the commit used, and cite the original datasets and papers separately. See LICENSES.md for scope and third-party terms."
+title: "FLIEGE: AI-assisted research toward an embodied fruit-fly model"
+type: software
+authors:
+  - name: "IT-EXPRESS Bayern"
+repository-code: "https://github.com/IT-EXPRESS-Bayern/Fliege"
+url: "https://github.com/IT-EXPRESS-Bayern/Fliege"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - connectomics
+  - Drosophila
+  - embodied simulation
+  - FlyWire
+  - BANC
+  - AI-assisted research
+abstract: >-
+  Ongoing research developed with GPT-6 SOL and GPT-6 ASTRA. Published connectomes,
+  traceable neuron identities, controlled neural submodels, and browser-based body
+  experiments. Full reconstruction is incomplete; original anatomy, model assumptions,
+  and simulation results are distinct. Third-party data retain their original licenses.

@@ -1,0 +1,51 @@
+{
+  "source": {
+    "authors": "Tastekin, de Haan Vicente et al.",
+    "paper": "The complete gustatory connectome of adult Drosophila reveals how taste guides feeding, foraging, and social behavior",
+    "paper_url": "https://doi.org/10.1016/j.cell.2026.08.016",
+    "article_url": "https://www.sciencedirect.com/science/article/pii/S0092867426009438",
+    "published_date": "2026-09-03",
+    "retrieved_utc_date": "2026-09-26"
+  },
+  "file": {
+    "name": "tastekin_2026_cell_table_s1.xlsx",
+    "publisher_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009438-mmc2.xlsx",
+    "format": "XLSX",
+    "bytes": 186967,
+    "sha256": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9",
+    "sheets": [
+      {
+        "name": "GRNs",
+        "connectome_column": "Connectome",
+        "id_column": "Body_ID",
+        "other_columns": ["Root_Side", "Superclass", "Class", "Subclass", "Type", "Subtype", "Entry_Nerve"],
+        "fafb_flywire_rows": 411,
+        "fafb_flywire_unique_ids": 411
+      },
+      {
+        "name": "MNs",
+        "connectome_column": "Connectome",
+        "id_column": "Body_ID",
+        "other_columns": ["Root_Side", "Superclass", "Type", "Target_Muscle", "Exit_Nerve"],
+        "fafb_flywire_rows": 66,
+        "fafb_flywire_unique_ids": 66
+      }
+    ]
+  },
+  "fafb_v783_evidence": {
+    "article_section": "STAR Methods, Connectomic partner analysis",
+    "statement": "The authors state that fafbseg was used for FAFB, FlyWire v783, and that GRN and MN body IDs with cell types are shown in Table S1.",
+    "dataset_label_in_workbook": "FAFB – Flywire",
+    "id_handling": "FAFB Body_ID cells are stored as text and should remain decimal strings."
+  },
+  "local_v783_graph_check": {
+    "graph_file": "brain/graph-v783/nodes.u64",
+    "graph_format": "little-endian unsigned 64-bit integers",
+    "graph_node_count": 139255,
+    "comparison": "Both workbook and graph IDs were compared as decimal strings.",
+    "unique_fafb_ids": 477,
+    "matched_fafb_ids": 477,
+    "missing_fafb_ids": []
+  },
+  "use_note": "Table S1 provides GRN and MN body IDs and cell types across MaleCNS, MANC, and FAFB/FlyWire. It is not a synapse-level connectivity table. Local graph membership confirms node availability, not functional annotation."
+}

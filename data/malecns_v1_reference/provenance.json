@@ -1,0 +1,139 @@
+{
+  "dataset": "MaleCNS v1.0 modeling reference",
+  "retrieved_utc": "2026-09-26T21:39:43.751326+00:00",
+  "license": "CC-BY 4.0 (MaleCNS dataset); supplemental repository license to check per file",
+  "scope": "metadata, traced-only graph and derived author analysis tables; no EM image volume",
+  "project": "https://male-cns.janelia.org/",
+  "download_page": "https://male-cns.janelia.org/download/",
+  "paper": "https://doi.org/10.1016/j.cell.2026.08.015",
+  "supplemental_repository": "https://github.com/flyconnectome/2025malecns",
+  "supplemental_commit": "67767d2233657983993ff6c2be48e836a935863c",
+  "files": [
+    {
+      "path": "data/malecns_v1_reference/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "source_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "gcs_generation": "1780494878811468",
+      "gcs_updated": "2026-06-03T13:54:38.876Z",
+      "official_md5_base64": "UKdxh3DFciDxYLpPQxq4ng==",
+      "md5_base64": "UKdxh3DFciDxYLpPQxq4ng==",
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "git_blob_sha1": "10f0cc712972fb8d53a6d063413d76b3fc3f4e21"
+    },
+    {
+      "path": "data/malecns_v1_reference/body-neurotransmitters-male-cns-v1.0.feather",
+      "source_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fbody-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "gcs_generation": "1780894899156750",
+      "gcs_updated": "2026-06-08T05:01:39.227Z",
+      "official_md5_base64": "PYQrEv5cSe763lKNfdJKHw==",
+      "md5_base64": "PYQrEv5cSe763lKNfdJKHw==",
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+      "git_blob_sha1": "911b528f22c020a63b96f0e07203e732733d8eb9"
+    },
+    {
+      "path": "data/malecns_v1_reference/connectome-weights-male-cns-v1.0-minconf-0.5-traced-only.feather",
+      "source_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5-traced-only.feather",
+      "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fconnectome-data%2Fflat-connectome%2Fconnectome-weights-male-cns-v1.0-minconf-0.5-traced-only.feather",
+      "bytes": 508025642,
+      "gcs_generation": "1780494884279095",
+      "gcs_updated": "2026-06-03T13:54:44.346Z",
+      "official_md5_base64": "ZgHUrQr6mf0D6wh5Ze8kIw==",
+      "md5_base64": "ZgHUrQr6mf0D6wh5Ze8kIw==",
+      "sha256": "9b3beab17bad5f618be3f2c02d3139a8d07b822565919c013f1e5506d93e604b",
+      "git_blob_sha1": "fa2151a7a45de7ca656002f4f1021fe0663f7bb5"
+    },
+    {
+      "path": "data/malecns_v1_reference/quantify-neuron-connections.ipynb",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/quantify-neuron-connections.ipynb",
+      "bytes": 5170,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "5666a50c2aa8a39a1adcea845f70f1516496b54e",
+      "md5_base64": "hkXBinSt/auonkT1g6kpJw==",
+      "sha256": "0f8b191be7cea941799133e5fc354ee299b849ceb26e4fb2904e3b07108357ec",
+      "git_blob_sha1": "5666a50c2aa8a39a1adcea845f70f1516496b54e"
+    },
+    {
+      "path": "data/malecns_v1_reference/dnan_cluster_function_20260509.csv",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/dnan_cluster_function_20260509.csv",
+      "bytes": 97011,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "9f54c9ccaf912bde618c5e741a8d6e7426c993a8",
+      "md5_base64": "l11L+i+EVeVOMzTEU79HnQ==",
+      "sha256": "24770406ba3c0916b36d06e839a8a8febccd1551c2a2fefd8063692d757fe6b5",
+      "git_blob_sha1": "9f54c9ccaf912bde618c5e741a8d6e7426c993a8"
+    },
+    {
+      "path": "data/malecns_v1_reference/male-cns-v1.0-synapse-connection-precision-recall-by-roi.csv",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/male-cns-v1.0-synapse-connection-precision-recall-by-roi.csv",
+      "bytes": 2972,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "7571da0bfa6a0218f17214ecce718d03e4fe26c9",
+      "md5_base64": "jSNEyHylSSvK8cTV2xlC5g==",
+      "sha256": "ec7f81cf878c578bbc5ef6115cc2e92c4dcbeffcc6bc02ee3e7b5bb2306251ff",
+      "git_blob_sha1": "7571da0bfa6a0218f17214ecce718d03e4fe26c9"
+    },
+    {
+      "path": "data/malecns_v1_reference/male-cns-v1.0-synapse-tbar-precision-recall-by-roi.csv",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/male-cns-v1.0-synapse-tbar-precision-recall-by-roi.csv",
+      "bytes": 2972,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "a8cb9fc11bd8dd5011153c6522cbb7d9576a644b",
+      "md5_base64": "Ry3shjzgpgja2vzeGnqgdg==",
+      "sha256": "b8f20da2371a25bb5482d9ff15ac9e2c8bac6eeab8329f8f97f40c00776503fd",
+      "git_blob_sha1": "a8cb9fc11bd8dd5011153c6522cbb7d9576a644b"
+    },
+    {
+      "path": "data/malecns_v1_reference/male-cns-v1.0-traced-synapse-capture-by-roi.csv",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/male-cns-v1.0-traced-synapse-capture-by-roi.csv",
+      "bytes": 12726,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "4b3fa2f206bc9958b7e7d694e4ac6f7ac082f1ff",
+      "md5_base64": "PTtr5hgEgWdkOHkRNFt8vg==",
+      "sha256": "b91253bcb26d3496b1ddcf17c05006384ee98bebb729ed7d62e3529131e28e64",
+      "git_blob_sha1": "4b3fa2f206bc9958b7e7d694e4ac6f7ac082f1ff"
+    },
+    {
+      "path": "data/malecns_v1_reference/mcns_fw_edge_comp_mappings.json",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/mcns_fw_edge_comp_mappings.json",
+      "bytes": 6723460,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "9a46131571bd91931e2ce94904fabcd0637a8c6a",
+      "md5_base64": "E3IpYAROyzVNbbPql9QTsA==",
+      "sha256": "94aaadbefedcc314c69fb8ad62a07361c1f78ee39424bad38ac1a6d7ca4d0a12",
+      "git_blob_sha1": "9a46131571bd91931e2ce94904fabcd0637a8c6a"
+    },
+    {
+      "path": "data/malecns_v1_reference/mcns_lvl_6_hsbm_communities.feather",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/mcns_lvl_6_hsbm_communities.feather",
+      "bytes": 299538,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "28ff32855e8c19ee231a2e3495fc579b2141617e",
+      "md5_base64": "Yw8//qpfkYB29wynmd+afw==",
+      "sha256": "eb583a8520bfb1f4b4fb30e3a8590cdb7e72caa599b888adce583d6de24d04a1",
+      "git_blob_sha1": "28ff32855e8c19ee231a2e3495fc579b2141617e"
+    },
+    {
+      "path": "data/malecns_v1_reference/optic-column-type-assignments-v1.0.xlsx",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/optic-column-type-assignments-v1.0.xlsx",
+      "bytes": 111565,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "520534c18f90284035d573c799dbae1cd270bd18",
+      "md5_base64": "qHX1yWgpi2OiePKk3fa1Iw==",
+      "sha256": "d4af1cacb751036f7e84bfecc9bec79ca010066ac066559c29b566003ec080d3",
+      "git_blob_sha1": "520534c18f90284035d573c799dbae1cd270bd18"
+    },
+    {
+      "path": "data/malecns_v1_reference/sensory_network_traversal_model_layers.feather",
+      "source_url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/sensory_network_traversal_model_layers.feather",
+      "bytes": 2209666,
+      "github_commit": "67767d2233657983993ff6c2be48e836a935863c",
+      "official_git_blob_sha1": "ede584bdd68fc64980f1547a6234c1f2a5df02b3",
+      "md5_base64": "IlTbyieFh0LoyUK0in6vUw==",
+      "sha256": "a6d0f1ad66bcd7ce576f852f4245c4d7f3e86cdb7ab9da6b5309e6183d22cf35",
+      "git_blob_sha1": "ede584bdd68fc64980f1547a6234c1f2a5df02b3"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "generated_at_utc": "2026-09-26T22:14:09.847344+00:00",
+  "source": "data/flywire_morphology_v783/sk_lod1_783_healed_ds2.parquet",
+  "official_record_url": "https://zenodo.org/records/10877326",
+  "official_md5": "a4c104776f33ec539ef859064c4de3df",
+  "md5_rechecked_this_run": true,
+  "file_size_bytes": 5355543468,
+  "parquet_rows": 268281651,
+  "parquet_row_groups": 4,
+  "rows_scanned": 268281651,
+  "target_rows_found": 151369,
+  "target_id_count": 616,
+  "ids_present_in_metadata": 616,
+  "ids_with_nodes": 616,
+  "princeton_only_id_count": 195,
+  "princeton_only_ids_with_nodes": 195,
+  "units_metadata": {
+    "1 nanometer": 616
+  },
+  "nodes_per_id": {
+    "n": 616,
+    "min": 13.0,
+    "p25": 168.0,
+    "median": 238.5,
+    "p75": 302.0,
+    "p95": 403.75,
+    "max": 1353.0
+  },
+  "bounding_box_diagonal_um": {
+    "n": 616,
+    "min": 3.039,
+    "p25": 35.380250000000004,
+    "median": 42.2575,
+    "p75": 49.36775,
+    "p95": 70.30675,
+    "max": 173.829
+  },
+  "radius_negative_rows": 0,
+  "radius_zero_rows": 16423,
+  "nonfinite_coordinate_cells": 0,
+  "root_nodes_count_distribution": {
+    "1": 616
+  },
+  "geometry_tail_thresholds": {
+    "node_count_p1": 64.05,
+    "node_count_p99": 530.4000000000001,
+    "bbox_diagonal_um_p1": 12.10065,
+    "bbox_diagonal_um_p99": 150.08830000000003,
+    "flagged_ids": 21
+  },
+  "example_ids": [
+    720575940609016668,
+    720575940623940963,
+    720575940631647173
+  ],
+  "example_topology": {
+    "720575940609016668": {
+      "unique_node_ids": 301,
+      "duplicate_node_id_rows": 0,
+      "root_nodes": 1,
+      "parent_reference_missing": 0,
+      "valid_segments": 300,
+      "total_cable_length_um": 129.18576217371174,
+      "segment_length_nm": {
+        "n": 300,
+        "min": 32.81197265201235,
+        "p25": 314.1701181335114,
+        "median": 403.4972885813115,
+        "p75": 496.9595338445114,
+        "p95": 837.0155943267577,
+        "max": 1533.8944302157417
+      }
+    },
+    "720575940623940963": {
+      "unique_node_ids": 311,
+      "duplicate_node_id_rows": 0,
+      "root_nodes": 1,
+      "parent_reference_missing": 0,
+      "valid_segments": 310,
+      "total_cable_length_um": 188.64106338855592,
+      "segment_length_nm": {
+        "n": 310,
+        "min": 40.34748058371334,
+        "p25": 500.98736562826474,
+        "median": 600.723904230329,
+        "p75": 703.7354386752111,
+        "p95": 912.1268872921106,
+        "max": 1835.8280518573433
+      }
+    },
+    "720575940631647173": {
+      "unique_node_ids": 280,
+      "duplicate_node_id_rows": 0,
+      "root_nodes": 1,
+      "parent_reference_missing": 0,
+      "valid_segments": 279,
+      "total_cable_length_um": 127.80092299548303,
+      "segment_length_nm": {
+        "n": 279,
+        "min": 45.502627118739326,
+        "p25": 291.38212564375635,
+        "median": 384.23309118212995,
+        "p75": 619.5906510716441,
+        "p95": 977.0196566007212,
+        "max": 1702.8780917820252
+      }
+    }
+  },
+  "point_to_skeleton_example_summary": {
+    "720575940609016668": {
+      "Buhmann_v783_raw_point": {
+        "n": 0,
+        "min": null,
+        "p25": null,
+        "median": null,
+        "p75": null,
+        "p95": null,
+        "max": null,
+        "within_0_5_um": 0,
+        "within_1_um": 0,
+        "within_2_um": 0
+      },
+      "Princeton_2025_unfiltered_point": {
+        "n": 219,
+        "min": 42.201,
+        "p25": 298.1155,
+        "median": 382.413,
+        "p75": 510.648,
+        "p95": 725.4360999999998,
+        "max": 983.068,
+        "within_0_5_um": 160,
+        "within_1_um": 219,
+        "within_2_um": 219
+      }
+    },
+    "720575940623940963": {
+      "Buhmann_v783_raw_point": {
+        "n": 69,
+        "min": 85.636,
+        "p25": 391.143,
+        "median": 617.762,
+        "p75": 772.04,
+        "p95": 965.2657999999998,
+        "max": 1076.812,
+        "within_0_5_um": 24,
+        "within_1_um": 67,
+        "within_2_um": 69
+      },
+      "Princeton_2025_unfiltered_point": {
+        "n": 217,
+        "min": 40.17,
+        "p25": 310.718,
+        "median": 465.528,
+        "p75": 675.982,
+        "p95": 1007.9595999999997,
+        "max": 1162.307,
+        "within_0_5_um": 120,
+        "within_1_um": 205,
+        "within_2_um": 217
+      }
+    },
+    "720575940631647173": {
+      "Buhmann_v783_raw_point": {
+        "n": 0,
+        "min": null,
+        "p25": null,
+        "median": null,
+        "p75": null,
+        "p95": null,
+        "max": null,
+        "within_0_5_um": 0,
+        "within_1_um": 0,
+        "within_2_um": 0
+      },
+      "Princeton_2025_unfiltered_point": {
+        "n": 242,
+        "min": 17.234,
+        "p25": 260.18775,
+        "median": 345.811,
+        "p75": 501.4985,
+        "p95": 703.9789999999998,
+        "max": 931.766,
+        "within_0_5_um": 180,
+        "within_1_um": 242,
+        "within_2_um": 242
+      }
+    }
+  },
+  "interpretation": "Morphology and coordinate compatibility only; proximity cannot establish synapses, direction, or physiological activity."
+}

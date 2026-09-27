@@ -1,0 +1,199 @@
+{
+  "repository": "https://github.com/abgnydn/webgpu-fly",
+  "commit": "bb00419e874eee9e878542dcc5fce289ede2e1b9",
+  "project_license": "MIT (see local LICENSE)",
+  "upstream_flybody_license": "Apache-2.0 (see local LICENSE-FLYBODY)",
+  "scope": "Independent third-party precedent, not a peer-reviewed validation of a complete virtual fly.",
+  "excluded": "No connectome binaries, mesh assets, model checkpoints or executable dependencies fetched. No downloaded code executed.",
+  "files": [
+    {
+      "path": "github/LICENSE",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/LICENSE",
+      "bytes": 1077,
+      "git_blob_sha1": "d6fc269319f6ea1544db37f5ada78026d0848444",
+      "sha256": "f9b6b294a2b756037eaa9104ee3902faf9a0a129153494bcf33db98a08b3169b"
+    },
+    {
+      "path": "github/LICENSE-FLYBODY",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/LICENSE-FLYBODY",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "github/NOTICE",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/NOTICE",
+      "bytes": 3531,
+      "git_blob_sha1": "18506263b9b30d7cec5fb7e12a2c621eaeb0307f",
+      "sha256": "31861187f6331137d6734805621ecacea9921020240005b16cbad31d003ef919"
+    },
+    {
+      "path": "github/README.md",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/README.md",
+      "bytes": 16109,
+      "git_blob_sha1": "9fc4571c32a8f3373817a1c41d8ff61d77daf1cb",
+      "sha256": "ae8badf22f057fae7a1481ab49fe5011ed2ba14ce558a2134559ca41df55ed32"
+    },
+    {
+      "path": "github/LIMITATIONS.md",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/LIMITATIONS.md",
+      "bytes": 26452,
+      "git_blob_sha1": "9753b702804e0bfd4ecbd8dbc6614f8c6d31a6b2",
+      "sha256": "46d0717004138060af78d5570bea05545930427179f18e99854a99ee9711a611"
+    },
+    {
+      "path": "github/package.json",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/package.json",
+      "bytes": 2370,
+      "git_blob_sha1": "de042de8f0cd92e22d6e3da172209c78f0c55f67",
+      "sha256": "48fa52364ca9ea64e0f67b7e79960da6526ae8a137c39f320332570c19c78ef8"
+    },
+    {
+      "path": "github/src/brain.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/brain.ts",
+      "bytes": 3836,
+      "git_blob_sha1": "986c1f630c0b32d867386b755be2a39919881958",
+      "sha256": "9f84f6869927de108f363abf82086370baa23b1c8ccdb85feae75e89a684814d"
+    },
+    {
+      "path": "github/src/sim.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/sim.ts",
+      "bytes": 16161,
+      "git_blob_sha1": "fd3dc7c79fca08f852a1a56363a68e8caaa004c4",
+      "sha256": "a2542acec09ccb61a38c2b8759c372b5c4b068c91ea99cefb1bdec0c6d543a7a"
+    },
+    {
+      "path": "github/src/simParams.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/simParams.ts",
+      "bytes": 2096,
+      "git_blob_sha1": "c109e8faf0f2ee823e870fcbf14e67717cf32e26",
+      "sha256": "9e4b0b81aca2eb547be85ddcbd56cabf0412153c62f08748d7ef27a9e192f972"
+    },
+    {
+      "path": "github/src/vnc.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/vnc.ts",
+      "bytes": 16458,
+      "git_blob_sha1": "60c0348a226f553f30abe39759cbbfeace261b7f",
+      "sha256": "410d0b50b6c8ef3ff7411be261cdef4299f433c129b08a54713d966b6a18dad2"
+    },
+    {
+      "path": "github/src/physics.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/physics.ts",
+      "bytes": 51424,
+      "git_blob_sha1": "56f5f74ad0b6b84c482ab80c0ab75833f6f00f6e",
+      "sha256": "cb98450f6eae12af2b5794460c4dbd0021ebeaed807ecb2c521d41f07e423d6d"
+    },
+    {
+      "path": "github/src/main.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/main.ts",
+      "bytes": 63367,
+      "git_blob_sha1": "4767cec34261fb0555455f0e59d3025ecea43c7a",
+      "sha256": "58fa6d4dcb48a027019337f3a4ba834730c9cfc83626c298ad1c2ce3f493bc9b"
+    },
+    {
+      "path": "github/src/walking-policy.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/walking-policy.ts",
+      "bytes": 11213,
+      "git_blob_sha1": "f202f6841d99eaf9e4756aa12fa9e5aef658a2ff",
+      "sha256": "83a820d3975e0c1fd966398adce96be17612bce58f4fe0a69684bbe128776a78"
+    },
+    {
+      "path": "github/src/room.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/room.ts",
+      "bytes": 28518,
+      "git_blob_sha1": "262269faeab0d7fd6082321a48efec0a75c48201",
+      "sha256": "a6a6ade9a9cc4ee26671b76b05db751c8a7356d467a31393b92443650e3addf7"
+    },
+    {
+      "path": "github/src/evolution.ts",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/evolution.ts",
+      "bytes": 7791,
+      "git_blob_sha1": "f382be1032af60c8557bcd6b986aa8aa43371617",
+      "sha256": "d199071669804df18ff26177aca7bbfea6d441c14743d84825852ba77e4a67b2"
+    },
+    {
+      "path": "github/src/shaders/lif.wgsl",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/shaders/lif.wgsl",
+      "bytes": 4155,
+      "git_blob_sha1": "f79d37b1767a79fa18ba850b4a40c24edd00cf1d",
+      "sha256": "ede07a40c4fb86a5bd5eb13fff0f950d31ba441efa9bcb8321983243f89da79e"
+    },
+    {
+      "path": "github/src/shaders/evolve.wgsl",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/src/shaders/evolve.wgsl",
+      "bytes": 4713,
+      "git_blob_sha1": "fb2692a07b4f45094a08badf166ccedb55d1e9a7",
+      "sha256": "c0c4de460fc73523231d8fdb6a6a584e6bc20afded1e90ea5c4062cb05df60fa"
+    },
+    {
+      "path": "github/tools/build_csr.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/build_csr.py",
+      "bytes": 16769,
+      "git_blob_sha1": "3f490399b4a804cda925c4257063714acfc46ce4",
+      "sha256": "958a6267b98735d0f01255905412394fb43e5cfa704872c82629b4e9c1755ad1"
+    },
+    {
+      "path": "github/tools/build_vnc.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/build_vnc.py",
+      "bytes": 14212,
+      "git_blob_sha1": "aca3fc3221d26f98e4b4cd296bcbf063708879bf",
+      "sha256": "3c4cd0230499b77f5fd496030bd2da108fcdca197f467d26df59493dc2195027"
+    },
+    {
+      "path": "github/tools/download_data.sh",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/download_data.sh",
+      "bytes": 1049,
+      "git_blob_sha1": "7a006b0c9ccbf0bc92c10f7208199e7888c0c700",
+      "sha256": "2eff8541ffae069d3183c2f2b073b586e114a97b905cbd0449e7ebabda6efe8c"
+    },
+    {
+      "path": "github/tools/download_manc.sh",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/download_manc.sh",
+      "bytes": 1316,
+      "git_blob_sha1": "66d0c6835ab5cf6e2927d2a3c4738c76c7402272",
+      "sha256": "3ee4132ad8622d1e2de1b1342e4ec01db3b2fb2ccb7dce627218e03fbaf184dc"
+    },
+    {
+      "path": "github/tools/download_flybody_policies.sh",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/download_flybody_policies.sh",
+      "bytes": 1271,
+      "git_blob_sha1": "c6175faeece85d3d05fc37dd135294e1182a8766",
+      "sha256": "7aa7d0bace296865f6d387da35d8def2d783f96f6ac902a53554ef6cb4a74a11"
+    },
+    {
+      "path": "github/tools/bake_flybody_bundle.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/bake_flybody_bundle.py",
+      "bytes": 3766,
+      "git_blob_sha1": "af921f2ce96b3b210c5fb86f56d30f2cfd9b88ce",
+      "sha256": "412ab6313428f44bf87e0a60f20e030b9a8b5576e64ae449be060c63e6d6b5bd"
+    },
+    {
+      "path": "github/tools/extract_walking_policy.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/extract_walking_policy.py",
+      "bytes": 6561,
+      "git_blob_sha1": "c0e51be52fee99cf3da0aa29ca6243fa2beb44d0",
+      "sha256": "05af0b955d6db20ea887e07c44e7070508707d7069ea48741ff0f38abbcdd3d9"
+    },
+    {
+      "path": "github/tools/dump_flybody_spec.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/dump_flybody_spec.py",
+      "bytes": 5172,
+      "git_blob_sha1": "24452a1672de9e2ddf736f1dc5b3f8347aebf096",
+      "sha256": "475d254d636f4e5844338ebcf709a960b42831f22f4874530bbbf4ca639aeee4"
+    },
+    {
+      "path": "github/tools/patch_brain_meta_walking_dns.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/patch_brain_meta_walking_dns.py",
+      "bytes": 7551,
+      "git_blob_sha1": "90d35bda7356af73e23b8ecc296ddb45a69a7793",
+      "sha256": "8566c78f5c92d00e551ab209460ab4edbef1a9cf1c53001cd639c81ca07e1782"
+    },
+    {
+      "path": "github/tools/verify_walking_policy.py",
+      "url": "https://raw.githubusercontent.com/abgnydn/webgpu-fly/bb00419e874eee9e878542dcc5fce289ede2e1b9/tools/verify_walking_policy.py",
+      "bytes": 3442,
+      "git_blob_sha1": "ebcf44519b1c643317f605092e60d7fdeea52f17",
+      "sha256": "beb990045f653cb55323b7bbb37050a4a5dd4724681ea232181301485d1eb377"
+    }
+  ]
+}

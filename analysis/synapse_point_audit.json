@@ -1,0 +1,127 @@
+{
+  "generated_at_utc": "2026-09-26T21:08:13.857524+00:00",
+  "source": "data/flywire_fafb_v783/flywire_synapses_783.feather",
+  "source_record": "https://zenodo.org/records/10676866",
+  "counts": {
+    "cleft_score_null": 0,
+    "connection_score_null": 0,
+    "rows": 130054535,
+    "both_proofread": 54492970,
+    "both_proofread_self": 0,
+    "all_self": 0,
+    "only_pre_proofread": 67421243,
+    "only_post_proofread": 3608754,
+    "neither_proofread": 4531568,
+    "cleft_below_50": 0,
+    "selected_points": 7385,
+    "both_proofread_neuropil_null": 0,
+    "pre_pt_position_x_null": 0,
+    "pre_pt_position_y_null": 0,
+    "pre_pt_position_z_null": 0,
+    "post_pt_position_x_null": 0,
+    "post_pt_position_y_null": 0,
+    "post_pt_position_z_null": 0
+  },
+  "raw_both_proofread_minus_published_pair_table": 48,
+  "coordinate_min_nm": {
+    "pre_pt_position_x": 83144,
+    "pre_pt_position_y": 41256,
+    "pre_pt_position_z": 1000,
+    "post_pt_position_x": 82968,
+    "post_pt_position_y": 41196,
+    "post_pt_position_z": 1000
+  },
+  "coordinate_max_nm": {
+    "pre_pt_position_x": 911464,
+    "pre_pt_position_y": 466808,
+    "pre_pt_position_z": 282360,
+    "post_pt_position_x": 911440,
+    "post_pt_position_y": 466928,
+    "post_pt_position_z": 282360
+  },
+  "ids_without_proofread_edges_with_points": 336,
+  "top_20_selected_ids_by_points": [
+    [
+      "720575940639655238",
+      267
+    ],
+    [
+      "720575940629752080",
+      94
+    ],
+    [
+      "720575940638820442",
+      90
+    ],
+    [
+      "720575940625635119",
+      86
+    ],
+    [
+      "720575940623111593",
+      80
+    ],
+    [
+      "720575940643079309",
+      80
+    ],
+    [
+      "720575940618916125",
+      79
+    ],
+    [
+      "720575940632425002",
+      78
+    ],
+    [
+      "720575940628308613",
+      77
+    ],
+    [
+      "720575940631230167",
+      77
+    ],
+    [
+      "720575940617513589",
+      75
+    ],
+    [
+      "720575940639049193",
+      74
+    ],
+    [
+      "720575940639884622",
+      72
+    ],
+    [
+      "720575940622654591",
+      71
+    ],
+    [
+      "720575940629426161",
+      70
+    ],
+    [
+      "720575940631079900",
+      69
+    ],
+    [
+      "720575940623940963",
+      69
+    ],
+    [
+      "720575940661099137",
+      68
+    ],
+    [
+      "720575940627618905",
+      66
+    ],
+    [
+      "720575940629716779",
+      65
+    ]
+  ],
+  "point_export": "data/research_sources/derived/points_for_616_ids_without_proofread_edges.csv",
+  "meaning": "Observed published synapse points and segment IDs. An unproofread segment ID is not automatically a missing proofread neurite."
+}

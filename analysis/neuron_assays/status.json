@@ -1,0 +1,7 @@
+{
+  "stage": "complete",
+  "completedAt": "2026-09-27T06:41:49.529Z",
+  "scenarios": 6,
+  "trials": 42,
+  "file": "app/data/neuron_assays.json"
+}

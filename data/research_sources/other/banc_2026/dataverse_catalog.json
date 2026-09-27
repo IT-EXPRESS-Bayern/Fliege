@@ -1,0 +1,3807 @@
+﻿{
+    "dataset_doi":  "doi:10.7910/DVN/7WTH1N",
+    "dataset_api":  "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/7WTH1N",
+    "release":  "BANC CAVE materialization v888 (Nature 2026 final version)",
+    "dataverse_dataset_id":  13728825,
+    "dataverse_version_number":  3,
+    "dataverse_version_minor_number":  0,
+    "dataverse_version_id":  735626,
+    "dataverse_release_time":  "2026-07-01T12:45:04Z",
+    "license":  "CC BY 4.0",
+    "fetched_utc":  "2026-09-26T21:58:36.8843542Z",
+    "number_of_files_in_dataverse":  379,
+    "selected_files":  [
+                           "supplemental_data_1.txt",
+                           "supplemental_data_2.txt",
+                           "supplemental_data_3.txt",
+                           "supplemental_data_4.txt",
+                           "supplemental_data_5.txt",
+                           "supplemental_data_6.txt",
+                           "supplemental_data_7.txt",
+                           "supplemental_data_8.txt",
+                           "supplemental_data_9.txt",
+                           "supplemental_data_10.txt",
+                           "banc_fafb_reviewed_matches.csv.gz",
+                           "neck_connective_y121000.parquet",
+                           "peripheral_nerves.parquet",
+                           "cell_info.parquet",
+                           "banc_888_meta.feather",
+                           "banc_888_edgelist_simple_v2.feather",
+                           "banc_888_edgelist_simple_v3.feather"
+                       ],
+    "catalog":  [
+                    {
+                        "filename":  "2024-09-20_aelysia_synapse_sample_complete_v2.csv",
+                        "id":  14030163,
+                        "bytes":  263510,
+                        "md5":  "676af06e5a9b042d7660ae0487c61edd",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "2026-05-14_aelysia_synapse_sample_complete_v3.csv",
+                        "id":  14023097,
+                        "bytes":  638589,
+                        "md5":  "1243eb577cb3a0bd463bd34136275433",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "251013_evaluation_links.csv",
+                        "id":  13999882,
+                        "bytes":  14051,
+                        "md5":  "2f5097a32083a355d37c8794f39574a8",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "251013_synapse_evaluation.csv",
+                        "id":  13999881,
+                        "bytes":  6299,
+                        "md5":  "39094ae6ba79a893048b02501613df3c",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "acknowledgements.md",
+                        "id":  13916440,
+                        "bytes":  17495,
+                        "md5":  "562be3a40fdb4663f8eecb80bda98ac2",
+                        "categories":  [
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "backbone_proofread.parquet",
+                        "id":  13916445,
+                        "bytes":  10316976,
+                        "md5":  "6ab2ecfbf80ba7a03db649e33673fcf9",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc-0.6.1.tar.gz",
+                        "id":  13917710,
+                        "bytes":  104351,
+                        "md5":  "8df3839081376f29687059178724b7f8",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_betweenness_all_to_all_v2.csv",
+                        "id":  13916446,
+                        "bytes":  9737441,
+                        "md5":  "96ba5fdd1f68f268824ed8336676537a",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_cns_network_spectral_clustering_v2.csv",
+                        "id":  13916447,
+                        "bytes":  6280101,
+                        "md5":  "cf3db4715b13ca4460b41931a713b4d9",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_edgelist_simple_v2.feather",
+                        "id":  13992792,
+                        "bytes":  305250378,
+                        "md5":  "394406f8a9bdf093c895f95aff4f6c49",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_edgelist_simple_v3.feather",
+                        "id":  13918810,
+                        "bytes":  359161658,
+                        "md5":  "08542b0771db7418ed474be60dc9886c",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_edgelist_split_v2.feather",
+                        "id":  13992835,
+                        "bytes":  847546546,
+                        "md5":  "f763404651eb4b2bdf745d6a0e74d0a9",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_edgelist_split_v3.feather",
+                        "id":  13992837,
+                        "bytes":  940024450,
+                        "md5":  "c20a0f3a9010db0a6bf4c949f5cfacb7",
+                        "categories":  [
+                                           "Data",
+                                           "Connectivity"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_meta.feather",
+                        "id":  14033740,
+                        "bytes":  57550610,
+                        "md5":  "6275eda42f98c49539d1ab513d979d09",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_metrics.feather",
+                        "id":  14034271,
+                        "bytes":  9681618,
+                        "md5":  "0e6a81d824abfba0b7bbd2352639922e",
+                        "categories":  [
+                                           "Data"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_mitochondria_v1_human_readable.csv.gz",
+                        "id":  13917846,
+                        "bytes":  1107598431,
+                        "md5":  "2e3be9c0d063969ae019121117007e9a",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_neurotransmitter_prediction_v2.csv",
+                        "id":  13916450,
+                        "bytes":  21107592,
+                        "md5":  "4ebbd1d6e05d4192ad0c6db27739a8e3",
+                        "categories":  [
+                                           "Data"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_synapses_v2_enriched.parquet",
+                        "id":  13992863,
+                        "bytes":  17146564854,
+                        "md5":  "8f0fa43f80dd3f7bcb011564ca640e55",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_synapses_v2_human_readable.csv.gz",
+                        "id":  13916483,
+                        "bytes":  12257440602,
+                        "md5":  "e3679e7b9cec032ed1745c7a9dfd42d8",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_synapses_v3_enriched.parquet",
+                        "id":  13992860,
+                        "bytes":  19733203305,
+                        "md5":  "adf864ff7b64b2e357c542d1f94695a9",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_888_synapses_v3_human_readable.csv.gz",
+                        "id":  13916489,
+                        "bytes":  15560927238,
+                        "md5":  "8238f91891b4435f7b177c4084e67d9b",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_fafb_783_nblast.feather",
+                        "id":  13953580,
+                        "bytes":  578411098,
+                        "md5":  "175808d959d29b4362fcd4a7b53f5f05",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_fafb_reviewed_matches.csv.gz",
+                        "id":  13994485,
+                        "bytes":  6581434,
+                        "md5":  "af9d77a9d72b5f23634da0b015036a26",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_fanc_1116_nblast.feather",
+                        "id":  13994484,
+                        "bytes":  144112498,
+                        "md5":  "c792e52cb2f74f9cda208a24bc73ebbe",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_fanc_reviewed_matches.csv.gz",
+                        "id":  13994486,
+                        "bytes":  538460,
+                        "md5":  "350812b78ddf41598189473877158cee",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_hemibrain_reviewed_matches.csv.gz",
+                        "id":  13994487,
+                        "bytes":  573723,
+                        "md5":  "8ab3ee75866fa3efcc91ddbc76d9eb7c",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_hemibrain_v1.2.1_nblast.feather",
+                        "id":  13953582,
+                        "bytes":  198913234,
+                        "md5":  "ba64570d7c6294a429a3df54c7d5b8b8",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_malecns_reviewed_matches.csv.gz",
+                        "id":  13994488,
+                        "bytes":  208026,
+                        "md5":  "23bc79c263514c631f4b9eab75c4e0c1",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_malecns_v0.9_nblast.feather",
+                        "id":  13994483,
+                        "bytes":  912369066,
+                        "md5":  "6a8cd35f227f6c55b2669fcd7ad774f8",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_manc_reviewed_matches.csv.gz",
+                        "id":  13994489,
+                        "bytes":  2141745,
+                        "md5":  "3272385f077f9f92ffd418672ca9825e",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_manc_v1.2.1_nblast.feather",
+                        "id":  13953584,
+                        "bytes":  121800002,
+                        "md5":  "81a2834ea1cb3a08298c493092ce83ea",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_microCT.zip",
+                        "id":  13917308,
+                        "bytes":  1314213897,
+                        "md5":  "4fc316318e1477dba326b859d189bab7",
+                        "categories":  [
+                                           "Data",
+                                           "Images"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_mirror_nblast.feather",
+                        "id":  13994482,
+                        "bytes":  1403612890,
+                        "md5":  "2f4900767bd4dbfd5273d319964d97ab",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_mirror_reviewed_matches.csv.gz",
+                        "id":  13994490,
+                        "bytes":  548397,
+                        "md5":  "472ff210d150ec6288409bce7fc13a07",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_mito_segmentation.md",
+                        "id":  13989529,
+                        "bytes":  6901,
+                        "md5":  "b6fc21d5c766d46d6dd0ba624612231d",
+                        "categories":  [
+                                           "Data",
+                                           "Segmentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_native_nblast.feather",
+                        "id":  14023114,
+                        "bytes":  2110877594,
+                        "md5":  "151c441f664d1d2407aae3ac3cfb1b8a",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_neuropil_meshes.zip",
+                        "id":  13917708,
+                        "bytes":  44659074,
+                        "md5":  "3f829a97d84e96f365e05ee45d0977f5",
+                        "categories":  [
+                                           "Data",
+                                           "Meshes"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_nt_ground_truth.zip",
+                        "id":  13917726,
+                        "bytes":  19779812,
+                        "md5":  "102e0a8d60933c33089729c05090f2ef",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_nt_prediction_v3_w_sizethresh_10_05042026.parquet",
+                        "id":  13916491,
+                        "bytes":  5786482835,
+                        "md5":  "9d93164429d3ad9e593a282b3fe428e1",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_nt_prediction_w_sizethresh_5_11102025.parquet",
+                        "id":  13917309,
+                        "bytes":  3890490075,
+                        "md5":  "c97b89a53eb8977679a62684c51a2bdb",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_nuclei_segmentation.md",
+                        "id":  13989528,
+                        "bytes":  5492,
+                        "md5":  "636cccf1cb901aea3886914894cf1294",
+                        "categories":  [
+                                           "Data",
+                                           "Segmentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "bancpipeline_archive.zip",
+                        "id":  13918795,
+                        "bytes":  1575178,
+                        "md5":  "b2259c6ecbefe667096b982353bb84a6",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_problem_regions.csv",
+                        "id":  13916443,
+                        "bytes":  1215,
+                        "md5":  "bce0320e9a4829ebe2b7e5ffcd5e4b03",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_project_archive.zip",
+                        "id":  13921057,
+                        "bytes":  1400075786,
+                        "md5":  "b23b1882a3321aa4f1def83af77d81a3",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "bancr_archive.zip",
+                        "id":  13918793,
+                        "bytes":  68983757,
+                        "md5":  "9f01b882abca7f14490b3b811d5935de",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_supplemental_data.zip",
+                        "id":  13917709,
+                        "bytes":  8988221,
+                        "md5":  "3245d800f07f1504951c663b073bf2b9",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_swc_skeletons.zip",
+                        "id":  13952186,
+                        "bytes":  16583469842,
+                        "md5":  "7e73e3ca52fdbd4c67d112fbc267948c",
+                        "categories":  [
+                                           "Data",
+                                           "Skeletons"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_template_spaces.zip",
+                        "id":  13917310,
+                        "bytes":  798173567,
+                        "md5":  "07766007770c300dcfafd87ad2209106",
+                        "categories":  [
+                                           "Data",
+                                           "Registration"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_to_fafb_verified_png_matches.zip",
+                        "id":  13953945,
+                        "bytes":  45480936573,
+                        "md5":  "4c4776765f770d547ea1e8d82b168430",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_to_fanc_verified_png_matches.zip",
+                        "id":  13953608,
+                        "bytes":  9798179812,
+                        "md5":  "1b1c92b572fcc273432147835cdba926",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_to_hemibrain_verified_png_matches.zip",
+                        "id":  13994495,
+                        "bytes":  14669510903,
+                        "md5":  "023bfc99e9ac1f30054ddcd75e6e249e",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_to_malecns_verified_png_matches.zip",
+                        "id":  13953607,
+                        "bytes":  1898873511,
+                        "md5":  "2c4085acdde3d9b1d24b186b1a84f690",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_to_manc_verified_png_matches.zip",
+                        "id":  13953929,
+                        "bytes":  15555444976,
+                        "md5":  "7f8c40a029c66275538ac49a41a5bca0",
+                        "categories":  [
+                                           "Data",
+                                           "NBLAST"
+                                       ]
+                    },
+                    {
+                        "filename":  "banc_v888_segmentation.md",
+                        "id":  13989447,
+                        "bytes":  6423,
+                        "md5":  "e29479610da8a18c9503dce1bd8a4d94",
+                        "categories":  [
+                                           "Data",
+                                           "Segmentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "behavior.zip",
+                        "id":  13917712,
+                        "bytes":  186650987,
+                        "md5":  "fa1344186352293427c7d181df2ed64d",
+                        "categories":  [
+                                           "Data",
+                                           "Behavior"
+                                       ]
+                    },
+                    {
+                        "filename":  "bibliography.bib",
+                        "id":  13916442,
+                        "bytes":  689891,
+                        "md5":  "63798b779d5ba0423ce55584c4ae591a",
+                        "categories":  [
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "cell_info.parquet",
+                        "id":  13916453,
+                        "bytes":  12315918,
+                        "md5":  "6210bd56eab9adc2af07afa034c0a012",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "cell_representative_point.parquet",
+                        "id":  13916454,
+                        "bytes":  5503064,
+                        "md5":  "65a800407e23cf54c94fc3f271f86bad",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0001.parquet",
+                        "id":  13917850,
+                        "bytes":  1097030518,
+                        "md5":  "53a13115d89660642dec12640b6ae732",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0002.parquet",
+                        "id":  13917851,
+                        "bytes":  1126554999,
+                        "md5":  "1b8a069d154dea85490f3920bc31e489",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0003.parquet",
+                        "id":  13917852,
+                        "bytes":  1156778754,
+                        "md5":  "74e6f2cd18ee66937d77bccf9cef10b6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0004.parquet",
+                        "id":  13917853,
+                        "bytes":  1147417639,
+                        "md5":  "0b9d3dbf7c7c86c2153dd4f9f4d8c582",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0005.parquet",
+                        "id":  13917854,
+                        "bytes":  1149330542,
+                        "md5":  "e85cacc5836a7ad9be4a4752839eac28",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0006.parquet",
+                        "id":  13917889,
+                        "bytes":  1137333383,
+                        "md5":  "f86757727a5fd9eec8c8d0d8ecc75120",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0007.parquet",
+                        "id":  13917891,
+                        "bytes":  1137831041,
+                        "md5":  "550a3ee63f7e3af2cf3ef185ad0f7306",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0008.parquet",
+                        "id":  13917892,
+                        "bytes":  1146017114,
+                        "md5":  "96e08ee1a9f42d2ec69db4eb9b533a0a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0009.parquet",
+                        "id":  13917893,
+                        "bytes":  1140262871,
+                        "md5":  "0cd95606fddcd08f904cfa9da41269e6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0010.parquet",
+                        "id":  13917894,
+                        "bytes":  1153682687,
+                        "md5":  "e8c62e6c44033e844794ebbcdcf4597b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0011.parquet",
+                        "id":  13917906,
+                        "bytes":  1155425874,
+                        "md5":  "626c2eb341d19b0c0b6941fcbbf232a1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0012.parquet",
+                        "id":  13917907,
+                        "bytes":  1145147825,
+                        "md5":  "4632dee86c6953d609f8179db0a6b144",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0013.parquet",
+                        "id":  13917908,
+                        "bytes":  1122255332,
+                        "md5":  "1031caa7fd24edf5a35ac936d4c3258f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0014.parquet",
+                        "id":  13917909,
+                        "bytes":  1113938182,
+                        "md5":  "09bd9e78dfb21202c9f1b66def6c0fb6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0015.parquet",
+                        "id":  13917928,
+                        "bytes":  1137863165,
+                        "md5":  "39fa2dd8860ddc6f34f0f08fa2c355aa",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0016.parquet",
+                        "id":  13917930,
+                        "bytes":  1143414906,
+                        "md5":  "aac6ef84a2748801544c0708ac6bcd3d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0017.parquet",
+                        "id":  13917931,
+                        "bytes":  1154412969,
+                        "md5":  "052b08ba178696c66289cd65aee0192f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0018.parquet",
+                        "id":  13917932,
+                        "bytes":  1153252018,
+                        "md5":  "eb7660712ed136aea0dbbcd8d8acc2dc",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0019.parquet",
+                        "id":  13917943,
+                        "bytes":  1153372506,
+                        "md5":  "64a312e6ce272400617791a62b6f7b9e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0020.parquet",
+                        "id":  13917950,
+                        "bytes":  1139240171,
+                        "md5":  "4b5db915701cfb0750b358e4646e594d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0021.parquet",
+                        "id":  13917951,
+                        "bytes":  1157061676,
+                        "md5":  "96cc341889a15992d1ceea306a80e921",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0022.parquet",
+                        "id":  13917952,
+                        "bytes":  1153011532,
+                        "md5":  "73596d0d198280f1f2b07dd037748e01",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0023.parquet",
+                        "id":  13917960,
+                        "bytes":  1139442483,
+                        "md5":  "336b04dc7b13f6af808ab81293e0fd5b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0024.parquet",
+                        "id":  13917961,
+                        "bytes":  1156098369,
+                        "md5":  "70e6db0bf585f5f32a9a328d9632d3d8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0025.parquet",
+                        "id":  13917962,
+                        "bytes":  1149617982,
+                        "md5":  "dd45a1c5af6e7278f70da7d76c75c105",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0026.parquet",
+                        "id":  13917963,
+                        "bytes":  1158921557,
+                        "md5":  "d6cc057658cd0ab4b46c1c6a61c57ca5",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0027.parquet",
+                        "id":  13917964,
+                        "bytes":  1144001206,
+                        "md5":  "31f626ad4eb17c54c4bb64e4337c6b11",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0028.parquet",
+                        "id":  13917965,
+                        "bytes":  1152462405,
+                        "md5":  "322a6bd199f270a6d9051b70d1a2d28c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0029.parquet",
+                        "id":  13917966,
+                        "bytes":  1153060943,
+                        "md5":  "fe04473a8501564cfe6339836d573aee",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0030.parquet",
+                        "id":  13917967,
+                        "bytes":  1137198338,
+                        "md5":  "8c13a66bc57b83ed74aa9216d162ff21",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0031.parquet",
+                        "id":  13917968,
+                        "bytes":  1142656214,
+                        "md5":  "06ccfe8490760942e316297cae35b479",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0032.parquet",
+                        "id":  13917969,
+                        "bytes":  1144749270,
+                        "md5":  "5b253f03d461575234af5b98ba8f07c6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0033.parquet",
+                        "id":  13917970,
+                        "bytes":  1162240836,
+                        "md5":  "8e7329206cfc230a267cc04689ff3c1e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0034.parquet",
+                        "id":  13917971,
+                        "bytes":  1135916880,
+                        "md5":  "ab1c1ad0151b734416753766ec4b1037",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0035.parquet",
+                        "id":  13917972,
+                        "bytes":  1150782071,
+                        "md5":  "00414cdd78841eebfbb87a3a447436b2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0036.parquet",
+                        "id":  13917973,
+                        "bytes":  1133106075,
+                        "md5":  "818e33ae5293f39683ac0f8b6f7d126a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0037.parquet",
+                        "id":  13917974,
+                        "bytes":  1148393873,
+                        "md5":  "a2aa94a07ccae00cbf76e8b17b7614e6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0038.parquet",
+                        "id":  13917975,
+                        "bytes":  1133644396,
+                        "md5":  "f80af1c503bef7a1adf0bb564cbfed7e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0039.parquet",
+                        "id":  13917976,
+                        "bytes":  1121194447,
+                        "md5":  "1b4defaea5beee2e7fd8389c8c16e6cc",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0040.parquet",
+                        "id":  13917977,
+                        "bytes":  1154185664,
+                        "md5":  "6f464df0abd10b1b92c3459d2c8cd8cf",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0041.parquet",
+                        "id":  13917978,
+                        "bytes":  1125208122,
+                        "md5":  "f07a539881df82380c11ef6da2bce632",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0042.parquet",
+                        "id":  13917979,
+                        "bytes":  1150529005,
+                        "md5":  "69c6c65c4832ed5d04267fa1c4d0d4b9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0043.parquet",
+                        "id":  13917980,
+                        "bytes":  1139277140,
+                        "md5":  "512d080756a02af9ad6d73b976a88826",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0044.parquet",
+                        "id":  13917981,
+                        "bytes":  1143639657,
+                        "md5":  "a02f808cc4c2aead0f0723ac01a3ee9d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0045.parquet",
+                        "id":  13917982,
+                        "bytes":  1143359790,
+                        "md5":  "743fa104c8b43b83fb6a684d19927d37",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0046.parquet",
+                        "id":  13917983,
+                        "bytes":  1158019662,
+                        "md5":  "2aa6132a589e7f171d4fcfe5ff4237b2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0047.parquet",
+                        "id":  13917984,
+                        "bytes":  1138775903,
+                        "md5":  "1e45075b32729a6041aae409b607f850",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0048.parquet",
+                        "id":  13917985,
+                        "bytes":  1148386110,
+                        "md5":  "365f0bda7df89f99b42e151e75f5a96a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0049.parquet",
+                        "id":  13917986,
+                        "bytes":  1157049013,
+                        "md5":  "6d2445b994e0cfd3159ff2cee506bbbb",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0050.parquet",
+                        "id":  13917987,
+                        "bytes":  1151405478,
+                        "md5":  "36c3b8db7e76099e1c05ff06736040f3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0051.parquet",
+                        "id":  13917988,
+                        "bytes":  1154529117,
+                        "md5":  "160aa2dcae30a0f56718290df1358478",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0052.parquet",
+                        "id":  13917989,
+                        "bytes":  1144826999,
+                        "md5":  "487c5e9552752ddae961860a089d715b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0053.parquet",
+                        "id":  13917990,
+                        "bytes":  1129194257,
+                        "md5":  "7cec5399b6e6fa74d51707bcfbe7c513",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0054.parquet",
+                        "id":  13917991,
+                        "bytes":  1135579754,
+                        "md5":  "a9c1829a9c939d4292d3db8afbccdd85",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0055.parquet",
+                        "id":  13917992,
+                        "bytes":  1127303292,
+                        "md5":  "41eac1abb9e6871160562fc56df3fe0f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0056.parquet",
+                        "id":  13917993,
+                        "bytes":  1150512756,
+                        "md5":  "172ec038be84f28be506eaf4dc561aa6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0057.parquet",
+                        "id":  13917994,
+                        "bytes":  1155263306,
+                        "md5":  "a48829a3a91e93f263d025a6cec2e38a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0058.parquet",
+                        "id":  13917995,
+                        "bytes":  1156195927,
+                        "md5":  "8c88f3982058574aa0e990e371ab7688",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0059.parquet",
+                        "id":  13917996,
+                        "bytes":  1148544443,
+                        "md5":  "3d4dbec0ea782eb32d9eb27ba4eac44f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0060.parquet",
+                        "id":  13917997,
+                        "bytes":  1141974547,
+                        "md5":  "7acb374f13c42be1cf748a1052e7e29a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0061.parquet",
+                        "id":  13917998,
+                        "bytes":  1140827695,
+                        "md5":  "a2a821edf6f3e5586a8434f8d929a4f2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0062.parquet",
+                        "id":  13917999,
+                        "bytes":  1150630748,
+                        "md5":  "2a722afeb8e5ccac2e42e8bed154b6ea",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0063.parquet",
+                        "id":  13918000,
+                        "bytes":  1147773887,
+                        "md5":  "cb0e9f149e650b5cb381cdb29a6f25c0",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0064.parquet",
+                        "id":  13918001,
+                        "bytes":  1117872740,
+                        "md5":  "baeeb5423dbff7773f05b074225968ad",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0065.parquet",
+                        "id":  13918002,
+                        "bytes":  1154102762,
+                        "md5":  "3e0716daaeb8e7cdd9ba44a6b4cf6627",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0066.parquet",
+                        "id":  13918003,
+                        "bytes":  1120771919,
+                        "md5":  "933fd89b4ab420f549687780edae40c3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0067.parquet",
+                        "id":  13918004,
+                        "bytes":  1141579549,
+                        "md5":  "76319945e7f72ca0078bee4b38ff6126",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0068.parquet",
+                        "id":  13918005,
+                        "bytes":  1144351597,
+                        "md5":  "6fc9f611065f4fa73dd6663014d96c57",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0069.parquet",
+                        "id":  13918006,
+                        "bytes":  1106800143,
+                        "md5":  "90b115ceb9eaa794a4bb8cafef1015b7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0070.parquet",
+                        "id":  13918007,
+                        "bytes":  1136311500,
+                        "md5":  "7cfcc613b7c26beba089a906da725e91",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0071.parquet",
+                        "id":  13918008,
+                        "bytes":  1138115842,
+                        "md5":  "935cf44d48889f520bfd9b83d71ab7f8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0072.parquet",
+                        "id":  13918009,
+                        "bytes":  1132281397,
+                        "md5":  "338735a3e583d000aeb2d7599e3e4e2f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0073.parquet",
+                        "id":  13918010,
+                        "bytes":  1141772595,
+                        "md5":  "15cf6e8c181d02e29ac13e84c56cc3cf",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0074.parquet",
+                        "id":  13918012,
+                        "bytes":  1117288279,
+                        "md5":  "02e95ba88661631af4b93e6568d21d66",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0075.parquet",
+                        "id":  13918013,
+                        "bytes":  1153602932,
+                        "md5":  "f4cc3febc7543c684dd7d15a511c8db4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0076.parquet",
+                        "id":  13918014,
+                        "bytes":  1136194720,
+                        "md5":  "effd641c219c104be456215f0f67593c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0077.parquet",
+                        "id":  13918015,
+                        "bytes":  1151857641,
+                        "md5":  "6d4bde705f15626a26dea466ad4bd8dd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0078.parquet",
+                        "id":  13918016,
+                        "bytes":  1140753102,
+                        "md5":  "1f493aa94919ecaa3f9188f0e0c1b1f9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0079.parquet",
+                        "id":  13918017,
+                        "bytes":  1123626892,
+                        "md5":  "7ca8c8118b045e3375b0088638df4a35",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0080.parquet",
+                        "id":  13918018,
+                        "bytes":  1134679323,
+                        "md5":  "d3fbd454dc4acdb269a85338560981c9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0081.parquet",
+                        "id":  13918021,
+                        "bytes":  1139210190,
+                        "md5":  "208af6f4e6f40987ef1b70ab05f5bc5e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0082.parquet",
+                        "id":  13918022,
+                        "bytes":  1120402791,
+                        "md5":  "fbdcea04f44d7b6bde2de541f3b37286",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0083.parquet",
+                        "id":  13918023,
+                        "bytes":  1115001672,
+                        "md5":  "59026b2fb61b7b64a461b55e1600e63d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0084.parquet",
+                        "id":  13918024,
+                        "bytes":  1142007647,
+                        "md5":  "40cf88ed04450055fff6c2431f3a643f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0085.parquet",
+                        "id":  13918025,
+                        "bytes":  1119180569,
+                        "md5":  "3bb4a374d2b72acdda616f894db6fd35",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0086.parquet",
+                        "id":  13918028,
+                        "bytes":  1121202271,
+                        "md5":  "304ebfa9c58cd241acbd8ad9fc4bb9a3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0087.parquet",
+                        "id":  13918053,
+                        "bytes":  1161079219,
+                        "md5":  "ee1342e5d754656e2c7d2c288bd68fc7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0088.parquet",
+                        "id":  13918054,
+                        "bytes":  1126384352,
+                        "md5":  "bddf36b7ed8667ffad1b07f58d6e1515",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0089.parquet",
+                        "id":  13918055,
+                        "bytes":  1135009758,
+                        "md5":  "af9cbc468206f32377f74992ccd09a61",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0090.parquet",
+                        "id":  13918056,
+                        "bytes":  1139831846,
+                        "md5":  "a1f34deb331c9a4e1e8eec4017f13979",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0091.parquet",
+                        "id":  13918058,
+                        "bytes":  1091958154,
+                        "md5":  "9597545715662ebd90be9dadd2d542d3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0092.parquet",
+                        "id":  13918059,
+                        "bytes":  1121880750,
+                        "md5":  "8a066e0d0dabd07cd7d070e624568e95",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0093.parquet",
+                        "id":  13918060,
+                        "bytes":  1133248689,
+                        "md5":  "93514eb7e5c2b19b4f445aeba357bfe1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0094.parquet",
+                        "id":  13918061,
+                        "bytes":  1125069012,
+                        "md5":  "05e3f063278e5e1ace223d4ae0123863",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0095.parquet",
+                        "id":  13918062,
+                        "bytes":  1119817986,
+                        "md5":  "364880c64bc844d0938928d5a587455b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0096.parquet",
+                        "id":  13918063,
+                        "bytes":  1118260652,
+                        "md5":  "af5cbaffb8d2843591a443e18cdaa10f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0097.parquet",
+                        "id":  13918084,
+                        "bytes":  1150123564,
+                        "md5":  "442b2a4b21ea96ddb91fc9384f3c6f91",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0098.parquet",
+                        "id":  13918085,
+                        "bytes":  1130476239,
+                        "md5":  "0d50a0c214aefcd8a4b4c74114974005",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0099.parquet",
+                        "id":  13918086,
+                        "bytes":  1132045692,
+                        "md5":  "78c250186e4dac8e9aa5a91760e4452b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0100.parquet",
+                        "id":  13918087,
+                        "bytes":  1135437860,
+                        "md5":  "f8689776bbd19af5e7b66ad1fea9017c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0101.parquet",
+                        "id":  13918089,
+                        "bytes":  1145572816,
+                        "md5":  "14b39e4fcb445acae43bd8dd107e93d7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0102.parquet",
+                        "id":  13918090,
+                        "bytes":  1129495036,
+                        "md5":  "9a10dbb3ec7bd4b134149afba3c0cea1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0103.parquet",
+                        "id":  13918091,
+                        "bytes":  1120490884,
+                        "md5":  "50adc47ca82f7025cdc6b1daed62bb6b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0104.parquet",
+                        "id":  13918092,
+                        "bytes":  1128280433,
+                        "md5":  "ceb47317e7e3afdc656648aeb9eaede8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0105.parquet",
+                        "id":  13918095,
+                        "bytes":  1118218665,
+                        "md5":  "dae8770c0010e821548b25bd49a9f27c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0106.parquet",
+                        "id":  13918096,
+                        "bytes":  1129782464,
+                        "md5":  "bb29e380c1f10b3cd540c68215c9a4f5",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0107.parquet",
+                        "id":  13918097,
+                        "bytes":  1139095811,
+                        "md5":  "f101a777ce24424a4375900c1f3375b0",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0108.parquet",
+                        "id":  13918098,
+                        "bytes":  1134016781,
+                        "md5":  "90c2eb979e64b918a5227a30cc47dba3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0109.parquet",
+                        "id":  13918099,
+                        "bytes":  1091892453,
+                        "md5":  "63eda2874973170d35928ccd8e79edfa",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0110.parquet",
+                        "id":  13918102,
+                        "bytes":  1133434691,
+                        "md5":  "4a0be8ee9443e1fc2b21e333d093287f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0111.parquet",
+                        "id":  13918103,
+                        "bytes":  1141686400,
+                        "md5":  "05c39a069c90d72054457bf5108ed0f9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0112.parquet",
+                        "id":  13918104,
+                        "bytes":  1129016657,
+                        "md5":  "038601bf5014eff5d0078e3132103aa2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0113.parquet",
+                        "id":  13918105,
+                        "bytes":  1126502787,
+                        "md5":  "9f2c2fd1ce3bb4b16cc0a3be955eef8e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0114.parquet",
+                        "id":  13918106,
+                        "bytes":  1120210854,
+                        "md5":  "745015886ff24837d5c4449745011986",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0115.parquet",
+                        "id":  13918107,
+                        "bytes":  1126417666,
+                        "md5":  "08abca9f9df470e2f8fa612ccddb1da2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0116.parquet",
+                        "id":  13918108,
+                        "bytes":  1115443948,
+                        "md5":  "9ddf291ee9dcb7bab550d1b7be486d10",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0117.parquet",
+                        "id":  13918109,
+                        "bytes":  1134357634,
+                        "md5":  "e33128044c288542ff1c812d0656cf7c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0118.parquet",
+                        "id":  13918110,
+                        "bytes":  1151039210,
+                        "md5":  "9396b1d6afa233d413b2b3aeaa78a801",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0119.parquet",
+                        "id":  13918111,
+                        "bytes":  1141098619,
+                        "md5":  "b2090b9b98973fc2165d104ae3697ad7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0120.parquet",
+                        "id":  13918113,
+                        "bytes":  1118809310,
+                        "md5":  "99745a5241930c14b052ef5469323154",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0121.parquet",
+                        "id":  13918114,
+                        "bytes":  1130867865,
+                        "md5":  "654943171c02984c5fe2e5d3546a833b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0122.parquet",
+                        "id":  13918115,
+                        "bytes":  1124770894,
+                        "md5":  "cb5716b6a1a7be20e341cc3dfe659fdc",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0123.parquet",
+                        "id":  13918117,
+                        "bytes":  1116290263,
+                        "md5":  "23413de8531fa9b493c430dceba5a2cd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0124.parquet",
+                        "id":  13918118,
+                        "bytes":  1123299781,
+                        "md5":  "ed8ca9389f9c4bfd49662e9da9bf59bf",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0125.parquet",
+                        "id":  13918119,
+                        "bytes":  1115366111,
+                        "md5":  "8db29d83a05082e17f562232d9a38547",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0126.parquet",
+                        "id":  13918120,
+                        "bytes":  1118813722,
+                        "md5":  "63e9c8f82287afcb936bc1d17d4782ca",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0127.parquet",
+                        "id":  13918122,
+                        "bytes":  1135725329,
+                        "md5":  "fdae9b8b5619046cd2637c1ae96b8afd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0128.parquet",
+                        "id":  13918123,
+                        "bytes":  1124910527,
+                        "md5":  "83a794d23dedbfcf474514c5ceda25b1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0129.parquet",
+                        "id":  13918124,
+                        "bytes":  1137875092,
+                        "md5":  "d6c2772f1b4fb4da8c60089228db74bd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0130.parquet",
+                        "id":  13918125,
+                        "bytes":  1109370985,
+                        "md5":  "d289cbdc93c93695d3252c1654a16c69",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0131.parquet",
+                        "id":  13918126,
+                        "bytes":  1101942147,
+                        "md5":  "85b1141101fd4629d3a397a2ec4235fb",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0132.parquet",
+                        "id":  13918127,
+                        "bytes":  1102820888,
+                        "md5":  "51f8b562528dd757387f845728ba826f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0133.parquet",
+                        "id":  13918128,
+                        "bytes":  1123630272,
+                        "md5":  "d5557758e8912f4eba1258c9d05cbdfe",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0134.parquet",
+                        "id":  13918129,
+                        "bytes":  1120745575,
+                        "md5":  "461f3fa4c4e2bb8cb0e9752b7454f94e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0135.parquet",
+                        "id":  13918130,
+                        "bytes":  1132066403,
+                        "md5":  "9f4b9186fa11bf94bd400cc644fd85a3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0136.parquet",
+                        "id":  13918131,
+                        "bytes":  1102665134,
+                        "md5":  "038a0c68bb5ba353f11b2cf391634640",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0137.parquet",
+                        "id":  13918132,
+                        "bytes":  1114540148,
+                        "md5":  "076c67d842bcc6b79413d961e93c8f6e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0138.parquet",
+                        "id":  13918133,
+                        "bytes":  1094104780,
+                        "md5":  "160ec77df5a5335acb00856498a378b4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0139.parquet",
+                        "id":  13918135,
+                        "bytes":  1123052361,
+                        "md5":  "ce37664b7c601831ca35df4b007eea54",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0140.parquet",
+                        "id":  13918136,
+                        "bytes":  1113173312,
+                        "md5":  "790d6b6804676cb953cbc6a39fb82bee",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0141.parquet",
+                        "id":  13918137,
+                        "bytes":  1123153650,
+                        "md5":  "7b9c7eb663fecfdd8bdaa68a55d89832",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0142.parquet",
+                        "id":  13918138,
+                        "bytes":  1119049186,
+                        "md5":  "3d97080bcbf6ef489c5f75f85835eef7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0143.parquet",
+                        "id":  13918139,
+                        "bytes":  1121069673,
+                        "md5":  "99dc15196a152299cc53f7e7c156156c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0144.parquet",
+                        "id":  13918140,
+                        "bytes":  1116955611,
+                        "md5":  "118eb55643f8976740e17b1bb7b9931c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0145.parquet",
+                        "id":  13918141,
+                        "bytes":  1092588780,
+                        "md5":  "dfc52ecb5e0b98f863e99be344fd3c4c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0146.parquet",
+                        "id":  13918143,
+                        "bytes":  1122158405,
+                        "md5":  "d328dc3804f9776503795d64a5a05245",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0147.parquet",
+                        "id":  13918144,
+                        "bytes":  1136377210,
+                        "md5":  "927a24560d3a8f2c87666067a0fa8b1d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0148.parquet",
+                        "id":  13918145,
+                        "bytes":  1085359420,
+                        "md5":  "5eb78579afcaa89d327aca5b9bffd275",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0149.parquet",
+                        "id":  13918146,
+                        "bytes":  1106281529,
+                        "md5":  "827df794c6cbc74e450aa9a5f0279ca1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0150.parquet",
+                        "id":  13918147,
+                        "bytes":  1116043296,
+                        "md5":  "f652a03c26245f36bddedce614d55a2b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0151.parquet",
+                        "id":  13918149,
+                        "bytes":  1083773196,
+                        "md5":  "b7b476821ef4b6b585e78efc80b9117c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0152.parquet",
+                        "id":  13918189,
+                        "bytes":  1121583744,
+                        "md5":  "a897659411028228afb4a122a0cf8818",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0153.parquet",
+                        "id":  13918190,
+                        "bytes":  1105088753,
+                        "md5":  "fee2ed9ea6673602cd882a2fce79a6ce",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0154.parquet",
+                        "id":  13918191,
+                        "bytes":  1091299315,
+                        "md5":  "9c4dea5d9d8c1b35a2b1dfd1777f28ae",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0155.parquet",
+                        "id":  13918232,
+                        "bytes":  1130691615,
+                        "md5":  "93bd80f7a5c05d0d069a27181ce7c0ea",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0156.parquet",
+                        "id":  13918233,
+                        "bytes":  1109434382,
+                        "md5":  "456ff195426fd68a361c00469e2478e7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0157.parquet",
+                        "id":  13918234,
+                        "bytes":  1107104794,
+                        "md5":  "97d8b2c1dce9e3672cb050fdba26ef7d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0158.parquet",
+                        "id":  13918274,
+                        "bytes":  1120585815,
+                        "md5":  "c551b472428b3080d1460b0c8b8b0278",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0159.parquet",
+                        "id":  13918275,
+                        "bytes":  1116250460,
+                        "md5":  "a855b0b181342d776cb72d567a617a58",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0160.parquet",
+                        "id":  13918276,
+                        "bytes":  1097056274,
+                        "md5":  "ff5c180e3d870a2babb05cceb74f22da",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0161.parquet",
+                        "id":  13918295,
+                        "bytes":  1101060806,
+                        "md5":  "9bde2885149192d46b8f5a61d60e94b1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0162.parquet",
+                        "id":  13918669,
+                        "bytes":  1100380907,
+                        "md5":  "4addf0b0afda3bd0ab91871e42fd8d73",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0163.parquet",
+                        "id":  13918670,
+                        "bytes":  1142566924,
+                        "md5":  "c45238cef0b45fb531cbaae89123411d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0164.parquet",
+                        "id":  13918671,
+                        "bytes":  1113878817,
+                        "md5":  "e5033a9afd55321a4a709003503db9f7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0165.parquet",
+                        "id":  13918672,
+                        "bytes":  1100436850,
+                        "md5":  "f5bb2f32229942aaa3e3374c8a412e94",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0166.parquet",
+                        "id":  13918673,
+                        "bytes":  1106791019,
+                        "md5":  "a394e2b2393beb3bac719acbf657aaf6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0167.parquet",
+                        "id":  13918674,
+                        "bytes":  1113119944,
+                        "md5":  "85632da12e8dacecdeb002e0ba4b4994",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0168.parquet",
+                        "id":  13918675,
+                        "bytes":  1115730920,
+                        "md5":  "59e00d71d00b8d85cec790fe0608fb5d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0169.parquet",
+                        "id":  13918678,
+                        "bytes":  1102120058,
+                        "md5":  "0ab410a7c0981b5f166be8605a937b0d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0170.parquet",
+                        "id":  13918679,
+                        "bytes":  1077564735,
+                        "md5":  "d0a226a496e9575657dc9f804aa6811e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0171.parquet",
+                        "id":  13918680,
+                        "bytes":  1098705482,
+                        "md5":  "80756f754b867715aced819862b80184",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0172.parquet",
+                        "id":  13918681,
+                        "bytes":  1095859242,
+                        "md5":  "514005b2c574ad7f137dbd39c2cc9e2f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0173.parquet",
+                        "id":  13918682,
+                        "bytes":  1109406459,
+                        "md5":  "a548fe32d8e21a21216ff124659e30d1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0174.parquet",
+                        "id":  13918683,
+                        "bytes":  1090311653,
+                        "md5":  "18bb201d88ea1c938cbb7adf88f0ca94",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0175.parquet",
+                        "id":  13918684,
+                        "bytes":  1092833132,
+                        "md5":  "b8c1c1bb5a1546b4b098328c8c218c67",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0176.parquet",
+                        "id":  13918685,
+                        "bytes":  1125503542,
+                        "md5":  "f7c3b7b5ac53fe1d14a0d1aff45b3aaf",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0177.parquet",
+                        "id":  13918686,
+                        "bytes":  1109710182,
+                        "md5":  "5474fe9d9eba6f81c1fc63109cccc37c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0178.parquet",
+                        "id":  13918687,
+                        "bytes":  1102022118,
+                        "md5":  "5169243f4ec2c55024d949359454ea19",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0179.parquet",
+                        "id":  13918688,
+                        "bytes":  1095670230,
+                        "md5":  "3208af86251404ed9c1350bfe9383df6",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0180.parquet",
+                        "id":  13918707,
+                        "bytes":  1094901984,
+                        "md5":  "96cf283b08e5396032ace0d276d28be2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0181.parquet",
+                        "id":  13918708,
+                        "bytes":  1091228365,
+                        "md5":  "8b15c71829c6d099d39959d4b457aa4c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0182.parquet",
+                        "id":  13918741,
+                        "bytes":  1093118780,
+                        "md5":  "be771b4dcc6d6702ef677251a6286ec8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0183.parquet",
+                        "id":  13918742,
+                        "bytes":  1112413751,
+                        "md5":  "3b68c275865baab4fcbe18366de8621b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0184.parquet",
+                        "id":  13918743,
+                        "bytes":  1085034865,
+                        "md5":  "105088bc0c435ad81200f4e5fa17318b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0185.parquet",
+                        "id":  13918769,
+                        "bytes":  1083805883,
+                        "md5":  "01741fa7384769c093188c739be8a5f4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0186.parquet",
+                        "id":  13918770,
+                        "bytes":  1095583918,
+                        "md5":  "11eb9a1279d9f8ea3c0f4e27f7c9b39a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0187.parquet",
+                        "id":  13918771,
+                        "bytes":  1118306700,
+                        "md5":  "11f172a73f4ac7bcc23bb957056cf256",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0188.parquet",
+                        "id":  13918772,
+                        "bytes":  1075423895,
+                        "md5":  "1ce0bb679f75a6050bef98531c4292b0",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0189.parquet",
+                        "id":  13918773,
+                        "bytes":  1093403995,
+                        "md5":  "e781354082ea811c03241ca717cbf2da",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0190.parquet",
+                        "id":  13918774,
+                        "bytes":  1101977737,
+                        "md5":  "0ee5c1a896845f3267dd0f61f4b390ad",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0191.parquet",
+                        "id":  13918775,
+                        "bytes":  1099518044,
+                        "md5":  "5a62da5b29e0810148deb393c353d4ae",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0192.parquet",
+                        "id":  13918776,
+                        "bytes":  1074368617,
+                        "md5":  "4044392aa6cc3f635eb51d981b539c22",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0193.parquet",
+                        "id":  13918777,
+                        "bytes":  1104840318,
+                        "md5":  "921ebeac9071edfbd601f5c0bed5e5ed",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0194.parquet",
+                        "id":  13918778,
+                        "bytes":  1109329167,
+                        "md5":  "2fc35c4aac179120e8c6eaba506c1851",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0195.parquet",
+                        "id":  13918779,
+                        "bytes":  1091823556,
+                        "md5":  "79a9a8d8a620dd6af17a51cb3ad79d64",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0196.parquet",
+                        "id":  13918780,
+                        "bytes":  1086726728,
+                        "md5":  "924a6c84636c03904bd38fe5a1d963b9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0197.parquet",
+                        "id":  13918781,
+                        "bytes":  1068968772,
+                        "md5":  "68cb3373075b034397de3f02f93c19e7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0198.parquet",
+                        "id":  13918782,
+                        "bytes":  1086852488,
+                        "md5":  "96e2ee054d1afea8172f26902f2ec099",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0199.parquet",
+                        "id":  13918783,
+                        "bytes":  1094424650,
+                        "md5":  "b974f12dd7f892a1ca1f10241aa3a324",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0200.parquet",
+                        "id":  13918784,
+                        "bytes":  1099029388,
+                        "md5":  "4e75b55d242d7bca0b6da4b3afb7c1f8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0201.parquet",
+                        "id":  13918785,
+                        "bytes":  1079188356,
+                        "md5":  "3d0096de3767d7bc70566334edf2ed20",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0202.parquet",
+                        "id":  13918786,
+                        "bytes":  1070665986,
+                        "md5":  "c79291cd80b49327e5ecf00bce3a3657",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0203.parquet",
+                        "id":  13918787,
+                        "bytes":  1076037574,
+                        "md5":  "5cffc042566059a401e75b2e1c15a339",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0204.parquet",
+                        "id":  13918788,
+                        "bytes":  1087493593,
+                        "md5":  "779fb5afe619322293cc2bacebf5097c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0205.parquet",
+                        "id":  13918789,
+                        "bytes":  1080900504,
+                        "md5":  "22979c3f8cd8997cb4ef5a3c25c86c1f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0206.parquet",
+                        "id":  13918790,
+                        "bytes":  1104714979,
+                        "md5":  "ea57c4243a0b10c07078feebd4b06cb0",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0207.parquet",
+                        "id":  13918791,
+                        "bytes":  1073184486,
+                        "md5":  "963a02b31bb73e0086976974cbbe6be2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0208.parquet",
+                        "id":  13918792,
+                        "bytes":  1084065126,
+                        "md5":  "10a5a97bc2bab3f91fcbbb9112899317",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0209.parquet",
+                        "id":  13918798,
+                        "bytes":  1080146415,
+                        "md5":  "7d766f338df5af2ddb5436fc1a386be2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0210.parquet",
+                        "id":  13918802,
+                        "bytes":  1067918096,
+                        "md5":  "4358f4182b0ffc81a6103da886c279a2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0211.parquet",
+                        "id":  13918803,
+                        "bytes":  1100190622,
+                        "md5":  "e193c93a46544a4a168d63dfdc5206cf",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0212.parquet",
+                        "id":  13918804,
+                        "bytes":  1078245996,
+                        "md5":  "a5207ae0c2189fd0f4a5277a8246c826",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0213.parquet",
+                        "id":  13918805,
+                        "bytes":  1104197226,
+                        "md5":  "37f2489abec5bac265f1327eb64f9da4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0214.parquet",
+                        "id":  13918806,
+                        "bytes":  1086950730,
+                        "md5":  "91afd225b6bef45befce59cf3cd01a61",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0215.parquet",
+                        "id":  13918807,
+                        "bytes":  1089919898,
+                        "md5":  "99ef294b47f0140b77e17bf45b708bff",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0216.parquet",
+                        "id":  13918808,
+                        "bytes":  1068207055,
+                        "md5":  "b4cd5b44acc23ec3582ced31ea75f0dc",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0217.parquet",
+                        "id":  13918811,
+                        "bytes":  1076178188,
+                        "md5":  "53ce44f6eaf6d3b894be7b31d1379c11",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0218.parquet",
+                        "id":  13918813,
+                        "bytes":  1087531748,
+                        "md5":  "71ea921f85626b9c4bffb8ea28d425b3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0219.parquet",
+                        "id":  13918814,
+                        "bytes":  1053688732,
+                        "md5":  "5ffac47ca344dd3b3b43ac0b6459a8bb",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0220.parquet",
+                        "id":  13918815,
+                        "bytes":  1095809932,
+                        "md5":  "75826e57b722a3a497104bdc2131e242",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0221.parquet",
+                        "id":  13918816,
+                        "bytes":  1070015343,
+                        "md5":  "92cbeaccb684d39b37781693204f7c2e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0222.parquet",
+                        "id":  13918817,
+                        "bytes":  1066347115,
+                        "md5":  "4c6d899cb50d7ae408da7afea75a64da",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0223.parquet",
+                        "id":  13918818,
+                        "bytes":  1076331906,
+                        "md5":  "d4bc1581e484c986273c4a1a7db2c0a8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0224.parquet",
+                        "id":  13918819,
+                        "bytes":  1066818618,
+                        "md5":  "3530fe32f7a6525ec3b9ff4d48fcea77",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0225.parquet",
+                        "id":  13918820,
+                        "bytes":  1034600967,
+                        "md5":  "44284f5756609d7f8bc04dea55e7e974",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0226.parquet",
+                        "id":  13918821,
+                        "bytes":  1072476361,
+                        "md5":  "5d10508e7a3614c7d2110859b5b589ca",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0227.parquet",
+                        "id":  13918822,
+                        "bytes":  1034201260,
+                        "md5":  "a9a43981f145d0b043d3a620151091a4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0228.parquet",
+                        "id":  13922770,
+                        "bytes":  1062273790,
+                        "md5":  "1d2f15c7d8f142befa87abbf35878b3d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0229.parquet",
+                        "id":  13922771,
+                        "bytes":  1068867888,
+                        "md5":  "0dd3b18d440b3643cf94a8c7a067a16d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0230.parquet",
+                        "id":  13922772,
+                        "bytes":  1095889506,
+                        "md5":  "effa3867654eef44e45f1402622e2765",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0231.parquet",
+                        "id":  13922773,
+                        "bytes":  1078610289,
+                        "md5":  "f6600185ebedd2232d1691ef50da120d",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0232.parquet",
+                        "id":  13922774,
+                        "bytes":  1044475851,
+                        "md5":  "c1dec6fe767868b6488bd09781ac201b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0233.parquet",
+                        "id":  13922775,
+                        "bytes":  1066725601,
+                        "md5":  "942a3abc6d137a46f781d222f5f42c97",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0234.parquet",
+                        "id":  13922776,
+                        "bytes":  1060907487,
+                        "md5":  "35c322763222f77012ceeffdb5e42e33",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0235.parquet",
+                        "id":  13922789,
+                        "bytes":  1072030210,
+                        "md5":  "80f405743dafce4de1492b8deaa9e5db",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0236.parquet",
+                        "id":  13922790,
+                        "bytes":  1059965267,
+                        "md5":  "62c95b6ae7a5405f47de3e253f3a0107",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0237.parquet",
+                        "id":  13922791,
+                        "bytes":  1069802624,
+                        "md5":  "0528c64bb014c8750d9215122e2fce5f",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0238.parquet",
+                        "id":  13922792,
+                        "bytes":  1058687105,
+                        "md5":  "2ee5d45e4aa59623e5a006b735355e10",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0239.parquet",
+                        "id":  13922793,
+                        "bytes":  1087370860,
+                        "md5":  "4ada0794afb83a76b68e9bd719a22a5e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0240.parquet",
+                        "id":  13922794,
+                        "bytes":  1050125888,
+                        "md5":  "10a7185c164bf393e2c8a358c512e5cc",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0241.parquet",
+                        "id":  13922795,
+                        "bytes":  1046727637,
+                        "md5":  "92efb882b393a9891e352833a3896fc9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0242.parquet",
+                        "id":  13922796,
+                        "bytes":  1058552586,
+                        "md5":  "16ec0ea27ecb2ca348e1b5de30716798",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0243.parquet",
+                        "id":  13922797,
+                        "bytes":  1078780182,
+                        "md5":  "f0748ab2179ae10f44dcc66758cce365",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0244.parquet",
+                        "id":  13922798,
+                        "bytes":  1077820638,
+                        "md5":  "b4387cae249e7e18f27e6929c76ee3fe",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0245.parquet",
+                        "id":  13922799,
+                        "bytes":  1113971883,
+                        "md5":  "c58931e3af16be516d909f8f35e208ca",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0246.parquet",
+                        "id":  13922800,
+                        "bytes":  1057017839,
+                        "md5":  "fed00bc7e07c29d2c3fda02f155249bd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0247.parquet",
+                        "id":  13922801,
+                        "bytes":  1065113714,
+                        "md5":  "177b6fcc18faaaa573e499f814be553b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0248.parquet",
+                        "id":  13922802,
+                        "bytes":  1077330000,
+                        "md5":  "656a14aa52562b1b7dda9f96ffff39e2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0249.parquet",
+                        "id":  13922803,
+                        "bytes":  1027533417,
+                        "md5":  "4748114dd8c6f150cc84fbd0ce2b398b",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0250.parquet",
+                        "id":  13922806,
+                        "bytes":  1040987174,
+                        "md5":  "768453ba7e16aafa438fdfbba56461af",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0251.parquet",
+                        "id":  13922807,
+                        "bytes":  1070952474,
+                        "md5":  "d8579bd3b4a722c515e85951fa005f74",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0252.parquet",
+                        "id":  13922808,
+                        "bytes":  1046735648,
+                        "md5":  "bc1c6607565c18a5972ca67418f6b723",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0253.parquet",
+                        "id":  13922809,
+                        "bytes":  1020936410,
+                        "md5":  "c9fe37b54b7a46ee3227621a033f306c",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0254.parquet",
+                        "id":  13922810,
+                        "bytes":  1026004039,
+                        "md5":  "e13b5ea6cac9ab2d3e59163f6b0a0fe0",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0255.parquet",
+                        "id":  13922811,
+                        "bytes":  1048246505,
+                        "md5":  "715a008bbc4993b26e6174ef338f59f9",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0256.parquet",
+                        "id":  13922812,
+                        "bytes":  1043836416,
+                        "md5":  "6d430434a6e2470de1322da95e35ae47",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0257.parquet",
+                        "id":  13922813,
+                        "bytes":  1033482524,
+                        "md5":  "1456439e4b7211b4e23951ce9ecc48ae",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0258.parquet",
+                        "id":  13922815,
+                        "bytes":  1115089120,
+                        "md5":  "7579874613b1d5c30f23032d33be6864",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0259.parquet",
+                        "id":  13922816,
+                        "bytes":  1153989856,
+                        "md5":  "03b791b84a9acc1f5725ec1daa0cdcd8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0260.parquet",
+                        "id":  13922817,
+                        "bytes":  1145635876,
+                        "md5":  "2a4aa827e4916e0e2a74283f129496ea",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0261.parquet",
+                        "id":  13922818,
+                        "bytes":  1154079528,
+                        "md5":  "e6d8b6a076545d4866360b89c321c278",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0262.parquet",
+                        "id":  13922819,
+                        "bytes":  1145057238,
+                        "md5":  "bc4ea89e33f7fdd9d83e5f93ce85c551",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0263.parquet",
+                        "id":  13922820,
+                        "bytes":  1152614243,
+                        "md5":  "fcec7ad036586f9b6f2ba56b5a8b16a7",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0264.parquet",
+                        "id":  13922821,
+                        "bytes":  1149223625,
+                        "md5":  "551388e96b76490eaf6cf4d0390bcab4",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0265.parquet",
+                        "id":  13922822,
+                        "bytes":  1147661637,
+                        "md5":  "3811b4785d75196f090b661de08472b8",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0266.parquet",
+                        "id":  13922823,
+                        "bytes":  1149526978,
+                        "md5":  "185532556d2cea47fb9cd9ee263848f3",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0267.parquet",
+                        "id":  13922824,
+                        "bytes":  1151098847,
+                        "md5":  "3c3c801c702085f211771555608505f2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0268.parquet",
+                        "id":  13922825,
+                        "bytes":  1151005869,
+                        "md5":  "0cb376e0504b538ad5c609cfc42714c2",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0269.parquet",
+                        "id":  13922826,
+                        "bytes":  1153235629,
+                        "md5":  "ad7c52b4e1f144d6ba06ada66946e510",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0270.parquet",
+                        "id":  13922827,
+                        "bytes":  1156323680,
+                        "md5":  "f9fb07c763b148811a1e549421d0940a",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0271.parquet",
+                        "id":  13922828,
+                        "bytes":  1150767138,
+                        "md5":  "6f990ab56ca8cc1e1ef58676c2b58f95",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0272.parquet",
+                        "id":  13922829,
+                        "bytes":  1149730271,
+                        "md5":  "51eaf11893454a5962eb9e4a41f8d3bd",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0273.parquet",
+                        "id":  13922830,
+                        "bytes":  1145685014,
+                        "md5":  "1f6a264d39b7e759fb03afacb3631c4e",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0274.parquet",
+                        "id":  13922831,
+                        "bytes":  1148104035,
+                        "md5":  "1e24be81a168cb0f0d681cebd1b039e1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0275.parquet",
+                        "id":  13922838,
+                        "bytes":  1152471138,
+                        "md5":  "046337e7924a3ea561b498caf1276d11",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0276.parquet",
+                        "id":  13922839,
+                        "bytes":  1156505741,
+                        "md5":  "163974294da40a6de63ac7999374a4f1",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "chunk_0277.parquet",
+                        "id":  13922840,
+                        "bytes":  495132984,
+                        "md5":  "3d9f7ce89b3206caa5c1632e52653d22",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "codex_annotations.parquet",
+                        "id":  13916455,
+                        "bytes":  74350281,
+                        "md5":  "184d8279997f8ab439ca4f8159646061",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "connectome_influence_calculator_archive.zip",
+                        "id":  13917713,
+                        "bytes":  69761,
+                        "md5":  "7e4a6082b39afb4e87985765e3a5ed9a",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "drosophila_neuropeptides_archive.zip",
+                        "id":  13917714,
+                        "bytes":  8163098,
+                        "md5":  "7b8470af9136722a55d7526a7ed2e914",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "drosophila_neurotransmitters_archive.zip",
+                        "id":  13917715,
+                        "bytes":  11435352,
+                        "md5":  "1377a601419b40579161b9502940d32f",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "fafb_783_banc_space_swc.zip",
+                        "id":  14002576,
+                        "bytes":  6945672264,
+                        "md5":  "aea5c9e18f884e88c5da3cb06c9b6ec8",
+                        "categories":  [
+                                           "Data",
+                                           "Skeletons"
+                                       ]
+                    },
+                    {
+                        "filename":  "fanc_1116_banc_space_swc.zip",
+                        "id":  14023192,
+                        "bytes":  203119978,
+                        "md5":  "e150d85f1d8cc6523ce500c56d5ef77c",
+                        "categories":  [
+                                           "Data",
+                                           "Skeletons"
+                                       ]
+                    },
+                    {
+                        "filename":  "fly_behavior_vignettes.ai",
+                        "id":  14021088,
+                        "bytes":  392538,
+                        "md5":  "25ef9264150e15b025d1e2cfa89543d1",
+                        "categories":  [
+                                           "Images"
+                                       ]
+                    },
+                    {
+                        "filename":  "fly_connectome_data_tutorial_archive.zip",
+                        "id":  13918801,
+                        "bytes":  227887556,
+                        "md5":  "9cdffb76d02ac6bafde6232d803e41bf",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "fly_parts_body.ai",
+                        "id":  14021086,
+                        "bytes":  233886,
+                        "md5":  "b6516da675ba735a8a7070918009c369",
+                        "categories":  [
+                                           "Images"
+                                       ]
+                    },
+                    {
+                        "filename":  "fly_parts_visceral.ai",
+                        "id":  14021087,
+                        "bytes":  243451,
+                        "md5":  "830032d49fae66b67635a1cc2c45ff27",
+                        "categories":  [
+                                           "Images"
+                                       ]
+                    },
+                    {
+                        "filename":  "influence_all_to_effector_subclass.parquet",
+                        "id":  13916475,
+                        "bytes":  35447073,
+                        "md5":  "c92faac81061ba558b7bb9f1c1b75740",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "influencer_archive.zip",
+                        "id":  13918794,
+                        "bytes":  2608056,
+                        "md5":  "c4a37f7574c06785e76124f09d407d8a",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "influence_README.md",
+                        "id":  13923092,
+                        "bytes":  10283,
+                        "md5":  "a72f4d90c0a060bb2dbeba3b9db7f195",
+                        "categories":  [
+                                           "Documentation",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "influence_sensory_subclass_to_all.parquet",
+                        "id":  13916474,
+                        "bytes":  284980344,
+                        "md5":  "72530fe6ca181b663f3bd477033842cb",
+                        "categories":  [
+                                           "Data",
+                                           "Influence"
+                                       ]
+                    },
+                    {
+                        "filename":  "malecns_09_banc_space_swc.zip",
+                        "id":  14002593,
+                        "bytes":  8728703358,
+                        "md5":  "db63a84725a458d53c2ae1afdba27835",
+                        "categories":  [
+                                           "Data",
+                                           "Skeletons"
+                                       ]
+                    },
+                    {
+                        "filename":  "manc_121_banc_space_split_swc.zip",
+                        "id":  14002599,
+                        "bytes":  14274876733,
+                        "md5":  "7cb6025a70b3a507aa7b712a60588d8f",
+                        "categories":  [
+                                           "Data",
+                                           "Skeletons"
+                                       ]
+                    },
+                    {
+                        "filename":  "nat_ggplot_archive.zip",
+                        "id":  13918797,
+                        "bytes":  14322743,
+                        "md5":  "d9e06a5eaa5a1c232aac11560658a783",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "neck_connective_y121000.parquet",
+                        "id":  13916456,
+                        "bytes":  85778,
+                        "md5":  "b4a2dbff95efd4abfd02feecc6588ab7",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "neck_connective_y92500.parquet",
+                        "id":  13916457,
+                        "bytes":  139052,
+                        "md5":  "eabff37e90f041fdd09dafc95fe644be",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "neuroglancer_states_2026a.zip",
+                        "id":  13917707,
+                        "bytes":  1145683,
+                        "md5":  "0e93fd5b3fdb3cb5e8a675b4c4bccc66",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "neuron_colormips_v888.zip",
+                        "id":  13916476,
+                        "bytes":  654332805,
+                        "md5":  "3f9897d55b0d26596a8835427f20b318",
+                        "categories":  [
+                                           "Data",
+                                           "Images"
+                                       ]
+                    },
+                    {
+                        "filename":  "numbers.csv.gz",
+                        "id":  13954582,
+                        "bytes":  8707,
+                        "md5":  "f122d8a2e3b211922304ec0a24149df5",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "peripheral_nerves.parquet",
+                        "id":  13916458,
+                        "bytes":  629173,
+                        "md5":  "d3ad4e4e18983103af4788e1758b2055",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "proofreading_notes.parquet",
+                        "id":  13916459,
+                        "bytes":  857667,
+                        "md5":  "f3f6e75a7336f84e51323331f8b3da26",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "registration_brain_jrc2018f.zip",
+                        "id":  13917718,
+                        "bytes":  9161912,
+                        "md5":  "2be03005cede11669f5ac0e15a8b597d",
+                        "categories":  [
+                                           "Data",
+                                           "Registration"
+                                       ]
+                    },
+                    {
+                        "filename":  "registration_vnc_jrc2018vncf.zip",
+                        "id":  13917719,
+                        "bytes":  32992625,
+                        "md5":  "d1865dd6ef7b39b36d6f48dd127002d8",
+                        "categories":  [
+                                           "Data",
+                                           "Registration"
+                                       ]
+                    },
+                    {
+                        "filename":  "requirements.txt",
+                        "id":  13916441,
+                        "bytes":  7719,
+                        "md5":  "c92b8948715c1566b24360c4b866590e",
+                        "categories":  [
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "somas_v1.parquet",
+                        "id":  13916460,
+                        "bytes":  5350459,
+                        "md5":  "54a2b72cb72117fa6358962655625bb1",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_10.txt",
+                        "id":  13917299,
+                        "bytes":  1215,
+                        "md5":  "bce0320e9a4829ebe2b7e5ffcd5e4b03",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_1.txt",
+                        "id":  13917304,
+                        "bytes":  30318,
+                        "md5":  "ea3184c6d14c87d2978857857835040e",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_2.txt",
+                        "id":  13917301,
+                        "bytes":  31660830,
+                        "md5":  "c799f882327c839669d01a68caeb89bd",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_3.txt",
+                        "id":  13917300,
+                        "bytes":  22549129,
+                        "md5":  "083907f64c4a4917e948bedd0f14c5cb",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_4.txt",
+                        "id":  13917305,
+                        "bytes":  7795132,
+                        "md5":  "9efc142da6350af95494e5fbc6758e37",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_5.txt",
+                        "id":  13917298,
+                        "bytes":  23075683,
+                        "md5":  "3a94678ff4446c93f39cd351c99f4adf",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_6.txt",
+                        "id":  13917307,
+                        "bytes":  611590,
+                        "md5":  "af8e0bdbc7596ca46cb430a71937f2d8",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_7.txt",
+                        "id":  13917306,
+                        "bytes":  240519,
+                        "md5":  "e6460cec5c7fcf92c14c4c8c41ffbcca",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_8.txt",
+                        "id":  13917303,
+                        "bytes":  10473591,
+                        "md5":  "2fd434830f326aa7c76b9c425566de7f",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_data_9.txt",
+                        "id":  13917302,
+                        "bytes":  17284,
+                        "md5":  "23b62b376938c9d7defe27138236b512",
+                        "categories":  [
+                                           "Data",
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "supplemental_notes.pdf",
+                        "id":  14023112,
+                        "bytes":  60526,
+                        "md5":  "81e2d4e512e471a930453f33364c9220",
+                        "categories":  [
+                                           "Documentation"
+                                       ]
+                    },
+                    {
+                        "filename":  "synapse_neuropil_lookup_v2.parquet",
+                        "id":  14023110,
+                        "bytes":  2235875285,
+                        "md5":  "cc81a6f357b411cf297ae53b9307cea6",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "synapse_neuropil_lookup_v3.parquet",
+                        "id":  14023111,
+                        "bytes":  2395541485,
+                        "md5":  "50942701352c4fb6cc13c32ae8644bc0",
+                        "categories":  [
+                                           "Data",
+                                           "Synapses"
+                                       ]
+                    },
+                    {
+                        "filename":  "synister_banc_archive.zip",
+                        "id":  13918796,
+                        "bytes":  96980,
+                        "md5":  "3042e7dd80927568a5347a8dc5a428ea",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "the_banc_fly_connectome_archive.zip",
+                        "id":  13918800,
+                        "bytes":  175525982,
+                        "md5":  "375f8713373953ee50c01b1c299ec7e0",
+                        "categories":  [
+                                           "Code"
+                                       ]
+                    },
+                    {
+                        "filename":  "vignette_neuron_lists.zip",
+                        "id":  13924418,
+                        "bytes":  48849,
+                        "md5":  "6fc3d40c1ab28da01e4d7e112f6603a4",
+                        "categories":  [
+                                           "Data",
+                                           "Annotations"
+                                       ]
+                    }
+                ]
+}

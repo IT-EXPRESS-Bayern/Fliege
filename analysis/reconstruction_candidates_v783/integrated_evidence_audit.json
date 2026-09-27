@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-09-26T22:13:51.704871+00:00",
+  "counts": {
+    "candidate_pair_region_rows": 3233,
+    "candidate_pair_region_synapse_sum": 20914,
+    "roots": 616,
+    "review_bands": {
+      "R7_cross_detector_point_exception": 1,
+      "P_pair_ge5_export": 203,
+      "P_pair_1_to_4_only": 274,
+      "B_old_segment_only": 53,
+      "P_autapse_points_only": 22,
+      "C_or_no_direct_points": 63
+    }
+  },
+  "inputs_sha256": {
+    "root_review_queue.csv": "bb3fd62a0f46908a20e7ea9a34b995a951d454f9e44ca5e248e248b162a250c5",
+    "princeton_root_coverage_616.csv": "5472d1c84f8eb0572b7a80b068256fc8d4d107968c5edef109725f6db47fde5f",
+    "princeton_unfiltered_for_616.csv": "71054002431a76f2c066c2c4e55025e1c619e1dd4259576671d6c9aff486ba7a",
+    "princeton_filtered_ge5_pair_for_616.csv": "9e82c3391d021cea495ea7ec23752550880fbc2adb1821229693ea1322a68690",
+    "princeton_individual_points_for_616.csv": "a2a1a94213b9959f090b56e0c1c1e2571e17ce71a97a5d653d87d94082297516",
+    "princeton_point_exclusion_audit.json": "7de3b7b0e179d99be05fc525b5f24503af72dda3e8b1cc36ace0519f24b7b6e2"
+  },
+  "outputs_sha256": {
+    "princeton_exact_pair_candidates_3233.csv": "bbfadbc167b20e962da3169e7a498dd7655f29f085cb2c623b20086077e75a33",
+    "integrated_root_review_queue_616.csv": "2b25d245c0c3b35c5fe8319e380ec3a58665b554a2bfe96c0ebd804b6d22bd76"
+  },
+  "checks": {
+    "princeton_point_rows_reconcile_to_every_published_pair_region": true,
+    "original_v783_graph_unmodified": true,
+    "alternative_detector_counts_kept_separate": true
+  },
+  "interpretation": "The P layer is an alternate automated detector on the same specimen, with point-row provenance and exact official proofread IDs. A/B/C and P remain distinct. Review order is not confidence."
+}
